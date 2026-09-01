@@ -1,0 +1,7 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+# Raw downloaded StackExchange data dumps (too large for git; re-download instead)
+data/raw/
