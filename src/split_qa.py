@@ -44,4 +44,11 @@ orphans = [a for a in answers if a["parent_id"] not in questions]
 print(len(orphans), "orphaned answers out of", len(answers))
 
 
-
+keys = list(answers.keys()) if isinstance(answers, dict) else None
+print(type(answers))
+if keys:
+    print(len(keys))
+    print(keys[:5])
+    print(answers[keys[0]])
+else:
+    print(answers[0])
