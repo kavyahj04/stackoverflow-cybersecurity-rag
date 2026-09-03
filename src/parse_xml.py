@@ -1,6 +1,11 @@
 from lxml import etree
 questions = {}
 answers = []
+
+def clean_tags(raw_tag):
+    tags = [t for t in raw_tag.split("|") if t]
+    return tags
+
 for event, element in etree.iterparse("../data/raw/security-stackexchange/Posts.xml", events = ("end",), tag ="row"):
     post_type = element.get("PostTypeId")
     if post_type == "1":
@@ -11,7 +16,7 @@ for event, element in etree.iterparse("../data/raw/security-stackexchange/Posts.
             "view_count":element.get("ViewCount"),
             "title":element.get("Title"),
             "body":element.get("Body"),
-            "tags":element.get("Tags"),
+            "tags":clean_tags(element.get("Tags")),
             "answer_count":element.get("AnswerCount"),
             "accepted_answer_id":element.get("AcceptedAnswerId"),
             "last_activity_date":element.get("LastActivityDate"),
@@ -37,3 +42,6 @@ print(len(answers), "answers")
 
 orphans = [a for a in answers if a["parent_id"] not in questions]
 print(len(orphans), "orphaned answers out of", len(answers))
+
+
+
