@@ -1,4 +1,9 @@
+from pathlib import Path
 from lxml import etree
+
+SRC_DIR = Path(__file__).resolve().parent
+POSTS_XML = SRC_DIR.parent / "data" / "raw" / "security-stackexchange" / "Posts.xml"
+
 questions = {}
 answers = []
 
@@ -6,7 +11,7 @@ def clean_tags(raw_tag):
     tags = [t for t in raw_tag.split("|") if t]
     return tags
 
-for event, element in etree.iterparse("../data/raw/security-stackexchange/Posts.xml", events = ("end",), tag ="row"):
+for event, element in etree.iterparse(str(POSTS_XML), events = ("end",), tag ="row"):
     post_type = element.get("PostTypeId")
     if post_type == "1":
         q_id = element.get("Id")

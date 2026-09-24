@@ -1,11 +1,18 @@
+import importlib
 from bs4 import BeautifulSoup
 import html
-from split_qa import questions, answers
+import tiktoken
 from openai import OpenAI
 from dotenv import load_dotenv
 
+split_qa = importlib.import_module("02_split_qa")
+questions, answers = split_qa.questions, split_qa.answers
+
 load_dotenv(override=True)
 client = OpenAI()
+
+MAX_TOKENS = 8000
+encoding = tiktoken.encoding_for_model("text-embedding-3-small")
 
 def clean_body(raw_body):
     if not raw_body:
