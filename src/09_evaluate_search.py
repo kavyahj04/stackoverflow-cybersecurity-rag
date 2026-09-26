@@ -40,7 +40,7 @@ ALL_QUESTIONS = [
 ]
 
 
-def run_and_save(top_k=5):
+def run_and_save(top_k=50):
     all_results = []
     text_lines = []
 
@@ -55,6 +55,7 @@ def run_and_save(top_k=5):
             "category": category,
             "dense": results["dense"],
             "sparse": results["sparse"],
+            "fused": results["fused"],
         })
 
         text_lines.append(f"\n===== [{category.upper()}] {question} =====")
@@ -64,6 +65,10 @@ def run_and_save(top_k=5):
             text_lines.append(f"{rank}. [{hit['answer_id']}] score={hit['score']:.4f}  {snippet}...")
         text_lines.append("--- Sparse (BM25, higher score = more similar) ---")
         for rank, hit in enumerate(results["sparse"], start=1):
+            snippet = hit["text"][:150].replace("\n", " ")
+            text_lines.append(f"{rank}. [{hit['answer_id']}] score={hit['score']:.4f}  {snippet}...")
+        text_lines.append("--- Fused (RRF, higher score = more similar) ---")
+        for rank, hit in enumerate(results["fused"], start=1):
             snippet = hit["text"][:150].replace("\n", " ")
             text_lines.append(f"{rank}. [{hit['answer_id']}] score={hit['score']:.4f}  {snippet}...")
 

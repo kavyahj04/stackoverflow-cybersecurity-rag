@@ -7,9 +7,8 @@ from openai import OpenAI
 SRC_DIR = Path(__file__).resolve().parent
 
 bm25_index = importlib.import_module("07_bm25_index")
+fusion = importlib.import_module("10_fusion")
 load_index, tokenize = bm25_index.load_index, bm25_index.tokenize
-parsing_answers = importlib.import_module("03_parsing_answers")
-answer_records = parsing_answers.answer_records
 
 load_dotenv()
 
@@ -18,7 +17,6 @@ chroma_client = chromadb.PersistentClient(path=str(SRC_DIR / "chroma_db"))
 answers_collection = chroma_client.get_collection("answers")
 
 bm25, bm25_ids = load_index()
-records_by_id = {r["answer_id"]: r for r in answer_records}
 
 SITE_BASE_URL = "https://security.stackexchange.com"
 
@@ -43,25 +41,35 @@ def dense_search(question, top_k=5):
     return hits
 
 
-def sparse_search(question, top_k=5):
+def sparse_search(question, top_k=50):
     tokens = tokenize(question)
     scores = bm25.get_scores(tokens)
     ranked = sorted(zip(bm25_ids, scores), key=lambda x: x[1], reverse=True)[:top_k]
+    ranked_ids = [answer_id for answer_id, _ in ranked]
+
+    # Pull display text from Chroma (already stores it) instead of
+    # re-parsing/re-cleaning the raw XML just to look up a few strings.
+    fetched = answers_collection.get(ids=ranked_ids, include=["documents"])
+    text_by_id = dict(zip(fetched["ids"], fetched["documents"]))
+
     hits = []
     for answer_id, score in ranked:
         hits.append({
             "answer_id": answer_id,
             "score": score,
-            "text": records_by_id[answer_id]["question_info"],
+            "text": text_by_id[answer_id],
             "url": answer_url(answer_id),
         })
     return hits
 
 
-def hybrid_search(question, top_k=5):
+def hybrid_search(question, top_k=50):
+    dense_hits =  dense_search(question, top_k)
+    sparse_hits = sparse_search(question, top_k)
     return {
-        "dense": dense_search(question, top_k),
-        "sparse": sparse_search(question, top_k),
+        "dense": dense_hits,
+        "sparse": sparse_hits,
+        "fused" : fusion.reciprocal_rank_fusion(dense_hits, sparse_hits)
     }
 
 
@@ -75,15 +83,12 @@ def print_hits(label, hits):
 
 if __name__ == "__main__":
     test_questions = [
-        "How do I prevent SQL injection attacks?",
-        "What is the difference between symmetric and asymmetric encryption?",
-        "How does a buffer overflow attack work?",
-        "What are best practices for storing passwords securely?",
-        "How can I detect if my website is vulnerable to XSS?",
+        "BCrypt workfactor for salt"
     ]
 
     for question in test_questions:
         print(f"\n===== Question: {question} =====")
-        results = hybrid_search(question, top_k=5)
+        results = hybrid_search(question, top_k=50)
         print_hits("Dense (embeddings)", results["dense"])
         print_hits("Sparse (BM25)", results["sparse"])
+        print_hits("Fused (RRF)", results["fused"])
