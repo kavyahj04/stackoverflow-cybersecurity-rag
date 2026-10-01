@@ -1,0 +1,544 @@
+Cross-encoder: cross-encoder/ms-marco-MiniLM-L-12-v2
+* = answer was in the retrieved top 10, A = accepted
+
+===== BCrypt workfactor for salt =====
+  [ 7.61] BCrypt workfactor for salt?
+      *   202723 votes=   2 2019 rank= 7.61 rel= 7.83
+      *A  202733 votes=   1 2019 rank= 6.93 rel= 6.35
+  [ 5.39] bcrypt no need to store salt?
+      *A  184800 votes=  33 2018 rank= 5.39 rel= 3.47
+  [ 4.97] What type of hashes are these and what are salts?
+      *A  136862 votes=   3 2016 rank= 4.97 rel= 4.28
+          136845 votes=   3 2016 rank=-1.62 rel=-1.31
+  [ 4.90] Is this password hashing + salt method the most secure way possible?
+      *    43801 votes=  11 2013 rank= 4.90 rel= 4.95
+  [ 4.29] Password hashing on a load balancing setup
+      *A   19363 votes=   2 2012 rank= 4.29 rel= 4.15
+
+===== is it ok to store passwords encrypted instead of hashed =====
+  [10.10] Is it secure to store passwords with 2 way encryption?
+       A  174126 votes= 192 2017 rank=10.10 rel= 7.35
+          174127 votes=  19 2017 rank= 7.79 rel= 7.17
+          174149 votes=  72 2017 rank= 6.63 rel= 5.37
+  [ 9.03] Is bcrypt(strtolower(hex(md5(pass)))) ok for storing passwords?
+       A  234795 votes=  92 2020 rank= 9.03 rel= 6.39
+      *   234822 votes=  37 2020 rank= 8.60 rel= 7.40
+          234882 votes=   0 2020 rank= 5.15 rel= 5.77
+  [ 7.55] Am I wrong to believe that passwords should never be recoverable (one way hash)?
+      *     5818 votes=  12 2011 rank= 7.55 rel= 7.78
+       A    5819 votes=  45 2011 rank= 7.43 rel= 6.03
+            5828 votes=   7 2011 rank= 2.02 rel= 2.50
+  [ 7.37] why don't we store passwords in a database using encryption instead of hashing?
+      *   124910 votes=   5 2016 rank= 7.37 rel= 7.50
+      *   124913 votes=   2 2016 rank= 7.19 rel= 7.67
+          124909 votes=   6 2016 rank= 7.02 rel= 7.08
+  [ 7.35] Is there any way my password is hashed, if I'm only ever asked to provide 5 out of many ch
+          101021 votes=   9 2015 rank= 7.35 rel= 7.31
+      *   101233 votes=   5 2015 rank= 6.94 rel= 7.14
+          101019 votes=  53 2015 rank= 5.47 rel= 4.58
+
+===== why does my site break when I put a script tag in the comment box =====
+  [ 6.13] Why does "<!--<script>" in a JS string cause a broken page/denial of service for that page
+      *A  193022 votes=   4 2018 rank= 6.13 rel= 5.13
+      *   192934 votes=   0 2018 rank=-4.63 rel=-3.82
+  [ 5.14] Effect of Script tag inside HTML comment
+      *A  242681 votes=   1 2020 rank= 5.14 rel= 4.37
+      *   229311 votes=   1 2020 rank= 2.67 rel= 2.97
+  [ 1.97] Can these html tags and attribs make my site vulnerable?
+      *    98417 votes=   2 2015 rank= 1.97 rel= 2.53
+           98415 votes=   1 2015 rank=-1.56 rel=-0.79
+       A   98401 votes=   7 2015 rank=-3.30 rel=-4.23
+  [ 1.13] How can i get an alert box from this?
+      *   216287 votes=   1 2019 rank= 1.13 rel= 1.49
+  [ 1.05] HTML broken and comments inserted in website
+      *   139538 votes=   0 2016 rank= 1.05 rel= 2.05
+          131777 votes=  12 2016 rank= 0.76 rel= 0.49
+
+===== someone can log in as another user by changing a number in the URL =====
+  [ 4.38] Logging in as another user - Security Issue
+      *   256690 votes=  26 2021 rank= 4.38 rel= 3.22
+  [ 4.27] Can't a user change his session information to impersonate others?
+      *A  140227 votes=  57 2016 rank= 4.27 rel= 2.24
+          140225 votes=   5 2016 rank= 2.05 rel= 2.15
+          140243 votes=  20 2016 rank=-0.10 rel=-0.63
+  [ 4.00] Is it good or bad practice to allow a user to change their username?
+       A  175832 votes= 113 2017 rank= 4.00 rel= 1.51
+      *   175915 votes=   1 2017 rank= 3.12 rel= 3.65
+          175909 votes=   3 2017 rank= 1.85 rel= 2.04
+  [ 3.96] Log user out after change of IP address?
+      *   220567 votes=   0 2019 rank= 3.96 rel= 4.65
+       A  220373 votes=  77 2019 rank= 1.88 rel=-0.60
+          220481 votes=   6 2019 rank=-0.49 rel=-0.77
+  [ 3.84] Secure way to log in to a website on someone else's computer
+      *   198727 votes= 120 2018 rank= 3.84 rel= 2.23
+          198775 votes=  39 2018 rank= 2.78 rel= 1.71
+          198873 votes=   4 2018 rank= 1.77 rel= 1.75
+
+===== do I need https if my site has no login =====
+  [ 8.14] Does the page that links to my login page need to https?
+      *A  112387 votes=   6 2016 rank= 8.14 rel= 7.23
+  [ 8.10] Have a HTTP or HTTPS website?
+      *A  137114 votes=   1 2016 rank= 8.10 rel= 7.76
+  [ 7.61] Is it secure for a site to serve the login page with HTTPS from a trusted CA but have HTTP
+      *   174631 votes=   2 2017 rank= 7.61 rel= 7.95
+  [ 7.27] Are HttpOnly or Secure flags needed if no login?
+       A  174020 votes=   2 2017 rank= 7.27 rel= 6.61
+      *   174019 votes=   0 2017 rank= 6.11 rel= 7.00
+          174022 votes=   3 2017 rank= 4.11 rel= 4.30
+  [ 7.10] Should a site have SSL if it doesn't have a login form?
+           38836 votes=  29 2013 rank= 7.10 rel= 6.72
+      *    55485 votes=   2 2014 rank= 5.88 rel= 6.58
+           38838 votes=  21 2013 rank= 3.27 rel= 3.04
+
+===== is a longer password always better than a complex one =====
+  [ 8.46] Is a longer WiFi password more secure?
+      *A   12649 votes=  13 2012 rank= 8.46 rel= 7.60
+           12651 votes=   2 2012 rank= 3.89 rel= 4.79
+           12648 votes=   1 2012 rank= 3.21 rel= 4.32
+  [ 8.34] Recommended level of password complexity for Keepass
+      *   117586 votes=   2 2016 rank= 8.34 rel= 8.84
+          117596 votes=   7 2016 rank= 2.81 rel= 2.82
+       A  117621 votes=  19 2016 rank= 2.66 rel= 1.21
+  [ 7.72] Is it bad to add a guessable password to a random password?
+      *A  109082 votes=   7 2015 rank= 7.72 rel= 6.76
+  [ 7.13] Would it better to enforce more complex passwords or passphrases?
+      *A   70676 votes=   1 2014 rank= 7.13 rel= 6.98
+      *    70679 votes=   2 2014 rank= 5.55 rel= 6.20
+  [ 6.21] Why are lengthy passwords stronger than complex ones?
+      *    34997 votes=   5 2013 rank= 6.21 rel= 6.66
+
+===== can hackers see what I do on public wifi =====
+  [ 7.94] If i download a pic in telegram secret chat on a public wifi then can hacker see the photo
+      *   241739 votes=   2 2020 rank= 7.94 rel= 7.97
+  [ 7.43] How vulnerable am I on a unencrypted public WiFi network?
+      *A   66028 votes=   7 2014 rank= 7.43 rel= 6.60
+           66058 votes=   0 2014 rank=-0.35 rel= 0.86
+  [ 6.57] Can attackers be traced if they used public WiFi
+      *A   66445 votes=   2 2014 rank= 6.57 rel= 6.23
+           66437 votes=   1 2014 rank= 4.18 rel= 5.04
+  [ 6.30] If someone hacks my wi-fi password, what can they see and how?
+      *A   30264 votes=  60 2013 rank= 6.30 rel= 4.61
+      *    30262 votes=  19 2013 rank= 4.99 rel= 4.85
+           34476 votes=   4 2013 rank= 3.23 rel= 3.77
+  [ 6.15] How can an attacker eavesdrop on users in public WIFI?
+      *   117672 votes=   4 2016 rank= 6.15 rel= 6.40
+
+===== how does a website know I'm the same person between page loads =====
+  [ 2.87] What does a website see if I am connected on my native IP and then enable my VPN?
+      *   188448 votes=  17 2018 rank= 2.87 rel= 2.25
+          188485 votes=  72 2018 rank=-3.22 rel=-4.54
+          188480 votes=   6 2018 rank=-8.49 rel=-8.63
+  [ 2.74] Do websites know which previous website I visited?
+      *A  257140 votes=  44 2021 rank= 2.74 rel= 0.33
+          257185 votes=  10 2021 rank=-3.54 rel=-4.25
+      *   257171 votes=   3 2021 rank=-3.84 rel=-4.05
+  [ 2.67] How did Google know I looked something up?
+      *A  171056 votes= 193 2017 rank= 2.67 rel=-0.06
+          171121 votes=  19 2017 rank=-5.74 rel=-6.34
+          171178 votes=   2 2017 rank=-6.24 rel=-5.89
+  [ 2.08] Does a professional website know that person A switches the Chrome "user" and logged into 
+      *   242770 votes=   2 2020 rank= 2.08 rel= 2.11
+          242773 votes=   2 2020 rank=-2.89 rel=-2.86
+  [-0.10] Can a website still detect my real MAC address even if I use different virtual machine eac
+      *    36591 votes=   2 2013 rank=-0.10 rel= 0.69
+           36585 votes=  15 2013 rank=-7.63 rel=-7.69
+           36584 votes=   7 2013 rank=-8.45 rel=-8.16
+
+===== is it safe to let users upload profile pictures =====
+  [ 6.95] Are random URLs a safe way to protect profile photos?
+      *    58227 votes=  26 2014 rank= 6.95 rel= 6.53
+       A   58219 votes=  79 2014 rank= 6.81 rel= 4.86
+      *    58291 votes=   7 2014 rank= 6.62 rel= 6.82
+  [ 6.34] is it safe to allow external images to be attached to Blog or any Web content?
+      *A   31949 votes=   7 2013 rank= 6.34 rel= 5.65
+           31947 votes=   1 2013 rank= 2.55 rel= 3.56
+           31951 votes=   2 2013 rank= 2.00 rel= 2.81
+  [ 6.29] Defense of a server against malicious uploaded resources
+      *    65458 votes=   1 2014 rank= 6.29 rel= 7.16
+  [ 6.12] Is there any risk related to allow user to give an URL as their image profile?
+      *A   30834 votes=  10 2013 rank= 6.12 rel= 5.29
+      *    30900 votes=   2 2013 rank= 4.32 rel= 5.14
+  [ 5.49] Security risks of hosting user-supplied images?
+       A   17101 votes=   3 2012 rank= 5.49 rel= 5.22
+      *    17243 votes=   3 2012 rank= 5.01 rel= 5.74
+           17110 votes=   2 2012 rank= 2.74 rel= 3.61
+
+===== my api key got pushed to github, what now =====
+  [ 4.24] Does password protected git public key protect my repository?
+      *A  276023 votes=   0 2024 rank= 4.24 rel= 3.50
+          123535 votes=   1 2016 rank=-10.75 rel=-10.06
+  [ 4.17] Github.com token authorisation since 13th August, impractical?
+      *   254369 votes=   4 2021 rank= 4.17 rel= 3.87
+  [ 4.05] Why would I sign my git commits with a GPG key when I already use an SSH key to authentica
+      *A  120725 votes=  66 2016 rank= 4.05 rel= 2.00
+  [ 3.40] GitLab account hacked and repo wiped
+      *   209495 votes=  50 2019 rank= 3.40 rel= 2.17
+          209490 votes=   6 2019 rank=-2.35 rel=-2.58
+       A  209473 votes=  81 2019 rank=-2.39 rel=-4.85
+  [ 3.27] Signing webhooks: symmetric vs asymmetric
+      *   230922 votes=   1 2020 rank= 3.27 rel= 3.57
+          222240 votes=   1 2019 rank=-11.63 rel=-11.29
+
+===== what is the difference between encoding, encryption and hashing =====
+  [ 7.42] What is better salted hash or openssl encryption?
+      *A   15554 votes=  14 2012 rank= 7.42 rel= 6.50
+           15594 votes=   3 2012 rank=-4.09 rel=-3.35
+  [ 7.41] What's the difference between a hashed and an encrypted password?
+      *A  122606 votes=  26 2016 rank= 7.41 rel= 5.80
+      *   122605 votes=  12 2016 rank= 7.11 rel= 6.86
+  [ 7.31] Is SHA-1 encryption?
+      *    29488 votes=   9 2013 rank= 7.31 rel= 7.52
+           29513 votes=   6 2013 rank= 2.25 rel= 2.64
+       A   29486 votes=   8 2013 rank=-0.58 rel=-1.31
+  [ 6.84] How to identify hashes
+      *A   91959 votes=   2 2015 rank= 6.84 rel= 6.42
+           91960 votes=   1 2015 rank= 0.92 rel= 1.70
+           91954 votes=   0 2015 rank=-4.09 rel=-2.96
+  [ 6.70] is encoding the same as encryption for malware obfuscation?
+       A  199713 votes=   2 2018 rank= 6.70 rel= 5.93
+      *   199714 votes=   1 2018 rank= 5.98 rel= 6.41
+
+===== can a vpn make me anonymous =====
+  [ 8.95] How can I make payments on the Internet without leaving a money trail?
+      *   206990 votes=  27 2019 rank= 8.95 rel= 8.03
+       A  206985 votes=  60 2019 rank= 4.34 rel= 2.04
+          207023 votes=   4 2019 rank=-5.34 rel=-5.40
+  [ 8.19] VPN + HTTPS = 100% anonymous?
+      *   176723 votes=  59 2018 rank= 8.19 rel= 7.01
+       A  176724 votes=  94 2018 rank= 8.11 rel= 5.71
+          176781 votes=  11 2018 rank= 6.95 rel= 6.58
+  [ 7.40] When connecting to internet through VPN what precautions should be taken?
+      *    31075 votes=   2 2013 rank= 7.40 rel= 8.21
+       A   31068 votes=   5 2013 rank= 5.87 rel= 5.34
+  [ 7.03] Can authentication in social networks through VPN defeat the purpose of the latter?
+      *A   49723 votes=   4 2014 rank= 7.03 rel= 6.50
+           49715 votes=   3 2014 rank= 4.82 rel= 5.39
+           49711 votes=   3 2014 rank= 3.69 rel= 4.26
+  [ 6.78] What's the best way to make my internet traffic anonymous?
+      *    16923 votes=   3 2012 rank= 6.78 rel= 7.51
+      *   136362 votes=   0 2016 rank= 6.78 rel= 7.78
+           21072 votes=   2 2012 rank= 6.66 rel= 7.51
+
+===== why shouldn't I roll my own crypto =====
+  [ 9.67] What does "don't roll your own security" mean?
+      *A  168265 votes=   5 2017 rank= 9.67 rel= 8.68
+  [ 9.43] Why shouldn't we roll our own?
+       A   18198 votes= 256 2012 rank= 9.43 rel= 7.07
+      *   211024 votes=   7 2019 rank= 9.00 rel= 8.69
+      *   130182 votes=  15 2016 rank= 8.25 rel= 7.88
+  [ 8.64] Why is it wrong to *implement* myself a known, published, widely believed to be secure cry
+      *   209689 votes=  19 2019 rank= 8.64 rel= 7.88
+          209669 votes=  86 2019 rank= 3.82 rel= 2.33
+          209713 votes=   8 2019 rank= 3.54 rel= 3.18
+  [ 7.99] Rolling your own crypto
+      *   185142 votes=   2 2018 rank= 7.99 rel= 8.28
+      *   185080 votes=   4 2018 rank= 7.65 rel= 7.69
+          185308 votes=   0 2018 rank= 5.79 rel= 6.63
+  [ 7.74] Roll your own encryption - with a twist
+      *   127163 votes=   5 2016 rank= 7.74 rel= 7.87
+       A  127164 votes=   9 2016 rank= 7.43 rel= 6.31
+          127165 votes=   1 2016 rank= 4.73 rel= 5.42
+
+===== is md5 still ok for checksums =====
+  [ 9.23] Why are MD5 and SHA-1 still used for checksums and certificates if they are called broken?
+      *A   87377 votes=  39 2015 rank= 9.23 rel= 7.52
+      *    87376 votes=  15 2015 rank= 7.49 rel= 7.24
+      *   109983 votes=   0 2016 rank= 7.11 rel= 8.18
+  [ 7.73] Why does some popular software still use md5?
+      *    33109 votes=   4 2013 rank= 7.73 rel= 8.28
+           33125 votes=   1 2013 rank= 5.08 rel= 6.08
+      *    33112 votes=  32 2013 rank= 3.68 rel= 3.28
+  [ 7.04] Why do people still use/recommend MD5 if it has been proven weak since 1996?
+      *    15819 votes=   6 2012 rank= 7.04 rel= 7.49
+       A   31871 votes=  88 2013 rank= 6.78 rel= 4.89
+           15824 votes=  10 2012 rank= 3.47 rel= 3.70
+  [ 6.37] Using MD5 for file integrity checks?
+      *    34491 votes=   9 2013 rank= 6.37 rel= 6.57
+           34515 votes=   3 2013 rank= 4.57 rel= 5.22
+           34490 votes=  15 2013 rank= 4.50 rel= 4.46
+  [ 6.05] Which hashing algorithm shoud I use for a safe file checksum?
+      *   198633 votes=   6 2018 rank= 6.05 rel= 5.86
+       A  198665 votes=  16 2018 rank= 4.84 rel= 3.21
+
+===== how do I stop bots from trying thousands of passwords =====
+  [ 6.35] Security and obscurity, anti-bot edition
+      *   266381 votes=   2 2022 rank= 6.35 rel= 6.18
+      *   266244 votes=   0 2022 rank= 3.72 rel= 4.11
+  [ 5.35] Temporarily save failed logins password hashes for using against brute force attack
+      *    83560 votes=   0 2015 rank= 5.35 rel= 6.50
+           66493 votes=   1 2014 rank=-1.98 rel=-1.12
+  [ 4.87] Using password manager along with a remembered password
+      *   179449 votes=   0 2018 rank= 4.87 rel= 5.73
+          179434 votes=   2 2018 rank=-7.56 rel=-7.24
+          179458 votes=   1 2018 rank=-9.87 rel=-9.36
+  [ 4.54] Can a malicious actor lock the real user out by deliberately trying incorrect passwords ev
+       A  155766 votes=  57 2017 rank= 4.54 rel= 2.46
+      *   155860 votes=   5 2017 rank= 3.88 rel= 3.94
+          155755 votes=  25 2017 rank= 0.99 rel= 0.31
+  [ 4.41] Is captcha on nth login attempt is really stops bots?
+       A  149427 votes=   4 2017 rank= 4.41 rel= 3.58
+      *   149434 votes=   1 2017 rank= 3.67 rel= 4.29
+
+===== what does a salt do if it is stored next to the hash =====
+  [ 8.66] How to store salt?
+      *    17423 votes=  47 2012 rank= 8.66 rel= 8.14
+      *    17422 votes= 100 2012 rank= 6.65 rel= 5.77
+       A   17435 votes= 869 2012 rank= 6.48 rel= 3.51
+  [ 7.98] Why store a salt along side the hashed password?
+      *A  100902 votes=  29 2015 rank= 7.98 rel= 6.38
+  [ 6.49] Is it safe/wise to store a salt in the same field as the hashed password?
+      *   183105 votes=  49 2018 rank= 6.49 rel= 5.38
+          183113 votes=   4 2018 rank= 4.85 rel= 4.89
+       A  183086 votes= 123 2018 rank= 3.69 rel= 1.13
+  [ 6.36] Solution to calculate and store a hash salt in an open source application?
+      *   170155 votes=   0 2017 rank= 6.36 rel= 7.26
+          170156 votes=   0 2017 rank= 4.87 rel= 5.77
+       A  170201 votes=   1 2017 rank= 4.66 rel= 4.22
+  [ 5.90] Does anybody not store salts?
+          130176 votes= 127 2016 rank= 5.90 rel= 4.49
+          130170 votes=  17 2016 rank= 5.51 rel= 5.08
+       A  130167 votes= 180 2016 rank= 3.14 rel= 0.56
+
+===== two factor codes by sms vs authenticator app =====
+  [ 7.53] Google Voice vs SMS for two-factor authentication
+      *A  253903 votes=   1 2021 rank= 7.53 rel= 6.70
+  [ 7.31] Is two factor authentication broken?
+      *   147579 votes=   2 2017 rank= 7.31 rel= 7.73
+          147587 votes=   0 2017 rank= 2.45 rel= 3.42
+  [ 7.31] Is phone-based two-factor authentication significantly more secure than email authenticati
+      *   145795 votes=   4 2016 rank= 7.31 rel= 7.48
+          145796 votes=   1 2016 rank= 0.74 rel= 1.38
+  [ 6.39] Does a hardware generated pin plus SMS verification count as two factor authentication?
+      *   139503 votes=   3 2016 rank= 6.39 rel= 6.69
+          139501 votes=   1 2016 rank= 5.62 rel= 6.27
+  [ 6.14] Is Google prompt safer then authenticator app for 2-step verification?
+      *   145452 votes=   3 2016 rank= 6.14 rel= 6.42
+       A  145456 votes=   8 2016 rank= 5.14 rel= 4.02
+
+===== can someone steal my login cookie =====
+  [ 8.15] Can someone clone my session Id cookie and login as me?
+      *A  260301 votes=   2 2022 rank= 8.15 rel= 7.06
+      *   260297 votes=   2 2022 rank= 7.18 rel= 7.09
+  [ 7.16] what can a hacker do with stolen cookies?
+      *   232677 votes=   2 2020 rank= 7.16 rel= 7.24
+  [ 6.82] Could Someone Use a Stolen Cookie Session ID to Bypass Htaccess Login?
+      *   206906 votes=   4 2019 rank= 6.82 rel= 6.76
+          206917 votes=   1 2019 rank= 4.18 rel= 4.58
+  [ 6.45] Can someone steal cookie contents via a phishing attack?
+       A   81043 votes=   8 2015 rank= 6.45 rel= 5.52
+      *    81029 votes=   3 2015 rank= 5.93 rel= 6.40
+           81006 votes=   0 2015 rank= 4.92 rel= 6.09
+  [ 6.20] Browser session cookies stolen/copied to another PC, why websites not smart enough prevent
+      *   213676 votes=   1 2019 rank= 6.20 rel= 6.57
+          203738 votes=   3 2019 rank= 4.28 rel= 4.35
+
+===== should passwords expire every 90 days =====
+  [10.68] How does changing your password every 90 days increase security?
+      *A    4706 votes= 367 2011 rank=10.68 rel= 8.25
+      *     5168 votes=  67 2011 rank= 8.78 rel= 8.19
+      *     4725 votes=  93 2011 rank= 8.71 rel= 7.97
+  [ 9.39] Does password expiry provide any benefit at all (when using randomly generated passwords)?
+      *A  209250 votes=   4 2019 rank= 9.39 rel= 8.33
+          209198 votes=  41 2019 rank= 8.13 rel= 7.00
+
+===== is it a problem if my certificate is self signed =====
+  [11.71] What is the problem of using a self signed-certificate for a game?
+      *A  252556 votes=  49 2021 rank=11.71 rel= 9.27
+      *   252555 votes=  21 2021 rank= 9.94 rel= 8.92
+          252644 votes=   0 2021 rank= 7.89 rel= 8.40
+  [ 9.14] Is encryption still applied if you ignore the SSL certificate warning for self-signed cert
+      *   213771 votes=   3 2019 rank= 9.14 rel= 9.17
+          213691 votes=  17 2019 rank= 7.63 rel= 6.90
+          213689 votes=  30 2019 rank= 6.86 rel= 5.86
+  [ 9.05] Should I accept a self-signed certificate from my university?
+       A  104516 votes=   5 2015 rank= 9.05 rel= 8.24
+          104518 votes=   0 2015 rank= 5.46 rel= 6.55
+          104517 votes=   3 2015 rank= 4.98 rel= 5.38
+  [ 8.95] Self signed certificate secure when just client sends sensitive information?
+      *    57822 votes=   2 2014 rank= 8.95 rel= 9.64
+       A   57821 votes=   3 2014 rank= 6.49 rel= 6.03
+  [ 8.93] Why are private certificates not trusted?
+      *    51412 votes=   7 2014 rank= 8.93 rel= 9.15
+           51447 votes=   0 2014 rank= 4.59 rel= 5.85
+           51407 votes=   2 2014 rank= 4.56 rel= 5.27
+
+===== database query built by string concatenation =====
+  [ 6.96] SQL Injection via table name?
+      *A  102107 votes=   4 2015 rank= 6.96 rel= 6.25
+  [ 6.32] What does the last single quote of the sql injection query: ' or "1"="1" ' mean
+      *A  230673 votes=   2 2020 rank= 6.32 rel= 5.41
+  [ 5.94] Do I have to make any more check if I use prepared statements for integers?
+      *A    8869 votes=   7 2011 rank= 5.94 rel= 5.39
+  [ 5.11] ASP.NET SQL Injection
+      *    40130 votes=   2 2013 rank= 5.11 rel= 5.88
+       A   40178 votes=   4 2013 rank=-6.37 rel=-6.86
+  [ 4.47] SQL - using String concatenation, how can I exploit this procedure?
+       A   25052 votes=   6 2012 rank= 4.47 rel= 3.88
+      *    25077 votes=   3 2012 rank= 4.08 rel= 4.76
+      *    25047 votes=   0 2012 rank= 3.68 rel= 5.06
+
+===== how to safely delete data from an ssd =====
+  [ 7.13] How to securely erase the free space on an SSD in windows 10?
+      *   223111 votes=   3 2019 rank= 7.13 rel= 7.12
+       A  223137 votes=   8 2019 rank= 6.26 rel= 4.84
+  [ 7.00] Wipe data from many storage devices
+       A  181740 votes=   2 2018 rank= 7.00 rel= 6.31
+      *   181725 votes=   1 2018 rank= 4.88 rel= 5.39
+  [ 6.48] What is a proper way of destroying data remotely?
+      *   133212 votes=   2 2016 rank= 6.48 rel= 6.95
+          133230 votes=   0 2016 rank=-1.00 rel= 0.01
+  [ 6.13] Safely remove original file after encryption
+      *    89032 votes=   2 2015 rank= 6.13 rel= 6.72
+       A   89034 votes=   2 2015 rank= 5.65 rel= 5.24
+           88965 votes=   1 2015 rank= 3.13 rel= 3.93
+  [ 5.83] How do I prevent SSD file recovery?
+       A   89477 votes=   4 2015 rank= 5.83 rel= 5.16
+           89418 votes=   2 2015 rank= 5.47 rel= 6.06
+      *    89415 votes=   0 2015 rank= 5.34 rel= 6.48
+
+===== can a pdf file contain a virus =====
+  [11.55] Can a PDF file contain a virus?
+      *A   64081 votes=  43 2014 rank=11.55 rel= 9.87
+      *    94374 votes=  20 2015 rank=10.80 rel=10.40
+      *    64053 votes=  16 2014 rank=10.72 rel=10.52
+  [ 9.14] How can I tell if a PDF file I was sent contains malware?
+      *A  121878 votes=  16 2016 rank= 9.14 rel= 7.76
+          121899 votes=   2 2016 rank= 6.53 rel= 7.03
+          223847 votes=   0 2020 rank= 3.87 rel= 4.54
+  [ 9.04] Do corrupted pdfs become a virus?
+      *    45858 votes=   4 2013 rank= 9.04 rel= 9.52
+  [ 8.92] PDF UrlMal-inf[Trj] Virus
+      *A  202268 votes=   3 2019 rank= 8.92 rel= 7.99
+  [ 8.46] Can converting a virus-infected webpage to PDF format still contain viruses
+      *   241043 votes=   2 2020 rank= 8.46 rel= 8.50
+          241045 votes=   1 2020 rank= 7.29 rel= 7.52
+
+===== is open source software more secure than closed source =====
+  [12.31] Open Source vs Closed Source Systems
+      *A    4450 votes=  52 2011 rank=12.31 rel=10.85
+      *     4449 votes=  40 2011 rank=10.31 rel= 9.98
+           16532 votes=   3 2012 rank= 8.06 rel= 8.79
+  [10.25] How are open-sourced operating systems and software kept secure?
+      *A   11289 votes=  14 2012 rank=10.25 rel= 9.36
+           11281 votes=  15 2012 rank= 8.90 rel= 8.98
+           11275 votes=  10 2012 rank= 8.04 rel= 8.31
+  [ 9.96] Chrome vs Explorer - how to explain in plain words that open-source is better?
+      *    10076 votes=  10 2011 rank= 9.96 rel=10.24
+           10210 votes=   4 2011 rank= 7.72 rel= 8.39
+           10200 votes=   2 2011 rank= 7.13 rel= 8.06
+  [ 9.94] What is the point of using an open source and secure OS if you are running it on a machine
+      *   117184 votes=  25 2016 rank= 9.94 rel= 9.37
+          117186 votes=  42 2016 rank= 8.91 rel= 8.09
+          117240 votes=  21 2016 rank= 7.54 rel= 7.05
+  [ 8.78] Is WebGL a security concern?
+      *    13808 votes=   5 2012 rank= 8.78 rel= 9.33
+       A   13840 votes=  37 2012 rank=-0.50 rel=-1.87
+           14327 votes=  14 2012 rank=-7.57 rel=-7.48
+
+===== why do websites block pasting into password fields =====
+  [ 9.79] Why do some sites block pasting into username or password input fields?
+      *A    2413 votes=  34 2011 rank= 9.79 rel= 8.57
+      *     2414 votes=  10 2011 rank= 8.10 rel= 8.46
+      *    80751 votes=   6 2015 rank= 7.94 rel= 8.13
+  [ 8.73] Why would website block password manager auto-fill?
+      *   274132 votes=   4 2024 rank= 8.73 rel= 8.19
+  [ 8.30] Is there any reason to disable paste password on login?
+      *A  131107 votes= 272 2016 rank= 8.30 rel= 5.52
+      *   131144 votes= 110 2016 rank= 6.39 rel= 5.06
+          131143 votes=  37 2016 rank= 5.66 rel= 4.86
+  [ 6.95] Why should we prevent users from saving their passwords in their password manager?
+      *   194802 votes=   8 2018 rank= 6.95 rel= 6.65
+          194735 votes=  42 2018 rank= 0.90 rel=-0.18
+          194913 votes=   1 2018 rank= 0.01 rel= 0.46
+
+===== what happens if two users have the same password =====
+  [ 8.05] Users can change their password with the same password
+      *A  203108 votes=   1 2019 rank= 8.05 rel= 7.47
+          203117 votes=   0 2019 rank= 3.89 rel= 4.65
+  [ 8.00] Website allowing different accounts with same username
+      *   159511 votes=   0 2017 rank= 8.00 rel= 8.94
+       A  159515 votes=   2 2017 rank= 3.33 rel= 2.72
+          197743 votes=   0 2018 rank= 2.24 rel= 3.03
+  [ 7.75] Hashing two passwords can produce the same hash. How to prevent this?
+      *A  146583 votes=  12 2016 rank= 7.75 rel= 6.44
+      *   146611 votes=   3 2016 rank= 7.57 rel= 7.85
+      *   146584 votes=   3 2016 rank= 7.02 rel= 7.30
+  [ 7.66] Is it insecure to reveal if a password is being used for another account after a set perio
+      *   117690 votes=   2 2016 rank= 7.66 rel= 8.17
+      *   117688 votes=   2 2016 rank= 7.42 rel= 7.93
+          117698 votes=   0 2016 rank= 1.03 rel= 2.09
+  [ 7.24] If multiple users on the same website all use the same password, is their password hash th
+      *   115684 votes=  25 2016 rank= 7.24 rel= 6.67
+          115688 votes=  12 2016 rank= 3.84 rel= 3.61
+
+===== can I trust a password manager with all my passwords =====
+  [ 8.61] What type of pattern should I use for my passwords?
+      *   104064 votes=  40 2015 rank= 8.61 rel= 7.84
+       A  104047 votes=  86 2015 rank= 6.98 rel= 4.84
+          104347 votes=   6 2015 rank= 6.04 rel= 6.16
+  [ 8.55] Alternative to sending password over mail?
+      *   206700 votes=  69 2019 rank= 8.55 rel= 7.18
+          206721 votes=   3 2019 rank= 1.37 rel= 1.43
+       A  206696 votes=  63 2019 rank= 0.28 rel=-2.05
+  [ 8.14] Is there a password manager that combines a "master password" solution with a keystore sol
+      *A  158567 votes=   7 2017 rank= 8.14 rel= 7.04
+          158598 votes=   2 2017 rank= 4.48 rel= 4.87
+          158553 votes=   8 2017 rank= 3.43 rel= 3.27
+  [ 7.45] Using password manager along with a remembered password
+      *   179434 votes=   2 2018 rank= 7.45 rel= 7.76
+          179458 votes=   1 2018 rank= 5.77 rel= 6.28
+          179449 votes=   0 2018 rank= 4.04 rel= 4.91
+  [ 7.16] How secure are password managers with account recovery?
+      *   179934 votes=   8 2018 rank= 7.16 rel= 6.92
+          179928 votes=  22 2018 rank= 6.42 rel= 5.71
+          179952 votes=   8 2018 rank= 2.30 rel= 2.06
+
+===== difference between authentication and authorization =====
+  [ 9.18] OAuth2 and Authentication
+      *A  119244 votes=  15 2016 rank= 9.18 rel= 7.84
+          119252 votes=   5 2016 rank= 2.31 rel= 2.46
+  [ 8.67] Authentication versus Authorisation
+      *   220158 votes=   1 2019 rank= 8.67 rel= 9.01
+      *   220077 votes=   8 2019 rank= 8.43 rel= 8.03
+       A  220076 votes=  42 2019 rank= 7.21 rel= 5.03
+  [ 7.41] Value of authentication between services
+      *   134623 votes=   0 2016 rank= 7.41 rel= 8.42
+          134622 votes=   0 2016 rank=-0.46 rel= 0.55
+       A  134855 votes=   0 2016 rank=-5.59 rel=-5.58
+  [ 7.17] Order of authentication and authorization
+       A   63108 votes=   3 2014 rank= 7.17 rel= 6.70
+      *    63113 votes=   4 2014 rank= 6.67 rel= 7.08
+           63106 votes=   5 2014 rank= 2.17 rel= 2.50
+
+===== is rot13 or base64 a form of security =====
+  [ 5.31] default.php file found on the server, is this a security threat?
+      *A   29799 votes=  77 2013 rank= 5.31 rel= 3.50
+  [ 4.64] Using base64 for secure encoding
+      *A  271447 votes=   4 2023 rank= 4.64 rel= 3.15
+  [ 3.98] Common Encryption types with keys stored in Base64
+      *A  218987 votes=   1 2019 rank= 3.98 rel= 3.33
+  [ 3.06] What are the security concerns for base64 encoded JSON files?
+      *   196020 votes=   2 2018 rank= 3.06 rel= 3.30
+       A  196021 votes=   4 2018 rank= 2.68 rel= 1.67
+  [ 2.90] Security Implications from Base64 Image
+      *   266547 votes=   4 2022 rank= 2.90 rel= 2.48
+          266556 votes=   2 2022 rank= 2.46 rel= 2.30
+
+===== how long would it take to crack an 8 character password =====
+  [11.12] Is it possible to brute force all 8 character passwords in an offline attack?
+      *A   43684 votes=  35 2013 rank=11.12 rel= 9.62
+      *   180778 votes=  15 2018 rank= 8.23 rel= 7.70
+      *    82611 votes=   2 2015 rank= 6.37 rel= 6.98
+  [ 9.18] How long to crack an 8 character WPA2 hash if first char is known
+      *   214523 votes=   2 2019 rank= 9.18 rel= 9.35
+  [ 8.65] Is it insecure to display the number of characters when users enter a new passphrase?
+      *   254801 votes=  39 2021 rank= 8.65 rel= 7.32
+          254810 votes=  13 2021 rank= 2.04 rel= 1.22
+          254793 votes=   2 2021 rank=-1.75 rel=-1.79
+  [ 8.39] What password length is sufficient in 2020?
+      *   238653 votes=   4 2020 rank= 8.39 rel= 8.19
+          238668 votes=   1 2020 rank= 1.09 rel= 1.35
+          238659 votes=   1 2020 rank=-10.63 rel=-10.38
+  [ 6.66] Mathematically, how long would it take to crack a bcrypt password hash?
+      *   182147 votes=   1 2018 rank= 6.66 rel= 7.17
+       A  182116 votes=  18 2018 rank= 6.60 rel= 4.98

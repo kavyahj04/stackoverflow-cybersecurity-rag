@@ -1,6 +1,6 @@
 from sentence_transformers import CrossEncoder
 
-MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-12-v2"
 model = CrossEncoder(MODEL_NAME)
 
 

@@ -107,14 +107,59 @@ def print_hits(label, hits):
         print(f"    {hit['url']}")
 
 
-if __name__ == "__main__":
-    test_questions = [
-        "BCrypt workfactor for salt"
-    ]
+OUTPUT_FILE = SRC_DIR / "hybrid_search_results.txt"
 
-    for question in test_questions:
-        print(f"\n===== Question: {question} =====")
-        results = hybrid_search(question, top_k=50)
-        print_hits("Dense (embeddings)", results["dense"])
-        print_hits("Sparse (BM25)", results["sparse"])
-        print_hits("Final (dense floor + cross-encoder fill)", results["final"])
+# Mix of paraphrases (no keyword overlap), ambiguous terms, misconceptions,
+# and vague/natural-language phrasing, to stress dense vs sparse vs reranker.
+TEST_QUESTIONS = [
+    "BCrypt workfactor for salt",
+    "is it ok to store passwords encrypted instead of hashed",
+    "why does my site break when I put a script tag in the comment box",
+    "someone can log in as another user by changing a number in the URL",
+    "do I need https if my site has no login",
+    "is a longer password always better than a complex one",
+    "can hackers see what I do on public wifi",
+    "how does a website know I'm the same person between page loads",
+    "is it safe to let users upload profile pictures",
+    "my api key got pushed to github, what now",
+    "what is the difference between encoding, encryption and hashing",
+    "can a vpn make me anonymous",
+    "why shouldn't I roll my own crypto",
+    "is md5 still ok for checksums",
+    "how do I stop bots from trying thousands of passwords",
+    "what does a salt do if it is stored next to the hash",
+    "two factor codes by sms vs authenticator app",
+    "can someone steal my login cookie",
+    "should passwords expire every 90 days",
+    "is it a problem if my certificate is self signed",
+    "database query built by string concatenation",
+    "how to safely delete data from an ssd",
+    "can a pdf file contain a virus",
+    "is open source software more secure than closed source",
+    "why do websites block pasting into password fields",
+    "what happens if two users have the same password",
+    "can I trust a password manager with all my passwords",
+    "difference between authentication and authorization",
+    "is rot13 or base64 a form of security",
+    "how long would it take to crack an 8 character password",
+]
+
+
+def write_results(path):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(f"Cross-encoder: {cross_encoder.MODEL_NAME}\n")
+        f.write("Final = dense top 5 (score = distance, lower is better) + "
+                "cross-encoder fill (score = logit, higher is better)\n")
+        for question in TEST_QUESTIONS:
+            results = hybrid_search(question, top_k=50)
+            f.write(f"\n===== Question: {question} =====\n")
+            for rank, hit in enumerate(results["final"], start=1):
+                snippet = hit["text"][:150].replace("\n", " ")
+                f.write(f"{rank}. [{hit['answer_id']}] score={hit['score']:.4f}  {snippet}...\n")
+                f.write(f"    {hit['url']}\n")
+            print(f"done: {question}")
+
+
+if __name__ == "__main__":
+    write_results(OUTPUT_FILE)
+    print(f"\nWrote results to {OUTPUT_FILE}")

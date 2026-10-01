@@ -14,3 +14,6 @@ src/chroma_db/
 src/answer_embeddings.jsonl
 src/question_embeddings.jsonl
 src/bm25_answers.pkl
+
+
+threads_index.pkl
