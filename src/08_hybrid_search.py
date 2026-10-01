@@ -10,6 +10,8 @@ bm25_index = importlib.import_module("07_bm25_index")
 fusion = importlib.import_module("10_fusion")
 load_index, tokenize = bm25_index.load_index, bm25_index.tokenize
 
+cross_encoder = importlib.import_module("11_cross_encoder")
+
 load_dotenv()
 
 client = OpenAI()
@@ -62,14 +64,38 @@ def sparse_search(question, top_k=50):
         })
     return hits
 
+def merge_with_floor(dense_floor, reranked, final_size=10):
+    final = list(dense_floor)
+    seen_ids = {hit["answer_id"] for hit in final}
+    for hit in reranked:
+        if len(final) >= final_size:
+            break
+        if hit["answer_id"] not in seen_ids:
+            final.append(hit)
+            seen_ids.add(hit["answer_id"])
+    return final
 
-def hybrid_search(question, top_k=50):
+
+
+def hybrid_search(question, top_k=50, final_size=10):
     dense_hits =  dense_search(question, top_k)
     sparse_hits = sparse_search(question, top_k)
+
+    dense_floor = dense_hits[:5]
+
+    # Candidate pool: dense ranks 6-50 + all sparse hits, deduped by answer_id
+    # so each answer is scored by the cross-encoder only once.
+    pool = {}
+    for hit in dense_hits[5:] + sparse_hits:
+        pool.setdefault(hit["answer_id"], hit)
+    reranked = cross_encoder.rerank(question, list(pool.values()))
+
+    final = merge_with_floor(dense_floor, reranked, final_size)
     return {
         "dense": dense_hits,
         "sparse": sparse_hits,
-        "fused" : fusion.reciprocal_rank_fusion(dense_hits, sparse_hits)
+        "reranked": reranked,
+        "final" : final,
     }
 
 
@@ -91,4 +117,4 @@ if __name__ == "__main__":
         results = hybrid_search(question, top_k=50)
         print_hits("Dense (embeddings)", results["dense"])
         print_hits("Sparse (BM25)", results["sparse"])
-        print_hits("Fused (RRF)", results["fused"])
+        print_hits("Final (dense floor + cross-encoder fill)", results["final"])
