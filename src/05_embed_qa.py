@@ -16,7 +16,7 @@ question_records = parsing_questions.question_records
 client = OpenAI()
 BATCH_SIZE = 500
 MAX_TOKENS = 8191
-encoding = tiktoken.encoding_for_model("text-embedding-3-small")
+encoding = tiktoken.encoding_for_model("text-embedding-3-large")
 
 def truncate(text):
     tokens = encoding.encode(text)
@@ -26,7 +26,7 @@ def truncate(text):
 
 def embed_batch(texts):
     texts = [truncate(t) for t in texts]
-    response = client.embeddings.create(input=texts, model="text-embedding-3-small")
+    response = client.embeddings.create(input=texts, model="text-embedding-3-large")
     return [item.embedding for item in response.data]
 
 def embed_all(records, text_field, id_field, output_path):

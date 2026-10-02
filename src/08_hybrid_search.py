@@ -28,7 +28,7 @@ def answer_url(answer_id):
 
 
 def embed_query(text):
-    response = client.embeddings.create(input=[text], model="text-embedding-3-small")
+    response = client.embeddings.create(input=[text], model="text-embedding-3-large")
     return response.data[0].embedding
 
 

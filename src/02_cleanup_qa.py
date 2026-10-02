@@ -1,7 +1,10 @@
 from collections import defaultdict
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from split_qa import questions, answers
+import importlib
+
+split_qa = importlib.import_module("01_split_qa")
+questions, answers = split_qa.questions, split_qa.answers
 
 #  Handle questions with zero answers 
 

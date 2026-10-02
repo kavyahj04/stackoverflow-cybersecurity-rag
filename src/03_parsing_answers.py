@@ -5,14 +5,14 @@ import tiktoken
 from openai import OpenAI
 from dotenv import load_dotenv
 
-split_qa = importlib.import_module("02_split_qa")
-questions, answers = split_qa.questions, split_qa.answers
+cleanup_qa = importlib.import_module("02_cleanup_qa")
+questions, answers = cleanup_qa.questions, cleanup_qa.answers
 
 load_dotenv(override=True)
 client = OpenAI()
 
 MAX_TOKENS = 8000
-encoding = tiktoken.encoding_for_model("text-embedding-3-small")
+encoding = tiktoken.encoding_for_model("text-embedding-3-large")
 
 def clean_body(raw_body):
     if not raw_body:
