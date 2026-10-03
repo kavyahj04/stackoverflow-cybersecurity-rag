@@ -17,3 +17,5 @@ src/bm25_answers.pkl
 
 
 threads_index.pkl
+src/threads.DB
+src/threads_index.pkl

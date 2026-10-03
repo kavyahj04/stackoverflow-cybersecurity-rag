@@ -32,7 +32,7 @@ def embed_query(text):
     return response.data[0].embedding
 
 
-def dense_search(question, top_k=5):
+def dense_search(question, top_k=50):
     query_embedding = embed_query(question)
     results = answers_collection.query(query_embeddings=[query_embedding], n_results=top_k)
     hits = []
@@ -64,7 +64,7 @@ def sparse_search(question, top_k=50):
         })
     return hits
 
-def merge_with_floor(dense_floor, reranked, final_size=10):
+def merge_with_floor(dense_floor, reranked, final_size=50):
     final = list(dense_floor)
     seen_ids = {hit["answer_id"] for hit in final}
     for hit in reranked:
@@ -77,7 +77,7 @@ def merge_with_floor(dense_floor, reranked, final_size=10):
 
 
 
-def hybrid_search(question, top_k=50, final_size=10):
+def hybrid_search(question, top_k=50, final_size=50):
     dense_hits =  dense_search(question, top_k)
     sparse_hits = sparse_search(question, top_k)
 
