@@ -1,0 +1,1181 @@
+{"query_id": "268149", "query": "Receive more spam emails", "gold_thread_ids": ["248838"], "gold_accepted_ids": ["248843"]}
+{"query_id": "266506", "query": "Does it ever make sense to use TLS for communication that only happens internally on one machine?", "gold_thread_ids": ["165295", "244672"], "gold_accepted_ids": ["165325", "244673"]}
+{"query_id": "218683", "query": "I found this easter egg, any ideas what kind of encryption it is?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "236645", "query": "Tor and MITM SSL", "gold_thread_ids": ["215155"], "gold_accepted_ids": ["215223"]}
+{"query_id": "263589", "query": "strange file name in user's home directory", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "122453", "query": "Is it possible for an attacker to log keystrokes of a bluetooth or wireless keyboard", "gold_thread_ids": ["26356"], "gold_accepted_ids": ["36207"]}
+{"query_id": "226466", "query": "What type of encoding is this string?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "47225", "query": "Is Webgoat's HTTP Splitting Attack corrupt?", "gold_thread_ids": ["39711"], "gold_accepted_ids": []}
+{"query_id": "274535", "query": "How to perform focused scan of public IP using nmap?", "gold_thread_ids": ["45535"], "gold_accepted_ids": []}
+{"query_id": "166529", "query": "Could SSL PKI security be measured by the weaker CA?", "gold_thread_ids": ["18666"], "gold_accepted_ids": ["18670"]}
+{"query_id": "151255", "query": "Storing other website's Username/Password", "gold_thread_ids": ["73363"], "gold_accepted_ids": ["73373"]}
+{"query_id": "263237", "query": "What's the purpose of this spam that only sends a link to a Google search query?", "gold_thread_ids": ["245438"], "gold_accepted_ids": ["245439"]}
+{"query_id": "177936", "query": "Can .mp4 files contain viruses?", "gold_thread_ids": ["18086"], "gold_accepted_ids": ["18088"]}
+{"query_id": "121500", "query": "What are the risks of using an untrusted https connection?", "gold_thread_ids": ["62058"], "gold_accepted_ids": []}
+{"query_id": "240575", "query": "Found out that a paid VPN service emails plaintext passwords", "gold_thread_ids": ["7118"], "gold_accepted_ids": ["7122"]}
+{"query_id": "123973", "query": "Share diffie hellman group between servers", "gold_thread_ids": ["43355"], "gold_accepted_ids": ["43356"]}
+{"query_id": "114882", "query": "How to react to the glibc vulnerability as an OSX user?", "gold_thread_ids": ["80290"], "gold_accepted_ids": ["80321"]}
+{"query_id": "260383", "query": "Are QR codes more dangerous to scan in 2022?", "gold_thread_ids": ["13652"], "gold_accepted_ids": ["13656"]}
+{"query_id": "261345", "query": "Why aren't search engines encrypting search queries?", "gold_thread_ids": ["12531", "233795", "30976", "38688"], "gold_accepted_ids": ["12533", "30979", "38689"]}
+{"query_id": "244780", "query": "Security implications of protecting private data with a long URI exclusively", "gold_thread_ids": ["107156"], "gold_accepted_ids": ["107167"]}
+{"query_id": "248464", "query": "Could just downloading (not opening) .tgz file infect Windows 10?", "gold_thread_ids": ["223037"], "gold_accepted_ids": []}
+{"query_id": "240114", "query": "Google Cloud Platform may have been compromised and used for cryptocurrency mining", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "267273", "query": "Open Veracrypt container (password+keyfile) without password?", "gold_thread_ids": ["198234"], "gold_accepted_ids": []}
+{"query_id": "270771", "query": "Are X.509 certificates tied to a particular operation", "gold_thread_ids": ["248800", "30066", "31139", "31190", "6844"], "gold_accepted_ids": ["30069", "31142", "31193", "6845"]}
+{"query_id": "44311", "query": "Can you force your ISP to delete IP address log?", "gold_thread_ids": ["17279"], "gold_accepted_ids": ["17292"]}
+{"query_id": "265690", "query": "How do operating systems trust public CAs?", "gold_thread_ids": ["102681", "158997", "24136"], "gold_accepted_ids": ["102684", "158998", "24137"]}
+{"query_id": "210359", "query": "openSSL use SAN from CSR", "gold_thread_ids": ["150078", "190905"], "gold_accepted_ids": ["176084", "190906"]}
+{"query_id": "248315", "query": "Can I truncate a hash value and keep (the expected amount) of collision resistance?", "gold_thread_ids": ["72673"], "gold_accepted_ids": ["72675"]}
+{"query_id": "238577", "query": "Building a dictionary", "gold_thread_ids": ["42125"], "gold_accepted_ids": ["42130"]}
+{"query_id": "272417", "query": "Do `Signature` headers have real benefits?", "gold_thread_ids": ["32696"], "gold_accepted_ids": []}
+{"query_id": "118185", "query": "Can the NSA/FBI Recover Encrypted iPhone Contents by Decapping the Chips?", "gold_thread_ids": ["115044"], "gold_accepted_ids": []}
+{"query_id": "231936", "query": "Secured Communication over a Private or Internal Network", "gold_thread_ids": ["191257", "227020"], "gold_accepted_ids": ["227023"]}
+{"query_id": "140933", "query": "Is it safe to use HTTPS certificate's challenge password to perform client rejection?", "gold_thread_ids": ["77028"], "gold_accepted_ids": ["77082"]}
+{"query_id": "248647", "query": "Why do I need DMARC on top of SPF and DKIM?", "gold_thread_ids": ["215635"], "gold_accepted_ids": []}
+{"query_id": "84766", "query": "Hiding symmetric key inside encrypted data", "gold_thread_ids": ["20294"], "gold_accepted_ids": ["20304"]}
+{"query_id": "225235", "query": "Where the certificate public and private keys take a place?", "gold_thread_ids": ["38589"], "gold_accepted_ids": []}
+{"query_id": "84013", "query": "1e100.net Remote Address downloading something to my system behind the scenes", "gold_thread_ids": ["63651"], "gold_accepted_ids": []}
+{"query_id": "157146", "query": "Which is better for storing private key in .NET - Windows application secure registry or encrypted configuration?", "gold_thread_ids": ["12332"], "gold_accepted_ids": ["12334"]}
+{"query_id": "258703", "query": "Store login credentials securely with JavaScript", "gold_thread_ids": ["44"], "gold_accepted_ids": ["64"]}
+{"query_id": "220200", "query": "I need to store the first 6 digits and last 4 digits of a credit card. (not derived from a PAN)", "gold_thread_ids": ["19860"], "gold_accepted_ids": []}
+{"query_id": "167531", "query": "Is there any tangible benefit of limiting a password to 12 characters?", "gold_thread_ids": ["17949"], "gold_accepted_ids": ["17953"]}
+{"query_id": "223071", "query": "Self-signed SSL certificates vs CA-signed certificates", "gold_thread_ids": ["102731", "15510", "56389", "59566", "82884"], "gold_accepted_ids": ["102732", "15515", "56393", "59596", "82909"]}
+{"query_id": "204571", "query": "How to prevent vulnerability scanning tools from scanning my VPS?", "gold_thread_ids": ["157541", "194006", "5301"], "gold_accepted_ids": ["157576", "194008", "5304"]}
+{"query_id": "235145", "query": "Securing against scans", "gold_thread_ids": ["194006"], "gold_accepted_ids": ["194008"]}
+{"query_id": "271498", "query": "How are these scammers operating from valid IPs?", "gold_thread_ids": ["240916"], "gold_accepted_ids": []}
+{"query_id": "240512", "query": "Is it reasonable to type a bank password in a phone call to the bank?", "gold_thread_ids": ["167106", "177654", "61430"], "gold_accepted_ids": ["167131", "177656"]}
+{"query_id": "190485", "query": "Phone company keeping password in clear text", "gold_thread_ids": ["7118"], "gold_accepted_ids": ["7122"]}
+{"query_id": "133625", "query": "What are the implications of Linux Mint still using OpenSSL 1.0.1f?", "gold_thread_ids": ["101404"], "gold_accepted_ids": []}
+{"query_id": "171793", "query": "How can HTTPS be secure when used over open/cracked WiFi?", "gold_thread_ids": ["6290"], "gold_accepted_ids": ["6296"]}
+{"query_id": "69177", "query": "Is TCP more secure than UDP?", "gold_thread_ids": ["165626"], "gold_accepted_ids": []}
+{"query_id": "173333", "query": "MD5 Bcrypt best practice", "gold_thread_ids": ["23006"], "gold_accepted_ids": ["23012"]}
+{"query_id": "66824", "query": "SSH web server good practises", "gold_thread_ids": ["39"], "gold_accepted_ids": []}
+{"query_id": "259012", "query": "Can a AES 256 key be recovered with the encrypted and decrypted message?", "gold_thread_ids": ["199879"], "gold_accepted_ids": []}
+{"query_id": "249025", "query": "What is an SLT1000 password encryption?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "154043", "query": "How to explain privacy to a family member", "gold_thread_ids": ["149680"], "gold_accepted_ids": []}
+{"query_id": "153167", "query": "Are min/max/normal groups only for the D-H parameters, with no relation to the RSA authentication/signing of the D-H parameters?", "gold_thread_ids": ["42558"], "gold_accepted_ids": []}
+{"query_id": "252726", "query": "Identify hash pattern inside a string", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "245779", "query": "How does the client get the certificate chain when verifying a TLS connection?", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "271355", "query": "Does VPN on app and router result in double encryption?", "gold_thread_ids": ["204354"], "gold_accepted_ids": []}
+{"query_id": "44291", "query": "Why is it not possible for an ISP to man-in-the-middle attack an SSL connection?", "gold_thread_ids": ["6290"], "gold_accepted_ids": ["6296"]}
+{"query_id": "7597", "query": "Google App Engine Security", "gold_thread_ids": ["7598"], "gold_accepted_ids": ["7599"]}
+{"query_id": "243426", "query": "Whats wrong with this XSS vector?", "gold_thread_ids": ["177962"], "gold_accepted_ids": ["177980"]}
+{"query_id": "260738", "query": "Is it possible that data is still encrypted even when you intercept TLS?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "81377", "query": "Is a VPN enough to hide my trafic from my schools IT department?", "gold_thread_ids": ["66380", "72679"], "gold_accepted_ids": ["66382", "72729"]}
+{"query_id": "218431", "query": "Is there a way to clone my student ID card with an Android phone? (MIFARE DESfire)", "gold_thread_ids": ["172922"], "gold_accepted_ids": []}
+{"query_id": "268375", "query": "Why encrypted internet connections can't be censored or blocked by a country willing to do it?", "gold_thread_ids": ["64568"], "gold_accepted_ids": ["64579"]}
+{"query_id": "165742", "query": "Is it possible to fake link description of browser tooltip in the foot of a page without using JavaScript?", "gold_thread_ids": ["126400"], "gold_accepted_ids": []}
+{"query_id": "258010", "query": "I'm receiving a DDOS attack. What to do?", "gold_thread_ids": ["114", "214933", "73369"], "gold_accepted_ids": ["120", "214935", "73371"]}
+{"query_id": "72257", "query": "OpenVPN detection", "gold_thread_ids": ["71774"], "gold_accepted_ids": []}
+{"query_id": "222221", "query": "Wordpress m4shell Hack", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "102748", "query": "How do chipped credit cards increase security?", "gold_thread_ids": ["49234"], "gold_accepted_ids": ["49236"]}
+{"query_id": "227611", "query": "Do I have to be careful about DNS I'm using?", "gold_thread_ids": ["23657"], "gold_accepted_ids": ["23658"]}
+{"query_id": "227027", "query": "Is my understanding how of a secure connection is made using PKI correct?", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "193728", "query": "My server is compromised through apache - help!", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "229483", "query": "My PC was infected by belombrea dot com. Kaspersky didn't detect it. Is a factory reset enough?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "62708", "query": "Why does printf() vulnerability require 4-bytes of junk data? - \"Hacking: The Art of Exploitation\"", "gold_thread_ids": ["62240"], "gold_accepted_ids": ["62438"]}
+{"query_id": "244574", "query": "If and how security-oriented CDNs protect from BFAs?", "gold_thread_ids": ["183209"], "gold_accepted_ids": ["183211"]}
+{"query_id": "61371", "query": "Active Directory - Denial-of-Service", "gold_thread_ids": ["61174"], "gold_accepted_ids": ["61179"]}
+{"query_id": "161992", "query": "Can anti virus kill or defeat a BSOD protected (critical process) malware in Windows", "gold_thread_ids": ["30985"], "gold_accepted_ids": ["31006"]}
+{"query_id": "240323", "query": "Why do we need a server random in TLS?", "gold_thread_ids": ["89383"], "gold_accepted_ids": ["89391"]}
+{"query_id": "203446", "query": "Does a small max password length indicate there might be a security issue?", "gold_thread_ids": ["33470"], "gold_accepted_ids": []}
+{"query_id": "257349", "query": "Using GlobalProtect VPN and remote desktop to a work computer from a personal one - am I vulnerable to spying?", "gold_thread_ids": ["31086"], "gold_accepted_ids": []}
+{"query_id": "248690", "query": "How do we protect digital data (whether in critical online/offline data centre or personal disk) from man-made EMPs?", "gold_thread_ids": ["11333"], "gold_accepted_ids": ["11431"]}
+{"query_id": "186572", "query": "Why are there password length limitations when the password is stored correctly?", "gold_thread_ids": ["33470"], "gold_accepted_ids": []}
+{"query_id": "244989", "query": "Why can't a TLS cert signature be stolen?", "gold_thread_ids": ["214689"], "gold_accepted_ids": ["214706"]}
+{"query_id": "106661", "query": "How to prevent future attacks from Trojan.Agent.Linux.A?", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "268879", "query": "Is it possible to detect from where data was copied to my USB?", "gold_thread_ids": ["58339"], "gold_accepted_ids": ["58344"]}
+{"query_id": "245759", "query": "SSO - SAMLResponse security via localhost reply", "gold_thread_ids": ["131637", "17685", "48892", "57230"], "gold_accepted_ids": ["131639", "17695", "57958"]}
+{"query_id": "195955", "query": "What are the dangers of \"style-src: 'unsafe-inline'\"?", "gold_thread_ids": ["110900"], "gold_accepted_ids": ["110953"]}
+{"query_id": "215188", "query": "Is it a good idea to store TOTP tokens in a (synchronised) password safe?", "gold_thread_ids": ["194142"], "gold_accepted_ids": ["194279"]}
+{"query_id": "223406", "query": "My Joomla WebSite Phished", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "233293", "query": "Format for data & key exchange/storage", "gold_thread_ids": ["233290"], "gold_accepted_ids": []}
+{"query_id": "245836", "query": "I received a phishing/spam email from Google Delivery Subsystem about an email I never sent. How?", "gold_thread_ids": ["211005"], "gold_accepted_ids": ["211077"]}
+{"query_id": "271624", "query": "Where would an HTTPS request fail if the domain erroneously resolves to the wrong IP address?", "gold_thread_ids": ["162191", "56389", "92838"], "gold_accepted_ids": ["162192", "56393"]}
+{"query_id": "224173", "query": "Can flattened pdf documents contain viruses?", "gold_thread_ids": ["64052"], "gold_accepted_ids": ["64081"]}
+{"query_id": "25479", "query": "Is it possible to attack system through torrent usage?", "gold_thread_ids": ["19018"], "gold_accepted_ids": ["19019"]}
+{"query_id": "5705", "query": "Best way to get \"into the security industry\"?", "gold_thread_ids": ["3772"], "gold_accepted_ids": ["231433"]}
+{"query_id": "270708", "query": "How secure is SMTP email today?", "gold_thread_ids": ["186070", "207876", "232573", "51552", "61824"], "gold_accepted_ids": ["51555", "61827"]}
+{"query_id": "213519", "query": "Is it safe to send an unencrypted password through https?", "gold_thread_ids": ["64631", "7057"], "gold_accepted_ids": ["64639", "7058"]}
+{"query_id": "276032", "query": "Can a computer peripheral (keyboard) be more sophisticated than meets the eye and steal data?", "gold_thread_ids": ["158805", "180723", "225637", "39437"], "gold_accepted_ids": ["158815", "225639", "39443"]}
+{"query_id": "104331", "query": "Is it a good idea to use password safes such as KeePass?", "gold_thread_ids": ["61734"], "gold_accepted_ids": []}
+{"query_id": "140452", "query": "CSR Generation for Root and Subdomain FQDNs", "gold_thread_ids": ["74345"], "gold_accepted_ids": ["183973"]}
+{"query_id": "242576", "query": "Is there a better method that this for storing a physical password?", "gold_thread_ids": ["108746", "158349", "189609"], "gold_accepted_ids": []}
+{"query_id": "265627", "query": "can host read inside the VM?", "gold_thread_ids": ["214426"], "gold_accepted_ids": ["214447"]}
+{"query_id": "179373", "query": "Could certificate authority be bypassed?", "gold_thread_ids": ["124633", "172192", "3857"], "gold_accepted_ids": ["124634", "3859"]}
+{"query_id": "251561", "query": "Why would I need a password manager when I use 2FA?", "gold_thread_ids": ["23874"], "gold_accepted_ids": ["23999"]}
+{"query_id": "266317", "query": "Are these cPanel processes malicious?", "gold_thread_ids": ["86094"], "gold_accepted_ids": ["86095"]}
+{"query_id": "220621", "query": "Capture Packets of other devices in network", "gold_thread_ids": ["126737"], "gold_accepted_ids": ["129777"]}
+{"query_id": "200847", "query": "Bug bounties - Reported a bug to a company nothing as been done", "gold_thread_ids": ["130961"], "gold_accepted_ids": []}
+{"query_id": "140020", "query": "If router is infected with malware, how can you safely \"clean\" it?", "gold_thread_ids": ["138418"], "gold_accepted_ids": ["138419"]}
+{"query_id": "158849", "query": "How is DH and RSA used together in HTTPS?", "gold_thread_ids": ["35471"], "gold_accepted_ids": ["35521"]}
+{"query_id": "119854", "query": "Is it a bad practice to not use a separate database server?", "gold_thread_ids": ["15446"], "gold_accepted_ids": ["15447"]}
+{"query_id": "231484", "query": "GET parameters over HTTPS", "gold_thread_ids": ["12531"], "gold_accepted_ids": ["12533"]}
+{"query_id": "254083", "query": "How to protect workload from host", "gold_thread_ids": ["214426"], "gold_accepted_ids": ["214447"]}
+{"query_id": "144657", "query": ".7z encrypted archive, how much is secure?", "gold_thread_ids": ["100650"], "gold_accepted_ids": ["100653"]}
+{"query_id": "236788", "query": "What's the purpose behind this phishing attempt?", "gold_thread_ids": ["235427"], "gold_accepted_ids": []}
+{"query_id": "14052", "query": "What are some real world examples of screened subnet firewall architecture?", "gold_thread_ids": ["13556"], "gold_accepted_ids": []}
+{"query_id": "118520", "query": "password aging, advantages and disadvantages", "gold_thread_ids": ["4704"], "gold_accepted_ids": ["4706"]}
+{"query_id": "261611", "query": "What are the underlying mechanics that make password salting an effective deterrent against Rainbow Tables?", "gold_thread_ids": ["233695", "35523"], "gold_accepted_ids": ["233697", "35530"]}
+{"query_id": "195311", "query": "Google search results hijacked locally / displaying moot in all browsers", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "246443", "query": "Is it possible to verify the source code of a web service?", "gold_thread_ids": ["26149"], "gold_accepted_ids": []}
+{"query_id": "37570", "query": "How does Perfect forward secrecy work in https?", "gold_thread_ids": ["7690"], "gold_accepted_ids": ["7701"]}
+{"query_id": "271206", "query": "Can people still find my wifi network even if I turn off SSID broadcasting?", "gold_thread_ids": ["1606"], "gold_accepted_ids": ["1608"]}
+{"query_id": "122393", "query": "How can I ensure that phone app traffic is using HTTPS?", "gold_thread_ids": ["117400"], "gold_accepted_ids": ["117411"]}
+{"query_id": "227877", "query": "John the Ripper doesn't crack passwords when I use wordlists", "gold_thread_ids": ["255125"], "gold_accepted_ids": ["255129"]}
+{"query_id": "219928", "query": "What's the point of this php shell?", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "248043", "query": "Is there a way to verify what code has been run? Maybe TEE?", "gold_thread_ids": ["72091"], "gold_accepted_ids": ["72093"]}
+{"query_id": "155935", "query": "Is there a way to get rid of supercookie?", "gold_thread_ids": ["122372"], "gold_accepted_ids": ["122382"]}
+{"query_id": "209297", "query": "if password hash algorithm is broken, is best practice to re-hash the hashes with a new hash?", "gold_thread_ids": ["127298"], "gold_accepted_ids": []}
+{"query_id": "46117", "query": "Does the ordering of encryption and hashing matter?", "gold_thread_ids": ["32546", "34305"], "gold_accepted_ids": ["32549", "34306"]}
+{"query_id": "270250", "query": "can australian schools track your personal home laptops and see your info?", "gold_thread_ids": ["215532"], "gold_accepted_ids": ["215558"]}
+{"query_id": "269858", "query": "Is it possible to have infected Computer A infect Computer B whilst being only connected by an Ethernet cable?", "gold_thread_ids": ["34343", "44881"], "gold_accepted_ids": ["34346", "44887"]}
+{"query_id": "133588", "query": "How to analyse a hacked server?", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "269998", "query": "Spoofing IP to get content from website?", "gold_thread_ids": ["124184"], "gold_accepted_ids": ["124186"]}
+{"query_id": "87219", "query": "Categories for Information Security Learning", "gold_thread_ids": ["6535"], "gold_accepted_ids": []}
+{"query_id": "61062", "query": "What are shodan's IP addresses?", "gold_thread_ids": ["34030"], "gold_accepted_ids": []}
+{"query_id": "159227", "query": "What happens if we block ICMP from accessing our internal network from the outside?", "gold_thread_ids": ["22711"], "gold_accepted_ids": ["22713"]}
+{"query_id": "218972", "query": "What information about me do online stores get via my credit card?", "gold_thread_ids": ["207241"], "gold_accepted_ids": []}
+{"query_id": "224382", "query": "Newly bought HP Pavilion laptop - bloatware - security risks", "gold_thread_ids": ["194219"], "gold_accepted_ids": []}
+{"query_id": "55469", "query": "Should I cancel my current credit card because of heartbleed vulnerability?", "gold_thread_ids": ["55083"], "gold_accepted_ids": []}
+{"query_id": "72372", "query": "Navigating SQL Injection Safeguards", "gold_thread_ids": ["43294"], "gold_accepted_ids": ["43308"]}
+{"query_id": "243661", "query": "How easy to crack simple, custom algorithm?", "gold_thread_ids": ["155171"], "gold_accepted_ids": ["155173"]}
+{"query_id": "264909", "query": "How easy is it to target a subnet behind a router?", "gold_thread_ids": ["99701"], "gold_accepted_ids": ["99708"]}
+{"query_id": "70729", "query": "What's the impact of POODLE to the Internet?", "gold_thread_ids": ["70719"], "gold_accepted_ids": ["70724"]}
+{"query_id": "257770", "query": "Publish public GPG key on GitHub", "gold_thread_ids": ["406"], "gold_accepted_ids": ["412"]}
+{"query_id": "124019", "query": "How do I securely encrypt and store database encryption keys?", "gold_thread_ids": ["12332"], "gold_accepted_ids": ["12334"]}
+{"query_id": "263037", "query": "Are fingerprints stored in biometric checks?", "gold_thread_ids": ["242973"], "gold_accepted_ids": []}
+{"query_id": "213800", "query": "How can I authenticate websocket over HTTP connection?", "gold_thread_ids": ["73076"], "gold_accepted_ids": ["73078"]}
+{"query_id": "220647", "query": "Can DNS-over-HTTPS be broken by reverse DNS lookups?", "gold_thread_ids": ["200897", "218909"], "gold_accepted_ids": ["200909"]}
+{"query_id": "153909", "query": "Site has broken HTTPS, how can I safely visualize hosted office documents?", "gold_thread_ids": ["66355"], "gold_accepted_ids": ["66357"]}
+{"query_id": "217962", "query": "Unknown WiFi network showing up on my phone", "gold_thread_ids": ["10783"], "gold_accepted_ids": ["18808"]}
+{"query_id": "243369", "query": "Odd storage.googleapis.com link in spam email", "gold_thread_ids": ["128175"], "gold_accepted_ids": ["128178"]}
+{"query_id": "261517", "query": "Using someone else's SSL certificate", "gold_thread_ids": ["8145"], "gold_accepted_ids": ["8309"]}
+{"query_id": "218546", "query": "After being AFK for a few hours, I found PowerShell commands in the currently opened LibreOffice document", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "259768", "query": "Wordpress: Login requests to backend from localhost", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "218068", "query": "Block access from an IP that tries too many requests to Apache server XAMPP / Windows", "gold_thread_ids": ["35773"], "gold_accepted_ids": ["35774"]}
+{"query_id": "270345", "query": "Should I back up my Google Authenticator codes to my Google Account?", "gold_thread_ids": ["150448"], "gold_accepted_ids": []}
+{"query_id": "51891", "query": "How can it be possible to have encrypted communication between a server and a client if the server has only a public key", "gold_thread_ids": ["6290"], "gold_accepted_ids": ["6296"]}
+{"query_id": "63252", "query": "How to identify an encryption algorithm", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "168616", "query": "How insecure is a hidden admin url without authentication?", "gold_thread_ids": ["144586"], "gold_accepted_ids": ["144587"]}
+{"query_id": "72850", "query": "Why do some unrelated websites (appear to) share certificates?", "gold_thread_ids": ["23042"], "gold_accepted_ids": []}
+{"query_id": "213465", "query": "How to make 7-zip files more secure?", "gold_thread_ids": ["202185", "210069"], "gold_accepted_ids": ["202190", "210089"]}
+{"query_id": "242788", "query": "JavaScript injection minimal example using node/express not working: <script> not executed", "gold_thread_ids": ["60861"], "gold_accepted_ids": []}
+{"query_id": "226990", "query": "How to remove the malware which hijacks the homepage of various browsers by hao.360.cn", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "202227", "query": "IBM warns to move data out of insecure encryption schemes, but where to?", "gold_thread_ids": ["48022"], "gold_accepted_ids": ["48027"]}
+{"query_id": "137819", "query": "What's the point of these weird spam emails", "gold_thread_ids": ["95820"], "gold_accepted_ids": ["95823"]}
+{"query_id": "233362", "query": "Is there any reason not to enable DNSSEC?", "gold_thread_ids": ["11566"], "gold_accepted_ids": ["11571"]}
+{"query_id": "231653", "query": "Architecture of smartphone security: why FBI needed apple's help?", "gold_thread_ids": ["114897", "114960", "115044", "116314", "118399"], "gold_accepted_ids": ["114899", "114965", "118401"]}
+{"query_id": "37473", "query": "How can I recover the password of a TrueCrypt vlume?", "gold_thread_ids": ["30605"], "gold_accepted_ids": []}
+{"query_id": "170780", "query": "How difficult are SS7 hacks?", "gold_thread_ids": ["127284"], "gold_accepted_ids": ["127321"]}
+{"query_id": "251444", "query": "What will happen if https traffic goes through the WAF?", "gold_thread_ids": ["224503", "30513", "44563"], "gold_accepted_ids": ["44566"]}
+{"query_id": "203624", "query": "There are cached icons and screenshots from another person, am I hacked?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "271484", "query": "i found an inserted script in all my pages and posts", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "259041", "query": "Cookie hijacking query", "gold_thread_ids": ["178663"], "gold_accepted_ids": []}
+{"query_id": "161191", "query": "Password generation scheme using master password, site-name, and username", "gold_thread_ids": ["104093"], "gold_accepted_ids": ["104096"]}
+{"query_id": "178317", "query": "Securing data tokens", "gold_thread_ids": ["12332", "20294"], "gold_accepted_ids": ["12334", "20304"]}
+{"query_id": "252048", "query": "Could I have prevented my Facebook password from being stolen by these trojan apps?", "gold_thread_ids": ["111543"], "gold_accepted_ids": ["111560"]}
+{"query_id": "159233", "query": "Magento site hacked by unknown vulnerability", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "82425", "query": "What can Android Antivirus apps really do?", "gold_thread_ids": ["32285"], "gold_accepted_ids": ["32286"]}
+{"query_id": "168599", "query": "Ways to secure my own site for personal use?", "gold_thread_ids": ["41845", "73917"], "gold_accepted_ids": ["201021", "73924"]}
+{"query_id": "147743", "query": "Practical usage of One Time Pad?", "gold_thread_ids": ["108682"], "gold_accepted_ids": []}
+{"query_id": "269549", "query": "A Potential threat in HTTPS", "gold_thread_ids": ["130551"], "gold_accepted_ids": ["130554"]}
+{"query_id": "72707", "query": "Cracking MD5($p.$s)", "gold_thread_ids": ["42720"], "gold_accepted_ids": ["42726"]}
+{"query_id": "32827", "query": "CRIME attack clarrification", "gold_thread_ids": ["19911"], "gold_accepted_ids": ["19914"]}
+{"query_id": "221397", "query": "Keeping passwords in plain text in \"value\" attribute. Addons can use this for password leaking", "gold_thread_ids": ["193534"], "gold_accepted_ids": []}
+{"query_id": "227053", "query": "How is it possible for people to reverse a GoToAssist session?", "gold_thread_ids": ["191253"], "gold_accepted_ids": ["209257"]}
+{"query_id": "263638", "query": "Which Keys TLS uses?", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "271905", "query": "Retrieve TOTP seed from tokens and timestamps", "gold_thread_ids": ["162348"], "gold_accepted_ids": ["162367"]}
+{"query_id": "91788", "query": "How does a SQL injection working how to stop it", "gold_thread_ids": ["10974"], "gold_accepted_ids": ["10977"]}
+{"query_id": "91098", "query": "Security implications of static IP?", "gold_thread_ids": ["19018"], "gold_accepted_ids": ["19019"]}
+{"query_id": "273548", "query": "Sometimes a weird suspicious notification sound is played on my PC", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "268138", "query": "Is it possible for media files (mp3,mp4) contain malware", "gold_thread_ids": ["18086"], "gold_accepted_ids": ["18088"]}
+{"query_id": "270634", "query": "Server-side solution to protect from bots?", "gold_thread_ids": ["184619"], "gold_accepted_ids": []}
+{"query_id": "240086", "query": "Why not just make the Forgot Username/Password the standard login procedure?", "gold_thread_ids": ["12828"], "gold_accepted_ids": ["12831"]}
+{"query_id": "197341", "query": "SOP for an API specifically serving a single SPA", "gold_thread_ids": ["158045"], "gold_accepted_ids": ["197269"]}
+{"query_id": "242393", "query": "Metasploit payload not working on Android 10", "gold_thread_ids": ["104303"], "gold_accepted_ids": ["104355"]}
+{"query_id": "136637", "query": "What are the security risks of making an app closed-source?", "gold_thread_ids": ["4441"], "gold_accepted_ids": ["4450"]}
+{"query_id": "237043", "query": "How does Instagram know my location even if I use VPN and have no sim card?", "gold_thread_ids": ["129524"], "gold_accepted_ids": []}
+{"query_id": "239207", "query": "Is it possible to use new and old SSL at the same?", "gold_thread_ids": ["102926", "223015"], "gold_accepted_ids": []}
+{"query_id": "109040", "query": "How to prevent arp spoofing?", "gold_thread_ids": ["20147"], "gold_accepted_ids": ["20244"]}
+{"query_id": "155658", "query": "intermediate cert - to be install on webserver (why)?", "gold_thread_ids": ["81945"], "gold_accepted_ids": ["81950"]}
+{"query_id": "179462", "query": "Is HTTPS necessary for simple websites with static content?", "gold_thread_ids": ["52856"], "gold_accepted_ids": []}
+{"query_id": "106813", "query": "iOS Real Money Game Security", "gold_thread_ids": ["72091"], "gold_accepted_ids": ["72093"]}
+{"query_id": "172031", "query": "What would be the responsible way of disclosing this \u201cexploit\u201d?", "gold_thread_ids": ["100097"], "gold_accepted_ids": []}
+{"query_id": "230866", "query": "Search for Passive DNS Replication database", "gold_thread_ids": ["209095"], "gold_accepted_ids": []}
+{"query_id": "222539", "query": "How to approach a site that doesn't manage passwords correctly?", "gold_thread_ids": ["7118"], "gold_accepted_ids": ["7122"]}
+{"query_id": "244540", "query": "Surfed Darkweb carelessly", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "182897", "query": "Why does TLS needs to have a separate key for client and server", "gold_thread_ids": ["99537"], "gold_accepted_ids": ["99573"]}
+{"query_id": "246641", "query": "sending an email without being traced (IP, identity)", "gold_thread_ids": ["24570"], "gold_accepted_ids": ["24634"]}
+{"query_id": "263827", "query": "How to encrypt an e-mail to many recipients in an effective way?", "gold_thread_ids": ["252745"], "gold_accepted_ids": ["252746"]}
+{"query_id": "265347", "query": "How I do read what john already did / how far he progressed?", "gold_thread_ids": ["251117"], "gold_accepted_ids": []}
+{"query_id": "155008", "query": "Why Signature Hash Algo SHA-1 still uses for X509 by GeoTrust", "gold_thread_ids": ["91913"], "gold_accepted_ids": ["91918"]}
+{"query_id": "50978", "query": "Protecting client's data over the wire", "gold_thread_ids": ["50971"], "gold_accepted_ids": []}
+{"query_id": "168579", "query": "what are the advantages and disadvantages of assigned password?", "gold_thread_ids": ["25974"], "gold_accepted_ids": ["26067"]}
+{"query_id": "699", "query": "Best website to learn computer security basics?", "gold_thread_ids": ["266"], "gold_accepted_ids": []}
+{"query_id": "219565", "query": "What is the rationale behind two staged credential input these days?", "gold_thread_ids": ["160692", "85160"], "gold_accepted_ids": ["160700", "85180"]}
+{"query_id": "262184", "query": "I clicked on a suspicious link with cross site scripting vulnerability", "gold_thread_ids": ["3674"], "gold_accepted_ids": ["3675"]}
+{"query_id": "530", "query": "Hints for safe passwords that are easy to remember", "gold_thread_ids": ["662"], "gold_accepted_ids": []}
+{"query_id": "165141", "query": "Is there a good way to use to find out how this was encrypted", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "274129", "query": "Where to store user private keys in a webapp?", "gold_thread_ids": ["231818", "238359", "247918", "257828"], "gold_accepted_ids": ["244920", "238371"]}
+{"query_id": "264826", "query": "Why does the majority of email spam even exist?", "gold_thread_ids": ["12589", "202910", "261295", "73181"], "gold_accepted_ids": ["12592", "261298", "73183"]}
+{"query_id": "259207", "query": "supply chain security - ways of detecting and deterring compromise at a lower level i.e., hardware class of vulnerabilities", "gold_thread_ids": ["69398"], "gold_accepted_ids": []}
+{"query_id": "249243", "query": "Why would a random domain point to my IP address?", "gold_thread_ids": ["184720"], "gold_accepted_ids": []}
+{"query_id": "260435", "query": "Is it safe to send my id photo for verification", "gold_thread_ids": ["147243"], "gold_accepted_ids": []}
+{"query_id": "169993", "query": "Is it safe to login to my bank account from work?", "gold_thread_ids": ["142803"], "gold_accepted_ids": ["142805"]}
+{"query_id": "266346", "query": "Spam mail from own mailserver, but there is no outgoing mail in postfix log?", "gold_thread_ids": ["66939"], "gold_accepted_ids": ["66945"]}
+{"query_id": "240767", "query": "ransomware threat, what to do now?", "gold_thread_ids": ["138606", "225873"], "gold_accepted_ids": ["138617", "225874"]}
+{"query_id": "68356", "query": "Authentication for Restful web services", "gold_thread_ids": ["43696"], "gold_accepted_ids": []}
+{"query_id": "258314", "query": "Should user session be restricted to a given IP?", "gold_thread_ids": ["220364"], "gold_accepted_ids": ["220373"]}
+{"query_id": "96531", "query": "Relationship between the validity of license of an accredited CA (certificate authority and the validity of it's certificate?", "gold_thread_ids": ["58025"], "gold_accepted_ids": ["58049"]}
+{"query_id": "202771", "query": "server logs invalid HTTP_HOST header, Bad request, 400", "gold_thread_ids": ["51904"], "gold_accepted_ids": ["51905"]}
+{"query_id": "180000", "query": "Can you get a virus / malware just by plugging in a USB device?", "gold_thread_ids": ["106072"], "gold_accepted_ids": ["106077"]}
+{"query_id": "224016", "query": "Determine the type of encryption used", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "238789", "query": "Is password less login secure?", "gold_thread_ids": ["7705"], "gold_accepted_ids": ["7706"]}
+{"query_id": "192466", "query": "What is the value of multi-page login forms?", "gold_thread_ids": ["53096"], "gold_accepted_ids": ["53097"]}
+{"query_id": "264577", "query": "Proxy charge through powerbank at charging stations to avoid malware?", "gold_thread_ids": ["124131"], "gold_accepted_ids": ["124134"]}
+{"query_id": "176316", "query": "How do I prevent the URL open redirect vulnerability?", "gold_thread_ids": ["84779"], "gold_accepted_ids": ["84782"]}
+{"query_id": "273608", "query": "Best practices for access and refresh tokens timeout lengths", "gold_thread_ids": ["106786", "163059", "243645", "56467"], "gold_accepted_ids": ["106789", "163101"]}
+{"query_id": "270262", "query": "How do hackers find the ip address of router or networks they want to hack?", "gold_thread_ids": ["127319"], "gold_accepted_ids": []}
+{"query_id": "198105", "query": "Why does my bank show me a picture whenever I try to login?", "gold_thread_ids": ["26332"], "gold_accepted_ids": ["26344"]}
+{"query_id": "143690", "query": "Wordpress site hacked", "gold_thread_ids": ["39231", "54917"], "gold_accepted_ids": ["39232", "54924"]}
+{"query_id": "245493", "query": "How do malware analysts know when malware is state-sponsored?", "gold_thread_ids": ["81215"], "gold_accepted_ids": []}
+{"query_id": "265118", "query": "Is it safe to download and test EICAR test file", "gold_thread_ids": ["64644", "8695"], "gold_accepted_ids": ["64702", "8698"]}
+{"query_id": "173783", "query": "What can be done to decode/recover encoded PHP files?", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "104025", "query": "Security implications of an \"obsolete\" cipher as indicated by Chrome", "gold_thread_ids": ["83831"], "gold_accepted_ids": ["83891"]}
+{"query_id": "196920", "query": "Why Diffie-Hellman instead of just share the secret", "gold_thread_ids": ["35471"], "gold_accepted_ids": ["35521"]}
+{"query_id": "152260", "query": "How to confirm that a \u2018Google Play Services\u2019 app isn\u2019t a phishing attempt?", "gold_thread_ids": ["152252"], "gold_accepted_ids": ["152254"]}
+{"query_id": "221085", "query": "Private encryption and public decryption key pair", "gold_thread_ids": ["81760"], "gold_accepted_ids": []}
+{"query_id": "39050", "query": "How would you find a complete list of a software's vulnerabilities?", "gold_thread_ids": ["25557"], "gold_accepted_ids": ["25571"]}
+{"query_id": "225201", "query": "Why have a password at all?", "gold_thread_ids": ["12828"], "gold_accepted_ids": ["12831"]}
+{"query_id": "268928", "query": "Client certificate validation", "gold_thread_ids": ["48802", "89719"], "gold_accepted_ids": ["48845"]}
+{"query_id": "41904", "query": "SSL is cracked. What is the alternative?", "gold_thread_ids": ["41872"], "gold_accepted_ids": ["41873"]}
+{"query_id": "233614", "query": "Can a headphone or earbud (bluetooth or wired) transmit malware between computers?", "gold_thread_ids": ["127111"], "gold_accepted_ids": ["127115"]}
+{"query_id": "273150", "query": "certificate relies on legacy Common Name field, use SANs instead", "gold_thread_ids": ["190905"], "gold_accepted_ids": ["190906"]}
+{"query_id": "176943", "query": "Is my website being checked for vulnerabilities or being attacked?", "gold_thread_ids": ["82596"], "gold_accepted_ids": ["82600"]}
+{"query_id": "209406", "query": "I think I might be infected with some sort of remote access malware/keylogger and victim to hacker attack", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "211195", "query": "Veracrypt Windows Script", "gold_thread_ids": ["202946"], "gold_accepted_ids": []}
+{"query_id": "202582", "query": "Can man in the middle on spoofed wifi decrypt ssl data?", "gold_thread_ids": ["41988"], "gold_accepted_ids": ["41991"]}
+{"query_id": "211679", "query": "How rootkits hide a specified process?", "gold_thread_ids": ["109050"], "gold_accepted_ids": ["109067"]}
+{"query_id": "173405", "query": "Is there any 100% safe way to download an iso of Windows?", "gold_thread_ids": ["172889"], "gold_accepted_ids": ["172890"]}
+{"query_id": "211493", "query": "Report security vulnerability", "gold_thread_ids": ["185977"], "gold_accepted_ids": ["185982"]}
+{"query_id": "265496", "query": "How to tell if an image has a virus?", "gold_thread_ids": ["106737", "55061"], "gold_accepted_ids": ["106740", "55073"]}
+{"query_id": "272775", "query": "Old work laptop, how to remove Computrace / LoJack", "gold_thread_ids": ["53698"], "gold_accepted_ids": []}
+{"query_id": "231467", "query": "Can using \"Save Image As\" on Google Images be dangerous?", "gold_thread_ids": ["144058", "195419", "55061"], "gold_accepted_ids": ["55073"]}
+{"query_id": "174470", "query": "Is there a technical reason for a maximum password length rule (15 to 100 characters)?", "gold_thread_ids": ["33470"], "gold_accepted_ids": []}
+{"query_id": "205645", "query": "Is password + laptop a multiple factor authentication?", "gold_thread_ids": ["193584"], "gold_accepted_ids": ["193587"]}
+{"query_id": "158237", "query": "Usage of Diffie Hellman key exchange in TLS", "gold_thread_ids": ["20803", "41205"], "gold_accepted_ids": ["20833", "41226"]}
+{"query_id": "168559", "query": "Does revealing password rules significantly impact security?", "gold_thread_ids": ["10748"], "gold_accepted_ids": ["10749"]}
+{"query_id": "162396", "query": "Can Software keyloggers be able to track virtual keyboard entries", "gold_thread_ids": ["29742"], "gold_accepted_ids": ["29744"]}
+{"query_id": "217982", "query": "How can I download and read a file that might be spear fishing?", "gold_thread_ids": ["18878"], "gold_accepted_ids": ["18879"]}
+{"query_id": "259725", "query": "Strange Chinese Characters in Registry", "gold_thread_ids": ["31750", "37437"], "gold_accepted_ids": ["31752", "37442"]}
+{"query_id": "182954", "query": "Malicious code found in Wordpress theme", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "240896", "query": "How secure is email now?", "gold_thread_ids": ["51552"], "gold_accepted_ids": ["51555"]}
+{"query_id": "225450", "query": "How to restrict software distribution or make sure it should not be copied", "gold_thread_ids": ["150974", "4637"], "gold_accepted_ids": ["150994", "4639"]}
+{"query_id": "155589", "query": "Webcam on MacBook Pro turned on randomly, and wouldn't turn off. What spyware/malware to look for?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "256402", "query": "How client and server exchanges keys over Tor network using HTTPS?", "gold_thread_ids": ["6290"], "gold_accepted_ids": ["6296"]}
+{"query_id": "51230", "query": "How do I determine whether a Linux-based router still has the default password?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "17201", "query": "How secure is HTTP basic authentication over SSL?", "gold_thread_ids": ["988"], "gold_accepted_ids": ["990"]}
+{"query_id": "260355", "query": "Can I import this exploit on metasploit or is better to use it in python?", "gold_thread_ids": ["196730"], "gold_accepted_ids": ["196737"]}
+{"query_id": "225951", "query": "In which sense is Perfect Forward Secrecy perfect?", "gold_thread_ids": ["45963", "67953"], "gold_accepted_ids": ["45971"]}
+{"query_id": "246054", "query": "How to ensure that information deleted from external hard drive cannot be recovered after being sold?", "gold_thread_ids": ["147782", "5749"], "gold_accepted_ids": []}
+{"query_id": "243764", "query": "Practical ways to tell if a Chrome extension is safe?", "gold_thread_ids": ["82239"], "gold_accepted_ids": ["82302"]}
+{"query_id": "262393", "query": "Do comparable standards like FIPS exist for Germany or the European Union?", "gold_thread_ids": ["2276"], "gold_accepted_ids": ["2278"]}
+{"query_id": "104546", "query": "LZO compression of OpenVPN insecure?", "gold_thread_ids": ["51017"], "gold_accepted_ids": ["51019"]}
+{"query_id": "198194", "query": "If you buy a used hard drive or CPU, how to guarantee it doesn't have anything installed or running on it", "gold_thread_ids": ["121100"], "gold_accepted_ids": ["121107"]}
+{"query_id": "36537", "query": "How can I determine the encryption used by knowing input and result?", "gold_thread_ids": ["23450"], "gold_accepted_ids": ["23451"]}
+{"query_id": "72933", "query": "PHP - Need help to understand injected code", "gold_thread_ids": ["86094"], "gold_accepted_ids": ["86095"]}
+{"query_id": "204543", "query": "Whether cipher suites is related to public key certificate?", "gold_thread_ids": ["90422"], "gold_accepted_ids": []}
+{"query_id": "204712", "query": "Is Linux dangerous for secure environments because it's open source?", "gold_thread_ids": ["4441"], "gold_accepted_ids": ["4450"]}
+{"query_id": "203530", "query": "What is the difference between SGX and TPM?", "gold_thread_ids": ["175749"], "gold_accepted_ids": ["175751"]}
+{"query_id": "82889", "query": "KeePassX and Dropbox", "gold_thread_ids": ["45272"], "gold_accepted_ids": ["45276"]}
+{"query_id": "225714", "query": "Do we need SPF when we have DKIM?", "gold_thread_ids": ["171034"], "gold_accepted_ids": ["171046"]}
+{"query_id": "270391", "query": "Is it possible to see someone using vpn who is connected to my AP and turned on hotspot for his mobile in which he uses vpn", "gold_thread_ids": ["187649"], "gold_accepted_ids": ["187652"]}
+{"query_id": "218575", "query": "Test antivirus with virus/malware (No EICAR)", "gold_thread_ids": ["277", "56978"], "gold_accepted_ids": ["302"]}
+{"query_id": "256972", "query": "How Firefox and Google password managers protect your password", "gold_thread_ids": ["170481"], "gold_accepted_ids": ["170482"]}
+{"query_id": "147108", "query": "How does 'Enter characters 1, 3, and 4' from your password work?", "gold_thread_ids": ["4830"], "gold_accepted_ids": ["4835"]}
+{"query_id": "276256", "query": "Relation between plain text and encrypted in URL", "gold_thread_ids": ["199494"], "gold_accepted_ids": []}
+{"query_id": "236614", "query": "Self signed SSL certificate usage for private site", "gold_thread_ids": ["34020"], "gold_accepted_ids": ["34025"]}
+{"query_id": "216657", "query": "How to protect API that should be accessible to everyone?", "gold_thread_ids": ["16126"], "gold_accepted_ids": []}
+{"query_id": "270036", "query": "How to \"clean\" PDF to remove non-text and non-images in Product User Manual?", "gold_thread_ids": ["103323"], "gold_accepted_ids": ["103325"]}
+{"query_id": "196514", "query": "Root CA and Intermediate CA security", "gold_thread_ids": ["128779"], "gold_accepted_ids": ["128800"]}
+{"query_id": "265170", "query": "Can someone find out my other websites based on the IP address of one of my websites?", "gold_thread_ids": ["22949"], "gold_accepted_ids": ["22958"]}
+{"query_id": "199737", "query": "How do I combine a salt and hash for John The Ripper?", "gold_thread_ids": ["92614"], "gold_accepted_ids": ["92659"]}
+{"query_id": "32670", "query": "Secure delete with urandom?", "gold_thread_ids": ["8965"], "gold_accepted_ids": ["8968"]}
+{"query_id": "269624", "query": "Hydra returning random and wrong password", "gold_thread_ids": ["195219"], "gold_accepted_ids": []}
+{"query_id": "144758", "query": "Reason for 'Your connection is not private' on Chromium but not Chrome?", "gold_thread_ids": ["142536"], "gold_accepted_ids": ["142538"]}
+{"query_id": "201532", "query": "Unkown encryption type?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "257450", "query": "About password ciphertext", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "235323", "query": "Is it a security risk for a signature to be publicly available?", "gold_thread_ids": ["207640"], "gold_accepted_ids": []}
+{"query_id": "194888", "query": "How dangerous is it to verify my account with a photo of my visa, passport, or ID card?", "gold_thread_ids": ["147243", "149086"], "gold_accepted_ids": ["149123"]}
+{"query_id": "97353", "query": "'google.com' DNS resolved to addresses of ISP", "gold_thread_ids": ["121415"], "gold_accepted_ids": ["121421"]}
+{"query_id": "13881", "query": "The Dangers of Open Wi-Fi", "gold_thread_ids": ["17339"], "gold_accepted_ids": ["17341"]}
+{"query_id": "47423", "query": "How is password character validation in 3D secure is implemented?", "gold_thread_ids": ["10938"], "gold_accepted_ids": ["10940"]}
+{"query_id": "162797", "query": "Exploiting PUT method in a server to upload a backdoor", "gold_thread_ids": ["38635"], "gold_accepted_ids": ["38639"]}
+{"query_id": "184045", "query": "\"Reply T to unsubscribe\" in SMS spam messages, ignore or reply \"T\"?", "gold_thread_ids": ["152854"], "gold_accepted_ids": []}
+{"query_id": "148631", "query": "Google Chrome wants connect at unknown IP", "gold_thread_ids": ["119337"], "gold_accepted_ids": ["119341"]}
+{"query_id": "54167", "query": "Can HTTPS or VPN connection be sniffed through UTM device?", "gold_thread_ids": ["8145"], "gold_accepted_ids": ["8309"]}
+{"query_id": "237888", "query": "My friend has stolen my IMEi number. Through this can he get my any data like whats app message, old history of Facebook login details?", "gold_thread_ids": ["91751"], "gold_accepted_ids": []}
+{"query_id": "19142", "query": "How strong are google's Application-specific passwords?", "gold_thread_ids": ["18552"], "gold_accepted_ids": ["18579"]}
+{"query_id": "255363", "query": "TLS session Identifiter", "gold_thread_ids": ["188495"], "gold_accepted_ids": ["190497"]}
+{"query_id": "241509", "query": "how to check if an app is safe", "gold_thread_ids": ["213225"], "gold_accepted_ids": ["213228"]}
+{"query_id": "195870", "query": "Random PayPal 2FA Codes", "gold_thread_ids": ["169234"], "gold_accepted_ids": ["169246"]}
+{"query_id": "225130", "query": "Which is better practice: digital password manager or a physical book of passwords?", "gold_thread_ids": ["175075"], "gold_accepted_ids": []}
+{"query_id": "207709", "query": "How secure is this combined sha1/md5 hash", "gold_thread_ids": ["211"], "gold_accepted_ids": ["31846"]}
+{"query_id": "23181", "query": "Why not buy cheap SSL certificates?", "gold_thread_ids": ["18666"], "gold_accepted_ids": ["18670"]}
+{"query_id": "246504", "query": "School wants me to install a root certificate to connect to their network on my personal laptop", "gold_thread_ids": ["201106"], "gold_accepted_ids": []}
+{"query_id": "221171", "query": "Safe way to open potentially compromised attachments", "gold_thread_ids": ["32928"], "gold_accepted_ids": ["32931"]}
+{"query_id": "82946", "query": "List of cookie parameter names to identify load balancing mechanism", "gold_thread_ids": ["30660"], "gold_accepted_ids": ["30664"]}
+{"query_id": "231851", "query": "Zyxel router custom hash algorithm", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "268376", "query": "IP address from headers (Gmail/outlook mobile app)", "gold_thread_ids": ["237525"], "gold_accepted_ids": []}
+{"query_id": "117851", "query": "About DROWN SSL attack", "gold_thread_ids": ["116139"], "gold_accepted_ids": ["116140"]}
+{"query_id": "271138", "query": "How to scan private IPs from the Internet", "gold_thread_ids": ["118792", "16850"], "gold_accepted_ids": ["118803", "16866"]}
+{"query_id": "221566", "query": "How to tell if FTP connection is secured with TLS1.2", "gold_thread_ids": ["100029", "142939", "52150"], "gold_accepted_ids": ["100032", "143404", "52157"]}
+{"query_id": "259800", "query": "What are some safe ways to play a video file that was downloaded from the internet?", "gold_thread_ids": ["110644"], "gold_accepted_ids": ["124988"]}
+{"query_id": "274556", "query": "How to brute-force password of a GUI application?", "gold_thread_ids": ["182376", "187711", "274245", "30896"], "gold_accepted_ids": ["274246"]}
+{"query_id": "157413", "query": "Getting the following error: default-src 'none'", "gold_thread_ids": ["38001"], "gold_accepted_ids": ["38028"]}
+{"query_id": "82348", "query": "How can I restore my Windows certificate cache so I only have those from trusted CAs?", "gold_thread_ids": ["71313"], "gold_accepted_ids": ["215775"]}
+{"query_id": "211639", "query": "How safe is it to enable unprivileged user namespace: unprivileged_userns_clone", "gold_thread_ids": ["209529"], "gold_accepted_ids": ["209533"]}
+{"query_id": "273156", "query": "How to Safely Research a Suspected Malicious Website by Using A VM", "gold_thread_ids": ["147978", "173846", "216838", "23452"], "gold_accepted_ids": ["23503"]}
+{"query_id": "273079", "query": "TLS: how do we distribute root CA to clients?", "gold_thread_ids": ["144146"], "gold_accepted_ids": ["144147"]}
+{"query_id": "77456", "query": "Difference between SSL versions and TLS versions?", "gold_thread_ids": ["705"], "gold_accepted_ids": ["712"]}
+{"query_id": "25614", "query": "Steganalysis of outgoing traffic", "gold_thread_ids": ["2144"], "gold_accepted_ids": ["2145"]}
+{"query_id": "276073", "query": "Router getting several port scans and DOS a minute from foreign IPs. Should I be worried?", "gold_thread_ids": ["113172"], "gold_accepted_ids": []}
+{"query_id": "153417", "query": "SHA 1 Interemediate Signer for a SHA2 Personal Certificate", "gold_thread_ids": ["67542"], "gold_accepted_ids": ["67544"]}
+{"query_id": "248350", "query": "How is SSL certificated checked?", "gold_thread_ids": ["56389"], "gold_accepted_ids": ["56393"]}
+{"query_id": "180576", "query": "Best way to store Apple app-specific password", "gold_thread_ids": ["111346"], "gold_accepted_ids": ["111443"]}
+{"query_id": "214559", "query": "How does an open network without a password expose other connections?", "gold_thread_ids": ["97480"], "gold_accepted_ids": ["97517"]}
+{"query_id": "216723", "query": "Full Picture of Cracking Coffee Traffic", "gold_thread_ids": ["8591"], "gold_accepted_ids": []}
+{"query_id": "237092", "query": "Chrome Vulnerabilities are detected in vulnerability scan even after upgraded with latest versions", "gold_thread_ids": ["168402", "172056"], "gold_accepted_ids": ["178905"]}
+{"query_id": "240650", "query": "Does Google Chrome send INCOGNITO search history data to Google?", "gold_thread_ids": ["240570"], "gold_accepted_ids": ["240572"]}
+{"query_id": "252223", "query": "Is there hardware (like u2f-keys) for passwordless client-side encryption & decryption", "gold_thread_ids": ["168874"], "gold_accepted_ids": ["168962"]}
+{"query_id": "243710", "query": "A potentially simpler same origin policy?", "gold_thread_ids": ["226007"], "gold_accepted_ids": ["226009"]}
+{"query_id": "163046", "query": "Does producing TOTP tokens weaken the stored secret? How much?", "gold_thread_ids": ["42671"], "gold_accepted_ids": ["42677"]}
+{"query_id": "19875", "query": "Recomended hash algorithm", "gold_thread_ids": ["211", "4781"], "gold_accepted_ids": ["31846", "6415"]}
+{"query_id": "223919", "query": "Name of security measure that shows user a personal word / phrase / drawing", "gold_thread_ids": ["26332"], "gold_accepted_ids": ["26344"]}
+{"query_id": "223856", "query": "Possible reasons for an incorrect VPN geolocalization", "gold_thread_ids": ["16253", "29450", "91049"], "gold_accepted_ids": ["16310", "29464", "91053"]}
+{"query_id": "212644", "query": "Can my company see my network traffic if their certificate doesn't appear in the web browser?", "gold_thread_ids": ["142803"], "gold_accepted_ids": ["142805"]}
+{"query_id": "259233", "query": "Which password is more secure?", "gold_thread_ids": ["127434", "21050", "21143"], "gold_accepted_ids": ["127482", "21051", "21147"]}
+{"query_id": "222445", "query": "Are there any risks selling subdomains?", "gold_thread_ids": ["91427"], "gold_accepted_ids": []}
+{"query_id": "85674", "query": "Why windows do not alarm when an application hook keyboard", "gold_thread_ids": ["83692"], "gold_accepted_ids": ["83700"]}
+{"query_id": "239365", "query": "Bash - SUID Program's Child Process did not inherit Parent Process UID as EUID", "gold_thread_ids": ["174170"], "gold_accepted_ids": ["174173"]}
+{"query_id": "256677", "query": "Is it possible to be infected without installing anything like said at the beginning of the video?", "gold_thread_ids": ["255820"], "gold_accepted_ids": ["255824"]}
+{"query_id": "128110", "query": "Can I use disk encryption and track my device at the same time, in case it's stolen or lost?", "gold_thread_ids": ["19653"], "gold_accepted_ids": []}
+{"query_id": "174659", "query": "Why I have more than one valid passwords with Hydra?", "gold_thread_ids": ["37020"], "gold_accepted_ids": ["37029"]}
+{"query_id": "214699", "query": "Potential Risks Using Reference Code Based Authentication For Web Based Application Form That Contains SSN", "gold_thread_ids": ["214623"], "gold_accepted_ids": []}
+{"query_id": "258761", "query": "Why is it not a good idea to simply encrypt the plaintext with the receiver\u2019s public key?", "gold_thread_ids": ["20134"], "gold_accepted_ids": ["20145"]}
+{"query_id": "268310", "query": "VPN vs. DoH or both?", "gold_thread_ids": ["234565", "267980"], "gold_accepted_ids": ["234581", "267989"]}
+{"query_id": "263152", "query": "Does the the key used to encrypt in a ransomware attack reside on the target computer for at least some time?", "gold_thread_ids": ["111733"], "gold_accepted_ids": []}
+{"query_id": "262445", "query": "Safest way to wipe sensitive information off company phone before giving it away", "gold_thread_ids": ["101823"], "gold_accepted_ids": ["102127"]}
+{"query_id": "230849", "query": "Is it possible to exploit php curl?", "gold_thread_ids": ["230514"], "gold_accepted_ids": ["230524"]}
+{"query_id": "61034", "query": "Crack WPA2 with username", "gold_thread_ids": ["29602"], "gold_accepted_ids": ["29611"]}
+{"query_id": "144277", "query": "VPN with Tor and SSH - is it secure & what caveats should I know about?", "gold_thread_ids": ["101809"], "gold_accepted_ids": ["103799"]}
+{"query_id": "152521", "query": "Malicious Actor with Physical Access to Encrypted Machine", "gold_thread_ids": ["109199"], "gold_accepted_ids": ["109206"]}
+{"query_id": "234596", "query": "authenication of client in one way ssl", "gold_thread_ids": ["71979"], "gold_accepted_ids": ["71982"]}
+{"query_id": "223129", "query": "How safe is a password generated from words?", "gold_thread_ids": ["151165"], "gold_accepted_ids": ["151177"]}
+{"query_id": "102196", "query": "Bluetooth LE 4.0 security issues", "gold_thread_ids": ["100443"], "gold_accepted_ids": []}
+{"query_id": "157662", "query": "Do we need vpn now that we have browser with https enabled?", "gold_thread_ids": ["42334"], "gold_accepted_ids": ["42336"]}
+{"query_id": "200776", "query": "Found suspicious, obfuscated PHP file. I assume this is a successful hack on my website? Can anyone tell me what this code is doing?", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "246584", "query": "Work computer hard wired to home modem", "gold_thread_ids": ["168671"], "gold_accepted_ids": []}
+{"query_id": "17542", "query": "What is the most secure way to recover password online?", "gold_thread_ids": ["1918"], "gold_accepted_ids": []}
+{"query_id": "19646", "query": "How should I manage my passwords?", "gold_thread_ids": ["15733"], "gold_accepted_ids": ["113443"]}
+{"query_id": "155037", "query": "What command should I use to request ocsp status", "gold_thread_ids": ["154842"], "gold_accepted_ids": ["155048"]}
+{"query_id": "258303", "query": "How to isolate Windows10 Virtual machine from w10 host (virtualbox) for malware analysis", "gold_thread_ids": ["64841", "9011"], "gold_accepted_ids": ["9017"]}
+{"query_id": "127280", "query": "Bizarre php file appeared in the image gallery folder of my website", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "224048", "query": "Strategies to replace password hashing algorithm?", "gold_thread_ids": ["19310"], "gold_accepted_ids": []}
+{"query_id": "238114", "query": "my friend stolen my imei number using this he can get my phone persona data?", "gold_thread_ids": ["91751"], "gold_accepted_ids": []}
+{"query_id": "164758", "query": "Are Metasploit built-in exploits used in real-life pen testing?", "gold_thread_ids": ["60630"], "gold_accepted_ids": ["60640"]}
+{"query_id": "29527", "query": "Can an attacker guess my password length from a hash?", "gold_thread_ids": ["29083"], "gold_accepted_ids": []}
+{"query_id": "270763", "query": "Can someone access my computer after I clicked a Grabify link?", "gold_thread_ids": ["268320"], "gold_accepted_ids": []}
+{"query_id": "271407", "query": "How do certificate authorities choose which private/public keys to use to encrypt each SSL certificate so a browser can know that they're legit?", "gold_thread_ids": ["54889"], "gold_accepted_ids": ["54892"]}
+{"query_id": "261045", "query": "Can anyone help finding what's shady things are logged on my nginx webserver?", "gold_thread_ids": ["5001"], "gold_accepted_ids": ["5002"]}
+{"query_id": "244503", "query": "Using fields in X.509 cert for authorization", "gold_thread_ids": ["244768"], "gold_accepted_ids": []}
+{"query_id": "139514", "query": "How many packets required to deauth WPA?", "gold_thread_ids": ["139358"], "gold_accepted_ids": []}
+{"query_id": "223424", "query": "How to make data content provable for specific timestamp?", "gold_thread_ids": ["100573"], "gold_accepted_ids": ["100576"]}
+{"query_id": "89401", "query": "using crt for encrypting files/texts", "gold_thread_ids": ["84904"], "gold_accepted_ids": ["84948"]}
+{"query_id": "252684", "query": "If I receive Google verification codes that do not work, is my phone compromised?", "gold_thread_ids": ["147157", "175556", "225298"], "gold_accepted_ids": ["175607"]}
+{"query_id": "204715", "query": "TLS Pre-master key", "gold_thread_ids": ["175587", "182304"], "gold_accepted_ids": ["182315"]}
+{"query_id": "236740", "query": "What are these access requests?", "gold_thread_ids": ["40291"], "gold_accepted_ids": ["40293"]}
+{"query_id": "225917", "query": "How does VPN prevent Man In the Middle at the ISP level", "gold_thread_ids": ["168237", "213921", "64352"], "gold_accepted_ids": ["168238", "213927"]}
+{"query_id": "144363", "query": "Ransomware Type of Virus and How to prevent it (Zepto Virus)", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "154144", "query": "Encrypt content on Azure without using KeyVault?", "gold_thread_ids": ["12332"], "gold_accepted_ids": ["12334"]}
+{"query_id": "215661", "query": "Can someone explain the significance of Certificate Signature algorithm in the selection of Cipher suite in a TLS communication?", "gold_thread_ids": ["181938", "20803", "95200"], "gold_accepted_ids": ["181942", "20833"]}
+{"query_id": "239073", "query": "Security Concerns with HTTP/3 / QUIC-based protocols", "gold_thread_ids": ["122361"], "gold_accepted_ids": []}
+{"query_id": "245333", "query": "How to decrypt files infected with .lezp extension ransomware?", "gold_thread_ids": ["225873"], "gold_accepted_ids": ["225874"]}
+{"query_id": "256763", "query": "Methods for device enumeration behind NAT and its prevention", "gold_thread_ids": ["221508"], "gold_accepted_ids": []}
+{"query_id": "130672", "query": "Is it safe to paste secure notes into Notepad if you clear your clipboard?", "gold_thread_ids": ["130057"], "gold_accepted_ids": ["130062"]}
+{"query_id": "216620", "query": "How can I tell is the hidden PHP code inside of a GIf file is dangerous?", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "215100", "query": "Hacking attempts to our server - what does this code do?", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "86026", "query": "password storage and user authentication", "gold_thread_ids": ["211"], "gold_accepted_ids": ["31846"]}
+{"query_id": "266830", "query": "block whatsapp web file transfer but not chating", "gold_thread_ids": ["264185"], "gold_accepted_ids": ["264188"]}
+{"query_id": "82468", "query": "Is it dangerous to allow users to edit the CSS styles?", "gold_thread_ids": ["37832"], "gold_accepted_ids": ["37840"]}
+{"query_id": "200922", "query": "Do VPNs have upstream ISPs that log traffic (making VPN claims of having strict no-log policies pointless)?", "gold_thread_ids": ["175179"], "gold_accepted_ids": []}
+{"query_id": "224898", "query": "Is it safe to use HTTPS websites over an unknown PPTP VPN?", "gold_thread_ids": ["177405", "7705"], "gold_accepted_ids": ["177406", "7706"]}
+{"query_id": "227125", "query": "Why people buy stolen databases with emails and hashed passwords of users?", "gold_thread_ids": ["100898", "17421"], "gold_accepted_ids": ["100902", "17435"]}
+{"query_id": "236863", "query": "Can anyone tell me at this platform that what is the difference between filtered ports and blocked ports?", "gold_thread_ids": ["145728", "182504", "202740"], "gold_accepted_ids": ["182541", "202741"]}
+{"query_id": "154725", "query": "Is XSS possible when the user input gets reflected inside <textarea> when '<' and '>' symbols are sanitized", "gold_thread_ids": ["130284"], "gold_accepted_ids": []}
+{"query_id": "238386", "query": "There's a virus in my explrorer.exe file in local disk C", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "253926", "query": "Is verification code a scam?", "gold_thread_ids": ["38123"], "gold_accepted_ids": []}
+{"query_id": "233288", "query": "Client Certificate Common Name: Mutual SSL", "gold_thread_ids": ["192979"], "gold_accepted_ids": ["192980"]}
+{"query_id": "257407", "query": "Is it more secure to ask only for the username before the password?", "gold_thread_ids": ["160692"], "gold_accepted_ids": ["160700"]}
+{"query_id": "271347", "query": "How do end-to-end encryption (E2EE) IM apps implementing push notifications?", "gold_thread_ids": ["119624"], "gold_accepted_ids": ["119638"]}
+{"query_id": "25843", "query": "Facebook Login security concern with the javascritp JDK", "gold_thread_ids": ["4032"], "gold_accepted_ids": []}
+{"query_id": "234324", "query": "SPF record does not preventing the sender spoofing", "gold_thread_ids": ["206601"], "gold_accepted_ids": ["206602"]}
+{"query_id": "244062", "query": "Digital Signature uses private key for encryption, and public key for decryption?", "gold_thread_ids": ["87325"], "gold_accepted_ids": ["87373"]}
+{"query_id": "32633", "query": "Can double encryption with different key increase the security?", "gold_thread_ids": ["2900"], "gold_accepted_ids": ["2902"]}
+{"query_id": "110646", "query": "Local sockets: does SSL add security?", "gold_thread_ids": ["17685"], "gold_accepted_ids": ["17695"]}
+{"query_id": "121764", "query": "Something phishy going on with email", "gold_thread_ids": ["52045"], "gold_accepted_ids": ["52125"]}
+{"query_id": "64638", "query": "How JavaScript malware targets browsers?", "gold_thread_ids": ["20140"], "gold_accepted_ids": []}
+{"query_id": "271284", "query": "VPN used while updating files to VPS via FTP (WinSCP) - what IP is logged?", "gold_thread_ids": ["165015"], "gold_accepted_ids": ["165029"]}
+{"query_id": "184426", "query": "Can a website run a malware on my computer?", "gold_thread_ids": ["3848"], "gold_accepted_ids": ["96953"]}
+{"query_id": "272366", "query": "Any idea on how this 36 character long string generated?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "206155", "query": "Rememberable Password Formula", "gold_thread_ids": ["1222"], "gold_accepted_ids": []}
+{"query_id": "230151", "query": "John the Ripper", "gold_thread_ids": ["112434"], "gold_accepted_ids": ["112441"]}
+{"query_id": "219036", "query": "Suppose you have a simple host running Virtualbox with NAT networking and do malware testing on it, how safe are you?", "gold_thread_ids": ["23452"], "gold_accepted_ids": ["23503"]}
+{"query_id": "263098", "query": "Best practices for storing passwords for PHP and MySQL applications", "gold_thread_ids": ["206281", "5605"], "gold_accepted_ids": ["5639"]}
+{"query_id": "176171", "query": "How well can we hide an executable (apk/ipa) in an image", "gold_thread_ids": ["55061", "81677"], "gold_accepted_ids": ["55073", "81926"]}
+{"query_id": "230320", "query": "If I store users username and password in cookies, for next time users logged in if they were clicked the remember me, is that a good idea?", "gold_thread_ids": ["44"], "gold_accepted_ids": ["64"]}
+{"query_id": "35756", "query": "Where can I find a vulnerable operating system to practice pentests on?", "gold_thread_ids": ["183"], "gold_accepted_ids": ["187"]}
+{"query_id": "256480", "query": "If a malware infects a usb, will formatting remove it?", "gold_thread_ids": ["137496"], "gold_accepted_ids": ["137570"]}
+{"query_id": "55424", "query": "Heartbleed - impact on iOS apps?", "gold_thread_ids": ["55119"], "gold_accepted_ids": ["55121"]}
+{"query_id": "184263", "query": "Are Trojan Horse virus? (or is it a matter of debate?)", "gold_thread_ids": ["179289", "98207"], "gold_accepted_ids": []}
+{"query_id": "118109", "query": "DTLS and Ephemeral Diffie-Hellman", "gold_thread_ids": ["37797"], "gold_accepted_ids": ["38142"]}
+{"query_id": "124847", "query": "If I encrypt my Mac hard drive using File Vault, does it also encrypt deleted data?", "gold_thread_ids": ["44759"], "gold_accepted_ids": ["44767"]}
+{"query_id": "266198", "query": "How does a malware differentiate between a real user device from a sandbox?", "gold_thread_ids": ["233432"], "gold_accepted_ids": ["233452"]}
+{"query_id": "245534", "query": "What is the relation between cipher suite and certificate?", "gold_thread_ids": ["129987", "133409", "229142", "65623", "90422"], "gold_accepted_ids": ["129990", "133432", "65629"]}
+{"query_id": "16612", "query": "What is Penetration Testing?", "gold_thread_ids": ["2837"], "gold_accepted_ids": ["2841"]}
+{"query_id": "18776", "query": "How to find rogue access points?", "gold_thread_ids": ["10783"], "gold_accepted_ids": ["18808"]}
+{"query_id": "226865", "query": "SSL stripping - initiate HTTPS or HTTP first?", "gold_thread_ids": ["41988"], "gold_accepted_ids": ["41991"]}
+{"query_id": "233314", "query": "Using QR codes as means of communicating with an air-gap system", "gold_thread_ids": ["232712"], "gold_accepted_ids": []}
+{"query_id": "48497", "query": "How does an encryption key work?", "gold_thread_ids": ["48493"], "gold_accepted_ids": []}
+{"query_id": "196669", "query": "Are there any tools to detect JPEG steganography?", "gold_thread_ids": ["2144"], "gold_accepted_ids": ["2145"]}
+{"query_id": "219391", "query": "Is public and local IP addresses of computer behind NAT a sensitive information?", "gold_thread_ids": ["4824"], "gold_accepted_ids": []}
+{"query_id": "189776", "query": "Cloning Contactless Credit Cards", "gold_thread_ids": ["42045"], "gold_accepted_ids": ["43906"]}
+{"query_id": "270772", "query": "How to know if my iPhone has spyware", "gold_thread_ids": ["202363", "258439"], "gold_accepted_ids": []}
+{"query_id": "183616", "query": "SUID not executing as root", "gold_thread_ids": ["174170"], "gold_accepted_ids": ["174173"]}
+{"query_id": "251797", "query": "How likely is it that publicly available data will be decrypted in the future?", "gold_thread_ids": ["2652"], "gold_accepted_ids": ["2654"]}
+{"query_id": "140602", "query": "Password Strength: Compound Words", "gold_thread_ids": ["127068", "6095", "64202"], "gold_accepted_ids": ["127073", "64206"]}
+{"query_id": "272753", "query": "Will a buyer be able to restore my personal data from my iPhone?", "gold_thread_ids": ["211823", "212388", "33452"], "gold_accepted_ids": ["212450"]}
+{"query_id": "249647", "query": "how to check a device (mouse, USB-VGA, USB-HDMI) contains no malware", "gold_thread_ids": ["229741"], "gold_accepted_ids": ["229900"]}
+{"query_id": "225531", "query": "DOM access between same-origin tabs", "gold_thread_ids": ["80306"], "gold_accepted_ids": ["80311"]}
+{"query_id": "266630", "query": "Strongest symmetric algorithm in 2022", "gold_thread_ids": ["155774", "212684", "233465"], "gold_accepted_ids": ["155784", "212713"]}
+{"query_id": "103539", "query": "Random script injected in wordpress project", "gold_thread_ids": ["39231", "85806"], "gold_accepted_ids": ["39232", "85807"]}
+{"query_id": "243430", "query": "Does TLS provide data integrity?", "gold_thread_ids": ["19380"], "gold_accepted_ids": ["19384"]}
+{"query_id": "102480", "query": "Protect secret key on sender", "gold_thread_ids": ["51034"], "gold_accepted_ids": []}
+{"query_id": "271602", "query": "Facebook SMS message from a non-Facebook number", "gold_thread_ids": ["225298"], "gold_accepted_ids": []}
+{"query_id": "273523", "query": "Can a file contain a virus that an antivirus cannot detect?", "gold_thread_ids": ["193604", "236997", "24338", "27769"], "gold_accepted_ids": ["236998", "24340", "27773"]}
+{"query_id": "236523", "query": "Is a virtual machine efficient for isolating viruses from pop-up ads?", "gold_thread_ids": ["171649", "232120", "9011"], "gold_accepted_ids": ["171655", "9017"]}
+{"query_id": "269132", "query": "SSL/x509 certificate/public key expiration", "gold_thread_ids": ["150907", "194451", "27810", "98106"], "gold_accepted_ids": ["150927", "27813"]}
+{"query_id": "165683", "query": "Possible EternalBlue Infection, Next Step?", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "167071", "query": "What's the difference between the certificate used for namecheap.com and the certificate used for stackexchange.com?", "gold_thread_ids": ["15865"], "gold_accepted_ids": ["15871"]}
+{"query_id": "273626", "query": "Hydra returning all credentials as valid", "gold_thread_ids": ["106583"], "gold_accepted_ids": []}
+{"query_id": "206842", "query": "Is a combination of user login and site domain a sensible salt?", "gold_thread_ids": ["41617"], "gold_accepted_ids": ["41618"]}
+{"query_id": "236918", "query": "the difference between SSL pinning and using just HTTPS connection", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "105039", "query": "Putting hidden DRM into PNG images to track copyright infringement", "gold_thread_ids": ["84648"], "gold_accepted_ids": ["84650"]}
+{"query_id": "93655", "query": "Why doesn't the most powerful/powerful sites on the internet use Extended Validation SSL certificates?", "gold_thread_ids": ["15865"], "gold_accepted_ids": ["15871"]}
+{"query_id": "249169", "query": "Validate that CA really signed certificate", "gold_thread_ids": ["56389"], "gold_accepted_ids": ["56393"]}
+{"query_id": "159188", "query": "How can I make sure I have successfully disabled SSL 2.0", "gold_thread_ids": ["71457"], "gold_accepted_ids": ["71459"]}
+{"query_id": "104432", "query": "Is our internal SSO design secure?", "gold_thread_ids": ["30983"], "gold_accepted_ids": []}
+{"query_id": "251817", "query": "Do authorities have a limited amount of time to pursue cyber-crime?", "gold_thread_ids": ["17279"], "gold_accepted_ids": ["17292"]}
+{"query_id": "118733", "query": "Major UK company seems to be handling customer & card data recklessly", "gold_thread_ids": ["17835"], "gold_accepted_ids": ["17843"]}
+{"query_id": "247695", "query": "Can a man-in-the-middle replay a valid X.509 certificate?", "gold_thread_ids": ["36363"], "gold_accepted_ids": ["36365"]}
+{"query_id": "221850", "query": "How can access to Intel ME / AMT be disabled with firewall?", "gold_thread_ids": ["142947"], "gold_accepted_ids": []}
+{"query_id": "66934", "query": "Does Ally Bank's trusted image system actually make login safer?", "gold_thread_ids": ["19155"], "gold_accepted_ids": ["19801"]}
+{"query_id": "55673", "query": "SQL Injection via Unicode", "gold_thread_ids": ["54734"], "gold_accepted_ids": ["54958"]}
+{"query_id": "123937", "query": "Can confidential data be gotten from a \"hibernation file\"?", "gold_thread_ids": ["23787"], "gold_accepted_ids": ["23790"]}
+{"query_id": "264844", "query": "How does Certificate Transparency protect from hacked CA server", "gold_thread_ids": ["130271"], "gold_accepted_ids": ["130335"]}
+{"query_id": "159248", "query": "Recent persistent popups on Chrome trying to get me to download \"Flash\"", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "220267", "query": "How do I know a USB Bluetooth Adapter is safe to use?", "gold_thread_ids": ["219641"], "gold_accepted_ids": ["219642"]}
+{"query_id": "223493", "query": "Disk encryption with automatic reboot and no-network", "gold_thread_ids": ["124338"], "gold_accepted_ids": ["125048"]}
+{"query_id": "244887", "query": "How does collecting mouse movements increase cryptographic strength?", "gold_thread_ids": ["10438"], "gold_accepted_ids": ["10443"]}
+{"query_id": "265319", "query": "PKI Structure with multiple intermediates", "gold_thread_ids": ["14043"], "gold_accepted_ids": ["14050"]}
+{"query_id": "246075", "query": "SSH Public Key Authentication Strength Port 22", "gold_thread_ids": ["166734"], "gold_accepted_ids": ["166736"]}
+{"query_id": "68783", "query": "Ubuntu server seems compromised for a DDOS attack", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "273517", "query": "Can you be tracked while using a vpn?", "gold_thread_ids": ["212129"], "gold_accepted_ids": ["216307"]}
+{"query_id": "150529", "query": "Do the new chipped cards prevent skimming?", "gold_thread_ids": ["49234"], "gold_accepted_ids": ["49236"]}
+{"query_id": "215747", "query": "Has SQRL been extensively audited?", "gold_thread_ids": ["43374"], "gold_accepted_ids": ["43375"]}
+{"query_id": "160522", "query": "Information on Eternalblue", "gold_thread_ids": ["159654"], "gold_accepted_ids": ["159663"]}
+{"query_id": "182162", "query": "Should Content-Encoding deflate be disabled", "gold_thread_ids": ["102013"], "gold_accepted_ids": []}
+{"query_id": "270964", "query": "Does Google use an IP address to identify a user?", "gold_thread_ids": ["11743", "59565"], "gold_accepted_ids": ["62028"]}
+{"query_id": "86161", "query": "Slow internet, IP Flood?", "gold_thread_ids": ["86112"], "gold_accepted_ids": []}
+{"query_id": "140167", "query": "If Router and Network Device Infected, Can Modem Be Too?", "gold_thread_ids": ["108653"], "gold_accepted_ids": ["108657"]}
+{"query_id": "173709", "query": "Password as environment variable- is it a good idea?", "gold_thread_ids": ["14000"], "gold_accepted_ids": ["14009"]}
+{"query_id": "232670", "query": "Attacked by ransomware that has encrypted and renamed all files with a .makop extension", "gold_thread_ids": ["225873"], "gold_accepted_ids": ["225874"]}
+{"query_id": "265302", "query": "What should I do when I received spam emails?", "gold_thread_ids": ["54007"], "gold_accepted_ids": ["54011"]}
+{"query_id": "145262", "query": "http request: your killing me smalls", "gold_thread_ids": ["37839"], "gold_accepted_ids": ["38022"]}
+{"query_id": "203141", "query": "Can you trace a .onion address?", "gold_thread_ids": ["38194"], "gold_accepted_ids": ["38197"]}
+{"query_id": "79652", "query": "hydra password penetration test syntax", "gold_thread_ids": ["37020"], "gold_accepted_ids": ["37029"]}
+{"query_id": "259076", "query": "What is GitHub authentication SDT ? And why is it sending OTP from a residential number?", "gold_thread_ids": ["175556", "225298", "38123"], "gold_accepted_ids": ["175607"]}
+{"query_id": "236480", "query": "Hiding geolocation from employer", "gold_thread_ids": ["152431"], "gold_accepted_ids": []}
+{"query_id": "147097", "query": "How did MySQL generate its 16-character passwords prior to version 4.1?", "gold_thread_ids": ["3133"], "gold_accepted_ids": ["3139"]}
+{"query_id": "251499", "query": "Infection from website", "gold_thread_ids": ["200736"], "gold_accepted_ids": []}
+{"query_id": "9035", "query": "How can you remove your presence from the Internet?", "gold_thread_ids": ["47293"], "gold_accepted_ids": ["47298"]}
+{"query_id": "251545", "query": "Significant differences in hash cracking speeds?", "gold_thread_ids": ["176249"], "gold_accepted_ids": ["176283"]}
+{"query_id": "11783", "query": "Is there a way to detect and extract steganographically hidden data from a picture?", "gold_thread_ids": ["2144"], "gold_accepted_ids": ["2145"]}
+{"query_id": "44684", "query": "Error 150 (net::ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN): The server's certificate appears to be a forgery", "gold_thread_ids": ["18300"], "gold_accepted_ids": ["18303"]}
+{"query_id": "174505", "query": "Will overwriting a file before deleting guarantee the destruction of the original file's data", "gold_thread_ids": ["31390"], "gold_accepted_ids": ["31435"]}
+{"query_id": "134757", "query": "Was this some sort of hack attempt?", "gold_thread_ids": ["82596"], "gold_accepted_ids": ["82600"]}
+{"query_id": "110300", "query": "Resource of malware source code written in C/C++", "gold_thread_ids": ["277"], "gold_accepted_ids": ["302"]}
+{"query_id": "242488", "query": "What can my employer see if I\u2019m on my email on my personal phone", "gold_thread_ids": ["223964"], "gold_accepted_ids": []}
+{"query_id": "5812", "query": "Pages restricted to certain IPs, safe?", "gold_thread_ids": ["4533"], "gold_accepted_ids": ["4538"]}
+{"query_id": "269401", "query": "Why is PayPal asking for my bank password?", "gold_thread_ids": ["68071"], "gold_accepted_ids": ["68074"]}
+{"query_id": "84707", "query": "Find the installer of a Rootkit and reason for attack on a Linux OS?", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "195338", "query": "Verifying the source of a request", "gold_thread_ids": ["42586", "81838"], "gold_accepted_ids": ["42664"]}
+{"query_id": "140685", "query": "Why do most MITM proxies change the certificate?", "gold_thread_ids": ["8145"], "gold_accepted_ids": ["8309"]}
+{"query_id": "246341", "query": "Is salt even secure once hacker has access to the database?", "gold_thread_ids": ["17421"], "gold_accepted_ids": ["17435"]}
+{"query_id": "116380", "query": "Bad security vs no security", "gold_thread_ids": ["38727"], "gold_accepted_ids": ["38730"]}
+{"query_id": "273191", "query": "openssl: Not able to verify 3rd in the chain with self-signed certificate", "gold_thread_ids": ["118062", "49229"], "gold_accepted_ids": ["118125", "49251"]}
+{"query_id": "152427", "query": "Vpn or proxy app for unblocking while using another vpn in android", "gold_thread_ids": ["35255"], "gold_accepted_ids": []}
+{"query_id": "144827", "query": "How to determine what type of encoding/encryption has been used here?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "255953", "query": "why public WIFI cannot use encryption?", "gold_thread_ids": ["79316"], "gold_accepted_ids": ["79342"]}
+{"query_id": "240324", "query": "Aren't these \"new\" self-programmable gaming mouses a new security threat?", "gold_thread_ids": ["176207"], "gold_accepted_ids": ["176237"]}
+{"query_id": "171468", "query": "Why didn't anyone think \"use zero nonce and continue handshake\" was a problem or at least strange in wpa-supplicant before now?", "gold_thread_ids": ["171438"], "gold_accepted_ids": ["171444"]}
+{"query_id": "152902", "query": "How to track down an ip address", "gold_thread_ids": ["124748"], "gold_accepted_ids": ["124750"]}
+{"query_id": "200622", "query": "Is secured WiFi with a publicly available password any safer than open WiFi?", "gold_thread_ids": ["79316"], "gold_accepted_ids": ["79342"]}
+{"query_id": "273022", "query": "How do programs store plain-text secrets securely?", "gold_thread_ids": ["111346", "223945", "38566"], "gold_accepted_ids": ["111443", "223949", "38606"]}
+{"query_id": "221578", "query": "Is one top level domain more inherently secure than another?", "gold_thread_ids": ["37293"], "gold_accepted_ids": ["37300"]}
+{"query_id": "243118", "query": "How do I assure that a site that I visit does not know I have been there before?", "gold_thread_ids": ["23053"], "gold_accepted_ids": []}
+{"query_id": "263676", "query": "How to get rid of TrustedStreams.life malware?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "204870", "query": "Can Lava Lamps enhance modern native entropy sourced from hardware and the Linux Kernel?", "gold_thread_ids": ["42428"], "gold_accepted_ids": ["42435"]}
+{"query_id": "242826", "query": "Why is an IP address in a different city?", "gold_thread_ids": ["165227"], "gold_accepted_ids": []}
+{"query_id": "177562", "query": "Unable to migrate meterpreter into 64 bit process?", "gold_thread_ids": ["148393"], "gold_accepted_ids": []}
+{"query_id": "274064", "query": "microsoft bitlocker copy data in background", "gold_thread_ids": ["264860"], "gold_accepted_ids": ["264863"]}
+{"query_id": "221226", "query": "determine type of encoding/encryption", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "269461", "query": "Can someone track your location by messaging you on Instagram, no links have been sent and no location is enabled", "gold_thread_ids": ["256091"], "gold_accepted_ids": []}
+{"query_id": "141189", "query": "Spammer using LinkedIn for redirects dangerous or just spam?", "gold_thread_ids": ["122496", "17852"], "gold_accepted_ids": ["17853"]}
+{"query_id": "232046", "query": "Can an SSL certificate be signed by two issuers at the same time?", "gold_thread_ids": ["15562", "6926", "74311"], "gold_accepted_ids": ["15583", "6934", "74330"]}
+{"query_id": "196583", "query": "Found possible malware code on site - contacted owner - what does it do?", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "159646", "query": "Is there a public malware sample of WannaCry?", "gold_thread_ids": ["18875"], "gold_accepted_ids": []}
+{"query_id": "241017", "query": "What types of businesses are allowed to store SAD and in particular CVV data?", "gold_thread_ids": ["73191"], "gold_accepted_ids": ["80636"]}
+{"query_id": "167286", "query": "Why wouldn't you check the revocation status of the root certificate?", "gold_thread_ids": ["130903", "90254"], "gold_accepted_ids": ["130907", "90257"]}
+{"query_id": "246567", "query": "What characters should, and should I absolutely not use in generated passwords?", "gold_thread_ids": ["41272"], "gold_accepted_ids": []}
+{"query_id": "269527", "query": "ECDSA_nistP384 vs ECDSA_secP384 vs ECDSA_P384 Microsoft Software Key Storage Provider (KSP)", "gold_thread_ids": ["269526"], "gold_accepted_ids": []}
+{"query_id": "225388", "query": "When they make physical locks, do they really just make a few variations of the keys and then mix them together and sell?", "gold_thread_ids": ["63114"], "gold_accepted_ids": ["63117"]}
+{"query_id": "139168", "query": "Different versions of TLS in record layer and handshake layer", "gold_thread_ids": ["29314"], "gold_accepted_ids": ["32790"]}
+{"query_id": "200041", "query": "Is HSTS necessary or can I just write .htaccess code to always redirect http to https?", "gold_thread_ids": ["129273"], "gold_accepted_ids": []}
+{"query_id": "237018", "query": "What can a government agency see if they control Tor nodes?", "gold_thread_ids": ["41542"], "gold_accepted_ids": []}
+{"query_id": "269750", "query": "Is it okay to have exposed Google API key", "gold_thread_ids": ["267603"], "gold_accepted_ids": []}
+{"query_id": "264446", "query": "sensitive data exposure from RAM memory", "gold_thread_ids": ["16782", "202375", "20322", "223977"], "gold_accepted_ids": []}
+{"query_id": "163662", "query": "TLS Proxy vs IPsec (gateway-to-host/gateway-to-gateway)", "gold_thread_ids": ["103372", "112884", "42990"], "gold_accepted_ids": ["103382", "42993"]}
+{"query_id": "15135", "query": "What do studies show are best practices for password expiration policies?", "gold_thread_ids": ["4704"], "gold_accepted_ids": ["4706"]}
+{"query_id": "63087", "query": "Should I add protections where I dont understand how hacker can break system?", "gold_thread_ids": ["63038"], "gold_accepted_ids": []}
+{"query_id": "194837", "query": "Why do people redact MAC addresses?", "gold_thread_ids": ["67893"], "gold_accepted_ids": ["67896"]}
+{"query_id": "223662", "query": "Sniffing Traffic Android App", "gold_thread_ids": ["83214"], "gold_accepted_ids": []}
+{"query_id": "56234", "query": "Length-constant password comparison in scrypt?", "gold_thread_ids": ["46212"], "gold_accepted_ids": ["46215"]}
+{"query_id": "221887", "query": "Latest CA Certificate Authorities List", "gold_thread_ids": ["158259"], "gold_accepted_ids": []}
+{"query_id": "159334", "query": "Do Intel Atom CPUs have ME / AMT?", "gold_thread_ids": ["158576"], "gold_accepted_ids": []}
+{"query_id": "210549", "query": "Can the Windows Event Log be edited by a malicious program?", "gold_thread_ids": ["36562"], "gold_accepted_ids": ["36611"]}
+{"query_id": "256640", "query": "Is using free product key or license key safe", "gold_thread_ids": ["84690"], "gold_accepted_ids": ["84703"]}
+{"query_id": "273981", "query": "How can iplocation.net know my country if I use a VPN thru Opera Mini on Android?", "gold_thread_ids": ["16253"], "gold_accepted_ids": ["16310"]}
+{"query_id": "251213", "query": "What do unkown MAC addresses mean in this context?", "gold_thread_ids": ["200474"], "gold_accepted_ids": ["202893"]}
+{"query_id": "207884", "query": "same CA, same CN", "gold_thread_ids": ["95964"], "gold_accepted_ids": ["95966"]}
+{"query_id": "187154", "query": "Phishing email linking to sharepoint address", "gold_thread_ids": ["3848"], "gold_accepted_ids": ["96953"]}
+{"query_id": "108468", "query": "Can there be two certificates with a same serial number in the world?", "gold_thread_ids": ["35691"], "gold_accepted_ids": ["35694"]}
+{"query_id": "19649", "query": "Can you port-scan a LAN, from outside the LAN?", "gold_thread_ids": ["16850"], "gold_accepted_ids": ["16866"]}
+{"query_id": "260324", "query": "Clone a credit card", "gold_thread_ids": ["128457", "256367", "46319", "99605"], "gold_accepted_ids": ["128461", "46325"]}
+{"query_id": "151777", "query": "WiFi access points blocking VPN", "gold_thread_ids": ["131372"], "gold_accepted_ids": []}
+{"query_id": "259491", "query": "How to guarantee that a user who signs up for your service is a real, physical, unique person?", "gold_thread_ids": ["251794", "80811"], "gold_accepted_ids": ["251795"]}
+{"query_id": "149739", "query": "spoof OS name in ubuntu for nmap scans", "gold_thread_ids": ["61792"], "gold_accepted_ids": ["61798"]}
+{"query_id": "220367", "query": "Good ways to secure yourself on Reddit and other social media sites?", "gold_thread_ids": ["13416", "16467", "29196"], "gold_accepted_ids": ["29294"]}
+{"query_id": "263882", "query": "On the gains and losses of an additional client side stretching of the user password", "gold_thread_ids": ["8596"], "gold_accepted_ids": ["8600"]}
+{"query_id": "270672", "query": "What would happen if root CA get hacked?", "gold_thread_ids": ["2268", "6809", "90238", "90254", "92979"], "gold_accepted_ids": ["2273", "6812", "90245", "90257"]}
+{"query_id": "145411", "query": "LessPass's approach is equal \"one password for all sites\"?", "gold_thread_ids": ["55592"], "gold_accepted_ids": ["55599"]}
+{"query_id": "177542", "query": "How safe is it to store your passwords in web browsers?", "gold_thread_ids": ["3694"], "gold_accepted_ids": []}
+{"query_id": "227675", "query": "Hydra THC - Get failed login", "gold_thread_ids": ["97414"], "gold_accepted_ids": ["97715"]}
+{"query_id": "102978", "query": "Purpose of MAC when encrypting?", "gold_thread_ids": ["14858"], "gold_accepted_ids": ["14860"]}
+{"query_id": "105597", "query": "How to securely send your user and hashed password to a server?", "gold_thread_ids": ["211"], "gold_accepted_ids": ["31846"]}
+{"query_id": "241678", "query": "TLS with only server certificates", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "71543", "query": "What can the school do with my MAC address?", "gold_thread_ids": ["56004"], "gold_accepted_ids": []}
+{"query_id": "210515", "query": "Checking authenticity of a mobile app (digital staff card)", "gold_thread_ids": ["149486"], "gold_accepted_ids": []}
+{"query_id": "226021", "query": "Known plaintext and encrypted text, what method or cipher is being used?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "83488", "query": "Why is the entropy of a session key approximately half the number of bits in the key?", "gold_thread_ids": ["59381"], "gold_accepted_ids": ["59392"]}
+{"query_id": "175112", "query": "SSL/TLS handshake potential vulnerabilities", "gold_thread_ids": ["118897", "20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "36893", "query": "Similar passwords can't be used again. A sign of unhashed password storage?", "gold_thread_ids": ["3170"], "gold_accepted_ids": ["4114"]}
+{"query_id": "141398", "query": "Why do we redirect port 80 traffic for SSLstrip and not 443?", "gold_thread_ids": ["41988"], "gold_accepted_ids": ["41991"]}
+{"query_id": "44324", "query": "Subdomains a possible defense against phishing", "gold_thread_ids": ["43755"], "gold_accepted_ids": ["43762"]}
+{"query_id": "238195", "query": "Is storing passwords in encrypted container still bad practice?", "gold_thread_ids": ["213516"], "gold_accepted_ids": []}
+{"query_id": "216778", "query": "Auto execute meterpreter commands on session start(android)", "gold_thread_ids": ["152903"], "gold_accepted_ids": ["152904"]}
+{"query_id": "50939", "query": "Are longer passwords more secure?", "gold_thread_ids": ["6095"], "gold_accepted_ids": []}
+{"query_id": "85546", "query": "Can you get infected by viewing an image?", "gold_thread_ids": ["55061"], "gold_accepted_ids": ["55073"]}
+{"query_id": "160405", "query": "Protect against MitM faking requests responses", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "245749", "query": "Is this a Phishing email a bit more advanced than usual?", "gold_thread_ids": ["239100"], "gold_accepted_ids": ["239103"]}
+{"query_id": "271282", "query": "How do I find out what country did an email originate from?", "gold_thread_ids": ["5469"], "gold_accepted_ids": ["5471"]}
+{"query_id": "27942", "query": "How can Nokia decrypt HTTPS data?", "gold_thread_ids": ["27820"], "gold_accepted_ids": ["27823"]}
+{"query_id": "155367", "query": "DD Authentication - How do I keep my credentials secure?", "gold_thread_ids": ["155375"], "gold_accepted_ids": ["155379"]}
+{"query_id": "251969", "query": "Why does Firefox claim a site has a \"Potential Security Risk\"?", "gold_thread_ids": ["11691"], "gold_accepted_ids": ["11903"]}
+{"query_id": "244120", "query": "My friends are disrupting my internet connection", "gold_thread_ids": ["29087"], "gold_accepted_ids": []}
+{"query_id": "224120", "query": "How does HTTP Catcher (iOS app) work on SSL/TLS?", "gold_thread_ids": ["191759"], "gold_accepted_ids": ["191771"]}
+{"query_id": "240270", "query": "What can a jpg with a small width and height hide?", "gold_thread_ids": ["2144"], "gold_accepted_ids": ["2145"]}
+{"query_id": "200840", "query": "Chrome recently randomly downloaded a file (20bytes long) when I clicked on a normal link on reddit(is this a virus)", "gold_thread_ids": ["121776"], "gold_accepted_ids": []}
+{"query_id": "118138", "query": "Multiple email addresses connected to same PGP identity", "gold_thread_ids": ["29851"], "gold_accepted_ids": ["29858"]}
+{"query_id": "257771", "query": "Sharing public GPG key: be safe from DNS spoofing attacks", "gold_thread_ids": ["94331"], "gold_accepted_ids": ["94335"]}
+{"query_id": "4716", "query": "How can I prevent SESSID stealing?", "gold_thread_ids": ["1322"], "gold_accepted_ids": ["1497"]}
+{"query_id": "214196", "query": "Help me to identify what type of string it is?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "239666", "query": "DNS over HTTPS (DoH)", "gold_thread_ids": ["226547"], "gold_accepted_ids": []}
+{"query_id": "219861", "query": "How long shall a password be to resist a botnet brute force?", "gold_thread_ids": ["168479"], "gold_accepted_ids": ["168511"]}
+{"query_id": "230094", "query": "Sending password plain text in POST body is safe?", "gold_thread_ids": ["51069"], "gold_accepted_ids": ["51070"]}
+{"query_id": "271216", "query": "Is it possible to trace a virtual number back to its service provider?", "gold_thread_ids": ["53461"], "gold_accepted_ids": ["53518"]}
+{"query_id": "273672", "query": "How to detect if a user tries to access my web service using proxies/vpn?", "gold_thread_ids": ["261705"], "gold_accepted_ids": []}
+{"query_id": "267469", "query": "What security risks would arise from someone else using my certificate without my knowledge?", "gold_thread_ids": ["105485", "36363"], "gold_accepted_ids": ["105489", "36365"]}
+{"query_id": "172513", "query": "Mobile internet not working via zap proxy", "gold_thread_ids": ["29988"], "gold_accepted_ids": ["29990"]}
+{"query_id": "256300", "query": "Help with identifying patterns or cryptographic implement", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "117551", "query": "What is the difference between key exchange algorithm and the authentication algorithm in SSL?", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "146814", "query": "Is it possible to crack WPA2 faster than brute-force? If yes, how?", "gold_thread_ids": ["39779"], "gold_accepted_ids": ["39780"]}
+{"query_id": "141547", "query": "Can we trust a password manager mobile application?", "gold_thread_ids": ["3458"], "gold_accepted_ids": ["3480"]}
+{"query_id": "216254", "query": "Company CAs, what are the privacy risks for the employees?", "gold_thread_ids": ["129717"], "gold_accepted_ids": []}
+{"query_id": "248663", "query": "Critical security alert: someone knows your password", "gold_thread_ids": ["239297"], "gold_accepted_ids": ["239298"]}
+{"query_id": "95413", "query": "How secure is the TAP Windows Adapter V9?", "gold_thread_ids": ["66380", "72679", "9777"], "gold_accepted_ids": ["66382", "72729", "9778"]}
+{"query_id": "43113", "query": "How did these websites see through the VPN tunnel?", "gold_thread_ids": ["16253"], "gold_accepted_ids": ["16310"]}
+{"query_id": "274525", "query": "Openssl command to verify authenticity of CA Issuer? And the \"magic\" behind it?", "gold_thread_ids": ["259235", "56389"], "gold_accepted_ids": ["259238", "56393"]}
+{"query_id": "73037", "query": "Question regarding SSL / TLS / Certificates in general", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "234345", "query": "How secure are mobile phone communications?", "gold_thread_ids": ["35376"], "gold_accepted_ids": ["35378"]}
+{"query_id": "91039", "query": "What features should I look for when buying a external wireless card used for the purpose of pen testing/snooping", "gold_thread_ids": ["54677"], "gold_accepted_ids": ["54679"]}
+{"query_id": "206702", "query": "Connect to amazon rds SQL server through spoofed ip address", "gold_thread_ids": ["37481"], "gold_accepted_ids": ["37482"]}
+{"query_id": "170040", "query": "APT Attribution", "gold_thread_ids": ["81215"], "gold_accepted_ids": []}
+{"query_id": "184982", "query": "How to maintain sensible cipher list for a public webserver", "gold_thread_ids": ["100991"], "gold_accepted_ids": ["100995"]}
+{"query_id": "257588", "query": "Is two-stage logging in more secure?", "gold_thread_ids": ["85160"], "gold_accepted_ids": ["85180"]}
+{"query_id": "227681", "query": "Name of 'smart brute force' attack against sequential cipher lock", "gold_thread_ids": ["199896"], "gold_accepted_ids": ["199901"]}
+{"query_id": "113243", "query": "Information needed to share with Penetration Tester?", "gold_thread_ids": ["113222"], "gold_accepted_ids": []}
+{"query_id": "221252", "query": "Ideal technique for ensuring a refurbished phone is clean of malware", "gold_thread_ids": ["45787"], "gold_accepted_ids": ["45789"]}
+{"query_id": "117239", "query": "Are excessively strong password requirements counter-productive?", "gold_thread_ids": ["32222"], "gold_accepted_ids": []}
+{"query_id": "187146", "query": "Check if mail was encrypted between servers using the header?", "gold_thread_ids": ["92301"], "gold_accepted_ids": ["92364"]}
+{"query_id": "226035", "query": "How to get crypto-mining malware samples?", "gold_thread_ids": ["18875"], "gold_accepted_ids": []}
+{"query_id": "199675", "query": "How secure is pdf password protection?", "gold_thread_ids": ["68853"], "gold_accepted_ids": ["68857"]}
+{"query_id": "251926", "query": "Do I need TFA if I have a strong password?", "gold_thread_ids": ["83476"], "gold_accepted_ids": ["83493"]}
+{"query_id": "73020", "query": "Could someone compare basic anonymity vs basic computer hacker anonymity?", "gold_thread_ids": ["16467"], "gold_accepted_ids": []}
+{"query_id": "230678", "query": "Windows 10 encryption virus: Extension .lktja99122", "gold_thread_ids": ["225873"], "gold_accepted_ids": ["225874"]}
+{"query_id": "266227", "query": "Is it possible for an app to sign data it generates so that the data can be guaranteed to come from the app?", "gold_thread_ids": ["186726"], "gold_accepted_ids": []}
+{"query_id": "200651", "query": "What does this phishing email achieve?", "gold_thread_ids": ["151719"], "gold_accepted_ids": []}
+{"query_id": "95885", "query": "Configuration panel videotron", "gold_thread_ids": ["30261"], "gold_accepted_ids": ["30264"]}
+{"query_id": "231571", "query": "Anonimity of Bluetooth tokens", "gold_thread_ids": ["200474"], "gold_accepted_ids": ["202893"]}
+{"query_id": "257917", "query": "Zero day vulnerabilities & Cybersecurity Supply Chain Risk Management - how to move from a reactive posture to a proactive posture?", "gold_thread_ids": ["243575"], "gold_accepted_ids": []}
+{"query_id": "210907", "query": "My school is making everyone install SSL certificates and without it you cannot access the school network", "gold_thread_ids": ["178909", "201106"], "gold_accepted_ids": ["178912"]}
+{"query_id": "225016", "query": "Network overload due to attack", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "253818", "query": "WP Blog with phishing js file by a Google Search Result?", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "1865", "query": "SSL vs IPsec what's the difference", "gold_thread_ids": ["1476"], "gold_accepted_ids": ["1480"]}
+{"query_id": "40723", "query": "Why do you need to login after you change a password?", "gold_thread_ids": ["31110"], "gold_accepted_ids": ["31115"]}
+{"query_id": "185268", "query": "Where is exposed WEP key in auth mecanism?", "gold_thread_ids": ["172833"], "gold_accepted_ids": ["172837"]}
+{"query_id": "263811", "query": "In asymmetric encryption, is there a meaningful difference between the public and the private key?", "gold_thread_ids": ["52495"], "gold_accepted_ids": ["52496"]}
+{"query_id": "205872", "query": "How x-permitted-cross-domain-policies is different from CORS(cross origin resource sharing)?", "gold_thread_ids": ["166024"], "gold_accepted_ids": ["213573"]}
+{"query_id": "157448", "query": "Weird behaviour of `zip` utility on OSX?", "gold_thread_ids": ["33081"], "gold_accepted_ids": ["33087"]}
+{"query_id": "258023", "query": "Clarification on log4j Service Requirements", "gold_thread_ids": ["257992"], "gold_accepted_ids": ["258078"]}
+{"query_id": "260525", "query": "Email supposedly from the future mentioning fairly recent password", "gold_thread_ids": ["195063"], "gold_accepted_ids": []}
+{"query_id": "251116", "query": "What stops an attacker from simply using your client_id in their own auth code flow with PKCE", "gold_thread_ids": ["175465"], "gold_accepted_ids": ["182868"]}
+{"query_id": "151431", "query": "How Travel Site like Tripadvisor, Airbnb track their user", "gold_thread_ids": ["59565"], "gold_accepted_ids": ["62028"]}
+{"query_id": "19615", "query": "What is the smallest possible Windows shellcode?", "gold_thread_ids": ["18958"], "gold_accepted_ids": ["18960"]}
+{"query_id": "245494", "query": "Setting up VPN tunnel: what are the possible ways by which my true IP address could leak?", "gold_thread_ids": ["141406"], "gold_accepted_ids": ["141414"]}
+{"query_id": "260482", "query": "What prevents an SSL certificate holder to issue new 'valid' certificates", "gold_thread_ids": ["153118", "249347", "38949"], "gold_accepted_ids": ["153121", "249348"]}
+{"query_id": "213426", "query": "TLS connection - Detecting data breach / manipulation", "gold_thread_ids": ["85813", "91001"], "gold_accepted_ids": ["85815", "91002"]}
+{"query_id": "241338", "query": "Strange get request to my web server", "gold_thread_ids": ["103494", "40291"], "gold_accepted_ids": ["103497", "40293"]}
+{"query_id": "258836", "query": "How to permanently remove DDE Exploit:O97M/DDEDownloader.C? Do I need to nuke my computer? Is it safe to not do so?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "269556", "query": "How should an argon2 hash be stored?", "gold_thread_ids": ["17421"], "gold_accepted_ids": ["17435"]}
+{"query_id": "171806", "query": "Why does Encrypted Connection/HTTPS Scanning prevent user/personal certificate usage?", "gold_thread_ids": ["158672", "26142"], "gold_accepted_ids": ["26145"]}
+{"query_id": "171345", "query": "Understanding certificate basic", "gold_thread_ids": ["6737"], "gold_accepted_ids": ["6738"]}
+{"query_id": "155513", "query": "Certificate for identification and encryption", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "121753", "query": "How did I get a signed cert back with a wildcard common name when I submitted a csr with a specific common name?", "gold_thread_ids": ["98435"], "gold_accepted_ids": ["98440"]}
+{"query_id": "235441", "query": "Does hashing client-side increase attack surface (assuming TLS and serverside salt+hash)?", "gold_thread_ids": ["50909", "53594"], "gold_accepted_ids": ["50914", "143857"]}
+{"query_id": "269493", "query": "Argon2 is worse than bcrypt at runtimes < 1000 ms?", "gold_thread_ids": ["257283"], "gold_accepted_ids": []}
+{"query_id": "149390", "query": "How to disclose a weak username/password?", "gold_thread_ids": ["52", "71905"], "gold_accepted_ids": ["60"]}
+{"query_id": "270426", "query": "How can i find out if someone is using a sniffer on my network", "gold_thread_ids": ["25011"], "gold_accepted_ids": []}
+{"query_id": "239463", "query": "Does \"Security By Obfuscation\" have any place in good security practices?", "gold_thread_ids": ["2430"], "gold_accepted_ids": ["2431"]}
+{"query_id": "251820", "query": "WebRTC IP leak in 2021", "gold_thread_ids": ["82129", "92845", "93565"], "gold_accepted_ids": ["82136", "93443", "93577"]}
+{"query_id": "212029", "query": "Could IPSec flows be decrypted using PSK", "gold_thread_ids": ["199302"], "gold_accepted_ids": ["199346"]}
+{"query_id": "65904", "query": "If you have option to choose between static code analysis vs dynamic code analysis which one would you pick and why?", "gold_thread_ids": ["214"], "gold_accepted_ids": ["351"]}
+{"query_id": "56747", "query": "Is the root CA certificate required in the .crt file?", "gold_thread_ids": ["24561"], "gold_accepted_ids": ["24566"]}
+{"query_id": "11334", "query": "Dealing with systems that store/send passwords in plain-text", "gold_thread_ids": ["7118"], "gold_accepted_ids": ["7122"]}
+{"query_id": "272928", "query": "What is an HTTPS Interception Certificate and can schools monitor devices through it?", "gold_thread_ids": ["178909"], "gold_accepted_ids": ["178912"]}
+{"query_id": "246244", "query": "secure deletion in virtual machines", "gold_thread_ids": ["80320"], "gold_accepted_ids": []}
+{"query_id": "246536", "query": "Backendly preventing database injections on simple web forms", "gold_thread_ids": ["1257"], "gold_accepted_ids": ["1282"]}
+{"query_id": "226141", "query": "Unknown website tries to connect to my website", "gold_thread_ids": ["197038", "5001"], "gold_accepted_ids": ["5002"]}
+{"query_id": "105692", "query": "Is there a point in cascade encryption?", "gold_thread_ids": ["2900"], "gold_accepted_ids": ["2902"]}
+{"query_id": "178172", "query": "How to put a password in a $_GET", "gold_thread_ids": ["147188", "29598"], "gold_accepted_ids": ["147193", "29600"]}
+{"query_id": "263210", "query": "Is there a way to find out which certificates came preinstalled with Windows and which ones installed afterwards?", "gold_thread_ids": ["71313"], "gold_accepted_ids": ["215775"]}
+{"query_id": "155888", "query": "Invisible SSL sniffing", "gold_thread_ids": ["8145"], "gold_accepted_ids": ["8309"]}
+{"query_id": "228912", "query": "How does Antivirus identify virus using signature-base?", "gold_thread_ids": ["95186"], "gold_accepted_ids": ["95187"]}
+{"query_id": "127584", "query": "Password manager that uses a mix of long and short key derivation functions", "gold_thread_ids": ["94106"], "gold_accepted_ids": ["94108"]}
+{"query_id": "143167", "query": "How to get rid of youndoo?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "203854", "query": "How secure will it be to use \"Google Docs long url\" like authentication scheme for orders in my online shop?", "gold_thread_ids": ["29449"], "gold_accepted_ids": ["29468"]}
+{"query_id": "215238", "query": "Password checking implementation: delay on unsuccessful attempts", "gold_thread_ids": ["94432"], "gold_accepted_ids": ["94434"]}
+{"query_id": "260087", "query": "Where do you report a product vulnerability?", "gold_thread_ids": ["185977"], "gold_accepted_ids": ["185982"]}
+{"query_id": "275942", "query": "Is it possible to infect a monitor via HDMI plus Ethernet", "gold_thread_ids": ["19007", "251192", "258000", "263641"], "gold_accepted_ids": ["258002", "263644"]}
+{"query_id": "14975", "query": "How often should an SSH key pair be changed?", "gold_thread_ids": ["14983"], "gold_accepted_ids": ["14984"]}
+{"query_id": "214159", "query": "Someone is calling from my number, and its not me?", "gold_thread_ids": ["173621"], "gold_accepted_ids": []}
+{"query_id": "255447", "query": "MITM attack on public wi-fi and ISP wired connection", "gold_thread_ids": ["6290"], "gold_accepted_ids": ["6296"]}
+{"query_id": "108434", "query": "Linux machine continuously transferring data over the network to random servers in china and across the globe", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "224020", "query": "How to encrypt data on local LAN (without Internet)?", "gold_thread_ids": ["121163", "161313", "38781"], "gold_accepted_ids": ["161412"]}
+{"query_id": "227409", "query": "How to secure an open port and public IP address when clients must connect to it", "gold_thread_ids": ["35791"], "gold_accepted_ids": []}
+{"query_id": "66299", "query": "Transaction without 3DS in some online websites is Fraud prone?", "gold_thread_ids": ["21168"], "gold_accepted_ids": ["21172"]}
+{"query_id": "163585", "query": "Access my website from google sends me to a scam page", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "257359", "query": "Security implications of using HTTP for service to service communication within the same host", "gold_thread_ids": ["251308", "57230"], "gold_accepted_ids": ["251310", "57958"]}
+{"query_id": "93727", "query": "Help with Error-Based SQL Injection", "gold_thread_ids": ["89341"], "gold_accepted_ids": ["89347"]}
+{"query_id": "149599", "query": "Having trouble with Happytime.C", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "231265", "query": "How can I prevent my server from receiving requests for a modified application?", "gold_thread_ids": ["42586"], "gold_accepted_ids": ["42664"]}
+{"query_id": "197551", "query": "How does my computer actually validate a certificate?", "gold_thread_ids": ["20869"], "gold_accepted_ids": ["20870"]}
+{"query_id": "273715", "query": "Can a proxy server view the request and response bodies?", "gold_thread_ids": ["244843", "260851", "262816", "8145"], "gold_accepted_ids": ["8309"]}
+{"query_id": "260731", "query": "How is a TLS certificate authenticated, down to a code level?", "gold_thread_ids": ["56389", "89719"], "gold_accepted_ids": ["56393"]}
+{"query_id": "46777", "query": "MAC changer and VPN can be trusted?", "gold_thread_ids": ["16467"], "gold_accepted_ids": []}
+{"query_id": "270861", "query": "Any idea why the param being modifed was removed from the HTML output in ZAP?", "gold_thread_ids": ["270833"], "gold_accepted_ids": []}
+{"query_id": "258833", "query": "need help decoding", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "215318", "query": "Issues with finding a gateway with static routing", "gold_thread_ids": ["192282"], "gold_accepted_ids": []}
+{"query_id": "267627", "query": "There's malware on my machine and I can't find it", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "217992", "query": "Security risk of using a budgeting app connected to bank accounts", "gold_thread_ids": ["198005"], "gold_accepted_ids": []}
+{"query_id": "227541", "query": "Does hashing client-side increase security when dealing with an untrustworthy server?", "gold_thread_ids": ["23006"], "gold_accepted_ids": ["23012"]}
+{"query_id": "269101", "query": "Decrypting a Base64 ciphertext", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "246333", "query": "What does this obfuscated PHP script do?", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "170000", "query": "How do I protect my old devices against BlueBorne?", "gold_thread_ids": ["169294"], "gold_accepted_ids": []}
+{"query_id": "150272", "query": "Can I use IPsec as a substitute for TLS and SSL?", "gold_thread_ids": ["42990"], "gold_accepted_ids": ["42993"]}
+{"query_id": "107699", "query": "Bypass an escape function - SQL injection (Educational Purpose)", "gold_thread_ids": ["108472"], "gold_accepted_ids": ["108484"]}
+{"query_id": "243047", "query": "How to assess security of Argon2 parameters", "gold_thread_ids": ["210982"], "gold_accepted_ids": ["211141"]}
+{"query_id": "206508", "query": "How do criminals access dark web from their home internet, which is payed for in their name, without enabling NSA/FBI to disclose their real identity?", "gold_thread_ids": ["206411"], "gold_accepted_ids": []}
+{"query_id": "269808", "query": "Can my employer detect that I am using a torrent client on my home pc while teleworking?", "gold_thread_ids": ["218733", "229048"], "gold_accepted_ids": []}
+{"query_id": "52843", "query": "How to start career as Penetration Tester?", "gold_thread_ids": ["3772"], "gold_accepted_ids": ["231433"]}
+{"query_id": "176541", "query": "What is known about the latest vulnerability related to Linux Page Table Isolation patches?", "gold_thread_ids": ["176803"], "gold_accepted_ids": []}
+{"query_id": "263634", "query": "Does having the hash make it easier to crack the password than not having the hash?", "gold_thread_ids": ["11717"], "gold_accepted_ids": []}
+{"query_id": "270973", "query": "Seeking advice for possible virus", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "269745", "query": "Which is preferable compress and encrypt or just encrypt and no compression in purely security perspective and not in resources or efficiency?", "gold_thread_ids": ["19969", "248502", "58617"], "gold_accepted_ids": ["19970", "248505"]}
+{"query_id": "218284", "query": "Is there any security advantage of installing into AppData folder?", "gold_thread_ids": ["105522"], "gold_accepted_ids": []}
+{"query_id": "218805", "query": "How to stop the user from intercepting their own credentials in mobile apps?", "gold_thread_ids": ["100129"], "gold_accepted_ids": ["100133"]}
+{"query_id": "144347", "query": "Why do phones only allow for 5 fingerprints?", "gold_thread_ids": ["135188"], "gold_accepted_ids": ["135195"]}
+{"query_id": "215367", "query": "Stop smartphone microphone from listening in background", "gold_thread_ids": ["40284"], "gold_accepted_ids": []}
+{"query_id": "243863", "query": "How should an application verify a servers certificate?", "gold_thread_ids": ["56389"], "gold_accepted_ids": ["56393"]}
+{"query_id": "196558", "query": "Protecting website from content theft", "gold_thread_ids": ["38460"], "gold_accepted_ids": ["38461"]}
+{"query_id": "275931", "query": "How to recover my password from my file.key", "gold_thread_ids": ["163514"], "gold_accepted_ids": []}
+{"query_id": "227693", "query": "How to ensure your own native app is talking to your own API", "gold_thread_ids": ["118131", "141104", "166105"], "gold_accepted_ids": ["166111"]}
+{"query_id": "214892", "query": "Is client-side password hashing still useful when using TLS? Is TLS crackable? What about PFS?", "gold_thread_ids": ["4936", "66475", "8596"], "gold_accepted_ids": ["4938", "66476", "8600"]}
+{"query_id": "118539", "query": "How does text that is displayed with cat end up trying to execute in the Linux terminal?", "gold_thread_ids": ["56307"], "gold_accepted_ids": ["56391"]}
+{"query_id": "203113", "query": "I think my ssh server is under attack and it's really trecherous", "gold_thread_ids": ["180321"], "gold_accepted_ids": ["180322"]}
+{"query_id": "165151", "query": "cURL to https endpoint works but openssl connect returns code: 21 unable to verify the first certificate", "gold_thread_ids": ["128926"], "gold_accepted_ids": []}
+{"query_id": "204235", "query": "Are there any flaws with allowing SQL queries as part of an API to fetch data?", "gold_thread_ids": ["86908"], "gold_accepted_ids": ["86914"]}
+{"query_id": "79186", "query": "Bruteforce with Hydra", "gold_thread_ids": ["37020"], "gold_accepted_ids": ["37029"]}
+{"query_id": "242818", "query": "Can a sudo account access my browser sessions (e.g. Stack Exchange) remotely?", "gold_thread_ids": ["178663", "71233", "81756"], "gold_accepted_ids": ["71238", "92123"]}
+{"query_id": "260531", "query": "How does ASLR work", "gold_thread_ids": ["18556"], "gold_accepted_ids": ["18557"]}
+{"query_id": "271892", "query": "Bank employees asked random 2 characters of password during verification!", "gold_thread_ids": ["4830"], "gold_accepted_ids": ["4835"]}
+{"query_id": "5037", "query": "How to secure all my passwords with Kee Pass 2 or something else?", "gold_thread_ids": ["3345"], "gold_accepted_ids": ["3346"]}
+{"query_id": "272307", "query": "How do hackers hack into private network device?", "gold_thread_ids": ["11840", "248240"], "gold_accepted_ids": ["11906"]}
+{"query_id": "167361", "query": "Mitf SSLStrip2 Can HSTS still be Bypassed", "gold_thread_ids": ["91092"], "gold_accepted_ids": ["91096"]}
+{"query_id": "238530", "query": "Received email with password in the subject - To what extent have I been hacked?", "gold_thread_ids": ["195063"], "gold_accepted_ids": []}
+{"query_id": "272370", "query": "Can the school see what I searched for on TikTok?", "gold_thread_ids": ["215532"], "gold_accepted_ids": ["215558"]}
+{"query_id": "54091", "query": "Does a stolen phone mean losing access to Gmail?", "gold_thread_ids": ["37484"], "gold_accepted_ids": ["37489"]}
+{"query_id": "157806", "query": "Encrypting same large iso file with gpg and openssl", "gold_thread_ids": ["33434"], "gold_accepted_ids": ["33445"]}
+{"query_id": "269834", "query": "Removing oneetx.exe", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "204424", "query": "Is VMWare workstation really safe?", "gold_thread_ids": ["9011"], "gold_accepted_ids": ["9017"]}
+{"query_id": "42438", "query": "How to remove popup malware - sponsorship/bigfintuna/milesandkms", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "264315", "query": "Is it possible to hack encrypted external HDD,if you have access to it?", "gold_thread_ids": ["264311"], "gold_accepted_ids": []}
+{"query_id": "274723", "query": "One time password as passwordless authentication", "gold_thread_ids": ["122406", "257207", "37203"], "gold_accepted_ids": ["122411", "37785"]}
+{"query_id": "188320", "query": "Is there any value to encrypting connections to localhost?", "gold_thread_ids": ["147175", "165295", "48892", "57230"], "gold_accepted_ids": ["147178", "165325", "57958"]}
+{"query_id": "273349", "query": "How can we verify the security of a device?", "gold_thread_ids": ["219641"], "gold_accepted_ids": ["219642"]}
+{"query_id": "206857", "query": "How to disclose school vulnerability as student", "gold_thread_ids": ["100097"], "gold_accepted_ids": []}
+{"query_id": "257368", "query": "Can work system admin remote into my personal Mac when I connect to work VPN?", "gold_thread_ids": ["183442"], "gold_accepted_ids": []}
+{"query_id": "222134", "query": "What type of encryption or hasing is used?", "gold_thread_ids": ["23450", "3989"], "gold_accepted_ids": ["23451", "4068"]}
+{"query_id": "243774", "query": "How am I supposed to trust binaries \"submitted by anyone\"?", "gold_thread_ids": ["82239"], "gold_accepted_ids": ["82302"]}
+{"query_id": "265022", "query": "What damage can a malicious wifi hotspot cause?", "gold_thread_ids": ["1525", "17339", "176025"], "gold_accepted_ids": ["17341", "176026"]}
+{"query_id": "203740", "query": "evil twin like attack", "gold_thread_ids": ["110927"], "gold_accepted_ids": []}
+{"query_id": "275822", "query": "Where does elp.php come from?", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "259592", "query": "How to detect web account vulnerability", "gold_thread_ids": ["51186"], "gold_accepted_ids": ["51191"]}
+{"query_id": "161553", "query": "Instagram privacy: How the social media knows about everything", "gold_thread_ids": ["61412"], "gold_accepted_ids": ["61413"]}
+{"query_id": "203657", "query": "How do I report scam phone calls?", "gold_thread_ids": ["132949"], "gold_accepted_ids": ["132950"]}
+{"query_id": "234600", "query": ".php code in .txt file with eval() function", "gold_thread_ids": ["87494"], "gold_accepted_ids": []}
+{"query_id": "272811", "query": "How smart cards store their secrets?", "gold_thread_ids": ["130522", "49280", "76379", "92775"], "gold_accepted_ids": ["49294", "76384"]}
+{"query_id": "218072", "query": "Is Linux password login inherently insecure or is it just that people use weak passwords?", "gold_thread_ids": ["3887"], "gold_accepted_ids": ["3898"]}
+{"query_id": "209665", "query": "IDS/IPS payload analysis", "gold_thread_ids": ["24003"], "gold_accepted_ids": ["24004"]}
+{"query_id": "104868", "query": "Is it appropriate to request a bounty for finding exploit on major site?", "gold_thread_ids": ["13760"], "gold_accepted_ids": ["13762"]}
+{"query_id": "255032", "query": "What does this potentially malicious php code do?", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "220408", "query": "Is credit/debit card's chip programming clone to another empty chip card", "gold_thread_ids": ["49234"], "gold_accepted_ids": ["49236"]}
+{"query_id": "171357", "query": "Are there any detection scripts available for WPA2 Key Reinstallation Attacks (KRACKs)?", "gold_thread_ids": ["171356"], "gold_accepted_ids": ["171358"]}
+{"query_id": "257554", "query": "What ways a website could hack a device?", "gold_thread_ids": ["102412", "200736", "255698"], "gold_accepted_ids": []}
+{"query_id": "7267", "query": "Server side data de-duplication + client-side encryption with private key. Possible with \"convergent encryption\"?", "gold_thread_ids": ["7142"], "gold_accepted_ids": ["7143"]}
+{"query_id": "267498", "query": "which encryption method is it?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "230269", "query": "Is possible to use promiscuous mode to sniff traffic between to devices connected by WiFi from another using Wireshark?", "gold_thread_ids": ["126183"], "gold_accepted_ids": []}
+{"query_id": "255204", "query": "What are the benefits of using a Cloudflare's DNS (not WARP) instead of ISP's DNS?", "gold_thread_ids": ["111748"], "gold_accepted_ids": ["111751"]}
+{"query_id": "246562", "query": "A bastion host is a firewall?", "gold_thread_ids": ["146891"], "gold_accepted_ids": ["146893"]}
+{"query_id": "233186", "query": "Chrome Malware, Redirects To Ad When I Click Link in Google?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "218682", "query": "Can a wireless headphone contain malware which can infect an Android device?", "gold_thread_ids": ["169332"], "gold_accepted_ids": []}
+{"query_id": "258716", "query": "use of md5 for protecting file integrity over http/https call", "gold_thread_ids": ["64710"], "gold_accepted_ids": []}
+{"query_id": "87321", "query": "ESI and EDI Overflow", "gold_thread_ids": ["86655"], "gold_accepted_ids": []}
+{"query_id": "230976", "query": "Google Chrome Unknown Connections In Proxifire", "gold_thread_ids": ["60688"], "gold_accepted_ids": ["60689"]}
+{"query_id": "86050", "query": "fake ap with password", "gold_thread_ids": ["85921"], "gold_accepted_ids": []}
+{"query_id": "128546", "query": "Obfuscated PHP code found in WordPress core files and plugins", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "267999", "query": "Email TLS encryption - personal data", "gold_thread_ids": ["134856", "169535"], "gold_accepted_ids": ["134857", "169536"]}
+{"query_id": "221802", "query": "I found this code in my wp-content/uploads/woocommerce_uploads/wp-user-new.php", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "274036", "query": "What is a secure way to create a random number in Typescript?", "gold_thread_ids": ["20029"], "gold_accepted_ids": ["20035"]}
+{"query_id": "120142", "query": "Is there a cryptographically secure way to verify the date of a process?", "gold_thread_ids": ["48479", "57101"], "gold_accepted_ids": ["48482", "57107"]}
+{"query_id": "9511", "query": "References on encryption in enterprise settings", "gold_thread_ids": ["9844"], "gold_accepted_ids": []}
+{"query_id": "219535", "query": "HTTP Basic Authentication vs. obscure filename", "gold_thread_ids": ["214499", "36870"], "gold_accepted_ids": ["214565"]}
+{"query_id": "240322", "query": "Password leak to malicious AP with the same SSID", "gold_thread_ids": ["110927", "93804"], "gold_accepted_ids": ["93805"]}
+{"query_id": "259575", "query": "Can unzipping archive by itself cause malware execution?", "gold_thread_ids": ["105107", "169027"], "gold_accepted_ids": ["105146", "169029"]}
+{"query_id": "10570", "query": "How Do I Secure Apache Web Server", "gold_thread_ids": ["77"], "gold_accepted_ids": []}
+{"query_id": "246648", "query": "Will VPN help to restrict Meterpreter session?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "191317", "query": "Website marked as dangerous (phishing) in the past. How to get off blacklists?", "gold_thread_ids": ["175348"], "gold_accepted_ids": []}
+{"query_id": "211706", "query": "Best luks setup disk", "gold_thread_ids": ["5158"], "gold_accepted_ids": []}
+{"query_id": "204613", "query": "Whatsapp requests UPnP", "gold_thread_ids": ["201173"], "gold_accepted_ids": []}
+{"query_id": "77125", "query": "THC-Hydra - one good pass = shows all valid", "gold_thread_ids": ["37020"], "gold_accepted_ids": ["37029"]}
+{"query_id": "37022", "query": "Stateless REST API and secure server side password storage", "gold_thread_ids": ["24850"], "gold_accepted_ids": ["24852"]}
+{"query_id": "189230", "query": "Should I hash my refresh tokens before storing them in the server's database?", "gold_thread_ids": ["151257"], "gold_accepted_ids": ["151262"]}
+{"query_id": "257056", "query": "What traces are left on a flash card reader after using it?", "gold_thread_ids": ["257055"], "gold_accepted_ids": []}
+{"query_id": "17048", "query": "Using GPG or PGP for symmetric database encryption/decryption in c#", "gold_thread_ids": ["17077"], "gold_accepted_ids": ["17078"]}
+{"query_id": "262214", "query": "Is a TOTP with RFC 6238 and a password in a manager 2FA?", "gold_thread_ids": ["260636"], "gold_accepted_ids": []}
+{"query_id": "222220", "query": "Creating a CA, server and client certs - chain not included? Or how to verify issuer?", "gold_thread_ids": ["139078", "56389"], "gold_accepted_ids": ["139079", "56393"]}
+{"query_id": "83451", "query": "Cryptsetup using TPM?", "gold_thread_ids": ["15542"], "gold_accepted_ids": []}
+{"query_id": "270120", "query": "Are forward proxies secure when SSL/TLS resource is requested?", "gold_thread_ids": ["115762"], "gold_accepted_ids": ["115763"]}
+{"query_id": "94317", "query": "OTR and active Man In The Middle attacks", "gold_thread_ids": ["40915"], "gold_accepted_ids": ["40937"]}
+{"query_id": "276077", "query": "Cryptography system: same fingerprint => same private key", "gold_thread_ids": ["61845"], "gold_accepted_ids": []}
+{"query_id": "243422", "query": "Isn't this kind of password ultimately secure and insanely easy to remember?", "gold_thread_ids": ["104046", "23943"], "gold_accepted_ids": ["104047", "23945"]}
+{"query_id": "204799", "query": "Nmap showing different open ports every few seconds", "gold_thread_ids": ["82984"], "gold_accepted_ids": ["83012"]}
+{"query_id": "254557", "query": "How is Firefox Lockwise able to decrypt saved logins without primary password?", "gold_thread_ids": ["220968"], "gold_accepted_ids": ["220985"]}
+{"query_id": "207653", "query": "How to defeat confirmation-of-a-file attack?", "gold_thread_ids": ["33752"], "gold_accepted_ids": ["33754"]}
+{"query_id": "235393", "query": "Potential Hack (Macbook/Edge/Teams/Remote)", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "227043", "query": "Updating Ubuntu", "gold_thread_ids": ["64111"], "gold_accepted_ids": []}
+{"query_id": "271500", "query": "XSS: bypassing html entity encoding of <,>,& characters", "gold_thread_ids": ["130284"], "gold_accepted_ids": []}
+{"query_id": "52591", "query": "How to store Initialization Vector securely for AES Encryption?", "gold_thread_ids": ["17044"], "gold_accepted_ids": ["17046"]}
+{"query_id": "251036", "query": "Is Cache-control: no-store enough to prevent caching?", "gold_thread_ids": ["193032"], "gold_accepted_ids": ["193035"]}
+{"query_id": "152213", "query": "How could Git be exploited using an SHA-1 collision?", "gold_thread_ids": ["67920"], "gold_accepted_ids": []}
+{"query_id": "179953", "query": "How bad is it to generate passwords via sha256, rather than storing them with a pw manager?", "gold_thread_ids": ["104093"], "gold_accepted_ids": ["104096"]}
+{"query_id": "109614", "query": "OAuth2 client account & data storage", "gold_thread_ids": ["72475"], "gold_accepted_ids": []}
+{"query_id": "214311", "query": "Is a trusted device, on a public network, still vulnerable to a man in the middle attack?", "gold_thread_ids": ["56389"], "gold_accepted_ids": ["56393"]}
+{"query_id": "61453", "query": "What is \"web of trust\" in PGP and S-MIME?", "gold_thread_ids": ["61360"], "gold_accepted_ids": ["61366"]}
+{"query_id": "244564", "query": "How to decrypt .ZC1PR and .XXFD formats after Ransomeware attack?", "gold_thread_ids": ["225873"], "gold_accepted_ids": ["225874"]}
+{"query_id": "202237", "query": "Need help in finding flags in secret files", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "209313", "query": "is xss possible without these chars?", "gold_thread_ids": ["173032"], "gold_accepted_ids": ["173048"]}
+{"query_id": "226233", "query": "I've been an emailed a password; how can I proceed as securely as possible?", "gold_thread_ids": ["35998"], "gold_accepted_ids": []}
+{"query_id": "236910", "query": "How to decrypt cipher text without knowing the algorithm used to encrypt it?", "gold_thread_ids": ["3989"], "gold_accepted_ids": ["4068"]}
+{"query_id": "237302", "query": "Visual Studio Code on Linux - Privacy risk?", "gold_thread_ids": ["87395"], "gold_accepted_ids": ["87396"]}
+{"query_id": "243150", "query": "How to track anonymous email sender (alternatives to IP tracking)", "gold_thread_ids": ["25054"], "gold_accepted_ids": ["25055"]}
+{"query_id": "104702", "query": "Why don't more servers use HTTPS to secure executable downloads?", "gold_thread_ids": ["18853"], "gold_accepted_ids": ["18861"]}
+{"query_id": "37586", "query": "Pursue career in Network Security", "gold_thread_ids": ["11522"], "gold_accepted_ids": []}
+{"query_id": "107527", "query": "Few sites are shown as Certificate is obsolete in Chrome(https is struck off). But they're marked as green in IE", "gold_thread_ids": ["106625"], "gold_accepted_ids": ["106630"]}
+{"query_id": "44579", "query": "Protecting computers from quick physical access attacks", "gold_thread_ids": ["10354"], "gold_accepted_ids": ["44686"]}
+{"query_id": "239014", "query": "How can the CSRF happen if browsers do not allow cross-origin requests by default?", "gold_thread_ids": ["157061"], "gold_accepted_ids": []}
+{"query_id": "200780", "query": "What is better way of transmitting password input? Plaintext or its hash value?", "gold_thread_ids": ["23006"], "gold_accepted_ids": ["23012"]}
+{"query_id": "263004", "query": "Full disk encryption and data recovery capabilities", "gold_thread_ids": ["39306"], "gold_accepted_ids": ["39309"]}
+{"query_id": "172539", "query": "What Does \"State Sponsored\" Cyber Attacks Mean?", "gold_thread_ids": ["81215"], "gold_accepted_ids": []}
+{"query_id": "168981", "query": "Can another user on my WPA2 WiFi network see my DNS requests?", "gold_thread_ids": ["161689"], "gold_accepted_ids": ["161696"]}
+{"query_id": "251182", "query": "Why are secure links in emails rapidly opened by multiple IP addresses", "gold_thread_ids": ["211258"], "gold_accepted_ids": ["211293"]}
+{"query_id": "98416", "query": "Is TrueCrpyt still safe, or is VeraCrypt the better option now?", "gold_thread_ids": ["72249"], "gold_accepted_ids": ["72635"]}
+{"query_id": "252499", "query": "Can an SSL certificate be edited?", "gold_thread_ids": ["192676", "48992"], "gold_accepted_ids": ["192677", "48993"]}
+{"query_id": "276114", "query": "How to create read-only pendrive (no availability of coping, deleting or overwriting)", "gold_thread_ids": ["211891", "43888"], "gold_accepted_ids": ["211894"]}
+{"query_id": "211351", "query": "Custom password security algorithm?", "gold_thread_ids": ["25585", "66552"], "gold_accepted_ids": ["25588", "66554"]}
+{"query_id": "181321", "query": "squid3: inject js into every visitet http site", "gold_thread_ids": ["14606"], "gold_accepted_ids": []}
+{"query_id": "83972", "query": "Trust CA and parent CA, but not other derivative CAs", "gold_thread_ids": ["82576"], "gold_accepted_ids": ["82581"]}
+{"query_id": "157454", "query": "How to remove a keylogger from MAC/how to reformat MAC to get rid of it?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "269685", "query": "Is it safe to share sensitive data in a Sharepoint through a public link with third parties?", "gold_thread_ids": ["112021"], "gold_accepted_ids": ["112024"]}
+{"query_id": "191686", "query": "Dirty ajax calls allows me to get free pizza", "gold_thread_ids": ["52", "807"], "gold_accepted_ids": ["60", "808"]}
+{"query_id": "202506", "query": "Email really sent or not?", "gold_thread_ids": ["72312"], "gold_accepted_ids": []}
+{"query_id": "263820", "query": "Can OTPs substitute password?", "gold_thread_ids": ["126556", "262507", "37203", "86103"], "gold_accepted_ids": ["126561", "262509", "37785", "86106"]}
+{"query_id": "201613", "query": "Why was I not asked for CVV in amazon.com for my debit card?", "gold_thread_ids": ["21168"], "gold_accepted_ids": ["21172"]}
+{"query_id": "43076", "query": "Removing PHP Shell from server", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "109219", "query": "How to make my traffic go out of one VPN into another?", "gold_thread_ids": ["60871"], "gold_accepted_ids": ["78855"]}
+{"query_id": "64324", "query": "Can you prove that an open source program is running the same code that it claims to be?", "gold_thread_ids": ["41734"], "gold_accepted_ids": ["41735"]}
+{"query_id": "168449", "query": "How easily could a picture password be hacked with brute force?", "gold_thread_ids": ["20228"], "gold_accepted_ids": ["20230"]}
+{"query_id": "247991", "query": "What are the technical reasons not to use non-reversible transformation when encrypting password in database?", "gold_thread_ids": ["18922"], "gold_accepted_ids": []}
+{"query_id": "104751", "query": "Sites to test login through jmeter", "gold_thread_ids": ["3592"], "gold_accepted_ids": []}
+{"query_id": "162707", "query": "Javascript crypto in browser", "gold_thread_ids": ["133277"], "gold_accepted_ids": ["133288"]}
+{"query_id": "229322", "query": "Username is present in the cookie", "gold_thread_ids": ["36318"], "gold_accepted_ids": []}
+{"query_id": "93467", "query": "XSS only works when GET request is submitted with form", "gold_thread_ids": ["93248"], "gold_accepted_ids": ["93307"]}
+{"query_id": "230504", "query": "How to bypass filter which blocks < charachter?", "gold_thread_ids": ["206893"], "gold_accepted_ids": ["206993"]}
+{"query_id": "271128", "query": "How to analyze code files (Java, PHP, Python) for malicious code?", "gold_thread_ids": ["173059"], "gold_accepted_ids": []}
+{"query_id": "107868", "query": "Can a mobile phone be reliably \"nuked from orbit\"?", "gold_thread_ids": ["84937"], "gold_accepted_ids": []}
+{"query_id": "244782", "query": "End-2-end encryption with WhatsApp", "gold_thread_ids": ["212062"], "gold_accepted_ids": ["212087"]}
+{"query_id": "223534", "query": "Can Chrome Extensions steal OAuth tokens from redirect-uri?", "gold_thread_ids": ["15259"], "gold_accepted_ids": ["15269"]}
+{"query_id": "169677", "query": "Bitlocker recovery will not work on swapped hard drive", "gold_thread_ids": ["131200"], "gold_accepted_ids": ["131234"]}
+{"query_id": "85375", "query": "Disallowing Similar Passwords", "gold_thread_ids": ["3170"], "gold_accepted_ids": ["4114"]}
+{"query_id": "25730", "query": "Is the use of JavaScript for cryptography ever appropriate in the browser?", "gold_thread_ids": ["24423"], "gold_accepted_ids": []}
+{"query_id": "203454", "query": "How can I create a self-signed certificate with a custom field?", "gold_thread_ids": ["155670"], "gold_accepted_ids": ["155677"]}
+{"query_id": "269946", "query": "I clicked on a SMS spam link. Am I safe?", "gold_thread_ids": ["3674"], "gold_accepted_ids": ["3675"]}
+{"query_id": "166700", "query": "Why don't cell towers authenticate with cell phones?", "gold_thread_ids": ["97445"], "gold_accepted_ids": ["97447"]}
+{"query_id": "270773", "query": "Can an employer see all of your local network activity or just the device connected to their VPN?", "gold_thread_ids": ["218733"], "gold_accepted_ids": []}
+{"query_id": "231025", "query": "Is it possible to delete all traces and files on a mac?", "gold_thread_ids": ["145950"], "gold_accepted_ids": []}
+{"query_id": "171672", "query": "Does SOP helps against CSRF attacks?", "gold_thread_ids": ["157061"], "gold_accepted_ids": []}
+{"query_id": "41130", "query": "How to remove rootkits and malware?", "gold_thread_ids": ["30091"], "gold_accepted_ids": ["30095"]}
+{"query_id": "274503", "query": "Opening a mobile banking app in an unknown Wifi", "gold_thread_ids": ["153002", "34840"], "gold_accepted_ids": ["153009"]}
+{"query_id": "206322", "query": "How to investigate and remove Trojan:EC2/DGADomainRequest.B", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "233481", "query": "What harm can a leaked IMSI do?", "gold_thread_ids": ["49343"], "gold_accepted_ids": ["49357"]}
+{"query_id": "272983", "query": "How to determine if email is from from gaia.bounces.google.com or just forwarded from there?", "gold_thread_ids": ["182869"], "gold_accepted_ids": []}
+{"query_id": "83397", "query": "Why encrypt client<->server on top of TLS?", "gold_thread_ids": ["46529"], "gold_accepted_ids": []}
+{"query_id": "266969", "query": "How to check if a Firefox add-on is malicious?", "gold_thread_ids": ["15726"], "gold_accepted_ids": []}
+{"query_id": "269133", "query": "How to find the correspond hash algorithm?", "gold_thread_ids": ["41506"], "gold_accepted_ids": []}
+{"query_id": "21339", "query": "Varient of MD5 and SHA", "gold_thread_ids": ["21277"], "gold_accepted_ids": ["21499"]}
+{"query_id": "230321", "query": "Can anyone send any certificate", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "252565", "query": "Is the RSA Public Key size always the same as the private key size?", "gold_thread_ids": ["90169"], "gold_accepted_ids": ["90182"]}
+{"query_id": "244599", "query": "A single microservice (e.g., a spring boot jar) can be dependent on more than 100 libraries - how to ensure that none of these are compromised?", "gold_thread_ids": ["243575"], "gold_accepted_ids": []}
+{"query_id": "274354", "query": "Can Sending All Possible Otp Codes Within 1 Second Bypass Server Protections?", "gold_thread_ids": ["120371", "70571"], "gold_accepted_ids": []}
+{"query_id": "167141", "query": "Should I use a Password manager or just use different passwords?", "gold_thread_ids": ["152269"], "gold_accepted_ids": []}
+{"query_id": "116052", "query": "Force browser to not URL encode specific characters?", "gold_thread_ids": ["82652", "98025"], "gold_accepted_ids": ["82818"]}
+{"query_id": "247696", "query": "Client-side encryption of a password?", "gold_thread_ids": ["8596"], "gold_accepted_ids": ["8600"]}
+{"query_id": "229780", "query": "How to secure a Windows system impacted by TeamViewer customer support scam?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "216046", "query": "How to remove a very stealthy virus?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "259893", "query": "How to pipe a character set on hydra", "gold_thread_ids": ["186285"], "gold_accepted_ids": []}
+{"query_id": "272797", "query": "TLS session keys", "gold_thread_ids": ["187016", "258831", "39590", "65622"], "gold_accepted_ids": ["258832", "39596", "65645"]}
+{"query_id": "163517", "query": "Verification on phone first three password characters", "gold_thread_ids": ["4830"], "gold_accepted_ids": ["4835"]}
+{"query_id": "264530", "query": "How do I recklessly browse the web, download suspicious files and run them with as low a risk as possible?", "gold_thread_ids": ["3056", "73338"], "gold_accepted_ids": ["3058"]}
+{"query_id": "252001", "query": "What if there is a \"man in the middle\" between the client and the certification authority and the same MITM is also between Client and server?", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "273504", "query": "I clicked on a suspect link, whose base url was live (dot) tvstreaming4k (dot) com, during a live event. Is this a threat?", "gold_thread_ids": ["121610", "45265"], "gold_accepted_ids": ["121612", "45273"]}
+{"query_id": "33579", "query": "Using SSL on my sites for everything or just some things?", "gold_thread_ids": ["258"], "gold_accepted_ids": []}
+{"query_id": "213713", "query": "SMS spoofing detection", "gold_thread_ids": ["44943"], "gold_accepted_ids": []}
+{"query_id": "213819", "query": "New user has appeared on my Macbook Pro", "gold_thread_ids": ["197210"], "gold_accepted_ids": []}
+{"query_id": "108080", "query": "Using 8192 bit keys GPG", "gold_thread_ids": ["8381"], "gold_accepted_ids": []}
+{"query_id": "114718", "query": "Can password hashing both client side and on the back end improve security if we don't necessarily trust the server?", "gold_thread_ids": ["66475", "66583"], "gold_accepted_ids": ["66476"]}
+{"query_id": "276229", "query": "ssh-keygen fido2 keys without password", "gold_thread_ids": ["258509"], "gold_accepted_ids": ["265288"]}
+{"query_id": "180935", "query": "Can we screen record Netflix strems?", "gold_thread_ids": ["81870"], "gold_accepted_ids": ["81885"]}
+{"query_id": "254311", "query": "How bad is it if HaveIBeenPwned reports pwned accounts that aren't mine?", "gold_thread_ids": ["204701"], "gold_accepted_ids": ["204703"]}
+{"query_id": "203159", "query": "Where do salts come from?", "gold_thread_ids": ["211"], "gold_accepted_ids": ["31846"]}
+{"query_id": "172236", "query": "Honeypot confused where to deploy", "gold_thread_ids": ["3978"], "gold_accepted_ids": ["3979"]}
+{"query_id": "33705", "query": "Is it the default in billing systems to send out the users password by email?", "gold_thread_ids": ["4997"], "gold_accepted_ids": ["4998"]}
+{"query_id": "214463", "query": "How to get user information from an IP address?", "gold_thread_ids": ["170088"], "gold_accepted_ids": []}
+{"query_id": "268941", "query": "Is there a safe way to follow a suspicious link?", "gold_thread_ids": ["117740", "12586"], "gold_accepted_ids": ["117743"]}
+{"query_id": "49122", "query": "What is the impact of the recent GPG acoustic key sniffing research?", "gold_thread_ids": ["47334"], "gold_accepted_ids": ["49125"]}
+{"query_id": "269505", "query": "What changed in openssl enc file format between versions 1.0 and 1.1?", "gold_thread_ids": ["160183"], "gold_accepted_ids": ["160196"]}
+{"query_id": "265160", "query": "How to make the website owner anonymous?", "gold_thread_ids": ["48294", "9504"], "gold_accepted_ids": []}
+{"query_id": "186096", "query": "How to exploit XSS in the Accept-Language header", "gold_thread_ids": ["171980"], "gold_accepted_ids": []}
+{"query_id": "260769", "query": "Bruteforce on RDP", "gold_thread_ids": ["105515", "227466"], "gold_accepted_ids": []}
+{"query_id": "232465", "query": "How can your BIOS be infected or hacked and Can a BIOS virus be used to \"steal data\"?", "gold_thread_ids": ["180022"], "gold_accepted_ids": []}
+{"query_id": "37486", "query": "Where to store sensitive client details (MYSQL DB credentials)", "gold_thread_ids": ["23489", "7580"], "gold_accepted_ids": ["23498"]}
+{"query_id": "230427", "query": "Can the school see my computer?", "gold_thread_ids": ["149004"], "gold_accepted_ids": []}
+{"query_id": "86646", "query": "If EMV can't be copied/cloned, how will companies like plastc do it?", "gold_thread_ids": ["46319"], "gold_accepted_ids": ["46325"]}
+{"query_id": "89892", "query": "General Entropy as opposed to Password Entropy", "gold_thread_ids": ["21050"], "gold_accepted_ids": ["21051"]}
+{"query_id": "247676", "query": "Wondering if a USB dongle for gaming controller could have malware installed", "gold_thread_ids": ["158805"], "gold_accepted_ids": ["158815"]}
+{"query_id": "19029", "query": "How can a service shorten a password if it is not stored in plaintext?", "gold_thread_ids": ["19028"], "gold_accepted_ids": ["19031"]}
+{"query_id": "268234", "query": "Which is more secure: Certificate or Secret inside our Azure Active Directory App, and why?", "gold_thread_ids": ["3605"], "gold_accepted_ids": ["3613"]}
+{"query_id": "271778", "query": "Can you sign a TLS root certificate that already exists?", "gold_thread_ids": ["213322", "81860"], "gold_accepted_ids": ["81863"]}
+{"query_id": "218061", "query": "Is it possible to encrypt a message stream with the same IV each time and for it to be secure?", "gold_thread_ids": ["115500"], "gold_accepted_ids": []}
+{"query_id": "264779", "query": "Do I need https for a web server that will be used locally?", "gold_thread_ids": ["227020", "251308"], "gold_accepted_ids": ["227023", "251310"]}
+{"query_id": "218184", "query": "Just came to know about Digital Certificates. But did't understand the way clients can verify CA", "gold_thread_ids": ["87564"], "gold_accepted_ids": ["89072"]}
+{"query_id": "261954", "query": "Are there any security issues with getting the IP address of a user?", "gold_thread_ids": ["19018"], "gold_accepted_ids": ["19019"]}
+{"query_id": "108658", "query": "Can attempting to extract an encrypted .rar file install a malware?", "gold_thread_ids": ["105107"], "gold_accepted_ids": ["105146"]}
+{"query_id": "55262", "query": "Does heartbleed have any effect if OpenSSL was only used to generate the certificate", "gold_thread_ids": ["55188"], "gold_accepted_ids": ["55265"]}
+{"query_id": "94257", "query": "How to monitor websites being visited on network?", "gold_thread_ids": ["94253"], "gold_accepted_ids": []}
+{"query_id": "179587", "query": "Is it really risky to make your IBAN public?", "gold_thread_ids": ["14118"], "gold_accepted_ids": ["14119"]}
+{"query_id": "221393", "query": "Small company network SSL -> xampp + SSL + subjectAltName", "gold_thread_ids": ["148067", "160787"], "gold_accepted_ids": ["148068"]}
+{"query_id": "263013", "query": "Displaying a user's password in plaintext on login pages. Why is this practice becoming more widespread?", "gold_thread_ids": ["124890", "258639", "47557"], "gold_accepted_ids": []}
+{"query_id": "245987", "query": "Facebook and Yahoo 2FA SMS codes from odd numbers", "gold_thread_ids": ["175556", "225298"], "gold_accepted_ids": ["175607"]}
+{"query_id": "145289", "query": "Fix for BREACH attack. Is this the best approach?", "gold_thread_ids": ["103384"], "gold_accepted_ids": ["103386"]}
+{"query_id": "40094", "query": "Should we protect web application source code from being stolen by web hosts through obfuscation?", "gold_thread_ids": ["40077"], "gold_accepted_ids": ["40081"]}
+{"query_id": "272379", "query": "How can I check for malware embedded in an MP4 video?", "gold_thread_ids": ["227060"], "gold_accepted_ids": ["227061"]}
+{"query_id": "203308", "query": "How to check if installed Trusted CAs are not dangerous?", "gold_thread_ids": ["166929", "40968", "48437"], "gold_accepted_ids": ["40981", "48443"]}
+{"query_id": "270384", "query": "Is a mobile phone number in itself an information that can be utilized by hackers etc?", "gold_thread_ids": ["231724", "248902", "72589"], "gold_accepted_ids": ["248905", "72590"]}
+{"query_id": "90267", "query": "Complicated HTTP-POST-FORM's with Hydra", "gold_thread_ids": ["37020"], "gold_accepted_ids": ["37029"]}
+{"query_id": "218476", "query": "how to bypass URL encoding on XSS", "gold_thread_ids": ["147870"], "gold_accepted_ids": []}
+{"query_id": "213564", "query": "Can charles proxy (with root cert installed) intercept and read all traffic between mobile app and server?", "gold_thread_ids": ["191687", "85813"], "gold_accepted_ids": ["191707", "85815"]}
+{"query_id": "239724", "query": "OpenSSH artifacts, remote system access?", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "188031", "query": "Why CA certificate can't be spoofed?", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "259435", "query": "The difference between a virtual door-lock and a public key", "gold_thread_ids": ["24407"], "gold_accepted_ids": ["24408"]}
+{"query_id": "131363", "query": "Are AliPay password rules making it easier to guess a password?", "gold_thread_ids": ["124682"], "gold_accepted_ids": ["124733"]}
+{"query_id": "270089", "query": "Are unlisted links to sensitive data acceptable?", "gold_thread_ids": ["112021"], "gold_accepted_ids": ["112024"]}
+{"query_id": "206683", "query": "Old Jboss installation. Is it safer behind a reverse proxy?", "gold_thread_ids": ["259"], "gold_accepted_ids": ["261"]}
+{"query_id": "241353", "query": "Received Google 2FA Code via SMS from two unknown phone numbers", "gold_thread_ids": ["175556"], "gold_accepted_ids": ["175607"]}
+{"query_id": "214609", "query": "How do you secure your PC and Wifi at a shared office/co-working space like WeWork?", "gold_thread_ids": ["174850"], "gold_accepted_ids": ["174851"]}
+{"query_id": "115677", "query": "Unable to remove a trojan that affects IE", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "30144", "query": "How can I explain Cross Site Scripting in a non-technical way?", "gold_thread_ids": ["1368"], "gold_accepted_ids": ["1373"]}
+{"query_id": "237314", "query": "Weird GET request on internet facing Nginx", "gold_thread_ids": ["116504", "40291"], "gold_accepted_ids": ["116505", "40293"]}
+{"query_id": "205074", "query": "Is it possible to save a verifiable log of a TLS session?", "gold_thread_ids": ["143375", "144906", "169619"], "gold_accepted_ids": ["144908", "169623"]}
+{"query_id": "209159", "query": "Bug in pay by phone screen accepts credit card information", "gold_thread_ids": ["52"], "gold_accepted_ids": ["60"]}
+{"query_id": "116029", "query": "How can I prevent Ubuntu from automatically using an USB keyboard?", "gold_thread_ids": ["112786"], "gold_accepted_ids": []}
+{"query_id": "167032", "query": "Whether captcha (or reCAPTCHA) is good or bad", "gold_thread_ids": ["22906"], "gold_accepted_ids": ["22909"]}
+{"query_id": "203663", "query": "Is GPG's AES encryption that much stronger than its RSA headers?", "gold_thread_ids": ["59190"], "gold_accepted_ids": ["80785"]}
+{"query_id": "200417", "query": ".[fileslocker@pm.me] virus", "gold_thread_ids": ["138606", "174961"], "gold_accepted_ids": ["138617"]}
+{"query_id": "166411", "query": "Key Exchange and DH parameters", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "262641", "query": "TLS certificate with private IP address", "gold_thread_ids": ["121163", "244290", "251308"], "gold_accepted_ids": ["251310"]}
+{"query_id": "271300", "query": "How to deal with unused smart phones safely", "gold_thread_ids": ["212388"], "gold_accepted_ids": ["212450"]}
+{"query_id": "227092", "query": "Network administrator in my flat - vulnerabilities?", "gold_thread_ids": ["178909"], "gold_accepted_ids": ["178912"]}
+{"query_id": "68292", "query": "Where can I find a list indicating the vulnerability status of SOHO routers to Shellshock?", "gold_thread_ids": ["68255"], "gold_accepted_ids": ["68256"]}
+{"query_id": "222080", "query": "Keeping devices secure on a WIFI network", "gold_thread_ids": ["114762"], "gold_accepted_ids": ["114765"]}
+{"query_id": "270862", "query": "Check BadUSB or similar threats via software", "gold_thread_ids": ["142191", "87449"], "gold_accepted_ids": ["87454"]}
+{"query_id": "259103", "query": "Role of public and private keys of client certificate in mTLS", "gold_thread_ids": ["141048"], "gold_accepted_ids": []}
+{"query_id": "260308", "query": "can hackers access a subnet in different network?", "gold_thread_ids": ["16850", "8772"], "gold_accepted_ids": ["16866", "8773"]}
+{"query_id": "258250", "query": "Is removing the `${jndi:` string a mitigation of the log4j security issue?", "gold_thread_ids": ["257921"], "gold_accepted_ids": ["258239"]}
+{"query_id": "230985", "query": "static analysis for identifying backdoors in PE", "gold_thread_ids": ["231393"], "gold_accepted_ids": []}
+{"query_id": "137380", "query": "How did my company firewall get URL from a HTTPS site?", "gold_thread_ids": ["63304"], "gold_accepted_ids": ["63306"]}
+{"query_id": "147181", "query": "Should I be concerned with iOS third-party email apps storing credentials?", "gold_thread_ids": ["119851"], "gold_accepted_ids": ["119870"]}
+{"query_id": "273026", "query": "If only 'two' insecure MFA options are available (email and sms) which is 'most secure'?", "gold_thread_ids": ["199799", "231563"], "gold_accepted_ids": ["199872", "231574"]}
+{"query_id": "94446", "query": "Nation-state digital signatures - how is my public key linked to an identity?", "gold_thread_ids": ["52189"], "gold_accepted_ids": []}
+{"query_id": "145409", "query": "Check downloaded file integrity", "gold_thread_ids": ["43332"], "gold_accepted_ids": ["43337"]}
+{"query_id": "187596", "query": "Decrypting 802.11 packets captured through wireshark", "gold_thread_ids": ["157678"], "gold_accepted_ids": ["157745"]}
+{"query_id": "243119", "query": "Is it possible for someone to \"peel back\" an image layer?", "gold_thread_ids": ["126932"], "gold_accepted_ids": ["126937"]}
+{"query_id": "175737", "query": "How does this website check my incognito/private mode?", "gold_thread_ids": ["9037"], "gold_accepted_ids": ["9255"]}
+{"query_id": "117752", "query": "Creating a dynamic malware analysis environment", "gold_thread_ids": ["23452"], "gold_accepted_ids": ["23503"]}
+{"query_id": "264447", "query": "TLS 1.3 Handshake issue - client is tls 1.3 enabled and server is tls 1.2 enabled", "gold_thread_ids": ["261135"], "gold_accepted_ids": ["261158"]}
+{"query_id": "252591", "query": "How does the inclusion of a subprime q value affect the Diffie Hellman equation for key exchange?", "gold_thread_ids": ["73505"], "gold_accepted_ids": ["73542"]}
+{"query_id": "80772", "query": "Strength and length of Symmetric vs Asymmetric keys", "gold_thread_ids": ["59190"], "gold_accepted_ids": ["80785"]}
+{"query_id": "274108", "query": "How to make the rules 920600 and 922110 dynamic to have custom charsets (custom regexp) in CRS 4", "gold_thread_ids": ["267800"], "gold_accepted_ids": []}
+{"query_id": "204622", "query": "My website is hacked and injected", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "274311", "query": "Does DNSSEC prevent man-in-the-middle at all?", "gold_thread_ids": ["46652"], "gold_accepted_ids": ["56014"]}
+{"query_id": "211695", "query": "\"We noticed you\u2019re browsing in private mode.\" -- how do they know?", "gold_thread_ids": ["9037"], "gold_accepted_ids": ["9255"]}
+{"query_id": "191280", "query": "Why for different websites are there different TLS message type sequences?", "gold_thread_ids": ["190410"], "gold_accepted_ids": ["190415"]}
+{"query_id": "77260", "query": "Understanding HTTPS: why use both symmetric and asymmetric key cryptography?", "gold_thread_ids": ["3657"], "gold_accepted_ids": ["3661"]}
+{"query_id": "257374", "query": "Can someone on same wifi access my computer?", "gold_thread_ids": ["162490"], "gold_accepted_ids": []}
+{"query_id": "262329", "query": "Best practice for storing security tokens in source code", "gold_thread_ids": ["180243"], "gold_accepted_ids": ["180245"]}
+{"query_id": "230467", "query": "Is document.write(window.location.hash.substr(1)) still exploitable for DOM XSS?", "gold_thread_ids": ["190459"], "gold_accepted_ids": []}
+{"query_id": "271111", "query": "Bitlocker TPM + PIN vs password without TPM", "gold_thread_ids": ["197654", "224559"], "gold_accepted_ids": ["224575"]}
+{"query_id": "244453", "query": "How can I best obfuscate surveillance against my browser?", "gold_thread_ids": ["23053"], "gold_accepted_ids": []}
+{"query_id": "14097", "query": "IP Adress Spofing via ncat,nc etc", "gold_thread_ids": ["14046"], "gold_accepted_ids": []}
+{"query_id": "11369", "query": "How anonymous used UTF-16 ASCII to fool PHP escaping", "gold_thread_ids": ["11391"], "gold_accepted_ids": ["11371"]}
+{"query_id": "85415", "query": "How is it possible for threatmetrix to detect VPN?", "gold_thread_ids": ["71774"], "gold_accepted_ids": []}
+{"query_id": "187782", "query": "emails not going as spamhaus has us on their blacklist", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "243889", "query": "If i click on a link could it contain a virus inside iphone + IOS 14.4", "gold_thread_ids": ["76680"], "gold_accepted_ids": []}
+{"query_id": "265529", "query": "How does client data encryption work in HTTPS?", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "273507", "query": "Why does FIDO2's spec not mention FIDO UAF as a related standard?", "gold_thread_ids": ["220752"], "gold_accepted_ids": ["225158"]}
+{"query_id": "197051", "query": "Response to a gpg fingerprint collision", "gold_thread_ids": ["160500"], "gold_accepted_ids": ["160544"]}
+{"query_id": "214031", "query": "Snort rules to detect metasploit's trojan", "gold_thread_ids": ["130033"], "gold_accepted_ids": []}
+{"query_id": "171535", "query": "Verify that any online service is secure", "gold_thread_ids": ["101192"], "gold_accepted_ids": ["101194"]}
+{"query_id": "44093", "query": "Securing your virtual machine", "gold_thread_ids": ["3056"], "gold_accepted_ids": ["3058"]}
+{"query_id": "256650", "query": "Can my college read SSL traffic if I don't validate CA certificate?", "gold_thread_ids": ["229645"], "gold_accepted_ids": ["229663"]}
+{"query_id": "144668", "query": "How is SSL VPN traffic differentiated from regular SSL traffic?", "gold_thread_ids": ["42735"], "gold_accepted_ids": []}
+{"query_id": "248973", "query": "TLS: should a server return the complete certificate chain?", "gold_thread_ids": ["65332"], "gold_accepted_ids": ["65333"]}
+{"query_id": "89752", "query": "All passwords are valid with hydra", "gold_thread_ids": ["37020"], "gold_accepted_ids": ["37029"]}
+{"query_id": "211744", "query": "Government Root CA installed on computer/browser and Man-In-The-Middle", "gold_thread_ids": ["63304", "71171"], "gold_accepted_ids": ["63306", "71174"]}
+{"query_id": "270344", "query": "Is there any security threat with open WiFi connection in 2023 for online banking?", "gold_thread_ids": ["1525", "34764", "34840"], "gold_accepted_ids": []}
+{"query_id": "273845", "query": "hydra returns all passwords tested as found", "gold_thread_ids": ["37020"], "gold_accepted_ids": ["37029"]}
+{"query_id": "16227", "query": "more justification for the impact scores used by the national vulnerability database", "gold_thread_ids": ["15830"], "gold_accepted_ids": []}
+{"query_id": "220878", "query": "Which part/step of the TLS handshake is essential for providing PFS?", "gold_thread_ids": ["205639"], "gold_accepted_ids": ["205689"]}
+{"query_id": "165255", "query": "Spoofing an IP/MAC address to avoid ICMP Destination Unreachable being sent back", "gold_thread_ids": ["104738"], "gold_accepted_ids": ["139436"]}
+{"query_id": "254761", "query": "Suspicious HEAD http requests", "gold_thread_ids": ["119337"], "gold_accepted_ids": ["119341"]}
+{"query_id": "221170", "query": "What are the risks of opening ports (and how do I protect against said risks)", "gold_thread_ids": ["9461"], "gold_accepted_ids": ["9463"]}
+{"query_id": "37707", "query": "Is it safe to connect mobile devices to rental cars?", "gold_thread_ids": ["26356", "7687"], "gold_accepted_ids": ["36207", "7694"]}
+{"query_id": "89858", "query": "Is there any Windows/Linux host officially available on the Internet for practicing penetration testing?", "gold_thread_ids": ["1735"], "gold_accepted_ids": []}
+{"query_id": "271635", "query": "How do I know when my USB was last accessed and if any multiple files were copied from it??", "gold_thread_ids": ["195482"], "gold_accepted_ids": []}
+{"query_id": "170582", "query": "Securing Private data- Is TLS enough?", "gold_thread_ids": ["21322", "46529", "51069", "82264"], "gold_accepted_ids": ["51070", "82268"]}
+{"query_id": "226128", "query": "Why would you restrict these characters within a password?", "gold_thread_ids": ["101083", "17192"], "gold_accepted_ids": ["101092"]}
+{"query_id": "248681", "query": "SSL stripping - how is it possible to send back the HTTP page?", "gold_thread_ids": ["41988", "84767"], "gold_accepted_ids": ["41991", "93201"]}
+{"query_id": "255574", "query": "Certificate subject name 'xxx' does not match target host name 'yyy'", "gold_thread_ids": ["150078", "158166", "190905", "217866"], "gold_accepted_ids": ["176084", "158172", "190906"]}
+{"query_id": "257632", "query": "I ran an exe file on my computer", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "266766", "query": "Found several potentially malicious PHP files but not sure what they are doing?", "gold_thread_ids": ["115461"], "gold_accepted_ids": ["115462"]}
+{"query_id": "151976", "query": "How does SPF makes life any harder for a spammer/phisher?", "gold_thread_ids": ["151241"], "gold_accepted_ids": []}
+{"query_id": "266105", "query": "How do I report that the organization is using common passwords for the backend", "gold_thread_ids": ["807"], "gold_accepted_ids": ["808"]}
+{"query_id": "157489", "query": "Is there a way to limit the domains a CA is allowed to sign certificates for?", "gold_thread_ids": ["31376"], "gold_accepted_ids": ["31382"]}
+{"query_id": "263729", "query": "How to prevent contactless cards RFID signal cloning", "gold_thread_ids": ["70828"], "gold_accepted_ids": ["71362"]}
+{"query_id": "219713", "query": "Trace the orgins of a DNS request", "gold_thread_ids": ["88873"], "gold_accepted_ids": []}
+{"query_id": "261714", "query": "How to stop Wordpress search abuse?", "gold_thread_ids": ["197038", "5001"], "gold_accepted_ids": ["5002"]}
+{"query_id": "271555", "query": "Block specific spam ip address to my websites", "gold_thread_ids": ["65"], "gold_accepted_ids": ["76"]}
+{"query_id": "227539", "query": "Does the entire certificate chain need to be signed with the agreed upon cipher under TLS?", "gold_thread_ids": ["106509", "110393"], "gold_accepted_ids": ["110395"]}
+{"query_id": "119799", "query": "TLS: Are the following considered 'weak' ciphers?", "gold_thread_ids": ["116895"], "gold_accepted_ids": []}
+{"query_id": "4113", "query": "Checking whether a password is derived from previous passwords", "gold_thread_ids": ["3170"], "gold_accepted_ids": ["4114"]}
+{"query_id": "159404", "query": "Why doesn't Google login enforce ssl redirect at the server end?", "gold_thread_ids": ["41988"], "gold_accepted_ids": ["41991"]}
+{"query_id": "234452", "query": "Reverse shell from backdoor - exposing attacker?", "gold_thread_ids": ["153777", "178499", "218016", "62173"], "gold_accepted_ids": ["153779", "218017"]}
+{"query_id": "265893", "query": "Writing credit card information to a new card", "gold_thread_ids": ["107993", "254582"], "gold_accepted_ids": []}
+{"query_id": "140280", "query": "How can WhatsApp be end-to-end encrypted when WhatsApp Web still works", "gold_thread_ids": ["119552"], "gold_accepted_ids": ["119554"]}
+{"query_id": "270762", "query": "efficient subdomain extraction", "gold_thread_ids": ["35078"], "gold_accepted_ids": ["35365"]}
+{"query_id": "103844", "query": "Why has the \"Origin\" HTTP header not been universally adopted?", "gold_thread_ids": ["91165"], "gold_accepted_ids": ["91190"]}
+{"query_id": "71730", "query": "Is the password \"Z\" more secure than the password \"a\"?", "gold_thread_ids": ["64202"], "gold_accepted_ids": ["64206"]}
+{"query_id": "257881", "query": "Should a wildcard cert. e.g. *.example.com, be accepted to authenticate the root domain not listed as SAN?", "gold_thread_ids": ["83245"], "gold_accepted_ids": []}
+{"query_id": "269242", "query": "Police have seized phone regarding sent emails", "gold_thread_ids": ["269159"], "gold_accepted_ids": []}
+{"query_id": "171077", "query": "What's the purpose in sending a malicious .js file over email?", "gold_thread_ids": ["118804"], "gold_accepted_ids": ["118809"]}
+{"query_id": "103798", "query": "CSRF attack - Set custom CSRF Header", "gold_thread_ids": ["23371"], "gold_accepted_ids": ["23373"]}
+{"query_id": "240357", "query": "How do hackers gain access using malicious websites?", "gold_thread_ids": ["3848"], "gold_accepted_ids": ["96953"]}
+{"query_id": "271515", "query": "Make use of encrypted or anonymous data in database", "gold_thread_ids": ["149963", "30193"], "gold_accepted_ids": ["149967", "30197"]}
+{"query_id": "71501", "query": "SSL Asymmetric encryption newbie", "gold_thread_ids": ["5"], "gold_accepted_ids": ["21"]}
+{"query_id": "83054", "query": "How to Allow users to save html in Rails application without affecting security", "gold_thread_ids": ["23220"], "gold_accepted_ids": []}
+{"query_id": "58935", "query": "Determining the efficiency of a biometric system", "gold_thread_ids": ["57589"], "gold_accepted_ids": []}
+{"query_id": "268644", "query": "Server directory bruteforcing", "gold_thread_ids": ["40291"], "gold_accepted_ids": ["40293"]}
+{"query_id": "266978", "query": "Are there any attacks against TLS 1.1 encryption?", "gold_thread_ids": ["57878"], "gold_accepted_ids": []}
+{"query_id": "263938", "query": "What all steps can we take to check the security of Python Packages?", "gold_thread_ids": ["261720"], "gold_accepted_ids": ["261728"]}
+{"query_id": "67863", "query": "Removing malware which is creating temp file and modifying network traffic", "gold_thread_ids": ["39231"], "gold_accepted_ids": ["39232"]}
+{"query_id": "269411", "query": "Have an electronic and physical stalker with access to my computer when I am online", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "245415", "query": "Unknown user directory on Windows with funky file names", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "200838", "query": "Can my work's Wifi see the video I sent through Snapchat", "gold_thread_ids": ["142803"], "gold_accepted_ids": ["142805"]}
+{"query_id": "147565", "query": "What security risks are associated with using a unofficial .vmdk?", "gold_thread_ids": ["3056", "9011"], "gold_accepted_ids": ["3058", "9017"]}
+{"query_id": "271263", "query": "How to crack KeePass database when knowing the first part of the master password", "gold_thread_ids": ["149110", "42125"], "gold_accepted_ids": ["149113", "42130"]}
+{"query_id": "178116", "query": "How does Mirai (or any IoT malware) perform the initial infection?", "gold_thread_ids": ["144754"], "gold_accepted_ids": ["144761"]}
+{"query_id": "65192", "query": "Why an infected VM does not affect the host machine?", "gold_thread_ids": ["3056"], "gold_accepted_ids": ["3058"]}
+{"query_id": "207373", "query": "Security risks in confirming the username instead of confirming the username and password combination", "gold_thread_ids": ["158075"], "gold_accepted_ids": ["158081"]}
+{"query_id": "235113", "query": "How to decrypt encrypted data from .repl ransomware on Windows?", "gold_thread_ids": ["225873"], "gold_accepted_ids": ["225874"]}
+{"query_id": "227728", "query": "Doesn't installing a TOTP client on your primary PC undermine the whole point of 2FA?", "gold_thread_ids": ["175657"], "gold_accepted_ids": ["175710"]}
+{"query_id": "235176", "query": "Is it possible to infect a wired headset with any kind of malware?", "gold_thread_ids": ["127111"], "gold_accepted_ids": ["127115"]}
+{"query_id": "27777", "query": "Suggested books to study for CISSP?", "gold_thread_ids": ["1883"], "gold_accepted_ids": []}
+{"query_id": "92995", "query": "Using UUIDs for non-guessable URLs", "gold_thread_ids": ["58215"], "gold_accepted_ids": ["58219"]}
+{"query_id": "148040", "query": "TLS: Using different signature algorithms for ca and server certificate", "gold_thread_ids": ["14207"], "gold_accepted_ids": ["18451"]}
+{"query_id": "246185", "query": "Can my school see my browsing history while on campus?", "gold_thread_ids": ["195034"], "gold_accepted_ids": []}
+{"query_id": "100243", "query": "Password storing using hashing only, encryption plus hash", "gold_thread_ids": ["211"], "gold_accepted_ids": ["31846"]}
+{"query_id": "202215", "query": "what exactly we can do with a MAC address?", "gold_thread_ids": ["67893"], "gold_accepted_ids": ["67896"]}
+{"query_id": "262747", "query": "Authenticating with unencrypted POST credentials - is it safe?", "gold_thread_ids": ["51069", "54656"], "gold_accepted_ids": ["51070", "54659"]}
+{"query_id": "237672", "query": "Invisible virus", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "179321", "query": "OpenLDAP security SSHA", "gold_thread_ids": ["87061"], "gold_accepted_ids": []}
+{"query_id": "34584", "query": "Could you attack a port without knowing what service was listening?", "gold_thread_ids": ["32308"], "gold_accepted_ids": ["32311"]}
+{"query_id": "248412", "query": "What you can do with XSS attacks", "gold_thread_ids": ["206520"], "gold_accepted_ids": []}
+{"query_id": "240148", "query": "How to analyze files for malware using steganography?", "gold_thread_ids": ["2144"], "gold_accepted_ids": ["2145"]}
+{"query_id": "161070", "query": "Is user listing considered a vulnerability?", "gold_thread_ids": ["4729"], "gold_accepted_ids": []}
+{"query_id": "83761", "query": "unable to execute shellcode,which is place on stack", "gold_thread_ids": ["72653"], "gold_accepted_ids": ["72659"]}
+{"query_id": "200961", "query": "How is a password intercepted on a website not using an SSL certificate", "gold_thread_ids": ["55433"], "gold_accepted_ids": []}
+{"query_id": "266557", "query": "Blank decrypted Windows 10 passwords", "gold_thread_ids": ["183891"], "gold_accepted_ids": []}
+{"query_id": "269975", "query": "Online stores asking for ID and credit card images", "gold_thread_ids": ["212289"], "gold_accepted_ids": []}
+{"query_id": "226145", "query": "Can CN=localhost be used on a server that should run on any machine", "gold_thread_ids": ["62690"], "gold_accepted_ids": []}
+{"query_id": "117412", "query": "Finding the key of encrypted string (given known decrypted message)", "gold_thread_ids": ["5355"], "gold_accepted_ids": []}
+{"query_id": "274569", "query": "How to wipe SSD", "gold_thread_ids": ["12503"], "gold_accepted_ids": ["12506"]}
+{"query_id": "107439", "query": "Let's Encrypt - can I rely on it?", "gold_thread_ids": ["107264"], "gold_accepted_ids": ["107350"]}
+{"query_id": "256301", "query": "How to configure Snort 3 to detect nmap's port scanning?", "gold_thread_ids": ["191910"], "gold_accepted_ids": ["191911"]}
+{"query_id": "244399", "query": "Is it possible to verify that a USB adapter is not malicious?", "gold_thread_ids": ["229741"], "gold_accepted_ids": ["229900"]}
+{"query_id": "256567", "query": "Why does the SSL handshake use the generated pre-master key to create a shared secret key instead of just using the pre-master key?", "gold_thread_ids": ["218491"], "gold_accepted_ids": ["218492"]}
+{"query_id": "260818", "query": "Can I trust a hash commit for integrity of the entire repository?", "gold_thread_ids": ["150401"], "gold_accepted_ids": ["150408"]}
+{"query_id": "180217", "query": "Bought a used surface book online, any security precautions to take?", "gold_thread_ids": ["24195"], "gold_accepted_ids": ["24211"]}
+{"query_id": "263935", "query": "Can my employer see my private google account history when just logging in and out in a matter of 10 seconds on a work laptop (REPOSTED)", "gold_thread_ids": ["263919"], "gold_accepted_ids": []}
+{"query_id": "248475", "query": "Can Tor browser protect me from being found out?", "gold_thread_ids": ["212129", "65183"], "gold_accepted_ids": ["216307", "65185"]}
+{"query_id": "259175", "query": "decryption of message using private key", "gold_thread_ids": ["174599", "24407", "25741"], "gold_accepted_ids": ["174602", "24408"]}
+{"query_id": "271658", "query": "Could a trusted CA pretend to be me and run a MITM?", "gold_thread_ids": ["230689", "251078", "270485"], "gold_accepted_ids": ["230697", "251090"]}
+{"query_id": "56184", "query": "How does BGP filtering work to prevent routing hijacking?", "gold_thread_ids": ["56069"], "gold_accepted_ids": ["56225"]}
+{"query_id": "251575", "query": "What is this HTTP attack full of backslash encoded data?", "gold_thread_ids": ["5001"], "gold_accepted_ids": ["5002"]}
+{"query_id": "244545", "query": "Will Internet provider know what sub-page I visited on a site?", "gold_thread_ids": ["7705"], "gold_accepted_ids": ["7706"]}
+{"query_id": "193559", "query": "Saving and verifying an HTTPS request", "gold_thread_ids": ["143375", "144906", "187577"], "gold_accepted_ids": ["144908", "187590"]}
+{"query_id": "262109", "query": "Can Proxy replace VPN?", "gold_thread_ids": ["215231"], "gold_accepted_ids": ["215232"]}
+{"query_id": "23990", "query": "Sniff GSM packets Wireshark", "gold_thread_ids": ["5997"], "gold_accepted_ids": ["6026"]}
+{"query_id": "223878", "query": "How can I crack WPA2 hash with some limitations?", "gold_thread_ids": ["215515"], "gold_accepted_ids": []}
+{"query_id": "136722", "query": "Is there an example where pseudo-authentication via oAuth fails?", "gold_thread_ids": ["126345"], "gold_accepted_ids": ["126549"]}
+{"query_id": "273301", "query": "Use a virtual machine to do risky stuff. How to stay as safe as possible?", "gold_thread_ids": ["173846", "216838", "3056"], "gold_accepted_ids": ["3058"]}
+{"query_id": "13044", "query": "How to make sure that previous sysadmin has not compromised corporate IT security?", "gold_thread_ids": ["222"], "gold_accepted_ids": []}
+{"query_id": "68421", "query": "Vulnerability test for CVE-2014-7169 (Shellshock)", "gold_thread_ids": ["68168"], "gold_accepted_ids": ["68177"]}
+{"query_id": "224081", "query": "A bitcoin miner is getting install on my web server with the apache2 process", "gold_thread_ids": ["9234"], "gold_accepted_ids": ["9259"]}
+{"query_id": "265226", "query": "How to decrypt windows password with SAM and SYSTEM files?", "gold_thread_ids": ["183891"], "gold_accepted_ids": []}
+{"query_id": "205796", "query": "Web app: using two hashing schemes for CPU-friendly password validation & secure storage", "gold_thread_ids": ["169320"], "gold_accepted_ids": []}
+{"query_id": "239338", "query": "What is the need of HMAC in Diffie-Hellman?", "gold_thread_ids": ["33569"], "gold_accepted_ids": ["33576"]}
+{"query_id": "139550", "query": "Is there any merit to only asking for part of a user's password?", "gold_thread_ids": ["7467"], "gold_accepted_ids": ["7479"]}
+{"query_id": "249225", "query": "How safe and practical is torrenting?", "gold_thread_ids": ["167422"], "gold_accepted_ids": ["167424"]}
+{"query_id": "145195", "query": "Verifying user's location is not faked", "gold_thread_ids": ["65181"], "gold_accepted_ids": ["65215"]}
+{"query_id": "240340", "query": "Is sending a Post from a node-je/electron app vulnerable to a man in the middle attack even if it is to an https website?", "gold_thread_ids": ["7057"], "gold_accepted_ids": ["7058"]}
+{"query_id": "241814", "query": "My school said they can track what websites we visit and games we play via online learning. is this true or just a way to scare us?", "gold_thread_ids": ["215532"], "gold_accepted_ids": ["215558"]}
+{"query_id": "199344", "query": "Does `cat -v` provide adequate protection against control character injection and other similar attacks?", "gold_thread_ids": ["175903"], "gold_accepted_ids": ["175908"]}
+{"query_id": "260022", "query": "Are hashed passwords transferred to a server for user authentication?", "gold_thread_ids": ["23006", "53594"], "gold_accepted_ids": ["23012", "143857"]}
+{"query_id": "239690", "query": "Why does sudo remove environment variables by default?", "gold_thread_ids": ["68657"], "gold_accepted_ids": []}
+{"query_id": "269783", "query": "Can an attacker sniff the encryption details when connecting to a VPN?", "gold_thread_ids": ["5398"], "gold_accepted_ids": []}
+{"query_id": "214051", "query": "Security of Passwords vs Biometrics", "gold_thread_ids": ["6349"], "gold_accepted_ids": ["6381"]}
+{"query_id": "233739", "query": "Detect card type (RFID, NFC, Magnetic, ...)", "gold_thread_ids": ["205202", "5199"], "gold_accepted_ids": ["5216"]}
+{"query_id": "233324", "query": "Is it possible to have and use a dynamic dictionary for brute-forcing?", "gold_thread_ids": ["232497"], "gold_accepted_ids": ["232499"]}
+{"query_id": "49337", "query": "Secure data with server and RSA?", "gold_thread_ids": ["20803"], "gold_accepted_ids": ["20833"]}
+{"query_id": "157200", "query": "How to open PDFs securely?", "gold_thread_ids": ["151300"], "gold_accepted_ids": ["151315"]}
+{"query_id": "248707", "query": "How to recover a hacked site with WSO Shell", "gold_thread_ids": ["9234"], "gold_accepted_ids": ["9259"]}
+{"query_id": "167416", "query": "Can https traffic be sniffed on public networks? and will a vpn help security on public networks?", "gold_thread_ids": ["19616", "8145", "83028"], "gold_accepted_ids": ["8309", "83039"]}
+{"query_id": "251618", "query": "sslstrip showing an error", "gold_thread_ids": ["41988"], "gold_accepted_ids": ["41991"]}
+{"query_id": "20200", "query": "How can I tell if I've been hacked?", "gold_thread_ids": ["18775"], "gold_accepted_ids": ["18787"]}
+{"query_id": "37349", "query": "What are the security implications of (not) expiring login screen session?", "gold_thread_ids": ["23910"], "gold_accepted_ids": []}
+{"query_id": "274263", "query": "I do not understand how the standard practice to pass secrets as environment variables to containers considered as safe?", "gold_thread_ids": ["197784", "96675"], "gold_accepted_ids": ["197791"]}
+{"query_id": "57223", "query": "How to secure my network in home environment from infected computers from the inside of the network?", "gold_thread_ids": ["57034"], "gold_accepted_ids": []}
+{"query_id": "177257", "query": "XSS using User Agent, Possible?", "gold_thread_ids": ["1310", "31826"], "gold_accepted_ids": ["1334", "31835"]}
+{"query_id": "245707", "query": "How do I use SYN cookies to perform a DOS attack", "gold_thread_ids": ["20904"], "gold_accepted_ids": []}
+{"query_id": "270264", "query": "How to limit user from making too many request on an API endpoint?", "gold_thread_ids": ["184619"], "gold_accepted_ids": []}
+{"query_id": "153453", "query": "Can I create my own intermediate certificate from a CA-issued certificate?", "gold_thread_ids": ["153118"], "gold_accepted_ids": ["153121"]}
+{"query_id": "268037", "query": "I clicked what looked like an Amazon email, but it (maybe) was from an Amazon affiliate. Ended up at Amazon.com anyway. Can I safely investigate?", "gold_thread_ids": ["183428"], "gold_accepted_ids": ["183437"]}
+{"query_id": "273404", "query": "When using a VPN is the device DNS cache still written to?", "gold_thread_ids": ["13900"], "gold_accepted_ids": ["13902"]}
+{"query_id": "233762", "query": "Random URLs to hide assets", "gold_thread_ids": ["112021", "58215", "83801"], "gold_accepted_ids": ["112024", "58219"]}
+{"query_id": "201176", "query": "Email from a hacker with my password", "gold_thread_ids": ["195063"], "gold_accepted_ids": []}
+{"query_id": "243935", "query": "EU GDPR: Can someone store the data inside EU but process them in US", "gold_thread_ids": ["230657"], "gold_accepted_ids": ["230670"]}
+{"query_id": "226500", "query": "Can anything be stolen from me using bank Information?", "gold_thread_ids": ["6598"], "gold_accepted_ids": []}
+{"query_id": "243812", "query": "Trace Unauthorized login into My Gmail and Facebook Account", "gold_thread_ids": ["94340"], "gold_accepted_ids": ["94343"]}
+{"query_id": "55105", "query": "What are the fields needed to check for SQLI, XSS, XSRF and Remote file inclusion attacks in apache access log file", "gold_thread_ids": ["117"], "gold_accepted_ids": ["121"]}
+{"query_id": "231781", "query": "Once I create and get a digital certificate signed, what next?", "gold_thread_ids": ["167079", "183072", "25474"], "gold_accepted_ids": ["175054", "183152"]}
+{"query_id": "257612", "query": "Application to archive a file with multiple passwords", "gold_thread_ids": ["71911"], "gold_accepted_ids": ["71915"]}
+{"query_id": "215116", "query": "How are the Voyager spacecraft protected from hackers?", "gold_thread_ids": ["6424"], "gold_accepted_ids": []}
+{"query_id": "186102", "query": "Different hash functions for validation and PBE", "gold_thread_ids": ["23409"], "gold_accepted_ids": ["23411"]}
+{"query_id": "71461", "query": "Client side ssl auth by signing with server key", "gold_thread_ids": ["38949"], "gold_accepted_ids": []}
+{"query_id": "173951", "query": "Wireshark Decoding TLS Encripted Data From My Own Computer", "gold_thread_ids": ["35639"], "gold_accepted_ids": []}
+{"query_id": "154741", "query": "What's the AES password length equivalent to 2048bit PGP key?", "gold_thread_ids": ["38015"], "gold_accepted_ids": []}
+{"query_id": "236739", "query": "Trust the same intermediate CA in client/server programmatically with C language", "gold_thread_ids": ["47426"], "gold_accepted_ids": []}
+{"query_id": "201425", "query": "What are the steps of making a fully undetectable piece of malware?", "gold_thread_ids": ["82879"], "gold_accepted_ids": []}
+{"query_id": "92643", "query": "Is it necessary to add CSRF tokens for REST API?", "gold_thread_ids": ["23371"], "gold_accepted_ids": ["23373"]}
+{"query_id": "141757", "query": "Why don't Linux distributions' websites use HTTPS to distribute their ISO files?", "gold_thread_ids": ["18853"], "gold_accepted_ids": ["18861"]}
+{"query_id": "232537", "query": "What security benefit is there in 2020 to block outbound Ping", "gold_thread_ids": ["22711"], "gold_accepted_ids": ["22713"]}
+{"query_id": "267018", "query": "\"needs to review the security of your connection before proceeding.\": What security check is that?", "gold_thread_ids": ["154975"], "gold_accepted_ids": ["154979"]}
+{"query_id": "265936", "query": "How do high-quality antiviruses recognize viruses?", "gold_thread_ids": ["117833", "438", "95186"], "gold_accepted_ids": ["118591", "30748", "95187"]}
+{"query_id": "158614", "query": "Why Aren't CA Private Keys Vulnerable to Brute Force Hacking", "gold_thread_ids": ["4518"], "gold_accepted_ids": ["4528"]}
+{"query_id": "55620", "query": "Ability to decrypt intercepted encrypted SSL traffic when having private key", "gold_thread_ids": ["55116"], "gold_accepted_ids": ["55117"]}
+{"query_id": "172242", "query": "What does SSH \"fingerprint\" help to prevent?", "gold_thread_ids": ["61580", "61735"], "gold_accepted_ids": ["61581", "61738"]}
+{"query_id": "126735", "query": "Multiple PGP keys on one server", "gold_thread_ids": ["51873"], "gold_accepted_ids": ["77067"]}
+{"query_id": "276129", "query": "Is my home network infected?", "gold_thread_ids": ["138606"], "gold_accepted_ids": ["138617"]}
+{"query_id": "271598", "query": "what is the alternative of hardcoded secret", "gold_thread_ids": ["12332"], "gold_accepted_ids": ["12334"]}
+{"query_id": "54461", "query": "Snapchat clone: How do I secure pre-downloaded notifications so that they cannot be opened outside of the app?", "gold_thread_ids": ["51596"], "gold_accepted_ids": []}
+{"query_id": "242023", "query": "socks5 nmap scan", "gold_thread_ids": ["120708"], "gold_accepted_ids": ["120723"]}

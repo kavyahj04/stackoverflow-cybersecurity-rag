@@ -1,0 +1,3417 @@
+{
+  "settings": {
+    "top_k": 50,
+    "sample_size": 150,
+    "seed": 42,
+    "cross_encoder": "BAAI/bge-reranker-v2-m3",
+    "max_threads": 10,
+    "max_answers_per_thread": 5
+  },
+  "phase_a": {
+    "dense": {
+      "queries": 1181,
+      "recall@3": 0.35309060118543606,
+      "recall@5": 0.4191363251481795,
+      "recall@10": 0.5300592718035563,
+      "mrr": 0.31690625278679785,
+      "accepted@3": 0.3053691275167785,
+      "accepted@5": 0.36465324384787473,
+      "accepted@10": 0.4597315436241611
+    },
+    "sparse": {
+      "queries": 1181,
+      "recall@3": 0.15834038950042337,
+      "recall@5": 0.20237087214225233,
+      "recall@10": 0.26248941574936496,
+      "mrr": 0.1493220887164988,
+      "accepted@3": 0.09507829977628636,
+      "accepted@5": 0.12639821029082773,
+      "accepted@10": 0.16554809843400448
+    }
+  },
+  "phase_b": {
+    "dense": {
+      "queries": 150,
+      "recall@3": 0.34,
+      "recall@5": 0.4,
+      "recall@10": 0.5066666666666667,
+      "mrr": 0.30480716348485914,
+      "accepted@3": 0.3114754098360656,
+      "accepted@5": 0.36065573770491804,
+      "accepted@10": 0.4344262295081967
+    },
+    "sparse": {
+      "queries": 150,
+      "recall@3": 0.12,
+      "recall@5": 0.16666666666666666,
+      "recall@10": 0.23333333333333334,
+      "mrr": 0.12846314142415038,
+      "accepted@3": 0.06557377049180328,
+      "accepted@5": 0.07377049180327869,
+      "accepted@10": 0.11475409836065574
+    },
+    "hybrid": {
+      "queries": 150,
+      "recall@3": 0.34,
+      "recall@5": 0.4,
+      "recall@10": 0.5266666666666666,
+      "mrr": 0.3048326273943921,
+      "accepted@3": 0.30327868852459017,
+      "accepted@5": 0.3524590163934426,
+      "accepted@10": 0.4344262295081967
+    },
+    "build_context": {
+      "queries": 150,
+      "recall@3": 0.24,
+      "recall@5": 0.37333333333333335,
+      "recall@10": 0.49333333333333335,
+      "mrr": 0.2232830687830688,
+      "accepted@3": 0.22131147540983606,
+      "accepted@5": 0.3524590163934426,
+      "accepted@10": 0.4672131147540984
+    }
+  },
+  "phase_b_per_query": [
+    {
+      "query": "Should user session be restricted to a given IP?",
+      "gold_thread_ids": [
+        "220364"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "SSH web server good practises",
+      "gold_thread_ids": [
+        "39"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Length-constant password comparison in scrypt?",
+      "gold_thread_ids": [
+        "46212"
+      ],
+      "dense": {
+        "thread_rank": 25,
+        "accepted_rank": 25
+      },
+      "sparse": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      },
+      "hybrid": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "Password as environment variable- is it a good idea?",
+      "gold_thread_ids": [
+        "14000"
+      ],
+      "dense": {
+        "thread_rank": 18,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 17,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Will a buyer be able to restore my personal data from my iPhone?",
+      "gold_thread_ids": [
+        "211823",
+        "212388",
+        "33452"
+      ],
+      "dense": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 7,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 6,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How can I determine the encryption used by knowing input and result?",
+      "gold_thread_ids": [
+        "23450"
+      ],
+      "dense": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "hybrid": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "build_context": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      }
+    },
+    {
+      "query": "How to encrypt an e-mail to many recipients in an effective way?",
+      "gold_thread_ids": [
+        "252745"
+      ],
+      "dense": {
+        "thread_rank": 14,
+        "accepted_rank": 14
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 16,
+        "accepted_rank": 16
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Sniff GSM packets Wireshark",
+      "gold_thread_ids": [
+        "5997"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 2,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "What can Android Antivirus apps really do?",
+      "gold_thread_ids": [
+        "32285"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "Removing PHP Shell from server",
+      "gold_thread_ids": [
+        "39231"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Why encrypted internet connections can't be censored or blocked by a country willing to do it?",
+      "gold_thread_ids": [
+        "64568"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 24,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      }
+    },
+    {
+      "query": "Whats wrong with this XSS vector?",
+      "gold_thread_ids": [
+        "177962"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is it possible for media files (mp3,mp4) contain malware",
+      "gold_thread_ids": [
+        "18086"
+      ],
+      "dense": {
+        "thread_rank": 11,
+        "accepted_rank": 11
+      },
+      "sparse": {
+        "thread_rank": 30,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      },
+      "build_context": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      }
+    },
+    {
+      "query": "SSL stripping - initiate HTTPS or HTTP first?",
+      "gold_thread_ids": [
+        "41988"
+      ],
+      "dense": {
+        "thread_rank": 14,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      },
+      "hybrid": {
+        "thread_rank": 7,
+        "accepted_rank": 7
+      },
+      "build_context": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      }
+    },
+    {
+      "query": "How can I make sure I have successfully disabled SSL 2.0",
+      "gold_thread_ids": [
+        "71457"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      }
+    },
+    {
+      "query": "Securing Private data- Is TLS enough?",
+      "gold_thread_ids": [
+        "21322",
+        "46529",
+        "51069",
+        "82264"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 7,
+        "accepted_rank": 7
+      }
+    },
+    {
+      "query": "How to explain privacy to a family member",
+      "gold_thread_ids": [
+        "149680"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 5,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How to limit user from making too many request on an API endpoint?",
+      "gold_thread_ids": [
+        "184619"
+      ],
+      "dense": {
+        "thread_rank": 26,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Hacking attempts to our server - what does this code do?",
+      "gold_thread_ids": [
+        "115461"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is it safe to share sensitive data in a Sharepoint through a public link with third parties?",
+      "gold_thread_ids": [
+        "112021"
+      ],
+      "dense": {
+        "thread_rank": 25,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 18,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is public and local IP addresses of computer behind NAT a sensitive information?",
+      "gold_thread_ids": [
+        "4824"
+      ],
+      "dense": {
+        "thread_rank": 10,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Where do salts come from?",
+      "gold_thread_ids": [
+        "211"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "What do unkown MAC addresses mean in this context?",
+      "gold_thread_ids": [
+        "200474"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "What are the risks of using an untrusted https connection?",
+      "gold_thread_ids": [
+        "62058"
+      ],
+      "dense": {
+        "thread_rank": 10,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 21,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Safe way to open potentially compromised attachments",
+      "gold_thread_ids": [
+        "32928"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "build_context": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      }
+    },
+    {
+      "query": "How to make my traffic go out of one VPN into another?",
+      "gold_thread_ids": [
+        "60871"
+      ],
+      "dense": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 11,
+        "accepted_rank": 11
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How secure will it be to use \"Google Docs long url\" like authentication scheme for orders in my online shop?",
+      "gold_thread_ids": [
+        "29449"
+      ],
+      "dense": {
+        "thread_rank": 12,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 9,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      }
+    },
+    {
+      "query": "How strong are google's Application-specific passwords?",
+      "gold_thread_ids": [
+        "18552"
+      ],
+      "dense": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      },
+      "sparse": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      },
+      "hybrid": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      },
+      "build_context": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      }
+    },
+    {
+      "query": "Are Trojan Horse virus? (or is it a matter of debate?)",
+      "gold_thread_ids": [
+        "179289",
+        "98207"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 3,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is there a point in cascade encryption?",
+      "gold_thread_ids": [
+        "2900"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "sparse": {
+        "thread_rank": 5,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "build_context": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      }
+    },
+    {
+      "query": "Security implications of static IP?",
+      "gold_thread_ids": [
+        "19018"
+      ],
+      "dense": {
+        "thread_rank": 27,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 29,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 15,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is Linux password login inherently insecure or is it just that people use weak passwords?",
+      "gold_thread_ids": [
+        "3887"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is it possible to use new and old SSL at the same?",
+      "gold_thread_ids": [
+        "102926",
+        "223015"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 23,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 10,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is there any security advantage of installing into AppData folder?",
+      "gold_thread_ids": [
+        "105522"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 2,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How to encrypt data on local LAN (without Internet)?",
+      "gold_thread_ids": [
+        "121163",
+        "161313",
+        "38781"
+      ],
+      "dense": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "build_context": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      }
+    },
+    {
+      "query": "microsoft bitlocker copy data in background",
+      "gold_thread_ids": [
+        "264860"
+      ],
+      "dense": {
+        "thread_rank": 33,
+        "accepted_rank": 33
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 44,
+        "accepted_rank": 44
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "What are the dangers of \"style-src: 'unsafe-inline'\"?",
+      "gold_thread_ids": [
+        "110900"
+      ],
+      "dense": {
+        "thread_rank": 9,
+        "accepted_rank": 9
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Just came to know about Digital Certificates. But did't understand the way clients can verify CA",
+      "gold_thread_ids": [
+        "87564"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 11,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 11,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Can CN=localhost be used on a server that should run on any machine",
+      "gold_thread_ids": [
+        "62690"
+      ],
+      "dense": {
+        "thread_rank": 19,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "I think I might be infected with some sort of remote access malware/keylogger and victim to hacker attack",
+      "gold_thread_ids": [
+        "138606"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How do I report scam phone calls?",
+      "gold_thread_ids": [
+        "132949"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How to make 7-zip files more secure?",
+      "gold_thread_ids": [
+        "202185",
+        "210069"
+      ],
+      "dense": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      },
+      "sparse": {
+        "thread_rank": 13,
+        "accepted_rank": 13
+      },
+      "hybrid": {
+        "thread_rank": 17,
+        "accepted_rank": 17
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "My school said they can track what websites we visit and games we play via online learning. is this true or just a way to scare us?",
+      "gold_thread_ids": [
+        "215532"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "Is this a Phishing email a bit more advanced than usual?",
+      "gold_thread_ids": [
+        "239100"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Protecting website from content theft",
+      "gold_thread_ids": [
+        "38460"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      }
+    },
+    {
+      "query": "How to make data content provable for specific timestamp?",
+      "gold_thread_ids": [
+        "100573"
+      ],
+      "dense": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "sparse": {
+        "thread_rank": 21,
+        "accepted_rank": 21
+      },
+      "hybrid": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "build_context": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      }
+    },
+    {
+      "query": "How easy is it to target a subnet behind a router?",
+      "gold_thread_ids": [
+        "99701"
+      ],
+      "dense": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 21,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Where would an HTTPS request fail if the domain erroneously resolves to the wrong IP address?",
+      "gold_thread_ids": [
+        "162191",
+        "56389",
+        "92838"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is a virtual machine efficient for isolating viruses from pop-up ads?",
+      "gold_thread_ids": [
+        "171649",
+        "232120",
+        "9011"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "sparse": {
+        "thread_rank": 14,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "Similar passwords can't be used again. A sign of unhashed password storage?",
+      "gold_thread_ids": [
+        "3170"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 27,
+        "accepted_rank": 27
+      },
+      "hybrid": {
+        "thread_rank": 15,
+        "accepted_rank": 15
+      },
+      "build_context": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      }
+    },
+    {
+      "query": "How to remove the malware which hijacks the homepage of various browsers by hao.360.cn",
+      "gold_thread_ids": [
+        "138606"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Surfed Darkweb carelessly",
+      "gold_thread_ids": [
+        "138606"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Bruteforce on RDP",
+      "gold_thread_ids": [
+        "105515",
+        "227466"
+      ],
+      "dense": {
+        "thread_rank": 8,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 3,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 24,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Are there any flaws with allowing SQL queries as part of an API to fetch data?",
+      "gold_thread_ids": [
+        "86908"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "What are some safe ways to play a video file that was downloaded from the internet?",
+      "gold_thread_ids": [
+        "110644"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "sparse": {
+        "thread_rank": 21,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Encrypting same large iso file with gpg and openssl",
+      "gold_thread_ids": [
+        "33434"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How to assess security of Argon2 parameters",
+      "gold_thread_ids": [
+        "210982"
+      ],
+      "dense": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "sparse": {
+        "thread_rank": 12,
+        "accepted_rank": 12
+      },
+      "hybrid": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "build_context": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      }
+    },
+    {
+      "query": "Can a website run a malware on my computer?",
+      "gold_thread_ids": [
+        "3848"
+      ],
+      "dense": {
+        "thread_rank": 13,
+        "accepted_rank": 13
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Found possible malware code on site - contacted owner - what does it do?",
+      "gold_thread_ids": [
+        "115461"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Are fingerprints stored in biometric checks?",
+      "gold_thread_ids": [
+        "242973"
+      ],
+      "dense": {
+        "thread_rank": 11,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 12,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 7,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is there hardware (like u2f-keys) for passwordless client-side encryption & decryption",
+      "gold_thread_ids": [
+        "168874"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is user listing considered a vulnerability?",
+      "gold_thread_ids": [
+        "4729"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How to brute-force password of a GUI application?",
+      "gold_thread_ids": [
+        "182376",
+        "187711",
+        "274245",
+        "30896"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 4
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": 39
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 4
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Small company network SSL -> xampp + SSL + subjectAltName",
+      "gold_thread_ids": [
+        "148067",
+        "160787"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How smart cards store their secrets?",
+      "gold_thread_ids": [
+        "130522",
+        "49280",
+        "76379",
+        "92775"
+      ],
+      "dense": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      },
+      "sparse": {
+        "thread_rank": 33,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      },
+      "build_context": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      }
+    },
+    {
+      "query": "When they make physical locks, do they really just make a few variations of the keys and then mix them together and sell?",
+      "gold_thread_ids": [
+        "63114"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      }
+    },
+    {
+      "query": "How to recover a hacked site with WSO Shell",
+      "gold_thread_ids": [
+        "9234"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How does an encryption key work?",
+      "gold_thread_ids": [
+        "48493"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "What is the smallest possible Windows shellcode?",
+      "gold_thread_ids": [
+        "18958"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": ".7z encrypted archive, how much is secure?",
+      "gold_thread_ids": [
+        "100650"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 12,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "What's the difference between the certificate used for namecheap.com and the certificate used for stackexchange.com?",
+      "gold_thread_ids": [
+        "15865"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is it possible for an app to sign data it generates so that the data can be guaranteed to come from the app?",
+      "gold_thread_ids": [
+        "186726"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Isn't this kind of password ultimately secure and insanely easy to remember?",
+      "gold_thread_ids": [
+        "104046",
+        "23943"
+      ],
+      "dense": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 8,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      }
+    },
+    {
+      "query": "What types of businesses are allowed to store SAD and in particular CVV data?",
+      "gold_thread_ids": [
+        "73191"
+      ],
+      "dense": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      },
+      "sparse": {
+        "thread_rank": 22,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 10,
+        "accepted_rank": 10
+      },
+      "build_context": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      }
+    },
+    {
+      "query": "What are shodan's IP addresses?",
+      "gold_thread_ids": [
+        "34030"
+      ],
+      "dense": {
+        "thread_rank": 3,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 8,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 3,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 3,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "John the Ripper",
+      "gold_thread_ids": [
+        "112434"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 12,
+        "accepted_rank": 12
+      },
+      "hybrid": {
+        "thread_rank": 30,
+        "accepted_rank": 30
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How are the Voyager spacecraft protected from hackers?",
+      "gold_thread_ids": [
+        "6424"
+      ],
+      "dense": {
+        "thread_rank": 7,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 3,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Could someone compare basic anonymity vs basic computer hacker anonymity?",
+      "gold_thread_ids": [
+        "16467"
+      ],
+      "dense": {
+        "thread_rank": 12,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 24,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 22,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How well can we hide an executable (apk/ipa) in an image",
+      "gold_thread_ids": [
+        "55061",
+        "81677"
+      ],
+      "dense": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      },
+      "sparse": {
+        "thread_rank": 7,
+        "accepted_rank": 39
+      },
+      "hybrid": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      },
+      "build_context": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      }
+    },
+    {
+      "query": "All passwords are valid with hydra",
+      "gold_thread_ids": [
+        "37020"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "build_context": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      }
+    },
+    {
+      "query": "THC-Hydra - one good pass = shows all valid",
+      "gold_thread_ids": [
+        "37020"
+      ],
+      "dense": {
+        "thread_rank": 13,
+        "accepted_rank": 13
+      },
+      "sparse": {
+        "thread_rank": 21,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 11,
+        "accepted_rank": 11
+      },
+      "build_context": {
+        "thread_rank": 10,
+        "accepted_rank": 10
+      }
+    },
+    {
+      "query": "Do I need https for a web server that will be used locally?",
+      "gold_thread_ids": [
+        "227020",
+        "251308"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      }
+    },
+    {
+      "query": "Is it possible to see someone using vpn who is connected to my AP and turned on hotspot for his mobile in which he uses vpn",
+      "gold_thread_ids": [
+        "187649"
+      ],
+      "dense": {
+        "thread_rank": 34,
+        "accepted_rank": 34
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 7,
+        "accepted_rank": 7
+      },
+      "build_context": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      }
+    },
+    {
+      "query": "determine type of encoding/encryption",
+      "gold_thread_ids": [
+        "3989"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "Can you trace a .onion address?",
+      "gold_thread_ids": [
+        "38194"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      }
+    },
+    {
+      "query": "Is it possible to verify that a USB adapter is not malicious?",
+      "gold_thread_ids": [
+        "229741"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "Can Lava Lamps enhance modern native entropy sourced from hardware and the Linux Kernel?",
+      "gold_thread_ids": [
+        "42428"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Can Chrome Extensions steal OAuth tokens from redirect-uri?",
+      "gold_thread_ids": [
+        "15259"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Cryptsetup using TPM?",
+      "gold_thread_ids": [
+        "15542"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How to recover my password from my file.key",
+      "gold_thread_ids": [
+        "163514"
+      ],
+      "dense": {
+        "thread_rank": 5,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 5,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 8,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "LZO compression of OpenVPN insecure?",
+      "gold_thread_ids": [
+        "51017"
+      ],
+      "dense": {
+        "thread_rank": 34,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 3,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 6,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      }
+    },
+    {
+      "query": "How to prevent contactless cards RFID signal cloning",
+      "gold_thread_ids": [
+        "70828"
+      ],
+      "dense": {
+        "thread_rank": 12,
+        "accepted_rank": 12
+      },
+      "sparse": {
+        "thread_rank": 21,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 22,
+        "accepted_rank": 22
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How is it possible for threatmetrix to detect VPN?",
+      "gold_thread_ids": [
+        "71774"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 12,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 7,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Which Keys TLS uses?",
+      "gold_thread_ids": [
+        "20803"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Best way to get \"into the security industry\"?",
+      "gold_thread_ids": [
+        "3772"
+      ],
+      "dense": {
+        "thread_rank": 25,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 9,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 10,
+        "accepted_rank": 10
+      }
+    },
+    {
+      "query": "Is it safe to login to my bank account from work?",
+      "gold_thread_ids": [
+        "142803"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Exploiting PUT method in a server to upload a backdoor",
+      "gold_thread_ids": [
+        "38635"
+      ],
+      "dense": {
+        "thread_rank": 15,
+        "accepted_rank": 15
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 7,
+        "accepted_rank": 7
+      },
+      "build_context": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      }
+    },
+    {
+      "query": "List of cookie parameter names to identify load balancing mechanism",
+      "gold_thread_ids": [
+        "30660"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "sparse": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "can australian schools track your personal home laptops and see your info?",
+      "gold_thread_ids": [
+        "215532"
+      ],
+      "dense": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "sparse": {
+        "thread_rank": 14,
+        "accepted_rank": 14
+      },
+      "hybrid": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "build_context": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      }
+    },
+    {
+      "query": "What are the benefits of using a Cloudflare's DNS (not WARP) instead of ISP's DNS?",
+      "gold_thread_ids": [
+        "111748"
+      ],
+      "dense": {
+        "thread_rank": 17,
+        "accepted_rank": 17
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "What does this potentially malicious php code do?",
+      "gold_thread_ids": [
+        "115461"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 32,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Why CA certificate can't be spoofed?",
+      "gold_thread_ids": [
+        "20803"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "TLS: Using different signature algorithms for ca and server certificate",
+      "gold_thread_ids": [
+        "14207"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "sparse": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "build_context": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      }
+    },
+    {
+      "query": "Error 150 (net::ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN): The server's certificate appears to be a forgery",
+      "gold_thread_ids": [
+        "18300"
+      ],
+      "dense": {
+        "thread_rank": 37,
+        "accepted_rank": 37
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 17,
+        "accepted_rank": 17
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Why does sudo remove environment variables by default?",
+      "gold_thread_ids": [
+        "68657"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 2,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Are X.509 certificates tied to a particular operation",
+      "gold_thread_ids": [
+        "248800",
+        "30066",
+        "31139",
+        "31190",
+        "6844"
+      ],
+      "dense": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      },
+      "sparse": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      },
+      "hybrid": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      },
+      "build_context": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      }
+    },
+    {
+      "query": "What is the value of multi-page login forms?",
+      "gold_thread_ids": [
+        "53096"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      }
+    },
+    {
+      "query": "Finding the key of encrypted string (given known decrypted message)",
+      "gold_thread_ids": [
+        "5355"
+      ],
+      "dense": {
+        "thread_rank": 31,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How do I find out what country did an email originate from?",
+      "gold_thread_ids": [
+        "5469"
+      ],
+      "dense": {
+        "thread_rank": 6,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 25,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "What harm can a leaked IMSI do?",
+      "gold_thread_ids": [
+        "49343"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "How secure is this combined sha1/md5 hash",
+      "gold_thread_ids": [
+        "211"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How can your BIOS be infected or hacked and Can a BIOS virus be used to \"steal data\"?",
+      "gold_thread_ids": [
+        "180022"
+      ],
+      "dense": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "What type of encoding is this string?",
+      "gold_thread_ids": [
+        "3989"
+      ],
+      "dense": {
+        "thread_rank": 15,
+        "accepted_rank": 15
+      },
+      "sparse": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "Why is an IP address in a different city?",
+      "gold_thread_ids": [
+        "165227"
+      ],
+      "dense": {
+        "thread_rank": 15,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 8,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 5,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "hydra returns all passwords tested as found",
+      "gold_thread_ids": [
+        "37020"
+      ],
+      "dense": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      },
+      "sparse": {
+        "thread_rank": 19,
+        "accepted_rank": 19
+      },
+      "hybrid": {
+        "thread_rank": 7,
+        "accepted_rank": 7
+      },
+      "build_context": {
+        "thread_rank": 7,
+        "accepted_rank": 7
+      }
+    },
+    {
+      "query": "Why is it not a good idea to simply encrypt the plaintext with the receiver\u2019s public key?",
+      "gold_thread_ids": [
+        "20134"
+      ],
+      "dense": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      },
+      "build_context": {
+        "thread_rank": 8,
+        "accepted_rank": 8
+      }
+    },
+    {
+      "query": "Found several potentially malicious PHP files but not sure what they are doing?",
+      "gold_thread_ids": [
+        "115461"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Hints for safe passwords that are easy to remember",
+      "gold_thread_ids": [
+        "662"
+      ],
+      "dense": {
+        "thread_rank": 3,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 24,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 3,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How can I prevent SESSID stealing?",
+      "gold_thread_ids": [
+        "1322"
+      ],
+      "dense": {
+        "thread_rank": 20,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How can we verify the security of a device?",
+      "gold_thread_ids": [
+        "219641"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 15,
+        "accepted_rank": 15
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      }
+    },
+    {
+      "query": "About DROWN SSL attack",
+      "gold_thread_ids": [
+        "116139"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 10,
+        "accepted_rank": 10
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "Why does the SSL handshake use the generated pre-master key to create a shared secret key instead of just using the pre-master key?",
+      "gold_thread_ids": [
+        "218491"
+      ],
+      "dense": {
+        "thread_rank": 14,
+        "accepted_rank": 14
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "what exactly we can do with a MAC address?",
+      "gold_thread_ids": [
+        "67893"
+      ],
+      "dense": {
+        "thread_rank": 10,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 47,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 7,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      }
+    },
+    {
+      "query": "Does it ever make sense to use TLS for communication that only happens internally on one machine?",
+      "gold_thread_ids": [
+        "165295",
+        "244672"
+      ],
+      "dense": {
+        "thread_rank": 7,
+        "accepted_rank": 7
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 3,
+        "accepted_rank": 3
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How Travel Site like Tripadvisor, Airbnb track their user",
+      "gold_thread_ids": [
+        "59565"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "\"We noticed you\u2019re browsing in private mode.\" -- how do they know?",
+      "gold_thread_ids": [
+        "9037"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "I need to store the first 6 digits and last 4 digits of a credit card. (not derived from a PAN)",
+      "gold_thread_ids": [
+        "19860"
+      ],
+      "dense": {
+        "thread_rank": 6,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 14,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 7,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 6,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Relationship between the validity of license of an accredited CA (certificate authority and the validity of it's certificate?",
+      "gold_thread_ids": [
+        "58025"
+      ],
+      "dense": {
+        "thread_rank": 13,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 14,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 17,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 4,
+        "accepted_rank": 4
+      }
+    },
+    {
+      "query": "Is client-side password hashing still useful when using TLS? Is TLS crackable? What about PFS?",
+      "gold_thread_ids": [
+        "4936",
+        "66475",
+        "8596"
+      ],
+      "dense": {
+        "thread_rank": 12,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 36,
+        "accepted_rank": 36
+      },
+      "hybrid": {
+        "thread_rank": 12,
+        "accepted_rank": 12
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Question regarding SSL / TLS / Certificates in general",
+      "gold_thread_ids": [
+        "20803"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "PKI Structure with multiple intermediates",
+      "gold_thread_ids": [
+        "14043"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "What are the underlying mechanics that make password salting an effective deterrent against Rainbow Tables?",
+      "gold_thread_ids": [
+        "233695",
+        "35523"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 3,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 10,
+        "accepted_rank": 10
+      }
+    },
+    {
+      "query": "Can you be tracked while using a vpn?",
+      "gold_thread_ids": [
+        "212129"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Securing data tokens",
+      "gold_thread_ids": [
+        "12332",
+        "20294"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How does the inclusion of a subprime q value affect the Diffie Hellman equation for key exchange?",
+      "gold_thread_ids": [
+        "73505"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How easy to crack simple, custom algorithm?",
+      "gold_thread_ids": [
+        "155171"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Could you attack a port without knowing what service was listening?",
+      "gold_thread_ids": [
+        "32308"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Can man in the middle on spoofed wifi decrypt ssl data?",
+      "gold_thread_ids": [
+        "41988"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Old work laptop, how to remove Computrace / LoJack",
+      "gold_thread_ids": [
+        "53698"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 13,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 9,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": ".[fileslocker@pm.me] virus",
+      "gold_thread_ids": [
+        "138606",
+        "174961"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "What is the need of HMAC in Diffie-Hellman?",
+      "gold_thread_ids": [
+        "33569"
+      ],
+      "dense": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "How to Safely Research a Suspected Malicious Website by Using A VM",
+      "gold_thread_ids": [
+        "147978",
+        "173846",
+        "216838",
+        "23452"
+      ],
+      "dense": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 6,
+        "accepted_rank": 6
+      },
+      "build_context": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      }
+    },
+    {
+      "query": "Is it possible to infect a wired headset with any kind of malware?",
+      "gold_thread_ids": [
+        "127111"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "sparse": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      },
+      "build_context": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      }
+    },
+    {
+      "query": "Can you prove that an open source program is running the same code that it claims to be?",
+      "gold_thread_ids": [
+        "41734"
+      ],
+      "dense": {
+        "thread_rank": 5,
+        "accepted_rank": 5
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 11,
+        "accepted_rank": 11
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Suppose you have a simple host running Virtualbox with NAT networking and do malware testing on it, how safe are you?",
+      "gold_thread_ids": [
+        "23452"
+      ],
+      "dense": {
+        "thread_rank": 19,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 14,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 14,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Do VPNs have upstream ISPs that log traffic (making VPN claims of having strict no-log policies pointless)?",
+      "gold_thread_ids": [
+        "175179"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "sparse": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": null
+      },
+      "build_context": {
+        "thread_rank": 4,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Ideal technique for ensuring a refurbished phone is clean of malware",
+      "gold_thread_ids": [
+        "45787"
+      ],
+      "dense": {
+        "thread_rank": 17,
+        "accepted_rank": 17
+      },
+      "sparse": {
+        "thread_rank": 13,
+        "accepted_rank": 13
+      },
+      "hybrid": {
+        "thread_rank": 14,
+        "accepted_rank": 14
+      },
+      "build_context": {
+        "thread_rank": null,
+        "accepted_rank": null
+      }
+    },
+    {
+      "query": "Is there any value to encrypting connections to localhost?",
+      "gold_thread_ids": [
+        "147175",
+        "165295",
+        "48892",
+        "57230"
+      ],
+      "dense": {
+        "thread_rank": 1,
+        "accepted_rank": 2
+      },
+      "sparse": {
+        "thread_rank": 9,
+        "accepted_rank": 40
+      },
+      "hybrid": {
+        "thread_rank": 1,
+        "accepted_rank": 2
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "Is the RSA Public Key size always the same as the private key size?",
+      "gold_thread_ids": [
+        "90169"
+      ],
+      "dense": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "sparse": {
+        "thread_rank": 16,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 2,
+        "accepted_rank": 2
+      },
+      "build_context": {
+        "thread_rank": 1,
+        "accepted_rank": 1
+      }
+    },
+    {
+      "query": "What's the purpose in sending a malicious .js file over email?",
+      "gold_thread_ids": [
+        "118804"
+      ],
+      "dense": {
+        "thread_rank": 10,
+        "accepted_rank": 10
+      },
+      "sparse": {
+        "thread_rank": null,
+        "accepted_rank": null
+      },
+      "hybrid": {
+        "thread_rank": 9,
+        "accepted_rank": 9
+      },
+      "build_context": {
+        "thread_rank": 9,
+        "accepted_rank": 9
+      }
+    }
+  ]
+}

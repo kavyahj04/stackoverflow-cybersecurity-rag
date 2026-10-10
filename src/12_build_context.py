@@ -15,7 +15,7 @@ W_VOTES = 1.0       # * log(1 + votes)
 W_ACCEPTED = 3.0    # flat bonus for the accepted answer
 W_RECENCY = -0.05   # per year of age
 
-MAX_THREADS = 5
+MAX_THREADS = 10
 MAX_ANSWERS_PER_THREAD = 5
 
 

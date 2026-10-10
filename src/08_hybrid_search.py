@@ -7,7 +7,6 @@ from openai import OpenAI
 SRC_DIR = Path(__file__).resolve().parent
 
 bm25_index = importlib.import_module("07_bm25_index")
-fusion = importlib.import_module("10_fusion")
 load_index, tokenize = bm25_index.load_index, bm25_index.tokenize
 
 cross_encoder = importlib.import_module("11_cross_encoder")
