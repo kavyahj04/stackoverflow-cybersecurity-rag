@@ -1,0 +1,59 @@
+Generate the 5 questions for each of these threads.
+
+<thread id="176631">
+<title>Just how bad is Spectre?</title>
+<body>Reading the whitepaper , it sounds like doom and gloom. The main webpage states “Spectre is harder to exploit than Meltdown, but it is also harder to mitigate. However, it is possible to prevent specific known exploits based on Spectre through software patches.” This would seem to imply that it is not possible to prevent unknown exploits based on Spectre through software patches, is that true?</body>
+</thread>
+
+<thread id="116095">
+<title>Is possible to force a file to generate an specific MD5 signature?</title>
+<body>Sometimes MD5 is used to validate that a downloaded file is really valid. So I want to know if is possible for a hacker to modify a file and introduce some malicious code AND make that file generate the original MD5. Example Original program MD5: eac2a0844b652ecea010ec38960d18ba Malicious code Original program
+Malicious Code MD5: 5c07d676b765510db628978dc593aa0d Malicious code + random bits to modify the MD5 Original program
+Malicious Code
+00000000000000000000000000000000 MD5: 0ade6514efd2d247105ba6249e31ae47 Malicious code + random bits to modify the MD5 Original program
+Malicious Code
+00000000000000000000000000000001 MD5: 1a499c7ad2755cd66eeea78f5b56f6d0 ... several combinations later ... Malicious code + correct bits to modify the MD5 Original program
+Malicious Code
+d1bf573000019911b85cbeb24503e745 MD5: eac2a0844b652ecea010ec38960d18ba //Just an example, real MD5: 882789190dcfee14d563913d345054e0 With enough time, could a malicious user find a string that generates the original MD5?</body>
+</thread>
+
+<thread id="58783">
+<title>Ethical question regarding accessible sensitive data at school</title>
+<body>Skip to the fifth paragraph for the actual question, before that is some background. I am a highschool student with an interest in computers and penetration testing. Given the restrictions placed on student-level access on the computers at my school, I often attempt privilege escalation in order to gain more complete access to resources that I need (at times school-related, but restricted nonetheless). Although I do that type of stuff pretty often, I never really expect any major success. A while ago I was taken aback to discover a local admin account without a password, but that did not provide access to anything I couldn't already access, with the exception of the C:\ drive and tools such as the Task Manager and Command Prompt. In other words: it was far from a big discovery for me. More recently, I stumbled upon a Fuzzy Security post-exploitation/privilege escalation tutorial ( here ) which mentioned looking for sensitive data in config files left behind by automated desktop setup. I know from quite a bit of searching that the 513 computers on the schools network have been set up in this way. I was still surprised to find the network admin password in plaintext in C:\sysprep\unattend.xml. Since finding it, I have further investigated what can be done. The things I have found range from accessing all student and teacher files (which, in some cases include exams and exam keys) to remotely connecting to the school server and the district server to add users as students, teachers, admins, and staff, and modify said users' netlogon files to cause them to run malicious programs when they log on. Much of this I have investigated but not tested for fear of being caught. My question is whether or not I should tell the school tech staff before someone who would abuse it finds it, and if so, how to go about doing so in a way that wouldn't result in my punishment. My worry is that if I report it, evidence of my explorations of network admin capabilities ...</body>
+</thread>
+
+<thread id="204218">
+<title>Website seeing my Facebook data?</title>
+<body>I recently visited opensecrets.org and was surprised to see a message box in the lower right corner of the window asking if I wanted to talk, and displaying my name. The pop-up says Chat with opensecrets.org in Messenger . As far as I know, I haven't allowed Facebook to share any data with this site, so how does this website know my name?</body>
+</thread>
+
+<thread id="30519">
+<title>Prevent cross domain form submission with nonce?</title>
+<body>I haven't done much in web security before but am now in need to prevent a form from being submitted from anything but my own domain. I know how to lock this down in an .htaccess file but the referrer isn't very reliable from what I've understood. I'm now looking into nonces. I've set up a nonce on my form which works (I'm using Wordpress so creating nonce fields are easy). What I now need to know is does this actually help me preventing cross domain submissions? In my mind it does as you would need my secret key to generate the nonce string but on the other hand the nonce string is visible in the page source. Does that mean you would need my secret key again to translate the nonce string to validate it? I'm hoping someone can clear this up for me!</body>
+</thread>
+
+<thread id="18887">
+<title>Is there a reason to protect SIM with PIN?</title>
+<body>If the phone would be stolen then the SIM card will be thrown out by thieves just after the theft so that they can't be found. If the phone would be lost then it will be harder to find an owner for people that found it if the SIM is protected with PIN. So is there any reason to protect SIM card with PIN?</body>
+</thread>
+
+<thread id="36456">
+<title>How long does it take after a card is skimmed (unknowingly) at an ATM for the thief to be able to steal cash from the account?</title>
+<body>My 21-year-old college sophomore daughter's SECU checking account debit card was skimmed 2 weeks ago at an ATM.  She realized it the next day when she tried to use her debit card for a gas purchase. She withdrew $20 the night before at an ATM with her card and somebody else withdrew $200 right after her.  She reported the missing money, shut down the account and cancelled her debit card immediately when she realized it.  She made a police report and the SECU called when they had the ATM photos for her to view.  The first photo was of her using the ATM and the second photo showed a man she'd never seen before.  The SECU had already captioned the second photo: "Girl hands card to guy to use".  She was outraged.  She asked me to go back with her to see the photos and the caption was still there.  The bank reps actually told me twice that there was absolutely NO OTHER WAY for anyone to get money from my daughter's account unless they had her card in their hand and knew her pin number.  I asked the question twice because I had heard a little about skimming fraud and knew this WAS possible.  I have since then read everything I can get my hands on about the topic but still have a question I am hoping you will answer for me....  Because the second withdrawal (and photo of unknown male) was recorded exactly one minute after the $20 withdrawal my daughter made (and her photo recorded) the SECU says that there is NO WAY that this was a skimming incident.  They say that this could not take place in one minute and that the card had to have been handed over to this unknown male by my daughter.  End of story.  She is absolutely furious and humiliated.  I am furious!! I cannot help but think that if someone has devised a way to retract credit or debit card info and use it for their own purchases, that it is ...</body>
+</thread>
+
+<thread id="173391">
+<title>Spoofing POST/GET requests in a RESTful service</title>
+<body>I started working on an app that connects to a RESTful service for authentication and data.  User POSTs the user name and password to /token endpoint.
+Once they log in successfully, they get a bearer token that they then append to the Authorization header in the subsequent calls to different protected resources. My question is what prevents users from intercepting their regular post from the app (getting the token) and then possibly sending bunch of POST requests (using something like postman or fiddler) to create a large number of fake posts or articles or whatever else the app does. What are some possible ways from protecting from this?  Does the fact that the traffic to the service will eventually go via TLS make this a non-issue?</body>
+</thread>
+
+<thread id="69217">
+<title>Is a local account on windows more secure than a microsoft account</title>
+<body>I am using a local account on my Windows 8 computers rather than logging in with a Microsoft account. I see no reason why  Microsoft needs to know my login credentials; it feels intrusive to me and it seems like a one more doorway from which I need to protect. But besides from feels and seems , is a local account actually more secure (whether from hackers or from government agencies) ? Does Microsoft actually have a copy of my keys?</body>
+</thread>
+
+<thread id="211825">
+<title>Private messaging for protesters</title>
+<body>Hello I am a protester in Hong Kong. Many protesters use telegram group. I have heard recently from the News that a group admin was tricked by the police to unlock their phone (police cannot force one to unlock their phone under the law of HK) and a list of 20k - 30k participants were exposed. (That group admin was detained by the police as an organizer.) Personally, I know telegram was never a good choice because it uses home-grown crypto (I don't think a typical user is aware of this). However, I don't think it matters in this case. How to prevent this from happening? Does using signal group with sealed sender help? Do we need anonymous messaging? Source (In English): Student arrested for being admin of social media group supporting Hong Kong protests</body>
+</thread>

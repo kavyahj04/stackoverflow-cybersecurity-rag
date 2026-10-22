@@ -1,0 +1,1615 @@
+{
+  "summary": {
+    "queries": 100,
+    "recall@3": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "recall@30": 1.0,
+    "recall@50": 1.0,
+    "mrr": 0.9183333333333333,
+    "good_answer@3": 0.95,
+    "good_answer@5": 1.0,
+    "good_answer@10": 1.0,
+    "good_answer@20": 1.0,
+    "good_answer@30": 1.0,
+    "good_answer@50": 1.0,
+    "accepted@3": 0.8833333333333333,
+    "accepted@5": 0.9833333333333333,
+    "accepted@10": 1.0,
+    "accepted@20": 1.0,
+    "accepted@30": 1.0,
+    "accepted@50": 1.0,
+    "accepted_queries": 60
+  },
+  "by_bucket": {
+    "high": {
+      "queries": 20,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "recall@30": 1.0,
+      "recall@50": 1.0,
+      "mrr": 0.95,
+      "good_answer@3": 0.85,
+      "good_answer@5": 1.0,
+      "good_answer@10": 1.0,
+      "good_answer@20": 1.0,
+      "good_answer@30": 1.0,
+      "good_answer@50": 1.0,
+      "accepted@3": 0.625,
+      "accepted@5": 0.9375,
+      "accepted@10": 1.0,
+      "accepted@20": 1.0,
+      "accepted@30": 1.0,
+      "accepted@50": 1.0,
+      "accepted_queries": 16
+    },
+    "medium_high": {
+      "queries": 20,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "recall@30": 1.0,
+      "recall@50": 1.0,
+      "mrr": 0.9166666666666666,
+      "good_answer@3": 1.0,
+      "good_answer@5": 1.0,
+      "good_answer@10": 1.0,
+      "good_answer@20": 1.0,
+      "good_answer@30": 1.0,
+      "good_answer@50": 1.0,
+      "accepted@3": 1.0,
+      "accepted@5": 1.0,
+      "accepted@10": 1.0,
+      "accepted@20": 1.0,
+      "accepted@30": 1.0,
+      "accepted@50": 1.0,
+      "accepted_queries": 10
+    },
+    "medium": {
+      "queries": 20,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "recall@30": 1.0,
+      "recall@50": 1.0,
+      "mrr": 0.9333333333333333,
+      "good_answer@3": 1.0,
+      "good_answer@5": 1.0,
+      "good_answer@10": 1.0,
+      "good_answer@20": 1.0,
+      "good_answer@30": 1.0,
+      "good_answer@50": 1.0,
+      "accepted@3": 1.0,
+      "accepted@5": 1.0,
+      "accepted@10": 1.0,
+      "accepted@20": 1.0,
+      "accepted@30": 1.0,
+      "accepted@50": 1.0,
+      "accepted_queries": 15
+    },
+    "lower_medium": {
+      "queries": 20,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "recall@30": 1.0,
+      "recall@50": 1.0,
+      "mrr": 0.85,
+      "good_answer@3": 0.9,
+      "good_answer@5": 1.0,
+      "good_answer@10": 1.0,
+      "good_answer@20": 1.0,
+      "good_answer@30": 1.0,
+      "good_answer@50": 1.0,
+      "accepted@3": 0.8888888888888888,
+      "accepted@5": 1.0,
+      "accepted@10": 1.0,
+      "accepted@20": 1.0,
+      "accepted@30": 1.0,
+      "accepted@50": 1.0,
+      "accepted_queries": 9
+    },
+    "low": {
+      "queries": 20,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "recall@30": 1.0,
+      "recall@50": 1.0,
+      "mrr": 0.9416666666666667,
+      "good_answer@3": 1.0,
+      "good_answer@5": 1.0,
+      "good_answer@10": 1.0,
+      "good_answer@20": 1.0,
+      "good_answer@30": 1.0,
+      "good_answer@50": 1.0,
+      "accepted@3": 1.0,
+      "accepted@5": 1.0,
+      "accepted@10": 1.0,
+      "accepted@20": 1.0,
+      "accepted@30": 1.0,
+      "accepted@50": 1.0,
+      "accepted_queries": 10
+    }
+  },
+  "by_style": {
+    "short": {
+      "queries": 35,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "recall@30": 1.0,
+      "recall@50": 1.0,
+      "mrr": 0.8857142857142857,
+      "good_answer@3": 0.9428571428571428,
+      "good_answer@5": 1.0,
+      "good_answer@10": 1.0,
+      "good_answer@20": 1.0,
+      "good_answer@30": 1.0,
+      "good_answer@50": 1.0,
+      "accepted@3": 0.8947368421052632,
+      "accepted@5": 0.9473684210526315,
+      "accepted@10": 1.0,
+      "accepted@20": 1.0,
+      "accepted@30": 1.0,
+      "accepted@50": 1.0,
+      "accepted_queries": 19
+    },
+    "conversational": {
+      "queries": 35,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "recall@30": 1.0,
+      "recall@50": 1.0,
+      "mrr": 0.9142857142857143,
+      "good_answer@3": 0.9142857142857143,
+      "good_answer@5": 1.0,
+      "good_answer@10": 1.0,
+      "good_answer@20": 1.0,
+      "good_answer@30": 1.0,
+      "good_answer@50": 1.0,
+      "accepted@3": 0.84,
+      "accepted@5": 1.0,
+      "accepted@10": 1.0,
+      "accepted@20": 1.0,
+      "accepted@30": 1.0,
+      "accepted@50": 1.0,
+      "accepted_queries": 25
+    },
+    "scenario": {
+      "queries": 30,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@20": 1.0,
+      "recall@30": 1.0,
+      "recall@50": 1.0,
+      "mrr": 0.961111111111111,
+      "good_answer@3": 1.0,
+      "good_answer@5": 1.0,
+      "good_answer@10": 1.0,
+      "good_answer@20": 1.0,
+      "good_answer@30": 1.0,
+      "good_answer@50": 1.0,
+      "accepted@3": 0.9375,
+      "accepted@5": 1.0,
+      "accepted@10": 1.0,
+      "accepted@20": 1.0,
+      "accepted@30": 1.0,
+      "accepted@50": 1.0,
+      "accepted_queries": 16
+    }
+  },
+  "per_query": [
+    {
+      "query": "How do attackers find my unreleased API server?",
+      "bucket": "high",
+      "style": "short",
+      "thread_rank": 2,
+      "good_answer_pos": 4,
+      "accepted_pos": 7,
+      "has_accepted": true,
+      "top_threads": [
+        "106953",
+        "154556",
+        "34451"
+      ]
+    },
+    {
+      "query": "If I delete or wipe data on a solid-state drive, can the information still be recovered? How reliable are common methods for securely erasing data on SSDs?",
+      "bucket": "high",
+      "style": "conversational",
+      "thread_rank": 2,
+      "good_answer_pos": 2,
+      "accepted_pos": 2,
+      "has_accepted": true,
+      "top_threads": [
+        "181719",
+        "12503",
+        "89404"
+      ]
+    },
+    {
+      "query": "If I have both the ransomware-encrypted files and their original unencrypted backups, can I use these pairs to help recover the encryption key by comparing them? Would this known plaintext information allow me to derive the key or speed up cracking the encryption?",
+      "bucket": "high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 2,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "118445",
+        "93255",
+        "240081"
+      ]
+    },
+    {
+      "query": "Why didn't salting stop LinkedIn password cracking?",
+      "bucket": "high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 2,
+      "accepted_pos": 5,
+      "has_accepted": true,
+      "top_threads": [
+        "15910",
+        "17621",
+        "17798"
+      ]
+    },
+    {
+      "query": "Are social engineering attacks still a real security threat today, or have modern technologies and awareness made them ineffective?",
+      "bucket": "high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 4,
+      "accepted_pos": 4,
+      "has_accepted": true,
+      "top_threads": [
+        "11920",
+        "107037",
+        "18334"
+      ]
+    },
+    {
+      "query": "How can I identify and block devices using spoofed MAC addresses on my public WiFi, and is it possible to find out who is behind these devices?",
+      "bucket": "high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "261310",
+        "221936",
+        "167854"
+      ]
+    },
+    {
+      "query": "How to prevent packet editor users from bypassing chat rules?",
+      "bucket": "high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "119343",
+        "232488",
+        "244624"
+      ]
+    },
+    {
+      "query": "What steps can companies and travelers take to protect sensitive data on laptops when crossing US borders, given that border agents can seize and copy electronic devices without a warrant?",
+      "bucket": "high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 2,
+      "has_accepted": true,
+      "top_threads": [
+        "88947",
+        "152612",
+        "11612"
+      ]
+    },
+    {
+      "query": "Why do people still rely on handwritten signatures for agreements when they can be easily forged or vary each time? Why aren't digital signatures more widely adopted despite their security benefits?",
+      "bucket": "high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "8164",
+        "16193",
+        "207640"
+      ]
+    },
+    {
+      "query": "What risks arise if an attacker changes system time?",
+      "bucket": "high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "193508",
+        "226869",
+        "142943"
+      ]
+    },
+    {
+      "query": "If JWT tokens are designed to be stateless and not stored on the server, how can a system revoke them when a user logs out? Do you need to keep a record of tokens on the server to prevent a revoked token from being used again?",
+      "bucket": "high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 5,
+      "has_accepted": true,
+      "top_threads": [
+        "266204",
+        "239531",
+        "101734"
+      ]
+    },
+    {
+      "query": "How can I secure my printer from unauthorized access or hacking attempts, especially to prevent it from being exploited to print unwanted messages or to compromise my network?",
+      "bucket": "high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 3,
+      "has_accepted": true,
+      "top_threads": [
+        "199226",
+        "198957",
+        "83526"
+      ]
+    },
+    {
+      "query": "Is learning buffer overflow exploitation still useful today?",
+      "bucket": "high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 3,
+      "accepted_pos": 3,
+      "has_accepted": true,
+      "top_threads": [
+        "2330",
+        "238663",
+        "254201"
+      ]
+    },
+    {
+      "query": "Can a VPS provider like DigitalOcean access the data stored on their virtual servers, and how can I make sure my clients' information remains confidential even if it's hosted there?",
+      "bucket": "high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "103666",
+        "211243",
+        "190499"
+      ]
+    },
+    {
+      "query": "Is it possible for someone to clone a magnetic-stripe access card by bumping into me briefly, or does the card need to be physically swiped through a reader? Could a thief quickly copy my storage unit access card just by touching or brushing against it?",
+      "bucket": "high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 5,
+      "has_accepted": true,
+      "top_threads": [
+        "37227",
+        "128457",
+        "226824"
+      ]
+    },
+    {
+      "query": "Why does Google email me about new device logins on same computer?",
+      "bucket": "high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "207823",
+        "242740",
+        "266628"
+      ]
+    },
+    {
+      "query": "Is it ever okay to just ignore a security threat you can't defend against and instead focus on reducing its impact or changing your business approach?",
+      "bucket": "high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 4,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "123028",
+        "195171",
+        "190245"
+      ]
+    },
+    {
+      "query": "I've heard claims that the NSA may have compromised IPSec, especially after the Snowden leaks. How trustworthy are these reports, and can IPSec still be used securely? Are there specific implementations or configurations to avoid to maintain confidence in IPSec's security?",
+      "bucket": "high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "242693",
+        "175170",
+        "1166"
+      ]
+    },
+    {
+      "query": "How dangerous is PoisonTap USB hacking attack?",
+      "bucket": "high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 3,
+      "has_accepted": true,
+      "top_threads": [
+        "142879",
+        "142920",
+        "73812"
+      ]
+    },
+    {
+      "query": "Is TrueCrypt still safe to use, or has it been officially discontinued and become insecure?",
+      "bucket": "high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 2,
+      "accepted_pos": 4,
+      "has_accepted": true,
+      "top_threads": [
+        "77197",
+        "58940",
+        "59082"
+      ]
+    },
+    {
+      "query": "How serious is the Spectre CPU vulnerability?",
+      "bucket": "medium_high",
+      "style": "short",
+      "thread_rank": 2,
+      "good_answer_pos": 2,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "176803",
+        "176631",
+        "273703"
+      ]
+    },
+    {
+      "query": "Can someone change a file's content to include malicious code but still keep its original MD5 hash value?",
+      "bucket": "medium_high",
+      "style": "conversational",
+      "thread_rank": 3,
+      "good_answer_pos": 3,
+      "accepted_pos": 3,
+      "has_accepted": true,
+      "top_threads": [
+        "3851",
+        "212439",
+        "116095"
+      ]
+    },
+    {
+      "query": "I discovered that the network admin password is stored in plaintext on my school's computers, which lets me potentially access sensitive files and servers. I'm worried about the security risks but also about reporting this since I've been exploring these vulnerabilities myself and might be seen as malicious. How can I responsibly inform the school IT staff about these issues without getting into trouble?",
+      "bucket": "medium_high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "58783",
+        "120158",
+        "150184"
+      ]
+    },
+    {
+      "query": "How does a website display my Facebook name without permission?",
+      "bucket": "medium_high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "204218",
+        "81359",
+        "230461"
+      ]
+    },
+    {
+      "query": "How can I stop a form on my website from being submitted by other domains, and does using a nonce actually prevent cross-domain form submissions?",
+      "bucket": "medium_high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "30519",
+        "44394",
+        "95597"
+      ]
+    },
+    {
+      "query": "What are the benefits of enabling a PIN code on a SIM card, given that thieves might discard the SIM after stealing a phone and that it could make it harder for someone who finds a lost phone to identify the owner?",
+      "bucket": "medium_high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 2,
+      "has_accepted": true,
+      "top_threads": [
+        "18887",
+        "243223",
+        "127332"
+      ]
+    },
+    {
+      "query": "Can stolen ATM card info be used within one minute?",
+      "bucket": "medium_high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "36456",
+        "167565",
+        "226824"
+      ]
+    },
+    {
+      "query": "How can I stop users from abusing my REST API by intercepting their authentication token and then sending lots of fake POST requests? Does using TLS stop this kind of misuse?",
+      "bucket": "medium_high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "173391",
+        "166105",
+        "264264"
+      ]
+    },
+    {
+      "query": "Is using a local Windows account safer than signing in with a Microsoft online account in terms of protection from hackers or government access? Does Microsoft store my login credentials or encryption keys when I use their account?",
+      "bucket": "medium_high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "69217",
+        "49614",
+        "123382"
+      ]
+    },
+    {
+      "query": "How can protesters protect private messages from police access?",
+      "bucket": "medium_high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "211825",
+        "5314",
+        "79644"
+      ]
+    },
+    {
+      "query": "If my MacBook gets stolen and I didn't notice for a couple of days, how worried should I be about someone accessing my data, and can they break into it without my password?",
+      "bucket": "medium_high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "216050",
+        "47117",
+        "106005"
+      ]
+    },
+    {
+      "query": "My office fax machines are receiving pages filled entirely with black toner and offensive messages, causing paper jams and wasting supplies. I've heard this might be an electronic attack sometimes called a 'Black Fax'. How should I handle this situation and protect my fax machines?",
+      "bucket": "medium_high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "48199",
+        "36313",
+        "23691"
+      ]
+    },
+    {
+      "query": "How to safely use LastPass on untrusted or public computers?",
+      "bucket": "medium_high",
+      "style": "short",
+      "thread_rank": 2,
+      "good_answer_pos": 2,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "138313",
+        "91618",
+        "23586"
+      ]
+    },
+    {
+      "query": "What is the purpose of the TPM owner password, and which operations actually require it? Also, how can I verify if I have the correct TPM owner password on Linux without changing anything on the TPM?",
+      "bucket": "medium_high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "202209",
+        "108528",
+        "190541"
+      ]
+    },
+    {
+      "query": "How can I securely force a user to change their password when using zero-knowledge proof authentication like SRP6a, and is it safe or recommended to require the new password's salt to be the same as the old one to ensure the password actually changes?",
+      "bucket": "medium_high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "94749",
+        "198474",
+        "38147"
+      ]
+    },
+    {
+      "query": "Can disk wiping be detected after deleting files?",
+      "bucket": "medium_high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "7798",
+        "245252",
+        "53253"
+      ]
+    },
+    {
+      "query": "Why do Adobe file formats like PDFs and Flash SWFs have so many security vulnerabilities compared to other file types?",
+      "bucket": "medium_high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "155469",
+        "13118",
+        "93438"
+      ]
+    },
+    {
+      "query": "What do the different Evaluation Assurance Levels (EAL 1 through 7) in the Common Criteria standard signify, and does a higher EAL rating always mean a product is more secure?",
+      "bucket": "medium_high",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "77161",
+        "236848",
+        "192304"
+      ]
+    },
+    {
+      "query": "Why do websites require cookie consent notifications?",
+      "bucket": "medium_high",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "69263",
+        "121271",
+        "194036"
+      ]
+    },
+    {
+      "query": "If the stack grows downwards in memory, how does overflowing a buffer end up overwriting data located at higher addresses, like the return address above the variable?",
+      "bucket": "medium_high",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "135786",
+        "44801",
+        "82750"
+      ]
+    },
+    {
+      "query": "Do companies use keyloggers for employee security monitoring?",
+      "bucket": "medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "181484",
+        "51406",
+        "91849"
+      ]
+    },
+    {
+      "query": "Why would a defense agency want to build a secure messaging system using blockchain instead of existing encrypted messaging apps, and how could blockchain help troops communicate or share data securely in tough environments like denied communications or space?",
+      "bucket": "medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 2,
+      "has_accepted": true,
+      "top_threads": [
+        "127787",
+        "246204",
+        "254600"
+      ]
+    },
+    {
+      "query": "Is there a way to prevent all Firefox extensions from sending data to external servers while still using privacy-focused add-ons? I'd like to stop any outgoing data from add-ons without disabling them completely, ideally through Firefox settings or OS-level controls, but without relying on another add-on to do this.",
+      "bucket": "medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "141708",
+        "80132",
+        "206349"
+      ]
+    },
+    {
+      "query": "How to prove a PDF was timestamped at a specific time?",
+      "bucket": "medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "108358",
+        "57101",
+        "146806"
+      ]
+    },
+    {
+      "query": "When hosting multiple SSL sites on one server, should I create unique Diffie-Hellman parameters for each virtual host, or can I safely share the same parameters across all of them?",
+      "bucket": "medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "89564",
+        "70831",
+        "43355"
+      ]
+    },
+    {
+      "query": "If I use Bitlocker with TPM only on my Windows laptop, will setting a BIOS password prevent unauthorized access or trigger TPM protection if the BIOS password is reset after theft?",
+      "bucket": "medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "129111",
+        "129671",
+        "195681"
+      ]
+    },
+    {
+      "query": "How to prevent symlink attacks in SFTP chroot environments?",
+      "bucket": "medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "154047",
+        "150786",
+        "152838"
+      ]
+    },
+    {
+      "query": "Can an attacker perform an SSLstrip attack if I type https:// directly in the browser instead of http://?",
+      "bucket": "medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 2,
+      "has_accepted": true,
+      "top_threads": [
+        "89589",
+        "64979",
+        "183467"
+      ]
+    },
+    {
+      "query": "How can I configure sqlmap to automatically scan all discovered URLs without prompting me for confirmation or other input during a crawl?",
+      "bucket": "medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "176647",
+        "238602",
+        "264126"
+      ]
+    },
+    {
+      "query": "Which cybersecurity roles are mostly technical with minimal soft skills?",
+      "bucket": "medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 2,
+      "has_accepted": true,
+      "top_threads": [
+        "262138",
+        "31686",
+        "3772"
+      ]
+    },
+    {
+      "query": "Is it risky to expose session IDs in URLs for cross-domain single sign-on, and how can I securely implement login across multiple domains?",
+      "bucket": "medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 2,
+      "has_accepted": true,
+      "top_threads": [
+        "150716",
+        "174678",
+        "23131"
+      ]
+    },
+    {
+      "query": "What is the best way to deploy a Web Application Firewall (WAF) in conjunction with an HTTPS reverse proxy? Should SSL termination be done at the outer firewall, the WAF, or the reverse proxy to ensure proper inspection of Layer 7 traffic and maintain security?",
+      "bucket": "medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "117507",
+        "30513",
+        "44563"
+      ]
+    },
+    {
+      "query": "Is SMS secure for password reset out-of-band verification?",
+      "bucket": "medium",
+      "style": "short",
+      "thread_rank": 3,
+      "good_answer_pos": 3,
+      "accepted_pos": 3,
+      "has_accepted": true,
+      "top_threads": [
+        "142053",
+        "57009",
+        "169673"
+      ]
+    },
+    {
+      "query": "What kind of information can be exposed if STUN messages in WebRTC aren't encrypted, and does that affect the security of the actual peer-to-peer communication?",
+      "bucket": "medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "139707",
+        "113395",
+        "29318"
+      ]
+    },
+    {
+      "query": "Are there effective technological methods to prevent or stop vehicle-ramming attacks, especially in crowded public spaces where physical barriers are not always practical?",
+      "bucket": "medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "130212",
+        "197817",
+        "202373"
+      ]
+    },
+    {
+      "query": "Why does browser show wrong SSL certificate from dnsadvantage.com?",
+      "bucket": "medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "9977",
+        "114814",
+        "95722"
+      ]
+    },
+    {
+      "query": "How can I assess the risk that a password manager like 1Password is compromised by government agencies such as the NSA, and is 1Password considered secure against such spying?",
+      "bucket": "medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "55428",
+        "242342",
+        "45170"
+      ]
+    },
+    {
+      "query": "On modern PCs and Macs, what hardware components or firmware areas can malware infect or hide in to persist even after a system reboot?",
+      "bucket": "medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "25473",
+        "200008",
+        "170620"
+      ]
+    },
+    {
+      "query": "What are the risks of changing server time via NTP exploits?",
+      "bucket": "medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "226869",
+        "155600",
+        "193508"
+      ]
+    },
+    {
+      "query": "Is there a way to verify that the client-side code I get from a cloud or web service hasn't been tampered with, especially if the server is compromised?",
+      "bucket": "medium",
+      "style": "conversational",
+      "thread_rank": 3,
+      "good_answer_pos": 3,
+      "accepted_pos": 3,
+      "has_accepted": true,
+      "top_threads": [
+        "201688",
+        "199430",
+        "234948"
+      ]
+    },
+    {
+      "query": "What is the purpose of random encoded text in spam emails?",
+      "bucket": "lower_medium",
+      "style": "short",
+      "thread_rank": 2,
+      "good_answer_pos": 3,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "202910",
+        "34624",
+        "95820"
+      ]
+    },
+    {
+      "query": "What's the safest way for an admin to reset a user's password? Should the admin just set a new password directly, or is it better to have the user create their own password somehow?",
+      "bucket": "lower_medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "90110",
+        "212318",
+        "12339"
+      ]
+    },
+    {
+      "query": "How does timestamping allow code signed with an expired certificate to still be considered valid, and why doesn't verification reject signatures made after a certificate's expiration date?",
+      "bucket": "lower_medium",
+      "style": "scenario",
+      "thread_rank": 3,
+      "good_answer_pos": 3,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "195813",
+        "67663",
+        "274453"
+      ]
+    },
+    {
+      "query": "Are two 4-bit data diodes enough for secure bidirectional communication?",
+      "bucket": "lower_medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "177893",
+        "151638",
+        "161848"
+      ]
+    },
+    {
+      "query": "How should I set up my network to safely run a honeypot without risking my other devices or the wider internet?",
+      "bucket": "lower_medium",
+      "style": "conversational",
+      "thread_rank": 3,
+      "good_answer_pos": 3,
+      "accepted_pos": 3,
+      "has_accepted": true,
+      "top_threads": [
+        "3978",
+        "64013",
+        "21525"
+      ]
+    },
+    {
+      "query": "How can I securely configure GitHub webhooks to trigger Jenkins builds without exposing the Jenkins UI publicly or relying on insecure tools like Smee? Are there best practices or alternatives to ensure webhook communication is protected?",
+      "bucket": "lower_medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "219342",
+        "10744",
+        "139807"
+      ]
+    },
+    {
+      "query": "Does Kraken GSM cracker require old ATI GPU or PC?",
+      "bucket": "lower_medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "94898",
+        "36374",
+        "26358"
+      ]
+    },
+    {
+      "query": "What kinds of attacks does Secure Boot actually prevent, and how does it protect against boot-time malware or unauthorized bootloader modifications?",
+      "bucket": "lower_medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "271450",
+        "148004",
+        "70640"
+      ]
+    },
+    {
+      "query": "How can I properly test if my CORS policy allowing subdomains is correctly configured? I set Access-Control-Allow-Origin to *.domain.com and see it in response headers, but changing Origin or Referer still returns the response, so how do I confirm if this is working as intended?",
+      "bucket": "lower_medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "173128",
+        "207765",
+        "173551"
+      ]
+    },
+    {
+      "query": "Do programmers ever need government security clearances?",
+      "bucket": "lower_medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "52133",
+        "72444",
+        "21067"
+      ]
+    },
+    {
+      "query": "Can I use a hard drive magnet to erase or scramble data on old floppy disks so they can't be recovered? How effective is this method, and will it damage the floppy so I can't reuse it?",
+      "bucket": "lower_medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 3,
+      "has_accepted": true,
+      "top_threads": [
+        "220129",
+        "119427",
+        "121994"
+      ]
+    },
+    {
+      "query": "When connecting to an LDAP server on the default port without using TLS or STARTTLS, does performing a SASL/GSSAPI bind encrypt the data exchanged after authentication? Is there a standard or protocol document that explains whether subsequent LDAP traffic is protected in this scenario?",
+      "bucket": "lower_medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "226849",
+        "227278",
+        "17098"
+      ]
+    },
+    {
+      "query": "Can unprivileged users sniff temporary sudo passwords in /tmp?",
+      "bucket": "lower_medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 2,
+      "has_accepted": true,
+      "top_threads": [
+        "156983",
+        "257317",
+        "87078"
+      ]
+    },
+    {
+      "query": "Is it safe to repeatedly check my password hash prefix using the HaveIBeenPwned API, or could the service use this info to guess my password and attack me?",
+      "bucket": "lower_medium",
+      "style": "conversational",
+      "thread_rank": 2,
+      "good_answer_pos": 4,
+      "accepted_pos": 4,
+      "has_accepted": true,
+      "top_threads": [
+        "181381",
+        "214166",
+        "214116"
+      ]
+    },
+    {
+      "query": "How can I implement multi-layered DoS and DDoS protection integrated with cloud hosting services, especially for small websites? What responsibilities do cloud providers cover at different OSI layers, and what options exist for protecting against attacks at network layers 3 and 4?",
+      "bucket": "lower_medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "198314",
+        "73369",
+        "184919"
+      ]
+    },
+    {
+      "query": "How to secure a Mac on an open unsecured LAN?",
+      "bucket": "lower_medium",
+      "style": "short",
+      "thread_rank": 3,
+      "good_answer_pos": 4,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "11863",
+        "61900",
+        "212544"
+      ]
+    },
+    {
+      "query": "Is it safe to install VirtualBox, and could it be secretly spying on me compared to other virtualization software like VMWare?",
+      "bucket": "lower_medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "243200",
+        "88684",
+        "85599"
+      ]
+    },
+    {
+      "query": "I received a strange, nonsensical SMS full of random characters and odd words from an unknown number on my Android phone. Could this message exploit my phone or apps that read SMS, and should I be worried about any security risks?",
+      "bucket": "lower_medium",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "117457",
+        "106983",
+        "168359"
+      ]
+    },
+    {
+      "query": "Can user-controlled XML attributes cause security risks?",
+      "bucket": "lower_medium",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "51774",
+        "416",
+        "4410"
+      ]
+    },
+    {
+      "query": "Why do some companies require hosting third-party libraries internally instead of just using CDNs or package managers like NuGet or GitHub?",
+      "bucket": "lower_medium",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "175902",
+        "209776",
+        "68073"
+      ]
+    },
+    {
+      "query": "How to bind a C++ app to Raspberry Pi hardware to prevent copying?",
+      "bucket": "low",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "143865",
+        "98098",
+        "124707"
+      ]
+    },
+    {
+      "query": "Why can't an attacker fake an OCSP must-staple response during a TLS handshake if they can also fake the certificate?",
+      "bucket": "low",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "273148",
+        "64586",
+        "102581"
+      ]
+    },
+    {
+      "query": "How can I prevent users from running unauthorized portable applications on company computers, especially those that don't require installation and can be executed directly from USB drives?",
+      "bucket": "low",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "83250",
+        "9272",
+        "168068"
+      ]
+    },
+    {
+      "query": "Why use GUIDs for file names instead of incremental numbers?",
+      "bucket": "low",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "205283",
+        "59555",
+        "108028"
+      ]
+    },
+    {
+      "query": "Is it safe to use Cloudflare or similar proxy services for my website, considering they can see all incoming requests including sensitive data? Could relying on one company like Cloudflare pose a security risk for my site or even the internet at large?",
+      "bucket": "low",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "231152",
+        "206855",
+        "151566"
+      ]
+    },
+    {
+      "query": "If LDAP credentials have been compromised but access is restricted by an IP whitelist, is changing the credentials still necessary? How reliable is IP whitelisting alone in protecting the system after a credential leak?",
+      "bucket": "low",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 3,
+      "has_accepted": true,
+      "top_threads": [
+        "150804",
+        "177931",
+        "195387"
+      ]
+    },
+    {
+      "query": "Can car key fob signals be intercepted or replayed with SDR?",
+      "bucket": "low",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "148384",
+        "269435",
+        "43050"
+      ]
+    },
+    {
+      "query": "Why can't I use an absolute URL in an SVG fill attribute to load an external image or pattern, and why does it work with relative paths but not with full URLs?",
+      "bucket": "low",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "172893",
+        "42033",
+        "168857"
+      ]
+    },
+    {
+      "query": "How can I get a response or establish a connection back when exploiting a remote code execution (RCE) vulnerability on a server inside a local network?",
+      "bucket": "low",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "214282",
+        "221258",
+        "89920"
+      ]
+    },
+    {
+      "query": "How can I access websites from within a censored country?",
+      "bucket": "low",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "227435",
+        "30618",
+        "35255"
+      ]
+    },
+    {
+      "query": "If I work from home and connect to my employer's remote server using LogMeIn, can my employer access my personal files, see my screen, or listen through my microphone or camera on my own computer? Also, could they monitor my personal internet usage or access my home computer when I'm not connected?",
+      "bucket": "low",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "136269",
+        "57089",
+        "231998"
+      ]
+    },
+    {
+      "query": "Why is it recommended to use a signed session ID instead of directly sending a signed user ID for authentication tokens, given that both can be signed to prevent tampering?",
+      "bucket": "low",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "240412",
+        "271085",
+        "213208"
+      ]
+    },
+    {
+      "query": "How to centrally configure file integrity checks in OSSEC?",
+      "bucket": "low",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "171240",
+        "44909",
+        "45660"
+      ]
+    },
+    {
+      "query": "If a URL parameter lets me insert braces into a JSON snippet on a webpage, can that be exploited or cause security risks since the braces aren't filtered?",
+      "bucket": "low",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "189160",
+        "13821",
+        "75958"
+      ]
+    },
+    {
+      "query": "Is it possible to have a condition or situation where digital non-repudiation cannot be definitively proven through analysis of messages and logs, even when using public key cryptography? Specifically, can digital evidence alone conclusively prove or disprove that a particular individual performed a digital signature, considering potential claims like hacking or misuse?",
+      "bucket": "low",
+      "style": "scenario",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 1,
+      "has_accepted": true,
+      "top_threads": [
+        "53715",
+        "1786",
+        "162966"
+      ]
+    },
+    {
+      "query": "What info should I include when reporting a vulnerability bounty?",
+      "bucket": "low",
+      "style": "short",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": 2,
+      "has_accepted": true,
+      "top_threads": [
+        "76670",
+        "63493",
+        "203521"
+      ]
+    },
+    {
+      "query": "I want to move from a helpdesk role to becoming a cybersecurity engineer with a focus on pentesting. What practical steps, skills, or certifications should I pursue to get started and build real expertise in cybersecurity?",
+      "bucket": "low",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "254614",
+        "103839",
+        "232686"
+      ]
+    },
+    {
+      "query": "I have a PGP key stored on a YubiKey smartcard, but I also keep a full private key on my PC. When the private key is present locally, GPG doesn't automatically use the smartcard even if it's plugged in. Is there a way to make GPG prefer the YubiKey for signing or decrypting when it's available, but fall back to the local key when it's not?",
+      "bucket": "low",
+      "style": "scenario",
+      "thread_rank": 2,
+      "good_answer_pos": 2,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "249928",
+        "183226",
+        "174880"
+      ]
+    },
+    {
+      "query": "Is custom asymmetric encryption over HTTPS secure?",
+      "bucket": "low",
+      "style": "short",
+      "thread_rank": 3,
+      "good_answer_pos": 3,
+      "accepted_pos": 3,
+      "has_accepted": true,
+      "top_threads": [
+        "51069",
+        "104623",
+        "202281"
+      ]
+    },
+    {
+      "query": "Can a program running in user mode access hardware devices directly without using operating system calls?",
+      "bucket": "low",
+      "style": "conversational",
+      "thread_rank": 1,
+      "good_answer_pos": 1,
+      "accepted_pos": null,
+      "has_accepted": false,
+      "top_threads": [
+        "152813",
+        "51161",
+        "254097"
+      ]
+    }
+  ]
+}

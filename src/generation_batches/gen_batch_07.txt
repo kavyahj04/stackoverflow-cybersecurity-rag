@@ -1,0 +1,80 @@
+Generate the 5 questions for each of these threads.
+
+<thread id="34624">
+<title>SPAM postscript</title>
+<body>I have been getting a lot of SPAM lately that have some type of encoded block added to the end.  I am wondering if anyone here would know how to decode it.  Here is an example: <467>3zunORiRd$ss0,szI3s8[dznAsSsiRd$ss0,szI3$F$dn83F9,$dzOFAiRd$ss0,szI3s8RmHvHmm%iRd$ss0,szI3$Fs9sAF?$[3FiRd$ss0,szI3AdN[=0SF?[=m2iRd$ss0,szI3$AFFmQQz|$iRd$ss0,szI3sAF83miRd$ss0,szI3[zs3$R][8 vfqfiRd$ss0,szI3sR?FOOiRd$ss0,szI3sAAF=zdA3[8Q%iRd$ss0,szI3]u9umWiRd$ss0,szI3S3zd86QQQiRd$ss0,szI3$FAF=dz,,diRd$ss0,szI3[__d8R][SSzFRFAiRd$ss0,szI3sOF=%iRd$ss0,szI3[8]FAPOFSSP%viRd$ss0,sz<764></body>
+</thread>
+
+<thread id="90110">
+<title>Password management: how an administrator should reset password for a user?</title>
+<body>I implement simple user management.
+How an administrator should reset password for a user?
+Just provide a new password for a user (as in Active Directory)?
+Is it secure enough? Added Is it secure enough to do it as Active Directory only to type twice a new password? I wanted to create a dialog with 3 fields: user email, new password and retype new password. Is it better to prevent attacks?</body>
+</thread>
+
+<thread id="274453">
+<title>Why can an expired certificate be used to sign a JAR file?</title>
+<body>How does a timestamp prevent use of a leaked expired certificate to sign a malignant executable? If it is supposedly fine to share or leak expired certificates then why is it safe to allow use of such certificate to sign code if the signature is timestamped? Should not verification reject all signatures that were created after the certificate is expired? Here is a sample message from jarsigner, that confused me: $ jarsigner -verify -verbose -certs xxx.jar
+...
+ [entry was signed on 2/1/24, 1:15 PM]
+...
+jar verified.
+Warning: 
+This jar contains entries whose signer certificate has expired.
+The signer certificate expired on 2024-01-01. However, the JAR will be valid until the timestamp expires on 2031-11-01. jarsigner -verify does fail when used with -strict argument, but the message implies that it has nothing to do with timestamp. I envision a following scenario where timestamping signatures of expired certificates does nothing useful. Alice purchases a certificate from a recognized CA. Alice works with certificate until it is expired. Alice considers expired certificate to be harmless Alice relaxes security of the certificate handling and leaks the private key Chad uses leaked certificate to sign malignant code with a public timestamping service Bob verifies the signed code (with a jarsigner?) and sees: The certificate is expired But the signature has a timestamp As timestamp is valid, he ignores the signing date Bob assumes Alice has produced the code Bob uses the malignant JAR and takes damages To my understanding, either certificate expiration date should be absolute (all signing should be done before expiration) or all expired certificates have to revoked (which is ridiculously expensive). Why is neither the case? UPDATE:
+A lot of comments imply that is is impossible to sign code with an expired certificate. Please note, that output of jarsigner (verbose) verification lists a date of expiration and a later date of signing, proving that is possible. This question is specifically "why is it possible ...</body>
+</thread>
+
+<thread id="177893">
+<title>Can network with two data diodes (incoming and outcoming) still be safe?</title>
+<body>I have a software which processes pure numerical data and gives some response. To make it safe, I put it behind two data diodes: one for incoming data, and one for outcoming response.
+The data diodes are implemented as customer-specific hardware. Important point: the data diodes are 4-bit wide and thus allow only 4-bit words.
+The data is purely numerical and encoded like this in binary form: 0000 = '0'
+0001 = '1'
+0010 = '2'
+0011 = '3'
+0100 = '4'
+0101 = '5'
+0110 = '6'
+0111 = '7'
+1000 = '8'
+1001 = '9'
+1010 = '.'
+1011 = ';' (separator) Is my software behind the data diodes is still safe from the hacker attacks? I believe yes, because the 4-bit data words do not allow hacker send any malicious commands.
+If they were 8-bit wide, then all ASCII characters would come through and the software would be vulnerable.</body>
+</thread>
+
+<thread id="21525">
+<title>How to set up a network for a honeypot?</title>
+<body>This is a follow up for How to set up a Virtual Machine for a Honeypot? . After setting up your Virtual Machine. You need to make sure that your network is properly configured so you don't end up infecting your entire network! So this is a rather important part of the process when setting up a honeypot. What are some of the things that need to be considered when setting up the network? Does it need to be a DMZ? If my hardware doesn't support advanced configurations, Can I still setup a honey pot? Do my other computers on the network need to have special network configs? How do I properly setup my network for a honeypot?</body>
+</thread>
+
+<thread id="219342">
+<title>Webhook Security</title>
+<body>I'm following this guide on: How to set up CI/CD Pipeline for a node.js app with Jenkins I've installed Jenkins on a VPS and I can access the Web UI over an SSH Tunnel. Then I saw this: http://JENKINS.SERVER.IP:8080/github-webhook/ In order for GitHub to communicate with Jenkins it makes POST requests on such URL. I've already seen, how I can an issue an SSL certificate with Let's Encrypt, but without being a security expert this solution seems to me like an invitation for attacks. I would like to avoid exposing a Web UI in the public. Another option would be to use Smee , but: Should I use this in production? No! Smee is not designed for production use - it is a development and
+  testing tool. Note that channels are not authenticated, so if someone
+  has your channel ID they can see the payloads being sent, so it is not
+  secure for production use. A third option would be to install Gitlab CE on a VPS and use the according plugin: gitlab-hook , but #SECURITY-263 : Gitlab API token stored and displayed in plain text Enables Gitlab web
+  hooks to be used to trigger SMC polling on Gitlab projects A fourth option would be to install Gitlab CE on a VPS and use the CI/CD of GitLab itself (haven't tried), which seems to me to be more secure that the other three options. Am I right that 4th option is better than the others? Am I missing something? Are there any other options to make such a Webhook secure?</body>
+</thread>
+
+<thread id="94898">
+<title>Airprobe and kraken related questions</title>
+<body>I'm setting up test machine for my engineer work, to check GSM security and SMS interception. I already have an N210 and read a lot of documentation. There are some questions I have but can't find on internet: Kraken works only on ATI (or AMD, don't remember which one) and need to use old PC - true or false? If I receive one malfunctioned bit from the message - I can't crack it with Kraken and rainbow tables If I crack one SMS dedicated for one person, can I use the same hash to decypher the message and don't need to search in rainbow tables again?</body>
+</thread>
+
+<thread id="271450">
+<title>What does Secure Boot protect against?</title>
+<body>As far as I understand, Secure Boot protects system from running code not signed by a specific vendor(s) during early boot stages. In  order to attempt an attack on the bootloader in the first place, an attacker would need either: Boot from their own boot media, if firmware or boot manager settings are not protected. This would require physical access to the device. Get root access to the system, which would allow modifying ESP and EFI variables. Perform such modifications without root access by means of some vulnerability. In any case, looks like we already are in a bigger trouble. But as soon as system has started, Secure Boot does not control further course of execution. It's the job of the OS to ensure the secure environment. This is of course true for an uncompromised system in control of its legitimate owner. However, if an attacker succeeds in any of the steps above, why would they need to install a modified bootloader (assuming they are aware that Secure Boot is enabled)? What prevents them from installing a copy (maybe stripped down) of the legit OS bootloader and kernel, signed by the vendor? (Since db typically contains vendor keys, not file hashes, it doesn't even have to be the same version). E.g. all binaries would be correctly signed, the difference would be in system setting (user accounts, startup scripts, etc.). When such an OS starts, the attacker will get root access to the system, and may even pass control to the original system in order to confuse user. So I don't see what Secure Boot adds here on top of protecting firmware, bootloader settings and root account. Could you please give an example of an attack that is countered by Secure Boot?</body>
+</thread>
+
+<thread id="173128">
+<title>How to verify CORS policy implementation?</title>
+<body>We've added Access-Control-Allow-Origin: *.domain.com and I'm able to view this in the response header. But how can I make sure this is implemented in the right way. When I modify Origin or Referer I still get response for the request.</body>
+</thread>
+
+<thread id="52133">
+<title>security clearance for programmers</title>
+<body>I am programmer by day and night, I work within security at the moment working on some security products. I have noticed a few non software engineering based roles which require security clearance. I was wondering is there any cases within software engineering / programming that developers require security clearance ? If the answer is yes where would one get this type of accreditation ? and what are some useful resources on this subject ?</body>
+</thread>

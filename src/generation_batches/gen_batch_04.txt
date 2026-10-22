@@ -1,0 +1,51 @@
+Generate the 5 questions for each of these threads.
+
+<thread id="216050">
+<title>Stolen MacBook: should I worry about my data?</title>
+<body>Unfortunately, someone stole my laptop (a MacBook) and I did not realize that for 48 hours. Now, this was a work laptop and my company's security team is going to wipe the laptop remotely as soon as it connects to the internet. Which is nice. However, what I am worried about is more about what could happen in those first 48 hours. My passwords were all over the place (auto-fill on my browser, etc.) My Evernote had some good amount of passwords What I am guessing is that since it was stolen from my car, someone stealing it was interested more into selling parts of it or wipe it off and re-sell it (the hardware, not the data). At least, I hope that. Now, in the worst case scenario, assuming it was stolen by a person who is dedicatedly interested in data: What are their options? Can they really crack open a MacBook and get my data? If so, what are my options?</body>
+</thread>
+
+<thread id="48199">
+<title>Someone faxed me a bunch of black paper</title>
+<body>I work for this telemarketing company, and when I went to work this morning all my fax machines' outputs were jammed with black paper with the faded words "f*** you" transcribed on each of them. I looked it up and it says its an electronic attack called a 'Black Fax', what should I do?</body>
+</thread>
+
+<thread id="91618">
+<title>LastPass - Best practices on foreign devices</title>
+<body>I am a new user to LastPass and have been reading the literature to better understand how it works. What I do not grasp is how to best use LastPass on other computers. In the case where you only want to use the web GUI, I don't believe LastPass can automatically fill in credentials/forms nor automatically down-/upload your database (please correct me if wrong). Because you must copy and paste, the risks are leaving passwords in clipboards and having the Vault open to be seen. I think the best practices are to Use One Time Passwords, as in all cases. Flush the clipboard. Presume there is no screen recorder, logger, nor onlookers. The other case would be installing (or using an existing installation) of the OS client and/or browser extensions on foreign computers. Here, LastPass is writing your (super strongly) encrypted database locally. Does this mean on each foreign computer I am leaving behind a version of my database (daunting)? What do experienced users do to manage this: Extension > Tools > Advanced Tools > Clear Local Cache (I am not exactly sure what is cleared), manually delete relevant files, leave your litter as is? Secondly, are there any fields to be conscious of where the Master Password (if no OTP) is remembered? Finally, is there any conflict with or overwriting of another user's database/credentials (you don't want to ruin their experience afterwards)? I know one solution is to use LastPass Portable (what I use at home) or possibly LastPass Pocket, depending on if it ever copies the database locally (I don't know). I'd like to limit the second case to not having these options, since it's a common situation when traveling, with a friend, or even at work/school to not have a USB copy. I hope this question doesn't bother folks as being overly conscious. I am just curious to know how to best use LastPass when I am not on my own stuff. Thank ...</body>
+</thread>
+
+<thread id="202209">
+<title>Purpose of TPM "ownership" and "owner password"</title>
+<body>I have a laptop with TPM 2.0, dual-booting Windows 10 and Linux. By default, Windows automatically takes ownership of the TPM with a throwaway password, but can be configured to store it in the Registry. However, Linux seems to have access to the TPM even without the owner password – at least, I'm able to successfully seal a LUKS key against some PCRs, unseal it later, and not able to unseal it when the PCRs change, just as expected. This, and in fact the whole "throwaway owner password" thing by Win10, leaves me confused about what exactly the purpose of an owner password is – what operations require it? Also: if I have something that is probably the current owner password, how do I check/verify it using Linux TPM 2.0 tools, preferrably without making any changes to the TPM contents? (I have both the IBM and Intel userspace tools installed.)</body>
+</thread>
+
+<thread id="94749">
+<title>Forcing new password with zero-knowledge proof authentications</title>
+<body>Let's say a ZKP (e.g. SRP6a) is used, for password verification. Let's say I need to force a user to change their password (so I have the salt and the verifier for the current password). For this, the client will need to send me the new salt and verifier values. But I can't check if the password used was the same if the salt is random. The reason I bother is because an initial password may be delivered over a less secure way, and I don't want that password to linger. The only way to ensure the passwords to be different that I found is to require the new salt to be the same as old. The mechanism to change the password is exposed as an API to the client, and I can't necessarily trust the client to do that verification. The questions are: Is there a better way? If no, then is there any downside to requiring the same salt, i.e. am I compromising anything?</body>
+</thread>
+
+<thread id="7798">
+<title>Can someone tell if you delete deleted files?</title>
+<body>I am aware that to delete something completely we will have to use a program that over-writes the deleted file such that it is unrecoverable. Is there anyway to tell that this has happened? Or is the resultant state so random that no one can tell that it has just been "cleaned" ? Ok so we have a 100GB C:\drive and all of the data is "cleaned". After "cleaning", if someone try to do a reversal and couldn't, he will suspect that it is "cleaned" before. So what I do is to copy "random files" and delete them such that if he do a reversal, he would get the "random files". Now the question is, if I simply have 50GB of "random files", will the remaning 50 GB show evidences of "cleaning" ? Do I need to fill all 100GB will "random files" (and delete them) to erase ALL traces of "cleaning" ?</body>
+</thread>
+
+<thread id="155469">
+<title>What makes Adobe formats so vulnerable?</title>
+<body>Tools that deal with SWFs, PDFs, OTF... seem to suffer from a disproportionate amount of vulnerabilities. Is the a characteristic in the formats that Adobe creates that makes them more susceptible to be broken? Related: Why are Adobe Flash exploits found so often? Note: I'm not asking why, rather what is common to all of these Adobe technologies. What was behind the surge of Adobe Flash Player vulnerabilities/patches in 2015?</body>
+</thread>
+
+<thread id="77161">
+<title>Deference Between EAL 1-7 in Common Criteria Standard?</title>
+<body>I have a question about ISO/IEC 15408 standard: I want know if the level of evaluation is higher we can conclude that a product is safer? i.e, if we have two products, is the one which has a higher EAL by definition safer?</body>
+</thread>
+
+<thread id="69263">
+<title>Why does every site makes me acknowledge cookie usage?</title>
+<body>In the last year or so every other site on the net started showing different kinds of notification that they're using cookies and I should be aware of it. The sheer number of different sites doing this made me abandon the initial good-will-idea and rather think that there has been some kind of legislation forcing sites to show that notice, especially since until recently, it's been a trend on US-based sites. Now I'm seeing this also on german sites (I think I would have noticed an appropriate legislation), so I wonder -- what's the background for this overreaching user information? Why this intensity all of a sudden?</body>
+</thread>
+
+<thread id="135786">
+<title>If the stack grows downwards, how can a buffer overflow overwrite content above the variable?</title>
+<body>I realize how a buffer overflow works but I have a problem understanding the direction in which the overflow is directed. So if the stack grows downwards , that means that the return address is above the variable's reserved space. When that variable is now overflowed, shouldn't it overwrite memory below instead of above? tl;dr: If the stack grows downwards, how can a buffer overflow overwrite content above the variable?</body>
+</thread>

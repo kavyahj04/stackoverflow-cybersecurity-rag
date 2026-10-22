@@ -1,0 +1,71 @@
+Generate the 5 questions for each of these threads.
+
+<thread id="266204">
+<title>If JWT tokens are stateless how does the auth server know a token is revoked?</title>
+<body>I've read that JWT tokens are stateless and you don't need to store the tokens in the database and that this prevents a look up step. What I don't understand is that according to RFC 7009 you can revoke a token. Let's say I have a web site with a Sign Out button that calls a token revocation flow like in RFC 7009. If no tokens are stored in the database, what's to prevent the client from using a token that's been revoked? If I Sign Out, I would expect to have to Sign In again. Is it solely the client's responsibility to clear the token locally? Do you need to store the refresh token in a database or store to implement RFC 7009?</body>
+</thread>
+
+<thread id="199226">
+<title>How to protect printers from being hacked</title>
+<body>Recently it got to my attention that someone has hacked around 50,000 printers and used them to print the message they wanted to. ( link ) As someone who doesn't have a lot of knowledge about networks or hacking, what would be the steps to take to protect my printer or similar accessories from such attacks in the future?</body>
+</thread>
+
+<thread id="2330">
+<title>Should I bother teaching buffer overflows any more?</title>
+<body>The students are skeptical that turning off non-executable stacks, turning off canaries and turning off ASLR represents a realistic environment.  If PaX, DEP, W^X, etc., are effective at stopping buffer overflow exploits, is there still value in learning about them?</body>
+</thread>
+
+<thread id="103666">
+<title>Could a VPS provider have access to the content of their users?</title>
+<body>Could a VPS provider like DigitalOcean have access to the content of their users? In their terms of service they do not mention anything related to this question, but could they theoretically have access (e.g., via a backdoor)? Apart from a possible hack, how could I assure my clients that their content is only known by me, even if their data is not on my server?</body>
+</thread>
+
+<thread id="37227">
+<title>Somebody bumped into me, next day my storage unit was burglarized</title>
+<body>While I was walking in the street, somebody carrying a laptop bag bumped into me, and the next day I found out that my storage unit was burglarized and some important items were stolen. My storage unit door uses a magnetic-stripe card without a PIN, and I have several important items there. The items don't include money or anything that has intrinsic value itself, but they could be important to some parties. I do realize my mistake, I shouldn't have trusted a storage unit with important items. I should have stored them in a deposit box in a bank. To help you guys help me, I'll try to give as much information about the situation as possible: I vividly remember his bag hitting my back pocket in an unnatural way. I immediately checked my wallet after the bump, I made sure my ID, money, and the card were there. The stolen items are of some importance to some people and they would hire PI . I've already informed the police and filed a report. The security cameras in the storage area hallway show a masked person opening the door normally, and there are no signs of forced entry. My question is : Could that person have cloned my card when he bumped into me? Is it really as easy as touching the person's pocket? Does the process really take that small amount of time (1-2 seconds)? Update: After investigation it turned out that the card has an RFID tag inside it, but the storage space operators didn't know about it. It was there just in case they wanted to change the locks to support RFID. The magnetic stripe and the RFID tag both contained the same data, so the thief copied the RFID tag and made a new magnetic card with the information. Yesterday the police caught the thief after catching the person who hired him trying to sell the items to a blackmarket honeypot operated by the police. I identified the thief as the person who bumped into me and he later admitted.</body>
+</thread>
+
+<thread id="207823">
+<title>False 'Security alert' from Google - every login generates mails from 'no-reply@accounts.google.com'</title>
+<body>Every time I log in to Google with the same MacBook I get this email: New device signed in to
+    example@gmail.com
+Your Google Account was just signed in to from a new Mac device. You're getting this email to make sure it was you. What do these emails mean exactly? When does Google send out those emails? I guess I receive those emails because I use a VPN (always same public IP address) and some privacy plugins in Firefox.</body>
+</thread>
+
+<thread id="123028">
+<title>Is ignoring a threat you cannot defend from a valid strategy?</title>
+<body>Given that you sometimes can not defend from a form of threat, is it then valid to ignore said threat? Instead of defending from the threat, just mitigate the symptom. An example of this comes from media distribution, where DRM has been less than effective at protecting the data. Ultimately, there is nothing that stops the client from circumventing the protection because it, in fact, needs to be undefended at some point in order to view it. While the above particular case is well known, some analogous cases might not be as well known. Given that developing a protective measure might be cost prohibitive, when does one suggest the client should: ignore the security threat change business model to one that sidesteps the threat</body>
+</thread>
+
+<thread id="242693">
+<title>How credible are the rumors that the NSA has compromised IPSec?</title>
+<body>Part of the Snowden revelations was that the NSA had targeted IPSec. But I'm having trouble separating FUD from legitimate issues. How credible is this? Are there ways to use IPSec to be confident against it being broken? I like IPSec because it's fast and standard, so I'd like to continue using it instead of say, OpenVPN if possible.</body>
+</thread>
+
+<thread id="142879">
+<title>How worried should I be about getting hacked with PoisonTap?</title>
+<body>I just heard of PoisonTap today. Here is a short description from a TechCrunch article: PoisonTap connects to the USB port and announces itself not as a USB
+device, but an Ethernet interface. The computer, glad to switch over
+from battery-sucking Wi-Fi, sends a DHCP request, asking to be
+assigned an IP. PoisonTap responds, but in doing so makes it appear
+that a huge range of IPs are not in fact out there on servers but
+locally connected on the LAN, through this faux wired connection. And you don’t even have to be there: pre-loaded items like analytics and
+ads will be active, and as soon as one of them sends an HTTP request —
+BAM, PoisonTap responds with a barrage of data-caching malicious
+iframes for the top million Alexa sites. And those iframes, equipped
+with back doors, stick around until someone clears them out. This sounds quite worrisome, yet I did not hear too much about it yet.
+So my main question is: How vulnerable are people to the PoisonTap hack? It seems like the following points would be relevant: Is the general population at risk, or only a very specific subset (OS, browser?) What exactly is at risk, your data, your gmail account ...? Is it something that most people can pull off, or does it depend on specific hardware and a high level of skill? Is there something that one can do easily, without closing all browsers or turning off the PC each time when you walk to a different room to ask a short question. (Is locking it sufficient?) And of course, if it is as bad as it seems: can we expect updates soon that would make it safer to go to the toilet again?</body>
+</thread>
+
+<thread id="58940">
+<title>Is TrueCrypt not secure now and should I stop using it?</title>
+<body>The official TrueCrypt webpage now states: WARNING: Using TrueCrypt is not secure as it may contain unfixed security
+  issues This page exists only to help migrate existing data encrypted by
+  TrueCrypt. The development of TrueCrypt was ended in 5/2014 after Microsoft
+  terminated support of Windows XP. Windows 8/7/Vista and later offer
+  integrated support for encrypted disks and virtual disk images. Such
+  integrated support is also available on other platforms (click here
+  for more information). You should migrate any data encrypted by
+  TrueCrypt to encrypted disks or virtual disk images supported on your
+  platform. with detailed instructions for how to migrate to BitLocker below. Is it an official announcement or just a tricky deface attack ?</body>
+</thread>

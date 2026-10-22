@@ -1,0 +1,54 @@
+Generate the 5 questions for each of these threads.
+
+<thread id="150716">
+<title>Does exposing a session ID create security risks?</title>
+<body>I'm looking to make a cross-domain + single app login, since you can't store cookies on other domains from one website, I'm using img tags with a href link to each website (eg: example.com/setsessionid?id=XXXX ) I have 2 security concerns: When the img is created on the login, the link which includes the session id is revealed to the client. Is this a risk? On the other domains the client can type the setsessionid link and enter their own session id (this seems like a huge risk, because they could randomly guess somebody elses session and hijack them) IF either are a security risk, how could I solve it? Notes: I'm using this method This is a single application which hosts for multiple domains.</body>
+</thread>
+
+<thread id="117507">
+<title>Reverse Proxy + WAF</title>
+<body>AS part of network design, I am implementing a HTTP Reverse proxy as well as a WAF. The HTTP Proxy, I am thinking about terminating SSL, on either the outer firewall - so the WAF can insect the layer 7 traffic. Outer Firewall --> WAF --> HTTP Proxy ---> Internal Network / Public zone DMZ Any machine on the internal network / public facing DMZ then would divert all traffic through the Reverse proxy, and then back out through the WAF. Yes. My question is - is this the best way to deploy a WAF with the HTTPS reverse proxy, so do I need to go back to studying?</body>
+</thread>
+
+<thread id="169673">
+<title>Alternatives to SMS as a out-of-band channel</title>
+<body>I am looking at password reset functionality for a project I am working on. Looking at OWASP guidelines, it suggests using SMS as an out-of-band channel for this. ( https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet ) However, NIST seem to advise against this. If the code for SMS were to expire (say in 20 minutes) would this mitigate the risk of using SMS. Or is SMS frowned upon completely in its current state?</body>
+</thread>
+
+<thread id="139707">
+<title>What information can be leaked via unencrypted STUN transmission?</title>
+<body>I am brand new to WebRTC and am trying to wrap my head around what the STUN protocol exactly does and the risks of data leakage on an unencrypted transmission. From my understanding, the STUN protocol helps programs sitting behind NATs find each other. Once they have found each other, then these programs communicate via UDP. Does the STUN protocol simply act as a "matching service" and then some other protocol goes over the provided UDP? If the STUN isn't encrypted, does that mean any protocol communicating through the UDP also won't be encrypted? Would it be the responsibility of the protocol to provide encryption? (if so desired) Thanks</body>
+</thread>
+
+<thread id="130212">
+<title>Could technical controls prevent vehicle ramming attacks?</title>
+<body>We've just seen another attack where a vehicle was used as a weapon. My thoughts are with all those affected by the tragedy. Many people are wondering how such attacks can be stopped. It's hard for intelligence to detect: a lone terrorist, no communications, no need to acquire weapons or suspicious chemicals. Sensitive facilities, such as airports and transport hubs already have bollards to prevent such attacks. But this doesn't help when ad-hoc crowds form, such as Bastille Day. Could technical controls in vehicles prevent such attacks? A vaguely similar approach is used in high-quality colour printers to stop counterfeiting . Indeed, many cars have a number of sensors that can detect collisions, and some already take automatic action to avoid collisions. It's not clear if these would stop a terrorist: perhaps they would stop a drunk driver mowing down a crowd, but a terrorist will try to disable the safety feature. And there are new safety risks if we prevent drivers overriding such systems: they may prevent a driver taking desperate action to avoid a tragedy. To keep this question in line with Stack Exchange rules: answers must be evidence based, and focus on the question: Can technical controls prevent vehicle ramming attacks? This is not the place for open-ended discussion of vehicle safety or terrorism.</body>
+</thread>
+
+<thread id="9977">
+<title>Why would the browser present the certificate for an unknown outside site?</title>
+<body>The first time each day that I attempt click on the 'Mail' link from the Yahoo home page, my browser (Seamonkey) throws up a dialog with the title 'Secure connection failed'. The content in the dialog reads - ak1s.abmr.net:443 uses an invalid security certificate
+This certificate is only valid for search.dnsadvantage.com
+
+Error code: ssl_error_bad_cert_domain (if somebody could guide me, I'll attach the certificate from dnsadvantage here) I have no idea why dnsadvantage.com is entering the picture ... instead of going to the target URL https://login.yahoo.com/config/login_verify2?.intl=us&.src=ym After I cancel the dialog, the page continues to load but now shows the certificate for Yahoo. I'm concerned somebody may be trying to retrieve the credentials for yahoo. Why does the browser present the certificate from dnsadvantage.com instead of yahoo.com?</body>
+</thread>
+
+<thread id="55428">
+<title>Is 1password vulnerable to NSA spying?</title>
+<body>In light of the recent heartbleed vulnerability, I'm thinking of switching to a service like 1Password.  However, I don't know how to evaluate the risk of NSA (or other government) spying.  So, two questions: how can I evaluate the risk of such spying, and is 1Password secure from it? EDIT: I thought it went without saying, but I'm interested in answers that explain the rationale used.  I'm not interested in baseless opinion about 1Password (like "1Password sucks!"), but I am interested in impartial criticism, with an emphasis on how one can evaluate services like it with respect to this vulnerability.  Also, please back up any opinions with facts and references. EDIT 2: I realize that asking for definitive proof of spying is unrealistic.  I'm asking for a way of evaluating the risks.  For example, if they claimed to be free of government spying, that would be useful information.  (They make no such claim, as far as I can tell.)  Or perhaps it is significant that they are a Canadian company.  I don't know, and I would appreciate help from you security experts.</body>
+</thread>
+
+<thread id="25473">
+<title>Where can a virus or other malware "hide" on common PC and Mac hardware?</title>
+<body>I'm looking for a detailed list of locations that viruses can "hide" in modern hardware even after a reboot. Some things that come to mind include Boot BIOS/Firmware CPU Microcode Connected PCI components that have a reprogrammable BIOS Some keyboards Hard coded directly into hardware ??Some graphics cards?? <-- speculation BIOS of locally attached printer?? <-- speculation</body>
+</thread>
+
+<thread id="226869">
+<title>Is altering time on a server a risk?</title>
+<body>What is the risk of altering time in a system via an NTP exploit or any other mean in a network? Could it be a step to a higher severity risk and how exactly can it be exploited?</body>
+</thread>
+
+<thread id="234948">
+<title>How to validate client side safety in a Zero Knowlegde model</title>
+<body>What is sometimes called Zero Knowledge , sometimes end to end encryption occurs when a server only processes ciphered data (at least for sensitive data) with a result where a compromise of this server does not threat the confidentiality of the data. In this model : the data are deciphered at the client side (web browser, smartphone app, ...) the data are always encrypted before to be sent to the server the cipher key is never transmitted to the server Some examples of existing architectures like this are privatebin, cryptpad, signal app, protonmail (not sure) This kind of architecture is interesting because even if a hostile third party (government, hacker, ...) tries to take over the main server, the users'data remain unviolated as the key is never known by the server. The counterpart is that when a user lost the key, the data are lost for ever (or until the next AES breakdown). However, if the main server is compromised, the opponent can still change the code served to the client side and introduce malicious html/javascript to receive the clear data. So this model is not perfect yet. My question is : is there a way to ensure the client side code authenticity to avoid executing malicious code sent by a compromised server ? The last time I talk with a dev at cryptpad, he told me about code signing for website. They tried to dig the idea of publish open source client side code, sign it somewhere and make the browser checks that the signature is the same as the one associated with the auditable open source code. Is someone knowing something about that ? This question came to my mind because, today, many people talk about Zero Trust for the Cloud based architectures. I'm not sure to have the same definition of Zero Trust but I'm quite chocked to never see anywhere a little concern about the fact that, currently, no Cloud based architecture can be resilient to AWS compromise (or AWS becoming hostile). Something I feel more like "zero trust except amazon"... Zero knowledge could be ...</body>
+</thread>

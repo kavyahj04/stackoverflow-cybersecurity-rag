@@ -1,0 +1,66 @@
+Generate the 5 questions for each of these threads.
+
+<thread id="181484">
+<title>Healthcare company uses keyloggers for security purposes. Is this normal?</title>
+<body>I just attended a recruitment session for a major healthcare provider in the United States. The presenter, a high-ranking member of one of their IT divisions (not security specifically) mentioned that they use a lot of security software on their client machines, including keyloggers. This person may have misspoken, but there were other members from their various IT departments present, and none of them issued a correction. This caught me off guard. While I understand that employers, especially in an industry such as healthcare, have an obligation to protect their information from improper disclosure and their machines from abuse, this seems like a step too far. Is this behavior common in the information security world? A vast majority of the information I found was, as expected, related to the detection, removal, and circumvention of keyloggers. I did find this question (closed as too broad) which has an answer saying that this is uncommon, but since that was only tangentially related and mentioned in passing by one person, I would be much more interested in answers from industry veterans.</body>
+</thread>
+
+<thread id="127787">
+<title>Why is DARPA interested in secure messaging platform using blockchain technology?</title>
+<body>DARPA (US Defense Advanced Research Projects Agency) has released a Request for Proposal for a Secure Messaging Platform using a blockchain framework. The following is the Objective paragraph from DARPA's call for proposal: OBJECTIVE: Create a secure messaging and transaction platform that separates the message creation, from the transfer (transport) and reception of the message using a decentralized messaging backbone to allow anyone anywhere the ability to send a secure message or conduct other transactions across multiple channels traceable in a decentralized ledger. The request for proposal is available in full, here: DARPA Call for Proposal for Secure Messaging Platform. Why are contemporary secure messaging platforms like TextSecure, Cryptocat, XMPP/OTR, Bitmessaging and so many more NOT enough? What do these contemporary solutions lack, as the Secure Messaging Scorecard suggests many applications have all these features? What does blockchain provide when it comes to Secure Messaging and why it is necessary? In particular, this paragraph of the proposal is not making sense to me The messaging platform would act as the transport for a cyptographically sound record of all transactions whether they be MIPRs, contracts, troop movements or intelligence. Troops on the ground in denied communications environments would have a way to securely communicate back to HQ and DoD back office executives could rest assured that their logistics system is efficient, timely and safe from hackers. The benefits are broad and could even be applied to domains such as space. With crowded skies it’s important to maintain situational awareness of all satellites and those concerned with space situational awareness/telemetry or air traffic control could instantly share data between nations using a separate but equivalent ledger implementation thus removing questions as to the authenticity and integrity of the data. What does transport mean here?
+How does blockchain help troops communicate in denied communication environment help?
+I am also not clear about the argument on situational awareness of satellites and how does blockchain enable sharing data between nations. Simple answers would really help me and others like me. Thanks</body>
+</thread>
+
+<thread id="141708">
+<title>Prevent all Firefox Addons from sending data</title>
+<body>Firefox addons are known to send data (like the URLs visited, location, installed cookies etc.) to their maintainers and (from there) to third parties. See for instance the newest "scandal" about the WebOfTrust addon (link is in German): https://www.kuketz-blog.de/wot-addon-wie-ein-browser-addon-seine-nutzer-ausspaeht/ Since, on the other hand, addons are also essential to prevent tracking activities (e.g. the well-known NoScript addon), simply disabling all addons does not seem to be a good solution to protect one's privacy. What I'd like to do is: Keep my privacy protecting addons, but somehow (maybe through Firefox internal settings in the about:config dialog or some hack to Firefox or indeed to the operating system, Debian 8 in my case) prevent all Firefox addons from sending data from my computer to the internet . Obviously, this should not be achieved with yet another addon, then we've come round in a circle. (As a downside I realize that this will also break auto update of these addons, and maybe even their normal functionality. But in the latter case this would be a reason for me not to trust them any more.) In fact, I'm using Iceweasle on Debian 8, but this is synonym with Firefox, I think. (An alternative would be to review the source code of the addons myself line by line and then - after convincing myself that they do nothing more than I expect them to do - compile them myself. But since I am not an expert in this field (I don't even know how to compile a browser addon) and since some addons try to obscure their activities deep inside the code, see for example: http://www.howtogeek.com/180175/warning-your-browser-extensions-are-spying-on-you/ the blocking of outgoing traffic initiated by addons is probably more practical in my case.)</body>
+</thread>
+
+<thread id="108358">
+<title>Verification of a timestamped PDF</title>
+<body>I'm kinda new to the process of timestamping files to provide digital integrity.
+For testing purposes, i use tsa.safecreative.org for PDF files. Now i've signed a couple PDF files and if i open up the PDF it says the timestamp is valid (as the file is signed by the timestamp certificates). Nevertheless, one of the key ideas of timestamping is to be evidence proof, so i should be able to use the list on the SafeCreative Website to verify the timestamp of my file. When taking a look at the exact time of timestamping i know that SafeCreative safes the following data for my demo file . 2015-12-16 21:17:27 5488602bec5c55a91e474c2b79d6c1a02928d594c472be54307e3cc8cec3cd90    SHA256 Now lets assume that this demo file is part of a court process. I want to verify that the file was timestamped at that exact time. According to defuse.ca the SHA256 hash is bc5886d2890da95d04b5ec4fbba7881a2cabb38ba87ae27daf5870c381facbbe though this is obviously the hash after the timestamp-adding-certifications. How exactly would i proof in court that the PDF i got was timestamped at that moment (i dont think the certificate is proving timestamping instead of file integrity)? Is the "old" hash somewhere in the file? Do timestamp servers even store the hashes and if yes, why is there no API to check it?</body>
+</thread>
+
+<thread id="89564">
+<title>Should diffie-hellman parameters be unique to a vhost</title>
+<body>So I'm setting up one host to serve multiple SSL sites. I've been following various guides like https://cipherli.st/ and https://wiki.mozilla.org/Security/Server_Side_TLS and they both suggest to specify diffie-hellman parameters to get forward secrecy. So my question is: should I generate a new prime number for each virtual host on the system, or is it alright to share one between all the virtual hosts. My reading of the mozilla article says that it's not that big a deal since the key generated from the exchange is ephemeral anyways, so as long as the prime is large enough (2048 bits being recommended), it should be alright?</body>
+</thread>
+
+<thread id="129111">
+<title>Will setting a BIOS Password Protect the TPM?</title>
+<body>I have Windows 10 on a Dell Precision Laptop, Bitlocker Drive Encryption set up for my system drive with TPM only and I do not want 20-number long PIN, but I want a password (like I had in TrueCrypt, but it doesn't support GUID partitions so I can't use it). If I set a BIOS password and my computer is stolen and the thief resets somehow the BIOS password, will this get "red flagged" by the TPM and require the Bitlocker key?</body>
+</thread>
+
+<thread id="154047">
+<title>How to secure SFTP against symlink attack?</title>
+<body>I've configured SFTP on my virtual machine, because I wanted to test how can I use symlink in order to access files outside from user home directory. I've created user: test:x:1003:1001::/var/www/test/public:/bin/false Ownership and premissions: drwxr-xr-x  root root test
+
+drwxr-xr-x test sftpusers public Here is my sshd_config : Subsystem sftp internal-sftp
+
+#UsePAM no
+
+Match group sftpusers
+ChrootDirectory /var/www/%u
+AuthorizedKeysFile /var/www/%u/.ssh/authorized_keys
+X11Forwarding no
+AllowTcpForwarding no
+ForceCommand internal-sftp After that I had to login into my SFTP account and from there I did: sftp> symlink / /public/root I think most of the servers which use SFTP are configured in a similar way. So, what can be done in order to prevent symlink attack?</body>
+</thread>
+
+<thread id="89589">
+<title>SSLstrip attack on HTTPS request</title>
+<body>Can an SSLstrip attack take place even if the client types https:// instead of http:// ? I have read that an attacker can monitor for HTTP requests and redirect them to HTTPS. But I am curious to know whether HTTPS requests can also be exploited.</body>
+</thread>
+
+<thread id="176647">
+<title>Using sqlmap --crawl without asking questions</title>
+<body>I'm using sqlmap with --crawl option. Whenever a URL is found, it asks me whether to scan it GET http://127.0.0.1:80/demo/sqli.php?id=1
+do you want to test this URL? [Y/n/q] How should I ask sqlmap to test all URLs without asking? P.S SQLmap also asks the following questions, I'd like to answer them automatically as well: please enter number of threads? [Enter for 1 (current)] do you want to check for the existence of site's sitemap(.xml) [y/N]</body>
+</thread>
+
+<thread id="262138">
+<title>What cybersecurity jobs are mostly technical?</title>
+<body>I am doing my bachelor's in computer science and I have the chance to take multiple cybersecurity courses. Of course, before taking these course, I did some research about jobs in the field of cybersecurity to see what one does in day-to-day tasks, what paths exist, etc. I found jobs that seem to mostly do documentation, meetings and reports. I don't see jobs where one only does "technical things". I will define "technical things" as building servers, configuring firewalls, doing pen testing, writing scripts, etc. In other words, jobs that do not require a lot of interface with people. For example, if I search for cybersecurity analyst or just cybersecurity (since 90% of the jobs have for title cybersecurity analyst), here are the common tasks that I found between the different jobs: Support and promote the various security and compliance policy governance projects. Contribute to or conduct risk assessments across different projects or incidents. Teach cybersecurity best practices during interactions with company employees. Participate in evidence gathering activities for internal and certification audits. As specialists who work in that field, what are your thoughts about jobs that are only technical?</body>
+</thread>

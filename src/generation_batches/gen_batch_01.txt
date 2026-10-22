@@ -1,0 +1,67 @@
+Generate the 5 questions for each of these threads.
+
+<thread id="154556">
+<title>How does the attacker discover our server?</title>
+<body>As titled, we discovered some unknown IP address is accessing our API Server. We have set up an AWS EC2 instance as an API server. The API server URL is only used in our mobile app.
+However, our mobile app has not been released yet and the API server URL is not linked from any public website. We can see the (multiple) attackers are randomly trying the URL path, i.e. 
+/admin/i18n/readme.txt
+/a2billing/admin/Public/index.php
+/current_config/passwd
+/recordings/
+/.git/objects How do they discover our server really?</body>
+</thread>
+
+<thread id="12503">
+<title>Can wiped SSD data be recovered?</title>
+<body>I was reading another post on destroying IDE drives, and how you could remove data, wipe it, or just destroy the drive. The removed data would still be there in some state, although not easily reachable without software. Wiped data is just removed data, but it has been overwritten and is essentially gone. A destroyed disk, if done well enough, will remove everything, or make it nearly impossible to recover anything. According to my understanding. What about a solid-state drive? Can the data on one of these be recovered once deleted? It seems that this would be the way to go if you constantly dealt with and removed sensitive data, but SSDs only have so long of a life span (again, as I understand). Can data from an SSD be recovered in any way once it is removed, even if it has not been overwritten?</body>
+</thread>
+
+<thread id="118445">
+<title>Can the ransomware encryption key be derived from comparing encrypted and unencrypted files?</title>
+<body>A firm has 10 million files, all ransomware encrypted, but the firm has all of those 10 million files backed up, and almost all of them have not changed.  Would comparing all of those files against their unencrypted backups in addition to the other cracking algorithms help discover the key?</body>
+</thread>
+
+<thread id="15910">
+<title>Why would salt not have prevented LinkedIn passwords from getting cracked?</title>
+<body>In this interview posted on Krebs on Security , this question was asked and answered: BK: I’ve heard people say, you know this probably would not have
+  happened if LinkedIn and others had salted the passwords — or added
+  some randomness to each of the passwords, thus forcing attackers to
+  expend more resources to crack the password hashes. Do you agree with
+  that? Ptacek: That’s actually another misconception, the idea that the
+  problem is that the passwords were unsalted. UNIX passwords, and
+  they’ve been salted forever, since the 70s, and they have been cracked
+  forever. The idea of a salt in your password is a 70s solution. Back
+  in the 90s, when people broke into UNIX servers, they would steal the
+  shadow password file and would crack that. Invariably when you lost
+  the server, you lost the passwords on that server. Ptacek doesn't really explain why this is the case--he only says that salt has not prevented this type of attack in the past. My understanding is that salt can only prevent pre-computation of password hashes because of the space needed to store the precomputed hashes. But if you have compromised the system, you will have both the salt and the hash. So the time to dictionary attack the hash does not change significantly (just an extra concatenation of the salt to the dictionary word). Is my understanding correct?</body>
+</thread>
+
+<thread id="11920">
+<title>Is social-engineering an actual threat</title>
+<body>I've recently finished book The Art of Deception: Controlling the Human Element of Security by Kevin Mitnick The book was released on 4th December 2002. Not talking only about techniques described in this book, but are the ways used by social-engineers still a threat today? I think that now, as we moved at least 10 years from the book and issues described in it, we should be immune to such attacks, as we can quickly verify any information presented to us and with possibilities to use cyphering, high-speed mobile network connections, privileges control systems, biometric identification, etc... Do I live in false sense of safety, or is it fear speaking from me? And now you can think about, whether it was an social engineering to ask such question and get all your valuable knowledge, or not. :-)</body>
+</thread>
+
+<thread id="261310">
+<title>Identification of a laptop using a spoofed WiFi MAC address</title>
+<body>I own a small coffee shop in a highly-populated area. We've noticed that several computers are connecting to our WiFi network using spoofed MAC addresses (e.g. 11:22:33:44:55:66). Is there any way of identifying these machines? Is there any way to determine who these users are? I've been manually blocking these MAC addresses but they just create new addresses. Why do we block them? Because we've been notified by our ISP that these devices are using our WiFi to perform nmap scans. They aren't just "browsing", they're using our account to find open ports on machines all over the net.</body>
+</thread>
+
+<thread id="119343">
+<title>How to deal with WPE users</title>
+<body>I own a chat room and some users use a program Winsock Packet Editor, "WPE PRO". With it they manage to bypass chat rules, like they can't be muted or kicked, and they can send messages fast bypassing the limit of the chat. I was wondering if there is a way to end this? About the software from the developer website: Winsock Packet Editor (WPE) Pro is a packet sniffing/editing tool which is generally used to hack multiplayer games. WPE Pro allows modification of data at TCP level. Using WPE Pro one can select a running process from the memory and modify the data sent by it before it reaches the destination. It can record packets from specific processes, then analyze the information. You can setup filters to modify the packets or even send them when you want in different intervals. WPE Pro could also be a useful tool for testing thick client applications or web applications which use applets to establish socket connections on non http ports. Update : Its called 123flashchat, its Java/Flash, unfortunately the company abandoned the project, no updates or fixes any more. and the issue is not kicking the user, there is a ban on the ip, but a user can change the ip and return and start spamming messages fast</body>
+</thread>
+
+<thread id="88947">
+<title>Prevention measures against laptop seizure at US borders</title>
+<body>Since laptop and other electronic device seizures at US borders became legal without a warrant (including making copies of data), 7% of ACTE's business travelers reported being subject to a seizure as far back as February 2008 . What measures have IT departments taken since to protect sensitive corporate data, and are there any estimates of their (aggregate or individual) costs? I've only found this article about the economic costs of laptop seizure, but no figures are mentioned.</body>
+</thread>
+
+<thread id="8164">
+<title>Why are hand-written signatures still so commonly used?</title>
+<body>Why are hand-written signatures still so commonly used? Can they actually prove anything? Two assumptions: If anyone wants to forge my signature I'm sure they will be able to do it. Even my own signature looks a little bit different every time I sign a document. If I commit to an agreement by signing a contract not with my typical signature but using a new random signature (maybe even using my left hand), I could just claim I didn't sign it and the best forensics will probably have to agree, because my "real" signature is completely different. On the other hand, why are digital signatures not more popular? Just because non-tech savvy people don't know how to use them?</body>
+</thread>
+
+<thread id="193508">
+<title>How important is local time for security?</title>
+<body>I recently wanted to see what happens when I change my local time to something obviously wrong. I tried the year 2218, so 200 years in the future. The result: I couldn't access any website anymore (I didn't try too many, though). I got this error: I guess NET::ERR_CERT_DATE_INVALID means that an HTTPs certificate is not valid. But usually there is an "advanced" option that allows me to ignore it. Not so here. Also, I wonder why it says "your clock is ahead" - if chrome knows the correct time, why doesn't it take this for comparing? Coming to my question: How important is local time for security? If an attacker can arbitrarily change the system time, which kinds of attacks allows this? Are there reported cases where time manipulation was a crucial part?</body>
+</thread>

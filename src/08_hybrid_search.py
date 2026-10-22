@@ -1,5 +1,6 @@
 import importlib
 import chromadb
+import numpy as np
 from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -18,6 +19,8 @@ chroma_client = chromadb.PersistentClient(path=str(SRC_DIR / "chroma_db"))
 answers_collection = chroma_client.get_collection("answers")
 
 bm25, bm25_ids = load_index()
+q_bm25, q_bm25_ids, thread_answers = bm25_index.load_question_index()
+RRF_K = 60  # reciprocal rank fusion constant
 
 SITE_BASE_URL = "https://security.stackexchange.com"
 
@@ -42,10 +45,30 @@ def dense_search(question, top_k=50):
     return hits
 
 
-def sparse_search(question, top_k=50):
+def _top_ids(scores, ids, k):
+    order = np.argsort(-scores)[:k]
+    return [ids[i] for i in order if scores[i] > 0]
+
+
+def sparse_search(question, top_k=50, use_questions=True):
+    """BM25 over answers, fused (RRF) with BM25 over questions.
+
+    A question hit stands for its thread, so it contributes the thread's top
+    answers (by score) at that question's rank.
+    """
     tokens = tokenize(question)
-    scores = bm25.get_scores(tokens)
-    ranked = sorted(zip(bm25_ids, scores), key=lambda x: x[1], reverse=True)[:top_k]
+    answer_ranked = _top_ids(bm25.get_scores(tokens), bm25_ids, top_k)
+    if use_questions:
+        fused = {}
+        for rank, answer_id in enumerate(answer_ranked, 1):
+            fused[answer_id] = fused.get(answer_id, 0) + 1 / (RRF_K + rank)
+        question_ranked = _top_ids(q_bm25.get_scores(tokens), q_bm25_ids, top_k)
+        for rank, question_id in enumerate(question_ranked, 1):
+            for answer_id in thread_answers.get(question_id, [])[:bm25_index.ANSWERS_PER_QUESTION_HIT]:
+                fused[answer_id] = fused.get(answer_id, 0) + 1 / (RRF_K + rank)
+        ranked = sorted(fused.items(), key=lambda x: x[1], reverse=True)[:top_k]
+    else:
+        ranked = [(answer_id, 1 / (RRF_K + rank)) for rank, answer_id in enumerate(answer_ranked, 1)]
     ranked_ids = [answer_id for answer_id, _ in ranked]
 
     # Pull display text from Chroma (already stores it) instead of

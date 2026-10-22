@@ -1,0 +1,85 @@
+Generate the 5 questions for each of these threads.
+
+<thread id="220129">
+<title>Is it sufficient to use a hard disk magnet to corrupt/erase floppy data?</title>
+<body>I would like to make data, in many (more than 250) old floppies, unreadable/unrecoverable. I have some HDDs that I can take apart. Their magnet is sufficient to do the job to make it unreadable to the general public? How much time it will the process take? I don't want to destroy the floppy as I want to re-use them (some floppy art).</body>
+</thread>
+
+<thread id="226849">
+<title>Is traffic subsequent to a SASL/GSSAPI bind encrypted?</title>
+<body>When making a SASL/GSSAPI bind to an LDAP server over port 389 ( ldap:/// ), after the authentication is finished is the resulting LDAP traffic encrypted? If so, is there a document or RFC that describes this? Assume that no STARTLS command is issued by the client. Note that the question "Is it secure to be using LDAP, or is LDAPS the only secure option?" mentions some ways to secure an LDAP connection but does not address the question of whether or not connecting via SASL/GSSAPI encrypts subsequent data communications.</body>
+</thread>
+
+<thread id="156983">
+<title>Sniff plaintext password written in /tmp directory</title>
+<body>I was recently reading about Ansible and the way it manages the sudo passwords. More specifically: When using become_user to a user other than root, the module arguments are briefly written into a random tempfile in /tmp. These are deleted immediately after the command is executed. This only occurs when changing privileges from a user like ‘bob’ to ‘timmy’, not when going from ‘bob’ to ‘root’, or logging in directly as ‘bob’ or ‘root’. If it concerns you that this data is briefly readable (not writable), avoid transferring unencrypted passwords with become_user set. In other cases, /tmp is not used and this does not come into play. Ansible also takes care to not log password parameters. Isn't this a security risk? Could a non-privileged user write a watchdog script that sniffs the contents of newly created files in the /tmp directory?</body>
+</thread>
+
+<thread id="214166">
+<title>Is super paranoid use of HaveIBeenPawned password API going to help?</title>
+<body>They way I understand HaveIBeenPawned password API is that it's a safe system because the site "can't do much with my partial hash even if they wanted to".   But is that really true? 
+ Is the following scenario feasible? My password is thisisnotsecureanymore It's SHA1 is 37cbd1e930b737e4bcbd149c2fcaccbe066ce9c4 I submit https://api.pwnedpasswords.com/range/37cbd (no match) HaveIBeenPawned turns to the dark side and starts recording my IP + request. I submit https://api.pwnedpasswords.com/range/37cbd (no match) I submit https://api.pwnedpasswords.com/range/37cbd (no match) I submit https://api.pwnedpasswords.com/range/37cbd (no match) Over time HaveIBeenPawned gets more lists and there are 100 new 37cbd entries in it.  Mine isn't in there yet.   Periodically they
+keep trying to brute force with all ~500 entries against login
+portal at the IP I'm running the API from (although they could
+probably just check the 100 new ones because if there was a match, I
+would soon change my password and stop hitting their API.  The fact
+I keep checking is also a singnal for them) I submit https://api.pwnedpasswords.com/range/37cbd (no match) I submit https://api.pwnedpasswords.com/range/37cbd (no match) I submit https://api.pwnedpasswords.com/range/37cbd (no match) HaveIBeenPawned gets 101st entry 37cbd1e930b737e4bcbd149c2fcaccbe066ce9c4 hash and doesn't tell me
+about it. HaveIBeenPawn ...</body>
+</thread>
+
+<thread id="198314">
+<title>Is there a multi-layered DoS protection which can be tightly integrated with cloud hosting services?</title>
+<body>I know that one can deny services (DoS) in any of the 7 layers of the OSI model and that in principle, a denial can be done by a single entity (human or machine) or from 2 or more such entities ("distributed" - DDoS). I also understand that: On layers 1,2, a DoS can be done by a single entity without software limitations, as these are purely "concrete" layers. On layers 3,4,5,6, a DoS is software-only and is typically distributed (DDoS) because of typical ISPs bandwidth limitations on entities (so one or more entities would typically need 2 or more ISP accounts) even if the hacking is done from one machine that includes 2 or more virtual machines. On layer 7, a DoS is software-only and can be either single or distributed easily without bandwith limitations (at least for a few types of attacks), but in any case are easier to manage in comparison to attacks on layers 1,2,3,4,5,6. Background on cloud hosting services (CHS) I know that there are basically two types of CHSs used to host web applications: 1. Minimally controlled cloud: The user is provided with an OS, DNS zone management tool, bypass console and some more possible tools while the user adds the rest by itself (examples: DigitalOcean, Linode and so forth). 2. Maximally controlled cloud: Either the user or the company provides the OS, DNS zone management tool, bypass console and some more possible tools while the user adds the rest by itself (examples: Microsoft Azure, Amazon Web Services (AWS), Google Cloud Platform (GCP) and so forth). The main difference is that the latter allows using the VAD stack (Vagrant, Ansible, Docker) that enables true continuous integration or the closest one can get to it . Regarding minimally controlled cloud; on ...</body>
+</thread>
+
+<thread id="212544">
+<title>Considerations for securing a computer on an open LAN?</title>
+<body>Im about to move to a serviced office where they have an open LAN. Eg. no VLANs for individual companies. The room itself is locked so the main treats would be from cyber security, rather than physical. Im trying to thing through the possible considerations for security and what i should add / amend. Ive got a VOIP phone, which ive locked down it webGUI with a strong unique password. The only sharing setting i have enabled on my computer is remote access via Apple Remote Desktop, which is secured with a strong unique password. As with most people now a days all the applications we use are SSL and our email is with Google Apps for business which i understand is encrypted in transit. I have Sophos AV Home installed on my computer. The computer is a Macbook Pro running OSX 10.14.x</body>
+</thread>
+
+<thread id="243200">
+<title>Is VirtualBox safe and is it possible its spying on the user?</title>
+<body>I'm looking to install a virtual machine and since Hyper-V is not available for my Windows 10 production version I'm forced to decide between VirtualBox and VMWare. VMWare looks much more modern and new while Virtual Box has a very old and 'sketchy' looking website. I was always under the impression that VirtualBox is better and safe for anonymity. Is it safe to install it though, and is it possible that VirtualBox could be spying on their users? https://www.virtualbox.org/ https://www.vmware.com/</body>
+</thread>
+
+<thread id="117457">
+<title>Strange SMS received on Android phone. Is this an exploit? Should I be concerned?</title>
+<body>I am using an Android phone. I received an SMS from an unknown number today which had the following content: #Gege%wghatdanaipop%^
+*%95bornioke:&67;
+///Hackmaster&67;-&67"
+//Fregbugg190&@"67"@/ ;
+ :;whatsappash/@"hack:///
+<#instruct~bug*omeg!#%
+#%uthumb:"
+?nail:/-67;bug__gegr>
+;thumbnail\~>%
+/:call log;&"#%
+#05:32;&mondaybug&"
+/:thumbnail;again|\]
+#10:08;mondaybug &"
+/:@thumbnail!\*;
+#02:06;&fridaybug&"
+/:#%allelements((crashed?)
+;)&@(
+-/7890@"$>
+;:/endallow/thumbnails)&@"
+/),.bugedit&@"
+\{{Elementscrashed}}#%
+"( •)*"
+:@endbug:;"
+:/&@"all*^^#
+/)@allcrack<~|_]}}
+-//userdemoadd:)&@"
+~<>%^
+\{{ensall<>%^* ( gist version ) It looks very weird. Any idea what it is? I am curious as I was afraid that it can lead to some bug in applications which read SMS? Is it possible?</body>
+</thread>
+
+<thread id="51774">
+<title>Can XML attributes be exploited?</title>
+<body>on my website i deliver an xml, whereas GET parameters will be added as (entityencoded) attributes somewhere in the xml. stripped down example: http://host/file.xml?x=y leads to note that the string is being html entity encoded so you cant really escape out of the quotes. a string like this "/> leads to "/> but could this be exploited another way?</body>
+</thread>
+
+<thread id="175902">
+<title>Why host third party libs instead of relying on CDN, Nuget, GitHub?</title>
+<body>I'm struggling with some enterprise security guidelines requiring 3rd party libs to be hosted internally. The immediate concern is over our build server connecting to GitHub for package resolution, but we've been hitting NuGet for years and were blissfully pursuing CDN hosts for our in-flight production apps. What security does self-hosting provide if I already trust the package author & contents?</body>
+</thread>

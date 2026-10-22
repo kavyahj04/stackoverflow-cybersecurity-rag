@@ -1,0 +1,54 @@
+Generate the 5 questions for each of these threads.
+
+<thread id="136269">
+<title>Remote server questions</title>
+<body>I apologize for the lengthy questions and my lack of knowledge on this issue. 
+I  work from home using my own computer and connect to a remote server. I know my employer monitors my work when connected to the server. My concern is if anyone from our IT dept could gain access to my home computer files. Several IT people have come and gone over the last few months and my one credit card had a fraudulent charge on it. It was caught quickly. But still worries me if other accounts are now vulnerable. So my questions are: Is my work able to see my Word documents, pictures, or internet pages while I'm connected to the remote server. If I were to have them open on my personal desktop not through the remote server. Are they able to hear me or see me while I'm connected. I cover the camera part because I have kids and the camera scares me. But I'm also concerned about if they can hear me since I do talk to my kids in the morning while they get ready for school. Like you'd talk to another coworker walking by. They know not to interrupt me. (I also may talk to my dog or sing here and there....) lol A lady from work uses her cellular data at work when she texts/iMessages because she said if using the company's wifi they can see exactly what she's saying. True? How about with my remote connection? I'm thinking of getting a separate computer just for work, but am afraid that my current computer is still accessible to them even when not connected to the remote server... Maybe through my internet connection?  it's the one that has all my stuff on it. Is there any program I can look for that will detect any spying on my home computer. They use LogMeIn when connected to the remote server. Thank you in advance to anyone who takes the time to read this and answer any of the questions or give advice. 
+THANK YOU!!</body>
+</thread>
+
+<thread id="240412">
+<title>If we're signing the id we send to the client, why not send the user id instead of session id?</title>
+<body>I am learning about auth and session management, and using express-session in Node js. I am not able to find the need for this package. I read a about it online, but didn't get a satisfying answer. Considering it is used widely, I am missing something. I know when the user enters email/username and password, the server then checks these values against the database, and if successful, returns a unique session id. On the server side, we anyway have to find out the user who made the request by a lookup to the database (by session id --> user id --> database lookup). Also, the session id which is send to the client is signed (in express-session), to ensure it is not tampered with. My main doubt is, we're signing the session id, then why is it considered unsafe to send the user id instead.
+This post here: Why we store session id instead of user id inside cookies? talks about how the attacker can modify the plain user id and compromise the system. But in our case, as we're sending a signed user id, no one will be able to modify it unless they know my secret (which is used to sign it). This is taken from the post I shared above: If an id leaks even once, an attacker would gain permanent access as it is unrevokable. Session ids on the other hand expire after a while or can be revoked. This makes some sense, but then if the attacker gets hold of the signed session id too, no one can stop him from using that session (unless he modifies something). So is it just a matter of revoking/expiration ability of the session ids that the user ids don't have? More explanation will be appreciated, as I am just starting to learn these things. Thanks</body>
+</thread>
+
+<thread id="171240">
+<title>OSSEC - Can i centralize what file to check with centralized agent config?</title>
+<body>I am starting with OSSEC for file integrity check in a bunch of Windows servers and CentOS. And I would like to keep a centralized configuration of what to check for all my agents, based on they OS. Rerearching about Centralized agent configuration I found out that i can make a /var/ossec/etc/shared/agent.conf which spreads my will to all my agents, but I am struggling to understand how to use it. Based on OSSEC docs example, i want to do something like this: /var/log/my.log2 syslog 7200 no yes /etc,/usr/bin,/usr/sbin /bin,/sbin C:\myapp\my.log syslog 7200 no yes ProgramFiles ProgramFiles(x86) System32 SysWOW64</body>
+</thread>
+
+<thread id="189160">
+<title>How to exploit escapable JSON parameters</title>
+<body>I have an HTML page with this bit of code in it: So where it says redacted, there are a lot of parameters, and one of them is modifiable using a URL parameter, meaning I can change this parameter in the URL to abc and it will put abc into those JSON brackets. Using this, I found that it does not properly filter braces, meaning that in this parameter I can put braces that are parsed as a new JSON area within the braces already there. It's hard to explain but for example, I can make the URL parameter "{test}", and those above parameters will look like the following (assuming one of the redacted areas was the URL parameter's output: {"redacted":"{test}"} It seems that being able to put my own JSON brackets in here should allow me to run my own JSON code, but is this possible, and is there any risk associated with the fact that they don't filter braces at all? Thanks</body>
+</thread>
+
+<thread id="53715">
+<title>Non-Repudiation that can Never be Proven</title>
+<body>I understand that non-repudiation is based upon public key cryptography and the principle of only the sender knowing their own private key. However, what is a condition, if any, of non-repudiation that can never be proven through digital analysis? This digital analysis would include inspecting the message and logs. I am assuming that "I was hacked" will not work here because we have access to logs.</body>
+</thread>
+
+<thread id="76670">
+<title>What information to provide when submitting a vulnerability report to a bounty program?</title>
+<body>After finding a vulnerability in a program, one can submit it to a bounty program, such as ZDI. According to ZDI's website, they will examine the vulnerability and possibly offers a bounty. If the researcher does not accept the offer, they promise not to use the vulnerability information. However, I guess some people might not completely trust the bounty program and would like to provide limited information in their submission. My question is, what is the general practice for providing information to/negotiate with a bounty program? I am thinking about providing software version, OS version, general description of the vulnerability and some proof, such as the info at crash and analyze results by tools like !exploitable Crash Analyzer. However, although the bounty program such as ZDI encourages the researcher to submit a PoC, the PoC will basically disclose the vulnerability entirely. Thus, the PoC will not be included at least in the initial submission. Please provide your answers and comments regarding this issue. Thank you!</body>
+</thread>
+
+<thread id="254614">
+<title>How to become a cybersecurity engineer</title>
+<body>I want to become a cybersecurity engineer. Currently, I have a good knowledge of pentesting, programming(python, c++, bash, batch, powershell), networking, firewalls but something come to my mind. Where do I start to actually become a cybersecurity engineer? Right now I'm on my first job at a helpdesk in Brazil, but I have no idea where to start or which qualifications I should have or certifications. I'm kind of lost, I love computers and learning new stuff and somehow I feel this may be my area. Someone can please share some of your experience on the area, the challenges you had to make, and the knowledge you had before attempting it.</body>
+</thread>
+
+<thread id="183226">
+<title>How to force GPG to use a Keycard when it is available</title>
+<body>I have a yubikey (with PGP smartcard function) with my PGP key on it. I did not replace the private key on my main PC with a stub key as keytocard does by default, so I still can use the PGP key with a passphrase without using the yubikey. But when the full private key is still in the keyring, gpg does not use the yubikey when it is present. Can I force gpg to use it when it is plugged in while using my passphrase to unlock the key on the PC when the keycard is not available?</body>
+</thread>
+
+<thread id="202281">
+<title>Is this strategy end 2 end encryption and secure?</title>
+<body>I'm passing sensitive financial data to a payment processor online via cloud functions and would like your expert opinions, please. The workflow is as follows: A customer indicates they want to transact by tapping a checkout button. The checkout button hits an API on the server which generates public and private keys. Both keys are sent to a secured database, keyed by the public key. Only the server has permissions to read and write to the database. The server responds to the client with the public key so the customer can asymmetrically encrypt their data. The customer enters their sensitive bits into the client on ssl/tls, which encrypts the data with the public key and then sends the data and public key back to the server. The server fetches the private key from the database using the public key, decrypts the customers sensitive data, deletes both keys from the database, tokenizes the decrypted data, and finally submits the tokenized data to the transactional processor. The client is updated with a callback for the transaction state or error. Is this a secure procedure? What weak points can I address? What is the technical term for this strategy?</body>
+</thread>
+
+<thread id="152813">
+<title>What hardware can a user-mode process access?</title>
+<body>What hardware if any can a process in user-mode (as opposed to kernel mode) access without using system calls, e.g. without relying on the OS to do anything for it? This question should be operating system independent since I'm only asking for the hardware restrictions that apply.</body>
+</thread>
