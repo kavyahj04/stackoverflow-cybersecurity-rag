@@ -1,0 +1,2105 @@
+{
+  "partial": false,
+  "per_query": [
+    {
+      "query": "How do opportunistic scanners locate an EC2-hosted API endpoint that was never published anywhere?",
+      "style": "expert",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 4,
+        "good_answer_pos": 4,
+        "accepted_pos": 4,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 20,
+      "hybrid": {
+        "thread_rank": 4,
+        "good_answer_pos": 4,
+        "accepted_pos": 4,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 21.4
+    },
+    {
+      "query": "I stood up an API server on EC2 for a mobile app that hasn't shipped yet, and the URL isn't linked from anywhere public, but I'm already seeing strangers probing random paths on it. How did they find it?",
+      "style": "developer",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 3,
+        "good_answer_pos": 3,
+        "accepted_pos": 5,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 5,
+      "hybrid": {
+        "thread_rank": 3,
+        "good_answer_pos": 3,
+        "accepted_pos": 5,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 19.9
+    },
+    {
+      "query": "unknown IPs hitting unpublished server URL",
+      "style": "search",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 11,
+        "good_answer_pos": 11,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 18,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "moved_down",
+      "rescue_source": "dense 11-20",
+      "seconds": 20.4
+    },
+    {
+      "query": "If nobody knows my server address because I never shared it, how are random people still sending requests to made-up paths on it?",
+      "style": "learner",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 9,
+        "good_answer_pos": 21,
+        "accepted_pos": 23,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 21,
+        "good_answer_pos": 48,
+        "accepted_pos": 48,
+        "has_accepted": true
+      },
+      "outcome": "lost",
+      "rescue_source": "dense 11-20",
+      "seconds": 21.4
+    },
+    {
+      "query": "Strangers are trying to open pages on my company's server even though we never told anyone its address, and I don't understand how they even know it exists.",
+      "style": "non_technical",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 8,
+        "good_answer_pos": 10,
+        "accepted_pos": 33,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 5,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "moved_up",
+      "rescue_source": "dense 11-20",
+      "seconds": 22.8
+    },
+    {
+      "query": "Does salting meaningfully slow an offline dictionary attack once the attacker already has the hash file?",
+      "style": "expert",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 22,
+        "good_answer_pos": 29,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 2,
+      "hybrid": {
+        "thread_rank": 9,
+        "good_answer_pos": 9,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "rescued",
+      "rescue_source": "dense 21-50",
+      "seconds": 15.6
+    },
+    {
+      "query": "I'm reviewing how we store credentials and I always assumed adding a random value per user was the main defense. If someone dumps our database they get that value too, so does it actually buy us anything?",
+      "style": "developer",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "never_found",
+      "rescue_source": "neither",
+      "seconds": 21.0
+    },
+    {
+      "query": "does salting stop password cracking after breach",
+      "style": "search",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 2,
+        "good_answer_pos": 5,
+        "accepted_pos": 25,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 18,
+      "hybrid": {
+        "thread_rank": 2,
+        "good_answer_pos": 5,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 22.2
+    },
+    {
+      "query": "I learned that salting stops precomputed hash tables because you'd need too much storage, but I'm confused about why people say it wouldn't have helped in big password leaks. Is it useless once the attacker steals the file?",
+      "style": "learner",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 5,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 10,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 5,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 17.8
+    },
+    {
+      "query": "After a big website leak everyone said the passwords should have had extra random characters mixed in. Would that really have stopped them from being figured out?",
+      "style": "non_technical",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "never_found",
+      "rescue_source": "neither",
+      "seconds": 22.3
+    },
+    {
+      "query": "How can a chat service defend against clients tampering with outbound packets to evade server-side moderation and rate limits?",
+      "style": "expert",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 2,
+        "good_answer_pos": 6,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 2,
+      "hybrid": {
+        "thread_rank": 4,
+        "good_answer_pos": 8,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "moved_down",
+      "rescue_source": "dense 11-20",
+      "seconds": 22.4
+    },
+    {
+      "query": "I operate a chat room on an abandoned Java/Flash platform where some users run a packet editing tool to dodge mutes and the message rate limit. IP bans don't help because they just switch addresses, so what can I actually do about it?",
+      "style": "developer",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 24.6
+    },
+    {
+      "query": "stop users editing packets bypass chat limits",
+      "style": "search",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 14.1
+    },
+    {
+      "query": "Some people in my chat room use a program that changes the data their client sends before it reaches us, which lets them spam and ignore being muted. Can this be blocked from the server side?",
+      "style": "learner",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 23.1
+    },
+    {
+      "query": "A few people in my chat room use some tool that lets them flood messages and ignore being silenced, and banning them doesn't stick. Is there any way to stop them for good?",
+      "style": "non_technical",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 18.8
+    },
+    {
+      "query": "Can a VPS host read the memory or disk contents of a guest instance, and can a tenant provide assurance that it cannot?",
+      "style": "expert",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 4,
+        "good_answer_pos": 4,
+        "accepted_pos": 4,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 7,
+      "hybrid": {
+        "thread_rank": 4,
+        "good_answer_pos": 4,
+        "accepted_pos": 4,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 13.6
+    },
+    {
+      "query": "I host my clients' data on rented virtual servers rather than hardware I own, and clients keep asking whether anyone at the hosting company could look at it. Is that technically possible for them, and what can I tell clients?",
+      "style": "developer",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 19.4
+    },
+    {
+      "query": "can VPS provider read customer data",
+      "style": "search",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 9,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 9.8
+    },
+    {
+      "query": "I rent a virtual machine from a hosting company and I know they own the actual hardware underneath. Does that mean they could look at my files even if their terms don't say so?",
+      "style": "learner",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 21.6
+    },
+    {
+      "query": "I keep my customers' information on a server I rent from an online company, and I promised them nobody else sees it. Could the rental company itself look at it if they wanted to?",
+      "style": "non_technical",
+      "bucket": "high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 22.8
+    },
+    {
+      "query": "Can software patches address the Spectre class of attacks generally, or only the specific exploit variants already published?",
+      "style": "expert",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 8,
+        "good_answer_pos": 30,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 2,
+      "hybrid": {
+        "thread_rank": 4,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "moved_up",
+      "rescue_source": "dense 11-20",
+      "seconds": 19.4
+    },
+    {
+      "query": "I'm reading the Spectre paper to decide how to prioritize patching our fleet, and the authors say known exploits can be blocked in software but the underlying issue is hard to mitigate. Does that mean new variants will keep slipping past the patches?",
+      "style": "developer",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 3,
+        "good_answer_pos": 28,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 8,
+      "hybrid": {
+        "thread_rank": 3,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 21.4
+    },
+    {
+      "query": "how serious is Spectre really",
+      "style": "search",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 4,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 19.2
+    },
+    {
+      "query": "I read that the harder of the two recent processor flaws can only have its known attacks patched, which sounds like future ones won't be covered. Is that actually how bad it is?",
+      "style": "learner",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 2,
+        "good_answer_pos": 5,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 4,
+      "hybrid": {
+        "thread_rank": 2,
+        "good_answer_pos": 5,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 33.2
+    },
+    {
+      "query": "I keep seeing alarming headlines about a flaw in computer chips that updates apparently can't fully fix. Should I actually be worried about this?",
+      "style": "non_technical",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 23,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 41,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "moved_down",
+      "rescue_source": "dense 21-50",
+      "seconds": 27.7
+    },
+    {
+      "query": "How can a third-party site display a visitor's social network profile name without the visitor having granted that site any permission?",
+      "style": "expert",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 13,
+        "good_answer_pos": 15,
+        "accepted_pos": 15,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "moved_down",
+      "rescue_source": "dense 11-20",
+      "seconds": 19.9
+    },
+    {
+      "query": "I'm looking at adding one of those chat widgets to our site and noticed that on another site it greeted me by my real name from a social network I never connected to it. How does that widget get the visitor's identity?",
+      "style": "developer",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 20.0
+    },
+    {
+      "query": "website knows my Facebook name chat widget",
+      "style": "search",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 18.8
+    },
+    {
+      "query": "A site I'd never visited before popped up a chat box with my actual name on it, tied to a social network account. I never approved any sharing, so how does the site get that?",
+      "style": "learner",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 3,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 21.3
+    },
+    {
+      "query": "A website I just opened showed a little chat box in the corner with my real name in it, and it creeps me out because I never gave that site anything.",
+      "style": "non_technical",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 4,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 15.7
+    },
+    {
+      "query": "What prevents an authenticated client from extracting its bearer token and replaying arbitrary requests to the API outside the official app?",
+      "style": "expert",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 47,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 31,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 18,
+        "accepted_pos": 39,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 19.6
+    },
+    {
+      "query": "My app logs in against a token endpoint and then sends that token on every call to the API. What stops a user from grabbing their own token and hammering the endpoints from a request tool to create masses of fake content, and does serving it over TLS cover this?",
+      "style": "developer",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 8,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 20.4
+    },
+    {
+      "query": "prevent API abuse with stolen bearer token from own app",
+      "style": "search",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 4,
+        "good_answer_pos": 24,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 19,
+      "hybrid": {
+        "thread_rank": 4,
+        "good_answer_pos": 42,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 16.4
+    },
+    {
+      "query": "I know the login returns a token that gets attached to later requests, but the user can see their own token. Couldn't they just use it outside the app to spam my service, or does encryption in transit handle that?",
+      "style": "learner",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 6,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 21,
+      "hybrid": {
+        "thread_rank": 11,
+        "good_answer_pos": 11,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "lost",
+      "rescue_source": "dense 11-20",
+      "seconds": 28.0
+    },
+    {
+      "query": "My app talks to a server to log people in and save their posts, and I'm worried someone could skip the app entirely and flood it with fake entries.",
+      "style": "non_technical",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 2,
+        "good_answer_pos": 2,
+        "accepted_pos": 2,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 2,
+        "good_answer_pos": 2,
+        "accepted_pos": 2,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 20.7
+    },
+    {
+      "query": "What common characteristics of Adobe's file formats account for their disproportionate share of parser vulnerabilities?",
+      "style": "expert",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 23.0
+    },
+    {
+      "query": "I'm deciding which document and media formats to accept as uploads, and the Adobe ones keep showing up in advisories far more than anything else. What do those formats have in common that makes the software handling them so prone to breaking?",
+      "style": "developer",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 31.2
+    },
+    {
+      "query": "why adobe file formats have so many vulnerabilities",
+      "style": "search",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 17.5
+    },
+    {
+      "query": "It seems like the readers and players for Adobe's formats get security patches way more often than other software. Is there something shared across those formats that makes them easier to attack?",
+      "style": "learner",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 21.2
+    },
+    {
+      "query": "The programs that open Adobe documents and animations seem to need security fixes constantly compared to other software, and I'm curious what it is about those file types.",
+      "style": "non_technical",
+      "bucket": "medium_high",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 3,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 21.0
+    },
+    {
+      "query": "How does one independently prove that a PDF carried a particular timestamp at a given moment, given the embedded signature changes the file's digest?",
+      "style": "expert",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 27.2
+    },
+    {
+      "query": "I'm timestamping PDFs through a public service and the reader reports the timestamp as valid, but the digest listed by the service doesn't match the digest of the file I now have because signing changed it. How would I demonstrate to a third party that this specific document was timestamped at that time?",
+      "style": "developer",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 4,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 26.5
+    },
+    {
+      "query": "verify PDF timestamp against timestamp authority record",
+      "style": "search",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 28.0
+    },
+    {
+      "query": "I timestamped a PDF and the service lists a hash for it, but when I hash the signed file I get something different because the signature was added. Is the original hash kept inside the file somewhere so I can check it?",
+      "style": "learner",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 2,
+        "good_answer_pos": 2,
+        "accepted_pos": 2,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 2,
+        "good_answer_pos": 2,
+        "accepted_pos": 2,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 29.7
+    },
+    {
+      "query": "I used an online service to prove when a document existed, and the file says it's valid, but I don't know how I'd actually prove that date to someone else if it was ever disputed.",
+      "style": "non_technical",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 12,
+        "good_answer_pos": 25,
+        "accepted_pos": 25,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 21,
+        "good_answer_pos": 30,
+        "accepted_pos": 30,
+        "has_accepted": true
+      },
+      "outcome": "moved_down",
+      "rescue_source": "dense 11-20",
+      "seconds": 16.8
+    },
+    {
+      "query": "Is a connection still susceptible to transport downgrade by an on-path attacker when the user enters the https scheme explicitly?",
+      "style": "expert",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 25,
+        "good_answer_pos": 31,
+        "accepted_pos": 48,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "moved_down",
+      "rescue_source": "dense 21-50",
+      "seconds": 29.4
+    },
+    {
+      "query": "I understand an attacker on the network can catch plain requests and sit in the middle of the upgrade to the encrypted version. Does the same attack work if the user typed the secure scheme in the address bar to begin with?",
+      "style": "developer",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 27,
+        "good_answer_pos": 33,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 14,
+        "good_answer_pos": 15,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "moved_up",
+      "rescue_source": "dense 21-50",
+      "seconds": 21.1
+    },
+    {
+      "query": "sslstrip when user types https directly",
+      "style": "search",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 2,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 12.2
+    },
+    {
+      "query": "I read that this downgrade attack works by watching for unencrypted requests and stepping in before the redirect. If someone types the secure prefix themselves, is that request safe or can it still be stripped?",
+      "style": "learner",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 3,
+        "good_answer_pos": 3,
+        "accepted_pos": 8,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 3,
+      "hybrid": {
+        "thread_rank": 3,
+        "good_answer_pos": 3,
+        "accepted_pos": 7,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 17.1
+    },
+    {
+      "query": "I've heard attackers can quietly switch your connection to an unprotected one, but does that still happen if I type the secure address myself instead of letting the site redirect me?",
+      "style": "non_technical",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "never_found",
+      "rescue_source": "neither",
+      "seconds": 21.2
+    },
+    {
+      "query": "Where should TLS terminate relative to the reverse proxy and web application firewall so the firewall can inspect application layer traffic?",
+      "style": "expert",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 7,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 14.5
+    },
+    {
+      "query": "I'm designing a perimeter with an outer firewall, a web application firewall and an HTTP reverse proxy in front of the DMZ, and I'm planning to terminate encryption early so the firewall can see the requests. Is that ordering the right way to deploy these together?",
+      "style": "developer",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 18,
+        "good_answer_pos": 22,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 11,
+        "good_answer_pos": 13,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "moved_up",
+      "rescue_source": "dense 11-20",
+      "seconds": 23.3
+    },
+    {
+      "query": "where to terminate SSL reverse proxy WAF order",
+      "style": "search",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 15.7
+    },
+    {
+      "query": "I'm laying out a network where traffic passes through a filtering appliance and then a reverse proxy, and I think the encryption has to be unwrapped before the filter or it can't read anything. Is that the usual way to arrange it?",
+      "style": "learner",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 34,
+        "good_answer_pos": 37,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 13,
+      "hybrid": {
+        "thread_rank": 26,
+        "good_answer_pos": 29,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "moved_up",
+      "rescue_source": "dense 21-50",
+      "seconds": 21.9
+    },
+    {
+      "query": "I'm setting up a protective filter and a forwarding server in front of our web applications, and I need to know the right order to put them in so the filter can actually see the traffic.",
+      "style": "non_technical",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 5,
+        "good_answer_pos": 7,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "lost",
+      "rescue_source": "dense 11-20",
+      "seconds": 19.4
+    },
+    {
+      "query": "How can a browser client verify the authenticity of code delivered by a server in an end-to-end encrypted web application whose server may be compromised?",
+      "style": "expert",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 3,
+        "good_answer_pos": 3,
+        "accepted_pos": 3,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 2,
+      "hybrid": {
+        "thread_rank": 3,
+        "good_answer_pos": 3,
+        "accepted_pos": 3,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 20.5
+    },
+    {
+      "query": "I'm building a service where data is encrypted in the browser and the key never reaches my server, but a compromised server could just serve modified JavaScript that leaks the plaintext. Is there a practical way to have the browser confirm the delivered code matches the audited published version?",
+      "style": "developer",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 4,
+        "good_answer_pos": 4,
+        "accepted_pos": 4,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 4,
+        "good_answer_pos": 4,
+        "accepted_pos": 4,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 27.3
+    },
+    {
+      "query": "verify client side javascript authenticity compromised server",
+      "style": "search",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 37,
+        "good_answer_pos": 49,
+        "accepted_pos": 49,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 27,
+      "hybrid": {
+        "thread_rank": 4,
+        "good_answer_pos": 8,
+        "accepted_pos": 8,
+        "has_accepted": true
+      },
+      "outcome": "rescued",
+      "rescue_source": "dense 21-50",
+      "seconds": 15.5
+    },
+    {
+      "query": "In these setups where the server only ever holds scrambled data and the key stays on the user's device, the server still sends the page code that does the unscrambling. Could an attacker who owns the server swap in bad code, and is there any way for the browser to catch that?",
+      "style": "learner",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": 9,
+        "good_answer_pos": 11,
+        "accepted_pos": 11,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 27,
+      "hybrid": {
+        "thread_rank": 25,
+        "good_answer_pos": 26,
+        "accepted_pos": 26,
+        "has_accepted": true
+      },
+      "outcome": "lost",
+      "rescue_source": "dense 11-20",
+      "seconds": 32.2
+    },
+    {
+      "query": "Some services say even they can't read my data because it's locked on my own device, but the web page itself still comes from their servers. If someone took over those servers, couldn't they just change the page to grab my data?",
+      "style": "non_technical",
+      "bucket": "medium",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "never_found",
+      "rescue_source": "neither",
+      "seconds": 25.6
+    },
+    {
+      "query": "How do you confirm a cross-origin resource sharing policy is enforced rather than merely present in the response headers?",
+      "style": "expert",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 28.3
+    },
+    {
+      "query": "We set a header restricting cross-origin access to our own subdomains and I can see it in the response, but changing the origin or referrer on my requests still returns data. How do I properly test whether the restriction is working?",
+      "style": "developer",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 2,
+        "good_answer_pos": 2,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 2,
+        "good_answer_pos": 2,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 27.8
+    },
+    {
+      "query": "how to test CORS policy is enforced correctly",
+      "style": "search",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 5,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 19.2
+    },
+    {
+      "query": "I added the header that limits which sites can call our API and I can see it coming back in the response, but when I change the origin on my test request I still get data back. Does that mean it isn't set up right?",
+      "style": "learner",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 13,
+        "good_answer_pos": 14,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 21,
+      "hybrid": {
+        "thread_rank": 41,
+        "good_answer_pos": 49,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "moved_down",
+      "rescue_source": "dense 11-20",
+      "seconds": 29.8
+    },
+    {
+      "query": "We configured our web service so only our own sites can pull data from it, and I want to know how to check that the restriction is really working.",
+      "style": "non_technical",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "never_found",
+      "rescue_source": "neither",
+      "seconds": 18.1
+    },
+    {
+      "query": "Could the operator of a breached-password lookup service exploit the partial hash prefixes and source addresses it receives to target the querying user's accounts?",
+      "style": "expert",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "never_found",
+      "rescue_source": "neither",
+      "seconds": 22.0
+    },
+    {
+      "query": "We check user passwords against a public breach API that only receives the first few characters of the hash, and the usual argument is that the operator can't do anything with a prefix. If that operator logged the prefix with our IP and later acquired matching entries, could they use that against us?",
+      "style": "developer",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 30,
+        "good_answer_pos": 44,
+        "accepted_pos": 44,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 4,
+      "hybrid": {
+        "thread_rank": 14,
+        "good_answer_pos": 17,
+        "accepted_pos": 17,
+        "has_accepted": true
+      },
+      "outcome": "moved_up",
+      "rescue_source": "dense 21-50",
+      "seconds": 35.4
+    },
+    {
+      "query": "can pwned passwords API operator abuse hash prefix",
+      "style": "search",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 9,
+        "good_answer_pos": 10,
+        "accepted_pos": 10,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 3,
+      "hybrid": {
+        "thread_rank": 5,
+        "good_answer_pos": 6,
+        "accepted_pos": 6,
+        "has_accepted": true
+      },
+      "outcome": "moved_up",
+      "rescue_source": "dense 11-20",
+      "seconds": 26.7
+    },
+    {
+      "query": "I thought sending only the first part of the password hash to that breach checking service keeps me safe because the operator never sees the whole thing. But if they recorded my requests and my address, couldn't they eventually narrow down and try candidates against my logins?",
+      "style": "learner",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 25,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "never_found",
+      "rescue_source": "BM25 only",
+      "seconds": 30.9
+    },
+    {
+      "query": "I use a website that tells me whether my password has turned up in a leak, and it only receives part of a scrambled version. If that site turned bad, could it still work out my password over time?",
+      "style": "non_technical",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "never_found",
+      "rescue_source": "neither",
+      "seconds": 21.4
+    },
+    {
+      "query": "What host hardening is warranted for a workstation sharing a flat office network with untrusted tenants?",
+      "style": "expert",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "never_found",
+      "rescue_source": "neither",
+      "seconds": 27.7
+    },
+    {
+      "query": "I'm moving into a shared office where every tenant sits on the same flat network with no separation. My laptop has remote desktop access enabled with a strong password, the phone's admin page is locked down and our services are all over encrypted connections, so what else should I change?",
+      "style": "developer",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 8,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "never_found",
+      "rescue_source": "BM25 only",
+      "seconds": 30.4
+    },
+    {
+      "query": "securing laptop on shared office network no vlan",
+      "style": "search",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 20,
+        "good_answer_pos": 27,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 8,
+        "good_answer_pos": 11,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "rescued",
+      "rescue_source": "dense 11-20",
+      "seconds": 15.8
+    },
+    {
+      "query": "My new office puts every company on the same network with no separation between us, so other tenants' machines are right alongside mine. The room locks, so I'm only worried about network attacks. What should I be thinking about?",
+      "style": "learner",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 27,
+        "good_answer_pos": 41,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 24,
+        "good_answer_pos": 29,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "moved_up",
+      "rescue_source": "dense 21-50",
+      "seconds": 23.5
+    },
+    {
+      "query": "I'm moving into a shared office where everyone uses the same network, and I want to know what to do so other businesses there can't get at my laptop.",
+      "style": "non_technical",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "never_found",
+      "rescue_source": "neither",
+      "seconds": 33.3
+    },
+    {
+      "query": "Can user-controlled values placed into XML attributes be abused even when the values are entity-encoded so quotes cannot be escaped?",
+      "style": "expert",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 2,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 18.4
+    },
+    {
+      "query": "My site serves an XML document where query string values get dropped into attributes after entity encoding, so a payload with a quote and angle bracket comes back escaped. Is there still a way that could be abused?",
+      "style": "developer",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 3,
+        "good_answer_pos": 3,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 7,
+      "hybrid": {
+        "thread_rank": 3,
+        "good_answer_pos": 3,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 17.3
+    },
+    {
+      "query": "xml attribute injection with entity encoded input",
+      "style": "search",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 8,
+        "good_answer_pos": 9,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 6,
+        "good_answer_pos": 6,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "moved_up",
+      "rescue_source": "dense 11-20",
+      "seconds": 12.7
+    },
+    {
+      "query": "I put request parameters into attributes in an XML file I serve, but I encode them so you can't break out of the quotes. I think that closes the obvious hole, but is there another angle an attacker could take?",
+      "style": "learner",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": 2,
+        "good_answer_pos": 2,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 3,
+      "hybrid": {
+        "thread_rank": 2,
+        "good_answer_pos": 2,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 25.1
+    },
+    {
+      "query": "My website takes values from the web address and puts them inside a data file it sends back, and I convert the special characters first. Could someone still misuse that?",
+      "style": "non_technical",
+      "bucket": "lower_medium",
+      "dense": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "never_found",
+      "rescue_source": "neither",
+      "seconds": 19.6
+    },
+    {
+      "query": "How can execution of standalone portable applications be restricted on managed workstations when the usual elevation prompt doesn't apply?",
+      "style": "expert",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 10,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 27.2
+    },
+    {
+      "query": "On our managed Windows machines I can block installers through the elevation prompt, but portable apps just run from a folder without installing. Short of blocking USB drives, how do I stop staff running those?",
+      "style": "developer",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 8,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 19.7
+    },
+    {
+      "query": "prevent portable apps from running windows",
+      "style": "search",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 9,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 25.1
+    },
+    {
+      "query": "I know programs that need installing get caught by the permission prompt, but these portable ones just run straight from a folder with no install. Other than stopping people using USB sticks, how do I keep them from running?",
+      "style": "learner",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 22,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 28.8
+    },
+    {
+      "query": "Staff can download little programs that run without installing, so the usual permission popup never appears to stop them. How do I prevent those from being opened on our work computers?",
+      "style": "non_technical",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 3,
+        "good_answer_pos": 4,
+        "accepted_pos": 4,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 3,
+        "good_answer_pos": 4,
+        "accepted_pos": 4,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 21.0
+    },
+    {
+      "query": "How can an SVG path fill referencing an external URL be used to make a server-side renderer fetch internal resources via absolute paths?",
+      "style": "expert",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 16.4
+    },
+    {
+      "query": "I'm trying to reproduce a server-side request forgery where an SVG path's fill references an external document to pull internal images, but while relative paths resolve in my test, absolute ones aren't fetched. How is the absolute-path version actually made to work against a server-side renderer?",
+      "style": "developer",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 22.4
+    },
+    {
+      "query": "SSRF svg fill url absolute path internal image",
+      "style": "search",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 16.6
+    },
+    {
+      "query": "I read about a trick where an SVG shape's fill points at a URL to make a server grab images it shouldn't, and I got the local-file version working in the browser, but pointing it at a full absolute address does nothing. What makes the absolute version fetch?",
+      "style": "learner",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 25.4
+    },
+    {
+      "query": "I'm trying to recreate a demonstration where a crafted image file tricks a server into fetching things from inside its own network, but my version only works for files right next to it and not for full web addresses.",
+      "style": "non_technical",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 27.7
+    },
+    {
+      "query": "When connecting to an employer's remote-access server from a personal machine, what access does that actually grant them to local files, the webcam, or the microphone?",
+      "style": "expert",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 6,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 23.5
+    },
+    {
+      "query": "I work from my own computer and connect to my employer's server with a remote-access tool they installed. Can the IT team reach the files and apps open on my own desktop outside that session, or turn on my camera or mic?",
+      "style": "developer",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 2,
+        "good_answer_pos": 2,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 2,
+      "hybrid": {
+        "thread_rank": 2,
+        "good_answer_pos": 2,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 27.5
+    },
+    {
+      "query": "can employer see personal files through remote connection",
+      "style": "search",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 11,
+        "good_answer_pos": 16,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 3,
+      "hybrid": {
+        "thread_rank": 7,
+        "good_answer_pos": 7,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "rescued",
+      "rescue_source": "dense 11-20",
+      "seconds": 15.4
+    },
+    {
+      "query": "I connect from home to a work server using remote-access software, and I always thought that only covered the work session. Can they also see my personal documents and photos, or listen in through my microphone, when those aren't part of the session?",
+      "style": "learner",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 27.3
+    },
+    {
+      "query": "I use my own home computer to log in to my work's server, and I'm scared the IT people can see my private files and photos or even watch and hear me and my kids through the camera and microphone.",
+      "style": "non_technical",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 2,
+        "good_answer_pos": 3,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "sparse_thread_rank": 1,
+      "hybrid": {
+        "thread_rank": 2,
+        "good_answer_pos": 3,
+        "accepted_pos": null,
+        "has_accepted": false
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 20.8
+    },
+    {
+      "query": "Under what condition does non-repudiation based on private-key signatures fail in a way that cannot be detected through message and log analysis?",
+      "style": "expert",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 5,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 23.7
+    },
+    {
+      "query": "We rely on digital signatures for non-repudiation on the assumption only the signer holds the private key. Is there a situation that would undermine that which couldn't be caught by examining the message contents and our logs?",
+      "style": "developer",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 8,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 25.7
+    },
+    {
+      "query": "when non-repudiation cannot be proven",
+      "style": "search",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 2,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 2,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 2,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 20.5
+    },
+    {
+      "query": "I get that non-repudiation works because only you know your private key, so a signature proves you sent something. But is there any scenario where that breaks down that you couldn't uncover even by inspecting the message and the logs?",
+      "style": "learner",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": 8,
+      "hybrid": {
+        "thread_rank": 1,
+        "good_answer_pos": 1,
+        "accepted_pos": 1,
+        "has_accepted": true
+      },
+      "outcome": "same",
+      "rescue_source": "dense 11-20",
+      "seconds": 32.3
+    },
+    {
+      "query": "I've read that a digital signature can prove someone really sent a message because only they have their secret key. Is there any way that proof could fail that no amount of checking the records would reveal?",
+      "style": "non_technical",
+      "bucket": "low",
+      "dense": {
+        "thread_rank": 18,
+        "good_answer_pos": 27,
+        "accepted_pos": 27,
+        "has_accepted": true
+      },
+      "sparse_thread_rank": null,
+      "hybrid": {
+        "thread_rank": null,
+        "good_answer_pos": null,
+        "accepted_pos": null,
+        "has_accepted": true
+      },
+      "outcome": "moved_down",
+      "rescue_source": "dense 11-20",
+      "seconds": 22.5
+    }
+  ]
+}
