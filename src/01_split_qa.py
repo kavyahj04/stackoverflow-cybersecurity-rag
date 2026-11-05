@@ -4,12 +4,26 @@ from lxml import etree
 SRC_DIR = Path(__file__).resolve().parent
 POSTS_XML = SRC_DIR.parent / "data" / "raw" / "security-stackexchange" / "Posts.xml"
 
+POST_HISTORY_XML = POSTS_XML.parent / "PostHistory.xml"
+
 questions = {}
 answers = []
 
 def clean_tags(raw_tag):
     tags = [t for t in raw_tag.split("|") if t]
     return tags
+
+def load_close_reasons():
+    latest = {}
+    for event, element in etree.iterparse(str(POST_HISTORY_XML), events=("end",), tag="row"):
+        if element.get("PostHistoryTypeId") == "10":
+            q_id, date = element.get("PostId"), element.get("CreationDate")
+            if q_id not in latest or date > latest[q_id][0]:
+                latest[q_id] = (date, element.get("Comment"))
+        element.clear()
+    return {q_id: reason for q_id, (date, reason) in latest.items()}
+
+close_reasons = load_close_reasons()
 
 for event, element in etree.iterparse(str(POSTS_XML), events = ("end",), tag ="row"):
     post_type = element.get("PostTypeId")
@@ -26,7 +40,9 @@ for event, element in etree.iterparse(str(POSTS_XML), events = ("end",), tag ="r
             "accepted_answer_id":element.get("AcceptedAnswerId"),
             "last_activity_date":element.get("LastActivityDate"),
             "owner_user_id":element.get("OwnerUserId"),
-            "content_license": element.get("ContentLicense")
+            "content_license": element.get("ContentLicense"),
+            "close_reason": close_reasons.get(q_id) if element.get("ClosedDate") else None,
+
         }
 
     elif post_type == "2":
@@ -42,18 +58,6 @@ for event, element in etree.iterparse(str(POSTS_XML), events = ("end",), tag ="r
 
     element.clear()  
 
-print(len(questions), "questions")
-print(len(answers), "answers")
-
 orphans = [a for a in answers if a["parent_id"] not in questions]
-print(len(orphans), "orphaned answers out of", len(answers))
 
-
-keys = list(answers.keys()) if isinstance(answers, dict) else None
-print(type(answers))
-if keys:
-    print(len(keys))
-    print(keys[:5])
-    print(answers[keys[0]])
-else:
-    print(answers[0])
+print(len(questions), "questions,", len(answers), "answers,", len(orphans), "orphans")
