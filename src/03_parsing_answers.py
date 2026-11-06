@@ -1,32 +1,15 @@
 import importlib
-from bs4 import BeautifulSoup
-import html
-import tiktoken
-from openai import OpenAI
-from dotenv import load_dotenv
 
+cleanup_text = importlib.import_module("03_text_cleaning")
 cleanup_qa = importlib.import_module("02_cleanup_qa")
 questions, answers = cleanup_qa.questions, cleanup_qa.answers
 
-load_dotenv(override=True)
-client = OpenAI()
-
-MAX_TOKENS = 8000
-encoding = tiktoken.encoding_for_model("text-embedding-3-large")
-
-def clean_body(raw_body):
-    if not raw_body:
-        return ""
-    decoded = html.unescape(raw_body)
-    soup = BeautifulSoup(decoded, "html.parser")
-    text = soup.get_text(separator=" ", strip=True)
-    return text
 
 answer_records = []
 
 for ans in answers:
     parent = questions[ans["parent_id"]]
-    cleaned = clean_body(ans["body"])
+    cleaned = cleanup_text.clean_body(ans["body"])
     record = {
         "answer_id" : ans["id"],
         "thread_id" : ans["parent_id"],
@@ -41,4 +24,4 @@ for ans in answers:
     }
     answer_records.append(record)
 print(len(answer_records), "answers records built")
-print(answer_records[0])
+
