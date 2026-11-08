@@ -167,7 +167,48 @@ Tested on the filtered data by comparing the current `clean_body` with a version
 | Unused `client`, `MAX_TOKENS`, `encoding`, `tiktoken` | Other files only read `answer_records` from 03 | Open: remove |
 | Extra spaces around inline tags, e.g. `AES -GCM`, `this paper .` | Reproduced. Changing this would change the text of most posts and force a full re-embed | Leave as is for now |
 
-About 5,500 posts will need new embeddings: the 5,338 whose text changes, plus 58 questions and 73 answers that duplicate detection used to remove. Reuse all other embeddings.
+Status update, 2026-11-06: the fix is applied in both 03 and 04, using shared `03_01_text_cleaning.py`, and unused setup is removed. `question_info` was renamed to `embedded_answer` and `embedded_question`.
+
+### `05_embed_qa.py` (in progress)
+Compared saved embeddings and old Chroma text with the current records, in a read-only dry run:
+
+| Measure | Answers | Questions |
+|---|---|---|
+| Current records | 113,091 | 57,141 |
+| Saved vectors | 118,284 | 60,577 |
+| Text changed, needs re-embedding | 2,927 | 2,388 |
+| Not embedded yet | 73 | 58 |
+| Saved but filtered out now (keep; unused) | 5,266 | 3,494 |
+| Tokens to refresh | 1,404,866 | 1,503,883 |
+| Tokens to redo everything | 30,235,876 | 12,923,119 |
+
+Those numbers were measured before the old files were deleted. Options were replacing only the 5,446 out-of-date or missing vectors (about $0.38) or redoing everything (about $5.61), using a remembered price of $0.13 per million tokens (confirm against OpenAI's pricing page).
+
+Decision, 2026-11-06: deleted both embedding files and re-embedded everything, for simplicity. Expected result: 113,091 answer lines and 57,141 question lines.
+
+| Finding | Status |
+|---|---|
+| 05 skips by ID, so changed text would keep its old vector | Avoided this time by deleting the files. Still open for future updates: needs a text hash |
+| `load_dotenv` added to 05, plus progress messages | Done 2026-11-06 |
+
+### `06_store_embeddings.py`
+Tested in a temporary Chroma database (chromadb 1.5.9):
+
+| Finding | Evidence | Status |
+|---|---|---|
+| `add` silently ignores existing IDs | No error; the old text and vector stayed. Re-running would have kept the damaged data | Open: delete and recreate collections |
+| `upsert` isn't enough | It updates text, but filtered-out posts stay searchable | Open: same fix |
+| Field names are out of date | Lines 59-60 still use `question_info` | Open |
+| Loading vectors as Python lists needs about 17 GB on a 16 GB machine | 97.5 KB per vector, against 12.2 KB as `float32` | Open: use `float32`, one collection at a time |
+| Collections default to L2 distance | Vectors have length of about 1, so ranking should match cosine. Cosine is clearer for a future relevance cutoff | Open: set cosine |
+| A partial embedding file could wipe a collection | A completeness check before deleting was tested | Open: add check |
+
+The corrected version stored 3,000 real answers in 4.1 seconds (about 4 minutes for everything if that rate holds). A second run replaced the data, and the check left the collection untouched.
+
+After 06 is run, `threads.db` and `bm25_index.pkl` must be rebuilt, because both only rebuild when missing.
+
+### Production note
+Chroma stays for now, because the search and evaluation code reads it, and it lets us settle the search design first. The embedding files don't depend on any database, so they can be loaded into Postgres with pgvector later without paying again. There, use `halfvec(3072)` with cosine distance, and mark filtered posts `searchable = false`.
 
 ---
 

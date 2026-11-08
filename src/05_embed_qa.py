@@ -4,11 +4,16 @@ import os
 import tiktoken
 from pathlib import Path
 from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv(override = True)
+
 
 SRC_DIR = Path(__file__).resolve().parent
 
 parsing_answers = importlib.import_module("03_parsing_answers")
 parsing_questions = importlib.import_module("04_parsing_questions")
+
 answer_records = parsing_answers.answer_records
 question_records = parsing_questions.question_records
 
@@ -45,6 +50,6 @@ def embed_all(records, text_field, id_field, output_path):
             embeddings = embed_batch(texts)
             for record, embedding in zip(batch, embeddings):
                 f.write(json.dumps({"id": record[id_field], "embedding": embedding}) + "\n")
-
-embed_all(answer_records, "question_info", "answer_id", str(SRC_DIR / "answer_embeddings.jsonl"))
-embed_all(question_records, "question_info", "question_id", str(SRC_DIR / "question_embeddings.jsonl"))
+            print(f"{Path(output_path).name}: {i + len(batch)}/{len(remaining)}", flush=True)
+embed_all(answer_records, "embedded_answer", "answer_id", str(SRC_DIR / "answer_embeddings.jsonl"))
+embed_all(question_records, "embedded_question", "question_id", str(SRC_DIR / "question_embeddings.jsonl"))

@@ -10,6 +10,7 @@ SRC_DIR = Path(__file__).resolve().parent
 
 parsing_answers = importlib.import_module("03_parsing_answers")
 parsing_questions = importlib.import_module("04_parsing_questions")
+
 answer_records = parsing_answers.answer_records
 question_records = parsing_questions.question_records
 
@@ -56,6 +57,6 @@ def store_collection(name, records, id_field, text_field, embeddings_map):
 answer_embeddings = load_embeddings(str(SRC_DIR / "answer_embeddings.jsonl"))
 question_embeddings = load_embeddings(str(SRC_DIR / "question_embeddings.jsonl"))
 
-store_collection("answers", answer_records, "answer_id", "question_info", answer_embeddings)
-store_collection("questions", question_records, "question_id", "question_info", question_embeddings)
+store_collection("answers", answer_records, "answer_id", "embedded_answer", answer_embeddings)
+store_collection("questions", question_records, "question_id", "embedded_question", question_embeddings)
 
