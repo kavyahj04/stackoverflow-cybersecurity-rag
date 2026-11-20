@@ -12,6 +12,7 @@ import json
 import sys
 import time
 from pathlib import Path
+from store import PostgresThreadStore
 
 import tiktoken
 
@@ -24,7 +25,7 @@ TEST_SET = SRC_DIR / "test_set_human.jsonl"
 RESULTS_FILE = Path(__file__).resolve().parent / "results.json"
 LIMIT = int(sys.argv[1]) if len(sys.argv) > 1 else None
 
-store = context.ctx.ThreadStore()
+store = PostgresThreadStore()
 encoding = tiktoken.get_encoding("cl100k_base")
 KS = (1, 3, 5, 10)
 
@@ -37,6 +38,8 @@ def evaluate_case(case):
     kept = [a["answer_id"] for b in blocks if b["thread_id"] in correct for a in b["answers"]]
     accepted = case["accepted_answer_id"]
     return {
+        "gold_thread_id": case["gold_thread_id"],
+        "retrieved": thread_ids,
         "thread_rank": thread_rank,
         "gold_in_context": any(a in case["gold_answer_ids"] for a in kept),
         "accepted_in_context": (accepted in kept) if accepted else None,
@@ -55,7 +58,7 @@ def report(cases, results):
     print(f"\nQuestion pipeline, {n} questions (top {context.MAX_THREADS} threads, "
           f"{context.MAX_ANSWERS_PER_THREAD} answers per thread)")
     for k in KS:
-        print(f"  correct thread in top {k:>2}: {share(r['thread_rank'] is not None and r['thread_rank'] <= k for r in results):.2f}")
+        print(f"  correct thread in top {k:>2}: {share(r['thread_rank'] is not None and r['thread_rank'] <= k for r in results):.3f}")
     print(f"  MRR: {share(1 / r['thread_rank'] if r['thread_rank'] else 0 for r in results):.3f}")
     found = [r for r in results if r["thread_rank"]]
     print(f"\n  when the correct thread is in the context ({len(found)} questions):")
@@ -72,8 +75,20 @@ def report(cases, results):
         print(f"    {p:<14}{share(r['thread_rank'] is not None for r in sub):.2f}")
 
 
+def available_cases(cases):
+    """Keep only test cases whose correct thread is still in the database."""
+    ids = sorted({int(t) for c in cases for t in [c["gold_thread_id"], *c["also_correct_threads"]]})
+    present = {str(row[0]) for row in store.conn.execute(
+        "SELECT question_id FROM questions WHERE question_id = ANY(%s)", (ids,))}
+    kept = [c for c in cases
+            if c["gold_thread_id"] in present or any(t in present for t in c["also_correct_threads"])]
+    print(f"Skipped {len(cases) - len(kept)} test cases whose thread is not in the database")
+    return kept
+
+
 def main():
     cases = [json.loads(line) for line in open(TEST_SET, encoding="utf-8")]
+    cases = available_cases(cases)
     cases = cases[:LIMIT] if LIMIT else cases
     results, start = [], time.time()
     for i, case in enumerate(cases, 1):

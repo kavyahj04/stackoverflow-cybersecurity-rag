@@ -8,6 +8,8 @@ dependencies = [
     "jupyter>=1.1.1",
     "lxml>=6.1.2",
     "pandas>=3.0.5",
+    "pgvector>=0.5.1",
+    "psycopg[binary]>=3.3.9",
     "pyarrow>=25.0.1",
     "tqdm>=4.70.0",
 ]
