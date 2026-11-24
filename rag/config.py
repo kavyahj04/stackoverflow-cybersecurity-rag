@@ -28,6 +28,18 @@ class Settings:
     top_k: int = 10
     max_answers_per_thread: int = 3
 
+    # Generation
+    llm_model: str = "gpt-4.1-mini"
+    # 0 makes answers as repeatable as possible; set to None for models that reject it (reasoning models)
+    llm_temperature: float | None = 0.0
+    llm_timeout_s: float = 60.0
+    max_answer_tokens: int = 1_000
+    # Context cap: trimmed 29 of 485 test queries and never dropped the correct thread
+    max_context_tokens: int = 10_000
+    # Best-match cosine distance above which we answer "nothing relevant found" without calling the LLM.
+    # All 485 real test questions were <= 0.503; 39 of 40 unrelated questions were >= 0.574
+    max_distance: float = 0.55
+
 
 @lru_cache
 def get_settings() -> Settings:
@@ -40,4 +52,5 @@ def get_settings() -> Settings:
         database_url=database_url,
         embedding_model=os.environ.get("EMBEDDING_MODEL", Settings.embedding_model),
         hnsw_ef_search=int(os.environ.get("HNSW_EF_SEARCH", Settings.hnsw_ef_search)),
+        llm_model=os.environ.get("LLM_MODEL", Settings.llm_model),
     )

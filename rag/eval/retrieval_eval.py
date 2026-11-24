@@ -59,7 +59,7 @@ def available_cases(cases, store):
 
 def evaluate_case(case, retriever, store):
     hits = retriever.search(case["query"])
-    question_ids = [qid for qid, _ in hits]
+    question_ids = [hit.question_id for hit in hits]
     blocks = build_context(question_ids, store)
     correct = {case["gold_thread_id"], *case["also_correct_threads"]}
     thread_rank = next((b["rank"] for b in blocks if b["question_id"] in correct), None)
@@ -71,7 +71,7 @@ def evaluate_case(case, retriever, store):
         "bucket": case["bucket"],
         "gold_thread_id": case["gold_thread_id"],
         "retrieved": question_ids,
-        "exact_hits": [qid for qid, source in hits if source == "exact"],  # hybrid only
+        "exact_hits": [hit.question_id for hit in hits if hit.source == "exact"],  # hybrid only
         "thread_rank": thread_rank,
         # None when the test case lists no gold answers (the exact-term set tests threads only)
         "gold_in_context": any(a in case["gold_answer_ids"] for a in kept) if case["gold_answer_ids"] else None,

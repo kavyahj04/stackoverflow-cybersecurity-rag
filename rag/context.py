@@ -8,7 +8,11 @@ No model is called here.
 import math
 from datetime import datetime
 
+import tiktoken
+
 from rag.config import get_settings
+
+_encoding = tiktoken.get_encoding("o200k_base")  # the tokenizer of current OpenAI models
 
 W_VOTES = 1.0       # * log(1 + score)
 W_ACCEPTED = 3.0    # flat bonus for the accepted answer
@@ -58,6 +62,27 @@ def build_context(question_ids: list[int], store, max_threads: int | None = None
             "answers": pick_answers(thread["answers"], max_answers, now),
         })
     return blocks
+
+
+def count_tokens(text: str) -> int:
+    return len(_encoding.encode(text))
+
+
+def fit_budget(blocks: list[dict], max_tokens: int | None = None) -> list[dict]:
+    """Keep threads in rank order until the token budget is used up; the top thread is always kept.
+
+    Lower-ranked threads go first because the correct thread is usually near the top
+    (on the test set a 10k budget never dropped it).
+    """
+    max_tokens = max_tokens or get_settings().max_context_tokens
+    kept, used = [], 0
+    for block in blocks:
+        size = count_tokens(format_context([block]))
+        if kept and used + size > max_tokens:
+            break
+        kept.append(block)
+        used += size
+    return kept
 
 
 def format_context(blocks: list[dict]) -> str:

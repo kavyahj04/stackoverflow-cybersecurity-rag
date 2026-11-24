@@ -4,11 +4,21 @@ One vector per thread, so each hit is a thread. Postgres uses the HNSW index
 by itself for ORDER BY embedding <=> query, because the index was built with
 halfvec_cosine_ops and <=> is cosine distance.
 """
+from typing import NamedTuple
+
 import numpy as np
 from openai import OpenAI
 from pgvector import HalfVector
 
 from rag.config import get_settings
+
+
+class Hit(NamedTuple):
+    """One retrieved thread."""
+    question_id: int
+    distance: float | None  # cosine distance from dense search; None if dense didn't return it
+    source: str             # "dense" or "exact" (found by BM25 on an identifier)
+
 
 SEARCH_SQL = """
     SELECT question_id, embedding <=> %(query)s AS distance
@@ -27,10 +37,10 @@ class DenseRetriever:
     def embed(self, text: str) -> list[float]:
         return self.client.embeddings.create(input=[text], model=self.model).data[0].embedding
 
-    def search(self, query: str, top_k: int | None = None) -> list[tuple[int, float]]:
-        """Top question ids for the query, best first, with cosine distances (0 = same meaning)."""
+    def search(self, query: str, top_k: int | None = None) -> list[Hit]:
+        """Top threads for the query, best first, with cosine distances (0 = same meaning)."""
         top_k = top_k or get_settings().top_k
         # Same 2-byte type as the stored column, so the comparison matches the index
         query_vector = HalfVector(np.array(self.embed(query), dtype=np.float16))
         rows = self.conn.execute(SEARCH_SQL, {"query": query_vector, "top_k": top_k}).fetchall()
-        return [(question_id, float(distance)) for question_id, distance in rows]
+        return [Hit(question_id, float(distance), "dense") for question_id, distance in rows]
