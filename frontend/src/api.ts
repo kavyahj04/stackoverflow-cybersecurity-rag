@@ -63,6 +63,10 @@ export interface Info {
   max_question_chars: number;
 }
 
+// Where the API lives. Empty: the same address as the page (local dev proxy, or the API serving the page).
+// On Vercel: set VITE_API_URL to the Render address, e.g. https://secqa-api.onrender.com
+export const API_URL = (import.meta.env.VITE_API_URL ?? "").replace(/\/+$/, "");
+
 export class ApiError extends Error {
   constructor(message: string, public status: number, public requestId?: string) {
     super(message);
@@ -72,10 +76,11 @@ export class ApiError extends Error {
 async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
   let response: Response;
   try {
-    response = await fetch(path, init);
+    response = await fetch(API_URL + path, init);
   } catch (e) {
     if ((e as Error).name === "AbortError") throw e;
-    throw new ApiError("Can't reach the server. Check that the API is running.", 0);
+    throw new ApiError("Can't reach the server. If nobody has used it for a while it may be starting up: " +
+      "please try again in a minute.", 0);
   }
   const body = await response.json().catch(() => null);
   if (!response.ok) {

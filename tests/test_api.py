@@ -6,7 +6,7 @@ import psycopg
 import pytest
 from fastapi.testclient import TestClient
 
-from rag.api.app import RateLimiter, create_app
+from rag.api.app import DailyCap, RateLimiter, _client_ip, create_app
 from rag.generation.answer import NOT_FOUND, RagPipeline
 from rag.retrieval.dense import Hit
 
@@ -126,3 +126,34 @@ def test_info_and_health():
 def _response(status):
     import httpx
     return httpx.Response(status, request=httpx.Request("POST", "https://api.openai.com/v1/chat/completions"))
+
+
+def test_daily_cap():
+    cap = DailyCap(per_day=2)
+    assert cap.allow() and cap.allow() and not cap.allow()
+
+
+def test_visitor_address_header_used_only_when_configured(monkeypatch):
+    from dataclasses import replace
+    from types import SimpleNamespace
+
+    from rag.config import get_settings
+
+    request = SimpleNamespace(headers={"X-Real-IP": "203.0.113.9"}, client=SimpleNamespace(host="10.0.0.1"))
+    assert _client_ip(request) == "10.0.0.1"   # not configured: a visitor could fake the header
+    behind_proxy = replace(get_settings(), client_ip_header="X-Real-IP")
+    monkeypatch.setattr("rag.api.app.get_settings", lambda: behind_proxy)
+    assert _client_ip(request) == "203.0.113.9"
+
+
+def test_cors_allows_only_the_listed_frontend(monkeypatch):
+    from dataclasses import replace
+
+    from rag.config import get_settings
+    configured = replace(get_settings(), cors_origins=("https://secqa.vercel.app",))
+    monkeypatch.setattr("rag.api.app.get_settings", lambda: configured)
+    with client_for(FakeServices()) as client:
+        ok = client.get("/api/info", headers={"Origin": "https://secqa.vercel.app"})
+        other = client.get("/api/info", headers={"Origin": "https://evil.example"})
+    assert ok.headers["access-control-allow-origin"] == "https://secqa.vercel.app"
+    assert "access-control-allow-origin" not in other.headers

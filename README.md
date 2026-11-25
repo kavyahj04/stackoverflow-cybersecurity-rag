@@ -24,6 +24,18 @@ cd frontend && npm run dev                               # terminal 2: open http
 
 **From the terminal:** `.venv/bin/python -m rag.ask "How do I prevent SQL injection in PHP?"`
 
+## Production
+
+The API runs on Render (Docker), and the page runs on Vercel.
+
+| Piece | File | Settings |
+|---|---|---|
+| API | `Dockerfile`, `render.yaml` | `DATABASE_URL`, `OPENAI_API_KEY`, `CORS_ORIGINS` (the Vercel address), `CLIENT_IP_HEADER=True-Client-IP`, `ASK_PER_MINUTE`, `ASK_PER_DAY` |
+| Page | `frontend/vercel.json` | `VITE_API_URL` (the Render address) |
+
+Build and run the production image locally:
+`docker build -t secqa . && docker run --env-file .env -p 8080:8080 -e PORT=8080 secqa`
+
 ## Tests
 
 ```bash

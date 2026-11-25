@@ -1,3 +1,5 @@
+import { API_URL } from "../api";
+
 export default function Header() {
   return (
     <header className="topbar">
@@ -13,7 +15,7 @@ export default function Header() {
           </span>
         </a>
         <nav className="topbar-links">
-          <a href="/docs">API</a>
+          <a href={`${API_URL}/docs`}>API</a>
           <a href="https://security.stackexchange.com" target="_blank" rel="noopener noreferrer">Source site</a>
         </nav>
       </div>

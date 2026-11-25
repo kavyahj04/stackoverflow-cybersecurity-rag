@@ -56,6 +56,15 @@ class Settings:
     # Each answer costs money (embedding + LLM), so one visitor can't run up the bill.
     # Counted per IP address in memory: fine for one server process.
     ask_per_minute: int = 10
+    # All visitors together, per UTC day: a public link can't empty the OpenAI account.
+    # (Kept in memory, so it restarts with the server; set a budget in OpenAI as well.)
+    ask_per_day: int = 300
+    # Behind a hosting proxy every request comes from the proxy's address. Set this to the header
+    # the proxy fills with the visitor's address (Railway: X-Real-IP). Leave it unset anywhere a
+    # visitor could send that header themselves, or they could dodge the limit.
+    client_ip_header: str | None = None
+    # Web pages on other addresses allowed to call the API (the Vercel frontend), comma-separated
+    cors_origins: tuple[str, ...] = ()
 
 
 @lru_cache
@@ -70,4 +79,8 @@ def get_settings() -> Settings:
         embedding_model=os.environ.get("EMBEDDING_MODEL", Settings.embedding_model),
         hnsw_ef_search=int(os.environ.get("HNSW_EF_SEARCH", Settings.hnsw_ef_search)),
         llm_model=os.environ.get("LLM_MODEL", Settings.llm_model),
+        ask_per_minute=int(os.environ.get("ASK_PER_MINUTE", Settings.ask_per_minute)),
+        ask_per_day=int(os.environ.get("ASK_PER_DAY", Settings.ask_per_day)),
+        client_ip_header=os.environ.get("CLIENT_IP_HEADER") or None,
+        cors_origins=tuple(o.strip().rstrip("/") for o in os.environ.get("CORS_ORIGINS", "").split(",") if o.strip()),
     )

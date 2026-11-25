@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { ApiError, ask, getInfo, search, type AnswerResult, type Info, type SearchResult } from "./api";
+import { API_URL, ApiError, ask, getInfo, search, type AnswerResult, type Info, type SearchResult } from "./api";
 import AnswerView from "./components/AnswerView";
 import AskBox from "./components/AskBox";
 import Header from "./components/Header";
@@ -134,7 +134,7 @@ export default function App() {
           {info && (
             <p className="muted">
               {info.threads.toLocaleString()} threads · answers by {info.llm_model} from the {info.context} ·{" "}
-              <a href="/docs">API docs</a>
+              <a href={`${API_URL}/docs`}>API docs</a>
             </p>
           )}
         </div>

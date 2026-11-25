@@ -28,6 +28,7 @@ import openai
 import psycopg
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from openai import OpenAI
@@ -96,7 +97,30 @@ class RateLimiter:
             return True
 
 
+class DailyCap:
+    """At most `per_day` requests from everyone together per UTC day."""
+
+    def __init__(self, per_day: int):
+        self.per_day = per_day
+        self.day = None
+        self.count = 0
+        self.lock = Lock()
+
+    def allow(self) -> bool:
+        today = time.strftime("%Y-%m-%d", time.gmtime())
+        with self.lock:
+            if today != self.day:
+                self.day, self.count = today, 0
+            if self.count >= self.per_day:
+                return False
+            self.count += 1
+            return True
+
+
 def _client_ip(request: Request) -> str:
+    header = get_settings().client_ip_header
+    if header and request.headers.get(header):
+        return request.headers[header].split(",")[0].strip()
     return request.client.host if request.client else "unknown"
 
 
@@ -122,6 +146,13 @@ def create_app(make_services=Services) -> FastAPI:
                   description="Cited answers from Security Stack Exchange discussions.", lifespan=lifespan)
     ask_limiter = RateLimiter(settings.ask_per_minute)
     search_limiter = RateLimiter(settings.ask_per_minute * 3)
+    daily_cap = DailyCap(settings.ask_per_day)
+
+    # The frontend on Vercel is a different address; browsers only let it call us if we list it
+    if settings.cors_origins:
+        app.add_middleware(CORSMiddleware, allow_origins=list(settings.cors_origins),
+                           allow_methods=["GET", "POST"], allow_headers=["Content-Type"],
+                           expose_headers=["X-Request-ID"], max_age=600)
 
     # --- one log line and a request id per request -------------------------------------------------
 
@@ -180,6 +211,9 @@ def create_app(make_services=Services) -> FastAPI:
     @app.post("/api/ask", response_model=AnswerOut)
     def ask(body: AskRequest, request: Request):
         _limit(ask_limiter, request)
+        if not daily_cap.allow():
+            raise HTTPException(429, "The service has reached its answer limit for today. "
+                                     "Search still works; answers are available again tomorrow (UTC).")
         start = time.time()
         with request.app.state.services.pipeline() as pipeline:
             retrieval, blocks = pipeline.prepare(body.question)   # embedding + database

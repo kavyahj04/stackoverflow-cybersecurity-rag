@@ -2908,23 +2908,25 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "fastapi" },
-    { name = "jupyter" },
-    { name = "lxml" },
     { name = "numpy" },
     { name = "openai" },
-    { name = "pandas" },
     { name = "pgvector" },
     { name = "psycopg", extra = ["binary"] },
     { name = "psycopg-pool" },
-    { name = "pyarrow" },
     { name = "python-dotenv" },
     { name = "snowballstemmer" },
     { name = "tiktoken" },
-    { name = "tqdm" },
     { name = "uvicorn" },
 ]
 
 [package.dev-dependencies]
+data = [
+    { name = "jupyter" },
+    { name = "lxml" },
+    { name = "pandas" },
+    { name = "pyarrow" },
+    { name = "tqdm" },
+]
 dev = [
     { name = "pytest" },
 ]
@@ -2932,23 +2934,25 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "fastapi", specifier = ">=0.165.0" },
-    { name = "jupyter", specifier = ">=1.1.1" },
-    { name = "lxml", specifier = ">=6.1.2" },
     { name = "numpy", specifier = ">=2.5.2" },
     { name = "openai", specifier = ">=3.10.0" },
-    { name = "pandas", specifier = ">=3.0.5" },
     { name = "pgvector", specifier = ">=0.5.1" },
     { name = "psycopg", extras = ["binary"], specifier = ">=3.3.9" },
     { name = "psycopg-pool", specifier = ">=3.3.3" },
-    { name = "pyarrow", specifier = ">=25.0.1" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
     { name = "snowballstemmer", specifier = ">=3.1.1" },
     { name = "tiktoken", specifier = ">=0.14.0" },
-    { name = "tqdm", specifier = ">=4.70.0" },
     { name = "uvicorn", specifier = ">=0.52.4" },
 ]
 
 [package.metadata.requires-dev]
+data = [
+    { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "lxml", specifier = ">=6.1.2" },
+    { name = "pandas", specifier = ">=3.0.5" },
+    { name = "pyarrow", specifier = ">=25.0.1" },
+    { name = "tqdm", specifier = ">=4.70.0" },
+]
 dev = [{ name = "pytest", specifier = ">=9.2.0" }]
 
 [[package]]

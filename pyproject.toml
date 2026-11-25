@@ -1,24 +1,19 @@
 [project]
 name = "rag-dev"
 version = "0.1.0"
-description = "Add your description here"
+description = "Cited answers to security questions from Security Stack Exchange"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "fastapi>=0.165.0",
-    "jupyter>=1.1.1",
-    "lxml>=6.1.2",
     "numpy>=2.5.2",
     "openai>=3.10.0",
-    "pandas>=3.0.5",
     "pgvector>=0.5.1",
     "psycopg-pool>=3.3.3",
     "psycopg[binary]>=3.3.9",
-    "pyarrow>=25.0.1",
     "python-dotenv>=1.2.3",
     "snowballstemmer>=3.1.1",
     "tiktoken>=0.14.0",
-    "tqdm>=4.70.0",
     "uvicorn>=0.52.4",
 ]
 
@@ -31,6 +26,17 @@ members = [
 dev = [
     "pytest>=9.2.0",
 ]
+# Notebooks and the data-preparation scripts; the web server doesn't need them
+data = [
+    "jupyter>=1.1.1",
+    "lxml>=6.1.2",
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.1",
+    "tqdm>=4.70.0",
+]
+
+[tool.uv]
+default-groups = ["dev", "data"]   # local `uv sync` installs everything; the Docker image uses --no-default-groups
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
