@@ -24,9 +24,12 @@ class Settings:
     embedding_model: str = "text-embedding-3-large"
     # HNSW search shortlist: 100 gave 99.3% of exact-search top 10 at the same speed
     hnsw_ef_search: int = 100
-    # How many threads search returns, and how many answers per thread go into the context
+    # How many threads search returns (recall is measured at 10)
     top_k: int = 10
-    max_answers_per_thread: int = 3
+    # What the LLM gets: the top 7 threads with their best 2 answers each. In the answer evaluation
+    # this used 30% fewer tokens than 10 x 3 with no significant change in any score; 5 x 3 was worse.
+    context_threads: int = 7
+    max_answers_per_thread: int = 2
 
     # Generation
     llm_model: str = "gpt-4.1-mini"
@@ -34,6 +37,11 @@ class Settings:
     llm_temperature: float | None = 0.0
     llm_timeout_s: float = 60.0
     max_answer_tokens: int = 1_000
+    # Include the two worked examples in the prompt (faithfulness 0.977 -> 0.994, made-up claims 25 -> 5)
+    prompt_few_shot: bool = True
+    # Cited answers this many years old or more count as old; when at least half are, the answer
+    # gets a fixed note. The LLM ignored this rule in the prompt (1 answer in 100 mentioned it).
+    old_advice_years: int = 6
     # Context cap: trimmed 29 of 485 test queries and never dropped the correct thread
     max_context_tokens: int = 10_000
     # Best-match cosine distance above which we answer "nothing relevant found" without calling the LLM.

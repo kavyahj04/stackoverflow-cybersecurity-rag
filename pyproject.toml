@@ -18,3 +18,13 @@ dependencies = [
 members = [
     "src",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["db: needs the real database (run with RUN_DB_TESTS=1)"]
+addopts = "-p no:anyio"  # unused plugin that prints a deprecation warning
