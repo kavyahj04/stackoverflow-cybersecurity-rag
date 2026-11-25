@@ -5,13 +5,21 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "fastapi>=0.165.0",
     "jupyter>=1.1.1",
     "lxml>=6.1.2",
+    "numpy>=2.5.2",
+    "openai>=3.10.0",
     "pandas>=3.0.5",
     "pgvector>=0.5.1",
+    "psycopg-pool>=3.3.3",
     "psycopg[binary]>=3.3.9",
     "pyarrow>=25.0.1",
+    "python-dotenv>=1.2.3",
+    "snowballstemmer>=3.1.1",
+    "tiktoken>=0.14.0",
     "tqdm>=4.70.0",
+    "uvicorn>=0.52.4",
 ]
 
 [tool.uv.workspace]

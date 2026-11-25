@@ -126,12 +126,23 @@ class RagPipeline:
             },
         )
 
+    def prepare(self, question: str) -> tuple[dict, list[dict]]:
+        """The database part: search, and the context when something relevant was found.
+
+        Kept apart from answer() so the API can give its database connection back
+        before the slow LLM call (a few seconds), instead of holding it the whole time.
+        """
+        retrieval = self.retrieve(question)
+        return retrieval, (self.context(retrieval) if retrieval["found"] else [])
+
+    def answer(self, question: str, retrieval: dict, blocks: list[dict]) -> Answer:
+        """The LLM part. Nothing relevant found -> the fixed reply, and no LLM call."""
+        if not retrieval["found"]:
+            return Answer(question, NOT_FOUND, found=False, retrieval=retrieval)
+        return self.generate(question, blocks, retrieval)
+
     def ask(self, question: str) -> Answer:
         start = time.time()
-        retrieval = self.retrieve(question)
-        if not retrieval["found"]:
-            return Answer(question, NOT_FOUND, found=False, retrieval=retrieval,
-                          usage={"seconds": round(time.time() - start, 2)})
-        answer = self.generate(question, self.context(retrieval), retrieval)
+        answer = self.answer(question, *self.prepare(question))
         answer.usage["seconds"] = round(time.time() - start, 2)
         return answer

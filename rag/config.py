@@ -48,6 +48,15 @@ class Settings:
     # All 485 real test questions were <= 0.503; 39 of 40 unrelated questions were >= 0.574
     max_distance: float = 0.55
 
+    # API
+    db_pool_min: int = 1
+    db_pool_max: int = 10            # requests that can search at the same time
+    db_pool_timeout_s: float = 10.0
+    max_question_chars: int = 1_000  # longer input is rejected before any paid call
+    # Each answer costs money (embedding + LLM), so one visitor can't run up the bill.
+    # Counted per IP address in memory: fine for one server process.
+    ask_per_minute: int = 10
+
 
 @lru_cache
 def get_settings() -> Settings:
